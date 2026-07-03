@@ -1,0 +1,17 @@
+# Playwright artifacts
+.playwright-mcp/
+
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Postulaciones privadas (documentos sensibles, bases, borradores)
+postulaciones/
+
+# PDFs grandes
+*.pdf
+
+# Archivos temporales
+*.bak
+*.tmp

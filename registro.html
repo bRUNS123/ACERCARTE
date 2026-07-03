@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Artistas — ACERCARTE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .registro-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            max-width: var(--max-width);
+            margin: 3rem auto 0;
+            padding: 0 1rem;
+        }
+        .artista-card {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.8rem;
+            transition: border-color 0.3s, transform 0.2s;
+        }
+        .artista-card:hover {
+            border-color: var(--accent-dim);
+            transform: translateY(-2px);
+        }
+        .artista-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .artista-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: rgba(212, 165, 116, 0.1);
+            border: 1px solid var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+        .artista-nombre {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            color: var(--white);
+            margin: 0;
+        }
+        .artista-disciplina {
+            font-size: 0.8rem;
+            color: var(--accent-dim);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .artista-bio {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        .expos-tag {
+            display: inline-block;
+            background: rgba(212, 165, 116, 0.08);
+            color: var(--accent);
+            font-size: 0.7rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 2px;
+            margin: 0.15rem 0.3rem 0.15rem 0;
+            letter-spacing: 0.5px;
+        }
+        .expos-titulo {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .artista-contacto {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 1rem;
+        }
+        .artista-contacto a {
+            color: var(--accent-dim);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+        .artista-contacto a:hover {
+            border-color: var(--accent);
+        }
+        .sumate-box {
+            background: linear-gradient(135deg, rgba(212, 165, 116, 0.08), rgba(212, 165, 116, 0.02));
+            border: 1px dashed var(--accent-dim);
+            border-radius: var(--radius);
+            padding: 2.5rem;
+            text-align: center;
+            max-width: 600px;
+            margin: 4rem auto 0;
+        }
+        .sumate-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+        .sumate-box p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .filtro-bar {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .filtro-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.5rem 1.2rem;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.3s;
+        }
+        .filtro-btn:hover, .filtro-btn.activo {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <header class="hero hero-small">
+        <nav class="nav">
+            <a href="index.html" class="logo">ACERCARTE</a>
+            <div class="nav-links">
+                <a href="index.html#exposiciones">Exposiciones</a>
+                <a href="registro.html">Artistas</a>
+                <a href="index.html#participaciones">Participaciones</a>
+                <a href="index.html#colectivo">Colectivo</a>
+                <a href="index.html#contacto">Contacto</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="hero-title">Artistas</h1>
+            <p class="hero-subtitle">Registro colectivo · Donde el arte encuentra su lugar</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Directorio de Artistas</h2>
+            <p class="section-subtitle">Creadores que forman parte del colectivo</p>
+            <div class="filtro-bar">
+                <button class="filtro-btn activo" onclick="filtrar('todas')">Todas</button>
+                <button class="filtro-btn" onclick="filtrar('textil')">Textil</button>
+                <button class="filtro-btn" onclick="filtrar('visual')">Visual</button>
+                <button class="filtro-btn" onclick="filtrar('escenica')">Escénica</button>
+                <button class="filtro-btn" onclick="filtrar('digital')">Digital</button>
+            </div>
+
+            <div class="registro-grid" id="artistas-grid">
+                <!-- Javiera Montecinos -->
+                <div class="artista-card" data-disciplina="textil escenica">
+                    <div class="artista-header">
+                        <div class="artista-avatar">JM</div>
+                        <div>
+                            <p class="artista-nombre">Javiera Montecinos</p>
+                            <p class="artista-disciplina">Arte Textil · Diseño Escénico</p>
+                        </div>
+                    </div>
+                    <p class="artista-bio">Artista textil y diseñadora escénica. Explora la máquina de coser como instrumento de escritura, el bordado como memoria y el textil como lenguaje contemporáneo.</p>
+                    <p class="expos-titulo">Exposiciones</p>
+                    <span class="expos-tag">HILO NEGRO · ACERCARTE · 2026</span>
+                    <span class="expos-tag">Infinita: Paisajes de Gabriela · GAM · 2026</span>
+                    <p class="artista-contacto">
+                        <a href="mailto:areivajavieraa@gmail.com">areivajavieraa@gmail.com</a>
+                    </p>
+                </div>
+
+                <!-- Placeholder: próximo artista -->
+                <div class="artista-card" data-disciplina="visual">
+                    <div class="artista-header">
+                        <div class="artista-avatar">+</div>
+                        <div>
+                            <p class="artista-nombre">Tu nombre aquí</p>
+                            <p class="artista-disciplina">Tu disciplina</p>
+                        </div>
+                    </div>
+                    <p class="artista-bio">Este espacio espera tu obra. Sumate al colectivo y compartí tu trabajo con el mundo.</p>
+                    <p class="expos-titulo">Exposiciones</p>
+                    <span class="expos-tag">Próxima exposición</span>
+                    <p class="artista-contacto">
+                        <a href="#contacto">Quiero participar →</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="sumate-box">
+                <h3>¿Querés ser parte?</h3>
+                <p>Si sos artista, creador o tenés obra para mostrar, ACERCARTE es tu plataforma. Escribinos y contanos qué hacés.</p>
+                <a href="index.html#contacto" class="btn">Sumarme al colectivo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script>
+        function filtrar(disciplina) {
+            document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('activo'));
+            event.target.classList.add('activo');
+            document.querySelectorAll('.artista-card').forEach(card => {
+                if (disciplina === 'todas' || card.dataset.disciplina.includes(disciplina)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

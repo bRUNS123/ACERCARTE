@@ -1,0 +1,60 @@
+{
+  "actualizado": "2026-07-03T12:00:00",
+  "fecha": "03/07/2026",
+  "oportunidades": [
+    {
+      "titulo": "Fondart Nacional — Línea Creación y Producción",
+      "categoria": "fondos",
+      "descripcion": "Financiamiento para la creación y producción de obras artísticas en todas las disciplinas. Montos de hasta $15.000.000.",
+      "link": "https://www.fondosdecultura.cl/",
+      "deadline": "31/08/2026",
+      "fuente": "Fondart / MINCAP",
+      "monto": "$15.000.000"
+    },
+    {
+      "titulo": "Residencia Artística Textil — Fiber Art Network 2026",
+      "categoria": "residencia",
+      "descripcion": "Residencia de 4 semanas para artistas textiles en Vermont Studio Center. Incluye taller, alojamiento y materiales.",
+      "link": "https://www.vermontstudiocenter.org/",
+      "deadline": "15/10/2026",
+      "fuente": "Fiber Art Network",
+      "monto": "Beca completa"
+    },
+    {
+      "titulo": "Beca Chile Crea — Formación en Artes Escénicas",
+      "categoria": "beca",
+      "descripcion": "Becas para formación de pregrado y postgrado en teatro, danza y artes escénicas en universidades chilenas.",
+      "link": "https://www.cultura.gob.cl/becas/",
+      "deadline": "15/12/2026",
+      "fuente": "MINCAP",
+      "monto": "Matrícula + mantención"
+    },
+    {
+      "titulo": "Concurso Ch.ACO 2026 — Artistas Emergentes",
+      "categoria": "concurso",
+      "descripcion": "Convocatoria para artistas emergentes chilenos. Stand gratuito en la feria Ch.ACO + programa de mentoría.",
+      "link": "https://www.chaco.cl/",
+      "deadline": "01/09/2026",
+      "fuente": "Ch.ACO",
+      "monto": "Stand + mentoría"
+    },
+    {
+      "titulo": "DIRAC — Convocatoria de Circulación Internacional para Artes Escénicas",
+      "categoria": "convocatoria",
+      "descripcion": "Apoyo para la circulación internacional de obras de teatro, danza y performance chilenas.",
+      "link": "https://www.dirac.gob.cl/",
+      "deadline": "Consultar",
+      "fuente": "DIRAC / MINREL",
+      "monto": "Pasajes + viáticos"
+    },
+    {
+      "titulo": "Premio Arte Joven — MAC 2026",
+      "categoria": "premio",
+      "descripcion": "Premio para artistas menores de 35 años en artes visuales, instalación y nuevos medios. Exposición en MAC Parque Forestal.",
+      "link": "https://www.mac.udp.cl/",
+      "deadline": "30/09/2026",
+      "fuente": "MAC / UDP",
+      "monto": "$2.000.000"
+    }
+  ]
+}

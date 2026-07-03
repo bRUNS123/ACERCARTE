@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACERCARTE — Espacio colectivo de arte y dirección. Exhibimos, difundimos y conectamos arte emergente.">
+    <title>ACERCARTE — Espacio Colectivo de Arte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero -->
+    <header class="hero">
+        <nav class="nav">
+            <a href="#" class="logo">ACERCARTE</a>
+            <div class="nav-links">
+                <a href="#agenda">Agenda</a>
+                <a href="#convocatorias">Convocatorias</a>
+                <a href="#exposiciones">Exposiciones</a>
+                <a href="#artistas">Artistas</a>
+                <a href="#colectivo">Colectivo</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="hero-title">ACERCARTE</h1>
+            <p class="hero-subtitle">Espacio colectivo de arte y dirección</p>
+            <p class="hero-text">Una plataforma para mostrar, difundir y exhibir arte.<br>El arte te encuentra.</p>
+            <a href="#agenda" class="btn">Explorar</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </header>
+
+    <!-- Manifiesto -->
+    <section class="section manifesto" id="manifiesto">
+        <div class="container">
+            <h2>Manifiesto</h2>
+            <div class="manifesto-grid">
+                <div class="manifesto-card">
+                    <span class="icon">🖼️</span>
+                    <h3>Exhibir</h3>
+                    <p>Galería virtual con exposiciones curadas que trascienden el espacio físico.</p>
+                </div>
+                <div class="manifesto-card">
+                    <span class="icon">📡</span>
+                    <h3>Difundir</h3>
+                    <p>Plataforma de difusión que amplifica la voz de artistas emergentes.</p>
+                </div>
+                <div class="manifesto-card">
+                    <span class="icon">🤝</span>
+                    <h3>Conectar</h3>
+                    <p>Puente entre creadores, curadores y público. El arte es encuentro.</p>
+                </div>
+                <div class="manifesto-card">
+                    <span class="icon">🌱</span>
+                    <h3>Colectivo</h3>
+                    <p>Construido y nutrido por la comunidad. Crecemos juntos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🆕 Agenda Cultural (dinámica: datos/agenda.json) -->
+    <section class="section agenda" id="agenda">
+        <div class="container">
+            <h2>Agenda Cultural</h2>
+            <p class="section-subtitle">Teatro, museos, galerías, diseño — actualizado automáticamente</p>
+            <div id="agenda-status" class="loading">Cargando agenda...</div>
+            <div id="agenda-content" style="display:none;">
+                <!-- MNBA -->
+                <div id="agenda-mnba" class="agenda-block" style="display:none;">
+                    <h3>🏛️ MNBA — Exposiciones Actuales</h3>
+                    <div id="agenda-mnba-list" class="expo-list"></div>
+                </div>
+                <!-- Categorías -->
+                <div id="agenda-categories"></div>
+                <p class="agenda-updated">Actualizado: <span id="agenda-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🆕 Convocatorias / Oportunidades (dinámica: datos/oportunidades.json) -->
+    <section class="section convocatorias" id="convocatorias">
+        <div class="container">
+            <h2>Convocatorias y Oportunidades</h2>
+            <p class="section-subtitle">Fondos concursables, residencias, becas — actualizado lun–vie</p>
+            <div id="conv-status" class="loading">Cargando oportunidades...</div>
+            <div id="conv-content" style="display:none;">
+                <div id="conv-filters" class="conv-filters" style="display:none;">
+                    <button class="conv-filter active" data-filter="todas">Todas</button>
+                    <button class="conv-filter" data-filter="fondos">💰 Fondos</button>
+                    <button class="conv-filter" data-filter="residencia">🏠 Residencias</button>
+                    <button class="conv-filter" data-filter="beca">🎓 Becas</button>
+                    <button class="conv-filter" data-filter="concurso">🏆 Concursos</button>
+                    <button class="conv-filter" data-filter="convocatoria">📋 Convocatorias</button>
+                </div>
+                <div id="conv-list" class="participaciones-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="conv-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exposiciones -->
+    <section class="section exposiciones" id="exposiciones">
+        <div class="container">
+            <h2>Exposiciones</h2>
+            <p class="section-subtitle">Próximamente — Espacio curatorial en construcción</p>
+            <div class="gallery-grid">
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder">
+                        <span>+</span>
+                        <p>Tu obra aquí</p>
+                    </div>
+                </div>
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder">
+                        <span>+</span>
+                        <p>Tu obra aquí</p>
+                    </div>
+                </div>
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder">
+                        <span>+</span>
+                        <p>Tu obra aquí</p>
+                    </div>
+                </div>
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder">
+                        <span>+</span>
+                        <p>Tu obra aquí</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artistas -->
+    <section class="section artistas" id="artistas">
+        <div class="container">
+            <h2>Artistas</h2>
+            <p class="section-subtitle">Convocatoria abierta — Sumate al colectivo</p>
+            <div class="artist-call">
+                <p>¿Sos artista visual, digital, escultor, fotógrafo o creador?<br>ACERCARTE es tu espacio.</p>
+                <a href="#contacto" class="btn btn-outline">Quiero participar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colectivo -->
+    <section class="section colectivo" id="colectivo">
+        <div class="container">
+            <h2>El Colectivo</h2>
+            <div class="colectivo-content">
+                <p>ACERCARTE no es solo una página web — es un <strong>espacio vivo</strong> que crece con cada artista que se suma, cada obra que se exhibe y cada persona que se acerca.</p>
+                <p>Creemos en el arte como <strong>experiencia compartida</strong>, no como objeto de consumo. Creemos en les artistas, en su visión y en su capacidad de transformar el mundo.</p>
+                <blockquote>"El arte no reproduce lo visible. Lo hace visible." <cite>— Paul Klee</cite></blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section contacto" id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p class="section-subtitle">Escribinos para exponer, colaborar o sumarte al colectivo</p>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <select name="motivo">
+                        <option value="">¿Qué te acerca?</option>
+                        <option value="exponer">Quiero exponer mi obra</option>
+                        <option value="colaborar">Quiero colaborar</option>
+                        <option value="colectivo">Quiero sumarme al colectivo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
