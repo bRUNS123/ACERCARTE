@@ -51,6 +51,25 @@ async function loadAgenda() {
                 .join('');
         }
 
+        // ── Eventos Directos (structured data from venue scrapers) ──
+        if (data.eventos_directos && data.eventos_directos.length > 0) {
+            const directBlock = document.getElementById('agenda-directos');
+            const directList = document.getElementById('agenda-directos-list');
+            if (directBlock && directList) {
+                directBlock.style.display = 'block';
+                directList.innerHTML = data.eventos_directos.map(ev => {
+                    return '<div class="expo-card evento-directo">'
+                        + '🎯 <a href="' + escapeHTML(ev.link || '#') + '" target="_blank" rel="noopener" class="expo-link">' + escapeHTML(ev.nombre) + '</a>'
+                        + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+                        + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+                        + (ev.precio ? '<div class="expo-meta">🎫 ' + escapeHTML(ev.precio) + '</div>' : '')
+                        + (ev.categoria ? '<div class="expo-meta">🏷️ ' + escapeHTML(ev.categoria) + '</div>' : '')
+                        + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+                        + '</div>';
+                }).join('');
+            }
+        }
+
         // ── Categorías ──
         const catContainer = document.getElementById('agenda-categories');
         const iconMap = {
