@@ -4,6 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+    loadPanoramas();
     loadAgenda();
     loadOportunidades();
     setupFilters();
@@ -177,4 +178,52 @@ function escapeHTML(str) {
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+}
+
+/* ══════════════════════════════════════════════
+   PANORAMAS GRATIS (panoramas-gratis.json)
+   ══════════════════════════════════════════════ */
+async function loadPanoramas() {
+    const statusEl = document.getElementById('pg-status');
+    const contentEl = document.getElementById('pg-content');
+
+    try {
+        const resp = await fetch('datos/panoramas-gratis.json');
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+
+        statusEl.style.display = 'none';
+        contentEl.style.display = 'block';
+        document.getElementById('pg-date').textContent = data.fecha;
+
+        const listEl = document.getElementById('pg-list');
+
+        if (!data.posts || data.posts.length === 0) {
+            listEl.innerHTML = '<p class="agenda-empty-msg">No hay panoramas nuevos. ¡Volvé pronto!</p>';
+            return;
+        }
+
+        listEl.innerHTML = data.posts.map((post, i) => {
+            // Split caption into header (first line) and body
+            const lines = post.caption.split('\\n').filter(l => l.trim());
+            const header = lines[0] || 'Sin título';
+            const body = lines.slice(1, 8).join(' | '); // first 7 lines as preview
+
+            // Extract a short preview
+            const preview = body.substring(0, 250) + (body.length > 250 ? '...' : '');
+
+            return '<div class="pg-card">'
+                + '<div class="pg-header">'
+                + '<span class="pg-date">' + escapeHTML(post.date || '') + '</span>'
+                + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver en Instagram →</a>'
+                + '</div>'
+                + '<h3 class="pg-title">' + escapeHTML(header) + '</h3>'
+                + '<p class="pg-preview">' + escapeHTML(preview) + '</p>'
+                + '</div>';
+        }).join('');
+
+    } catch (err) {
+        console.warn('Panoramas Gratis no disponible:', err.message);
+        statusEl.innerHTML = '<div class="empty-state"><p>📡 Cargando panoramas desde Instagram...</p><p class="empty-hint">@panoramasgratis — se actualiza automáticamente.</p></div>';
+    }
 }

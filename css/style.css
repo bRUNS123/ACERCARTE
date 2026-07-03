@@ -643,6 +643,61 @@ blockquote cite {
     color: var(--accent);
 }
 
+/* ─── Panoramas Gratis ─── */
+.pg-card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.2rem;
+    transition: border-color 0.3s;
+}
+
+.pg-card:hover {
+    border-color: var(--accent-dim);
+}
+
+.pg-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.pg-date {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.pg-link {
+    font-size: 0.78rem;
+    color: var(--accent-dim);
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.pg-link:hover {
+    color: var(--accent);
+}
+
+.pg-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+.pg-preview {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    max-height: 80px;
+    overflow: hidden;
+}
+
 /* ─── Animaciones ─── */
 @keyframes fadeInUp {
     from {

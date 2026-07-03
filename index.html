@@ -13,6 +13,7 @@
         <nav class="nav">
             <a href="#" class="logo">ACERCARTE</a>
             <div class="nav-links">
+                <a href="#panoramas">Panoramas</a>
                 <a href="#agenda">Agenda</a>
                 <a href="#convocatorias">Convocatorias</a>
                 <a href="#exposiciones">Exposiciones</a>
@@ -95,6 +96,19 @@
                 </div>
                 <div id="conv-list" class="participaciones-list"></div>
                 <p class="agenda-updated">Actualizado: <span id="conv-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🆕 Panoramas Gratis (dinámica: datos/panoramas-gratis.json) -->
+    <section class="section panoramas" id="panoramas">
+        <div class="container">
+            <h2>📸 Panoramas Gratis</h2>
+            <p class="section-subtitle">Eventos gratuitos en Santiago — desde <a href="https://www.instagram.com/panoramasgratis/" target="_blank" style="color:var(--accent);">@panoramasgratis</a></p>
+            <div id="pg-status" class="loading">Cargando panoramas...</div>
+            <div id="pg-content" style="display:none;">
+                <div id="pg-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="pg-date"></span></p>
             </div>
         </div>
     </section>
