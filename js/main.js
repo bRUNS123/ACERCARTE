@@ -174,10 +174,25 @@ function renderOportunidades(filtro) {
 
 function setupFilters() {
     document.addEventListener('click', (e) => {
+        // Convocatorias filters
         if (e.target.classList.contains('conv-filter')) {
             document.querySelectorAll('.conv-filter').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             renderOportunidades(e.target.dataset.filter);
+        }
+        // Panorama category filters
+        if (e.target.classList.contains('pg-cat-filter')) {
+            document.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentPgFilter = e.target.dataset.cat;
+            renderPanoramas();
+        }
+        // Panorama sort buttons
+        if (e.target.classList.contains('pg-sort')) {
+            document.querySelectorAll('.pg-sort').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentPgSort = e.target.dataset.sort;
+            renderPanoramas();
         }
     });
 }
@@ -195,6 +210,10 @@ function escapeHTML(str) {
 /* ══════════════════════════════════════════════
    PANORAMAS GRATIS (panoramas-gratis.json)
    ══════════════════════════════════════════════ */
+let allPanoramaEvents = [];
+let currentPgFilter = 'todas';
+let currentPgSort = 'default';
+
 async function loadPanoramas() {
     const statusEl = document.getElementById('pg-status');
     const contentEl = document.getElementById('pg-content');
@@ -208,83 +227,134 @@ async function loadPanoramas() {
         contentEl.style.display = 'block';
         document.getElementById('pg-date').textContent = data.fecha;
 
-        const listEl = document.getElementById('pg-list');
+        // Build flat list of all events
+        allPanoramaEvents = [];
+        data.posts.forEach(post => {
+            (post.events || []).forEach(ev => {
+                allPanoramaEvents.push({
+                    ...ev,
+                    postHeader: post.header,
+                    postUrl: post.url,
+                    postDate: post.date,
+                });
+            });
+        });
 
-        if (!data.posts || data.posts.length === 0) {
-            listEl.innerHTML = '<p class="agenda-empty-msg">No hay panoramas nuevos. ¡Volvé pronto!</p>';
+        if (allPanoramaEvents.length === 0) {
+            document.getElementById('pg-list').innerHTML =
+                '<p class="agenda-empty-msg">No hay panoramas nuevos. ¡Volvé pronto!</p>';
             return;
         }
 
-        // Check if data is structured (has events) or raw (has caption)
-        const isStructured = data.posts[0] && data.posts[0].events !== undefined;
+        // Build category filters from data
+        const catAvail = data.categorias_disponibles || [];
+        const filterBar = document.getElementById('pg-filters');
+        const catContainer = document.getElementById('pg-cat-filters');
 
-        if (isStructured) {
-            // ── Structured render: each post = header + event cards ──
-            listEl.innerHTML = data.posts.map(post => {
-                let html = '<div class="pg-post">';
-                // Header
-                if (post.header) {
-                    html += '<h3 class="pg-post-header">' + escapeHTML(post.header) + '</h3>';
-                }
-                // Instagram link
-                html += '<div class="pg-header">'
-                    + '<span class="pg-date">📅 ' + escapeHTML(post.date || '') + '</span>'
-                    + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver post original →</a>'
-                    + '</div>';
-
-                // Events
-                if (post.events && post.events.length > 0) {
-                    html += '<div class="pg-events">';
-                    post.events.forEach(ev => {
-                        html += '<div class="pg-event-card">';
-                        // Time + Date on same line
-                        if (ev.time || ev.date) {
-                            html += '<div class="pg-event-when">';
-                            if (ev.time) html += '<span class="pg-ev-time">🕐 ' + escapeHTML(ev.time) + '</span>';
-                            if (ev.date) html += '<span class="pg-ev-date">📆 ' + escapeHTML(ev.date) + '</span>';
-                            html += '</div>';
-                        }
-                        // Description
-                        if (ev.description) {
-                            html += '<p class="pg-ev-desc">' + escapeHTML(ev.description) + '</p>';
-                        }
-                        // Location + Extra
-                        if (ev.location || ev.extra) {
-                            html += '<div class="pg-ev-meta">';
-                            if (ev.location) html += '<span class="pg-ev-loc">📍 ' + escapeHTML(ev.location) + '</span>';
-                            if (ev.extra) html += '<span class="pg-ev-extra">ℹ️ ' + escapeHTML(ev.extra) + '</span>';
-                            html += '</div>';
-                        }
-                        html += '</div>';
-                    });
-                    html += '</div>';
-                }
-
-                html += '</div>';
-                return html;
-            }).join('');
-
-        } else {
-            // ── Fallback: raw caption render ──
-            listEl.innerHTML = data.posts.map((post) => {
-                const lines = post.caption.split('\\n').filter(l => l.trim());
-                const header = lines[0] || 'Sin título';
-                const body = lines.slice(1, 8).join(' | ');
-                const preview = body.substring(0, 250) + (body.length > 250 ? '...' : '');
-
-                return '<div class="pg-card">'
-                    + '<div class="pg-header">'
-                    + '<span class="pg-date">' + escapeHTML(post.date || '') + '</span>'
-                    + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver en Instagram →</a>'
-                    + '</div>'
-                    + '<h3 class="pg-title">' + escapeHTML(header) + '</h3>'
-                    + '<p class="pg-preview">' + escapeHTML(preview) + '</p>'
-                    + '</div>';
-            }).join('');
+        if (catAvail.length > 1) {
+            filterBar.style.display = 'block';
+            catContainer.innerHTML = '<button class="pg-cat-filter active" data-cat="todas">Todas</button>' +
+                catAvail.map(cat =>
+                    '<button class="pg-cat-filter" data-cat="' + escapeHTML(cat) + '">' + escapeHTML(cat) + '</button>'
+                ).join('');
         }
+
+        renderPanoramas();
 
     } catch (err) {
         console.warn('Panoramas Gratis no disponible:', err.message);
         statusEl.innerHTML = '<div class="empty-state"><p>📡 Cargando panoramas desde Instagram...</p><p class="empty-hint">@panoramasgratis — se actualiza automáticamente.</p></div>';
     }
+}
+
+function renderPanoramas() {
+    const listEl = document.getElementById('pg-list');
+    let events = [...allPanoramaEvents];
+
+    // Filter by category
+    if (currentPgFilter !== 'todas') {
+        events = events.filter(ev => {
+            return (ev.categories || []).some(c => c[1] === currentPgFilter);
+        });
+    }
+
+    // Sort
+    const now = new Date();
+    if (currentPgSort === 'soonest') {
+        events.sort((a, b) => {
+            const da = a.date_start ? new Date(a.date_start) : null;
+            const db = b.date_start ? new Date(b.date_start) : null;
+            if (da && db) return da - db;
+            if (da) return -1; if (db) return 1;
+            return 0;
+        });
+    } else if (currentPgSort === 'ending') {
+        events.sort((a, b) => {
+            const da = a.date_end ? new Date(a.date_end) : null;
+            const db = b.date_end ? new Date(b.date_end) : null;
+            if (da && db) return da - db;
+            if (da) return -1; if (db) return 1;
+            return 0;
+        });
+    }
+    // default: keep original order (from Instagram)
+
+    // Update count
+    document.getElementById('pg-count').textContent =
+        events.length + ' de ' + allPanoramaEvents.length + ' eventos';
+
+    if (events.length === 0) {
+        listEl.innerHTML = '<p class="agenda-empty-msg">Sin eventos para esta categoría.</p>';
+        return;
+    }
+
+    // Group by post header
+    const grouped = {};
+    events.forEach(ev => {
+        const key = ev.postHeader || 'Sin categoría';
+        if (!grouped[key]) grouped[key] = { header: key, url: ev.postUrl, date: ev.postDate, events: [] };
+        grouped[key].events.push(ev);
+    });
+
+    listEl.innerHTML = Object.values(grouped).map(post => {
+        let html = '<div class="pg-post">';
+        if (post.header) {
+            html += '<h3 class="pg-post-header">' + escapeHTML(post.header) + '</h3>';
+        }
+        html += '<div class="pg-header">'
+            + '<span class="pg-date">📅 ' + escapeHTML(post.date || '') + '</span>'
+            + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver post original →</a>'
+            + '</div>';
+        html += '<div class="pg-events">';
+        post.events.forEach(ev => {
+            html += '<div class="pg-event-card">';
+            // Category tags
+            if (ev.categories && ev.categories.length > 0) {
+                html += '<div class="pg-ev-tags">';
+                ev.categories.forEach(c => {
+                    html += '<span class="pg-ev-tag">' + c[0] + ' ' + escapeHTML(c[1]) + '</span>';
+                });
+                html += '</div>';
+            }
+            // Time + Date
+            if (ev.time || ev.date) {
+                html += '<div class="pg-event-when">';
+                if (ev.time) html += '<span class="pg-ev-time">🕐 ' + escapeHTML(ev.time) + '</span>';
+                if (ev.date) html += '<span class="pg-ev-date">📆 ' + escapeHTML(ev.date) + '</span>';
+                html += '</div>';
+            }
+            if (ev.description) {
+                html += '<p class="pg-ev-desc">' + escapeHTML(ev.description) + '</p>';
+            }
+            if (ev.location || ev.extra) {
+                html += '<div class="pg-ev-meta">';
+                if (ev.location) html += '<span class="pg-ev-loc">📍 ' + escapeHTML(ev.location) + '</span>';
+                if (ev.extra) html += '<span class="pg-ev-extra">ℹ️ ' + escapeHTML(ev.extra) + '</span>';
+                html += '</div>';
+            }
+            html += '</div>';
+        });
+        html += '</div></div>';
+        return html;
+    }).join('');
 }

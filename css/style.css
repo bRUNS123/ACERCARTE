@@ -765,6 +765,105 @@ blockquote cite {
     color: var(--accent);
 }
 
+/* ─── Panorama filters ─── */
+.pg-filters {
+    margin-bottom: 2rem;
+}
+
+.pg-cat-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.pg-cat-filter {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.35rem 0.9rem;
+    border-radius: 2px;
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.pg-cat-filter:hover {
+    border-color: var(--accent-dim);
+    color: var(--accent);
+}
+
+.pg-cat-filter.active {
+    background: rgba(212, 165, 116, 0.12);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.pg-sort-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.pg-sort-label {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-right: 0.3rem;
+}
+
+.pg-sort {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2px;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.pg-sort:hover {
+    border-color: var(--accent-dim);
+    color: var(--accent);
+}
+
+.pg-sort.active {
+    background: rgba(212, 165, 116, 0.12);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.pg-count {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-left: auto;
+}
+
+/* ─── Event category tags ─── */
+.pg-ev-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.5rem;
+}
+
+.pg-ev-tag {
+    font-size: 0.7rem;
+    background: rgba(212, 165, 116, 0.1);
+    color: var(--accent-dim);
+    padding: 0.1rem 0.5rem;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+}
+
 /* ─── Animaciones ─── */
 @keyframes fadeInUp {
     from {

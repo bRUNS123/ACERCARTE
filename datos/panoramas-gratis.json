@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-03T13:17:03.451716",
+  "actualizado": "2026-07-03T13:39:49.843517",
   "fecha": "03/07/2026",
   "fuente": {
     "nombre": "Panoramas Gratis",
@@ -9,6 +9,24 @@
   },
   "total_posts": 12,
   "total_eventos": 202,
+  "categorias_disponibles": [
+    "Artesanía/Diseño",
+    "Bienestar",
+    "Charla/Seminario",
+    "Cine",
+    "Danza",
+    "Diversidad",
+    "Exposición",
+    "Festival/Feria",
+    "Gastronomía",
+    "Infantil/Familiar",
+    "Literatura",
+    "Música",
+    "Naturaleza",
+    "Patrimonio",
+    "Teatro",
+    "General"
+  ],
   "posts": [
     {
       "header": "VACACIONES DE INVIERNO 2026",
@@ -18,126 +36,318 @@
           "date": "Junio y julio",
           "description": "Talleres gratuitos inspirados en la exposición “La llegada de lo blanco. A 25 años de la colección MAVI UC”, ",
           "location": "@mavichile",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "15:00",
           "date": "Sábado 20 de junio al Viernes 3 de julio",
           "description": "Películas para toda la familia,  Sábado 20 de junio al Domingo 5 de julio:",
           "location": "@cinetecanacionalcl",
-          "extra": "previa reserva de ticket en la web de"
+          "extra": "previa reserva de ticket en la web de",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": "2026-06-20T00:00:00",
+          "date_end": "2026-07-03T00:00:00"
         },
         {
           "time": "10:00–17:00",
           "date": "",
           "description": "Segunda Feria de la Naturaleza en el @zoonacional.chile",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🌿",
+              "Naturaleza"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "XVIII Festival de Teatro Infantil y Juvenil de Invierno 2026 en la .  Lunes 22 de junio al Viernes 3 de julio:",
           "location": "@bibliotecadesantiago",
-          "extra": "Por orden de llegada"
+          "extra": "Por orden de llegada",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Talleres creativos, juegos y actividades ",
           "location": "@casacostanera",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Vacaciones de invierno en el @ccplm. Talleres, cuentacuentos, espacios de lectura, actividades y encuentros",
           "location": "torno al patrimonio",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ],
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Lunes 22 de junio al Sábado 4 de julio",
           "description": "Vacaciones de invierno en el ",
           "location": "@museodelaeducacion",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": "2026-06-22T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "",
           "date": "Lunes 22 de junio al Domingo 5 de julio",
           "description": "Programación de @mercadoaguasblancas ",
           "location": "@parquearauco",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-06-22T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         },
         {
           "time": "11:00–13:00",
           "date": "Martes 23 al Viernes 26 de junio",
           "description": "Escuela de Invierno \"Guardianes del Arte\" ,  Martes 23 de junio al Viernes 3 de julio:",
           "location": "@centronacionaldearte.cl",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-06-26T00:00:00",
+          "date_end": "2026-06-26T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "Talleres de invierno en el @mhm_chile, a educacion.mhm.ej@gmail.com",
           "location": "",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Talleres de invierno, ",
           "location": "@mhnchile",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Vacaciones de invierno en el @mhcc_carabineros, a info",
           "location": "@museocarabineros.cl",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Lluvia de Teatro Infantil ",
           "location": "@chimkowecentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Martes 23 de junio al Sábado 4 de julio",
           "description": "Talleres y charlas en el @mnhncl",
           "location": "",
-          "extra": "Invita @sur_ciencia."
+          "extra": "Invita @sur_ciencia.",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": "2026-06-23T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "",
           "date": "Miércoles 24 al Viernes 26 de junio",
           "description": "Vacacine  Jueves 25 de junio al Domingo 5 de julio:",
           "location": "@centroculturalcasaviva",
-          "extra": "Invita @arteduca_"
+          "extra": "Invita @arteduca_",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": "2026-06-26T00:00:00",
+          "date_end": "2026-06-26T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "Centro Jurásico en el 3° piso del ",
           "location": "@mallvivoelcentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Llueve Cultura",
           "location": "Quilicura",
-          "extra": "Invita @corpo_quilicura y @muniquilicura."
+          "extra": "Invita @corpo_quilicura y @muniquilicura.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Miércoles 1 al Domingo 5 de julio",
           "description": "\"Libros que laten”, Feria infantil",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": "2026-07-05T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DZ1SPgajI92/",
@@ -151,119 +361,319 @@
           "date": "",
           "description": "Conversatorio \"Más allá de la representación: Archivo y cine trans en Chile” ",
           "location": "@uahurtado",
-          "extra": "Invita @generouah."
+          "extra": "Invita @generouah.",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:30",
           "date": "",
           "description": "\"Los muchos triángulos rosas\" + Ciclo especial Gloria Camiruaga ",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "Miércoles de junio",
           "description": "Ciclo Fuera del molde: cine LGBT+ ",
           "location": "@cinespacio.talca",
-          "extra": "Invita @extension_utalca."
+          "extra": "Invita @extension_utalca.",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Inauguración de «Armadura_Sensible», exposición de @francodelcordova",
           "location": "",
-          "extra": "Invita @educartistica.ucsh."
+          "extra": "Invita @educartistica.ucsh.",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "15:00",
           "date": "Jueves de junio",
           "description": "Ciclo de Cine Disidente",
           "location": "@elcolgadocineclub",
-          "extra": "Invita @cehi.uc y ."
+          "extra": "Invita @cehi.uc y .",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Obra “Nosotras las Monstruas”, de @corporacion_coartre_ ",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "20:00",
           "date": "",
           "description": "Concierto de @mellamosebi de @penalolen",
           "location": "@chimkowecentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00",
           "date": "",
           "description": "Lanzamiento de la exposición \"Prisma disidente\", ",
           "location": "@culturamunisanfelipe",
-          "extra": "Invita lgbtiqmunisanfe."
+          "extra": "Invita lgbtiqmunisanfe.",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:30",
           "date": "",
           "description": "Exposición audiovisual de la obra \"Yeguas sueltas\", de @ernesorellanagomez y . (consultar ingreso si eres externo a la Universidad)",
           "location": "@teatrosur.chile",
-          "extra": "Invita @disidencias.udp"
+          "extra": "Invita @disidencias.udp",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Presentación de la obra “Noche tan linda”, ",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00",
           "date": "",
           "description": "Charla \"Diversidad sexual y personas mayores\", de @esenciaocupacional.cl y @massobriov. Invitan @fundacion_bienestarmayor y @compromisomigrante",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ],
+            [
+              "🧘",
+              "Bienestar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00",
           "date": "",
           "description": "Inauguración de la exposición \"Colección Mecenas\" ",
           "location": "@munielbosque",
-          "extra": "Invita @fundacionmecenas."
+          "extra": "Invita @fundacionmecenas.",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:00",
           "date": "Lunes de junio",
           "description": "Ciclo \"Mes del orgullo\" ",
           "location": "@teatrocamilohenriquez",
-          "extra": "Invita @circulo_de_periodistas."
+          "extra": "Invita @circulo_de_periodistas.",
+          "categories": [
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:30",
           "date": "Miércoles 17",
           "description": "Ciclo Mes del Orgullo UFRO. Invitan @fecsh.ufro y @linternamagicaufro",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": "2026-07-17T00:00:00",
+          "date_end": "2026-07-17T00:00:00"
         },
         {
           "time": "18:00",
           "date": "",
           "description": "Cine @insomnia_teatro_condell: \"Reyes y reinas\", ",
           "location": "@mujeresydiversidadesvalpo",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "20:00",
           "date": "",
           "description": "\"El último día de los mounstros\", una obra de @teatroqueer.cl de @penalolen",
           "location": "@chimkowecentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:00",
           "date": "Sábado 20",
           "description": "13° \"Milonga Ananda Queer - Baila con quien quieras”, . Invitan",
           "location": "@anandamapu",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": "2026-07-20T00:00:00",
+          "date_end": "2026-07-20T00:00:00"
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DZWjWizDs0e/",
@@ -277,133 +687,333 @@
           "date": "",
           "description": "presenta tarde de cine + jazz en vivo en la @bibliotecanparra_udp",
           "location": "@cinema.swing",
-          "extra": "Invita @acornerudp e @internacionaludp."
+          "extra": "Invita @acornerudp e @internacionaludp.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:00",
           "date": "",
           "description": "Inauguración de la exposición \"Alegría Alegría\", la primera del dedicada a las disidencias sexuales y de género durante la dictadura militar",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:30",
           "date": "Martes de junio",
           "description": "Ciclo \"Ficciones Desde el Abismo\" organizado por ",
           "location": "@cinetecauchile",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Apertura de la exposición \"Archivo de teleseries\", de @bernardoyarzun ",
           "location": "@instituto_tele_arte",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:30",
           "date": "",
           "description": "Exhibición de la saga completa de @inmersionenlamapu, una experiencia audiovisual inmersiva de @rosaangelini en el @ccesantiago",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "🖼️",
+              "Exposición"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "9:30",
           "date": "Viernes 5 y Sábado 6",
           "description": "Primer Seminario de Magia y Patrimonio en la @bnchile",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": "2026-07-05T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         },
         {
           "time": "",
           "date": "Viernes 5 al Domingo 7",
           "description": "Séptima edición de la “Venta de Colecciones”, temporada Otoño/Invierno 2026, organizado por @modachile_",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ]
+          ],
+          "date_start": "2026-07-05T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         },
         {
           "time": "10:00–15:00",
           "date": "",
           "description": "Tercera versión de la Feria Chilena del Acordeón. Invitan @entrefuelles y @audiomusica",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–18:00",
           "date": "",
           "description": "Encuentro de Literatura Juvenil “Letras y Viñetas”, ",
           "location": "@cultura.unab",
-          "extra": "previa inscripción en la web de"
+          "extra": "previa inscripción en la web de",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "Primera edición de @autoriamarket ",
           "location": "@galeriacima",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:00",
           "date": "",
           "description": "Celebración 129 años de @muniprovi con @oficialprofugos y @joevasconcellos",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–19:00",
           "date": "Sábado 6 y Domingo 7",
           "description": "Tercer Aniversario de la Feria Tim Burton ",
           "location": "@casadelosdiez",
-          "extra": "Invita @maniageek.cl"
+          "extra": "Invita @maniageek.cl",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-06T00:00:00",
+          "date_end": "2026-07-06T00:00:00"
         },
         {
           "time": "",
           "date": "Lunes 8 al Viernes 12",
           "description": "12° versión del Festival de Dramaturgia Interescuelas @juanradriganfestival",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-08T00:00:00",
+          "date_end": "2026-07-08T00:00:00"
         },
         {
           "time": "14:30–17:00",
           "date": "Viernes 12",
           "description": "Jurassic Night, ",
           "location": "@aebchile",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-12T00:00:00",
+          "date_end": "2026-07-12T00:00:00"
         },
         {
           "time": "19:00",
           "date": "Sábado 13",
           "description": "Presentación de @rapsodiatributo a Queen. Invita ",
           "location": "@redculturaelbosque",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": "2026-07-13T00:00:00",
+          "date_end": "2026-07-13T00:00:00"
         },
         {
           "time": "11:00–19:00",
           "date": "Domingo 14",
           "description": "Día de Puertas Abiertas 2026 ",
           "location": "@goetheinstitut_chile",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-14T00:00:00",
+          "date_end": "2026-07-14T00:00:00"
         },
         {
           "time": "18:30",
           "date": "Miércoles 17",
           "description": "Concierto Latinoamericano de @orquestabeauchef",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": "2026-07-17T00:00:00",
+          "date_end": "2026-07-17T00:00:00"
         },
         {
           "time": "10:00–17:00",
           "date": "Sábado 20",
           "description": "13° versión de la Feria @_achibo ",
           "location": "@corposanmiguel",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-20T00:00:00",
+          "date_end": "2026-07-20T00:00:00"
         },
         {
           "time": "11:00",
           "date": "",
           "description": "- 19:",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DZAjOOTFvgI/",
@@ -417,126 +1027,294 @@
           "date": "Miércoles 1",
           "description": "Encuentro Internacional de Música en la @escuela.pablo.neruda junto a @granorquestadequilicura y el Coro @exaudi_youth_choir de Australia",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-08-01T00:00:00",
+          "date_end": "2026-08-01T00:00:00"
         },
         {
           "time": "",
           "date": "Jueves 2 al Domingo 5",
           "description": "@cuircuirfestival , @ccesantiago y @centro_nave",
           "location": "@cultura.cerronavia",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-08-02T00:00:00",
+          "date_end": "2026-08-02T00:00:00"
         },
         {
           "time": "18:30",
           "date": "Jueves 2, Jueves 9 y Jueves 23",
           "description": "“Procesos Creativos” en el @cepchile, ",
           "location": "",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-08-02T00:00:00",
+          "date_end": "2026-08-02T00:00:00"
         },
         {
           "time": "19:30",
           "date": "",
           "description": "Jueves 2 al Sábado 25 (Jueves a Sábado): Ciclo de Teatro Historias de Dictadura y Derechos Humanos en el ",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Jueves 2 al Domingo 6",
           "description": "@brasilmoderno.expo .cl",
           "location": "el MUT",
-          "extra": "previa inscripción en la web de @moblash; Invita @emb_brasilchile"
+          "extra": "previa inscripción en la web de @moblash; Invita @emb_brasilchile",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-08-02T00:00:00",
+          "date_end": "2026-08-02T00:00:00"
         },
         {
           "time": "14:00–20:00",
           "date": "Sábado 4",
           "description": "Cuecazo en Barrio Huemul celebrando el Día del Cuequero y la Cuequera",
           "location": "",
-          "extra": "Invita @pupuya_restaurant."
+          "extra": "Invita @pupuya_restaurant.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "💃",
+              "Danza"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "19:00",
           "date": "Sábado 4",
           "description": "Inauguración de la exposición “Un Matriarcado Mitológico Selk’nam”, de @karla.ibarrav, ",
           "location": "@galeriatierraluz",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "11:00–18:00",
           "date": "Sábado 4 y Domingo 5",
           "description": "Lluvia de Libros ",
           "location": "@centrogam",
-          "extra": "Invita @editorialesdechile."
+          "extra": "Invita @editorialesdechile.",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "15:00–18:00",
           "date": "",
           "description": "Sábados del mes: Ciclo Charlas Galácticas ",
           "location": "@casamuseoefm",
-          "extra": "Invita @astrae.cl"
+          "extra": "Invita @astrae.cl",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "Jueves 9, Sábado 11 y Miércoles 15",
           "description": "@orquesta.uniacc presenta “Cuentos de Media Noche”",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": "2026-07-09T00:00:00",
+          "date_end": "2026-07-09T00:00:00"
         },
         {
           "time": "19:30",
           "date": "Jueves 9 al Sábado 11",
           "description": "Murga @laurdemales presenta su show \"Contratiempos\", , ",
           "location": "@cultura.cerronavia",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-09T00:00:00",
+          "date_end": "2026-07-09T00:00:00"
         },
         {
           "time": "",
           "date": "Viernes 10 y Sábado 11",
           "description": "Estreno de \"Orfeo y Eurídice\" , ",
           "location": "@tmlaflorida",
-          "extra": "previa inscripción; Invita @fundacion_verdi."
+          "extra": "previa inscripción; Invita @fundacion_verdi.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-10T00:00:00",
+          "date_end": "2026-07-10T00:00:00"
         },
         {
           "time": "11:00–18:00",
           "date": "Viernes 10 al Domingo 12",
           "description": "@artistasyungay En Vivo ",
           "location": "@ccplm",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-10T00:00:00",
+          "date_end": "2026-07-10T00:00:00"
         },
         {
           "time": "13:00",
           "date": "Sábado 11",
           "description": "Carnaval de Invierno en Plaza Lo Besa (Quinta Normal)",
           "location": "",
-          "extra": "Invita @asambleapopularlobesa."
+          "extra": "Invita @asambleapopularlobesa.",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-11T00:00:00",
+          "date_end": "2026-07-11T00:00:00"
         },
         {
           "time": "",
           "date": "Sábado 11 y Domingo 12",
           "description": "Encuentro Medieval",
           "location": "@estacionitalia.cl",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-11T00:00:00",
+          "date_end": "2026-07-11T00:00:00"
         },
         {
           "time": "12:00",
           "date": "Sábado 18",
           "description": "Día del Furry , ",
           "location": "@casa.anahuac",
-          "extra": "previa inscripción; Invita @wuellas.pro."
+          "extra": "previa inscripción; Invita @wuellas.pro.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-18T00:00:00",
+          "date_end": "2026-07-18T00:00:00"
         },
         {
           "time": "17:00",
           "date": "Sábado 25",
           "description": "@tardesmusicales.santafilomena con la Orquesta Sinfónica Juvenil de Puente Alto",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": "2026-07-25T00:00:00",
+          "date_end": "2026-07-25T00:00:00"
         },
         {
           "time": "",
           "date": "Sábado 25 y Domingo 26",
           "description": "Festival de la Sopa e",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-25T00:00:00",
+          "date_end": "2026-07-25T00:00:00"
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DaJkXEjjOOT/",
@@ -550,126 +1328,298 @@
           "date": "",
           "description": "Vía de los Andes: Camino Santiago de Compostela en Chile – Peregrinación oficial, caminosantiago.cl",
           "location": "www",
-          "extra": "previa inscripción; Invita @caminosantiago.cl"
+          "extra": "previa inscripción; Invita @caminosantiago.cl",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "9:30",
           "date": "",
           "description": "Clase gratuita de yoga al aire libre, . Invitan @academiachilenadeyoga y @barriotriana.cl",
           "location": "",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🧘",
+              "Bienestar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–13:30",
           "date": "",
           "description": "La @camarachilenadelaconstruccion abre sus puertas, ",
           "location": "",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–15:00",
           "date": "",
           "description": "Recorrer la noticia: visita mediada al Archivo La Nación, . Invitan @archivosudp, @consorcio_massi y ",
           "location": "@bibliotecanparra_udp",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–18:00",
           "date": "",
           "description": "Apertura de la exposición \"En viaje a la infancia: juguetes patrimoniales chilenos\" ",
           "location": "@estacionmapocho",
-          "extra": "Invita @museodeljuguetechilenouc."
+          "extra": "Invita @museodeljuguetechilenouc.",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–17:00",
           "date": "",
           "description": "Recorrido Patrimonial 120 años FECH: Historias, documentos y gráficas del movimiento estudiantil",
           "location": "",
-          "extra": "Invita @archivo.fech."
+          "extra": "Invita @archivo.fech.",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "15:00",
           "date": "",
           "description": "Día de los Patrimonios 2026 en el Sitio @memoriaborgono",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:30",
           "date": "",
           "description": "Carnaval Bufón ",
           "location": "@casabufo",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Música & Comunidad , con artistas invitados: @camilavaccaro.musica, @ensamble_mestizo y @toritoalfarooficial",
           "location": "@ofventuralavalle",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "9:00–17:00",
           "date": "",
           "description": "Visitas a al correo casacien.casalarrain@gmail.com",
           "location": "@casalarrainbravo",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–16:30",
           "date": "",
           "description": "Muchas actividades para ambos días",
           "location": "@museo_aeronautico",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–17:00",
           "date": "",
           "description": "Salón abierto: peinados de salón en el y @duenosalon",
           "location": "@museodelapeluqueria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Desde las 10:30 abierto con visitas mediadas, lanzamientos, baile y 16 exposiciones en sus dos edificios de Quinta Normal y Parque Forestal",
           "location": "@museo_mac",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "exhibirá ambos días el documental “El Guardián de los Andes”",
           "location": "@cine_uc",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "Primera edición de @mosquetomarket",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Visitas al @clubmodelismonavalsantiago",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–16:00",
           "date": "",
           "description": "Juntanza Mayor: Festival del Patrimonio Afro",
           "location": "Campus Oriente UC",
-          "extra": "Invita @soyalmadenegra."
+          "extra": "Invita @soyalmadenegra.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–16:30",
           "date": "",
           "description": "Día del Patrimonio 202",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DYq2xv4Fj0Y/",
@@ -689,133 +1639,321 @@
           "date": "",
           "description": "Hasta el 26 de mayo se podrán inscribir actividades diadelpatrimonio.cl. Invitan @servicio_patrimonio y @culturas_cl",
           "location": "la web oficial www",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "9:30",
           "date": "",
           "description": "@uahurtado abrirá sus puertas. Recorridos guiados a las 10 y 12 horas",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–14:30",
           "date": "",
           "description": "Apertura @ccfc_129",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–20:30",
           "date": "",
           "description": "Impulso Patrimonial en Peñaflor. Invitan @mawun_aliwen y ",
           "location": "@teatroarete",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:00",
           "date": "",
           "description": "Ruta de las Tiendas y el Simbolismo del Luto, . Invitan y @cementerioschilenosypatrimonio",
           "location": "@muerte.cultura",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00",
           "date": "",
           "description": "Día del Patrimonio LGBTIQ+",
           "location": "",
-          "extra": "Invita @rutaarcoirisoficial."
+          "extra": "Invita @rutaarcoirisoficial.",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–15:00",
           "date": "",
           "description": "Visita al @isp_chile",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–17:30",
           "date": "",
           "description": "Recorrido por la Mejor Viña del Mundo, @santaritawines + visita al @museoandino, entre otras actividades",
           "location": "su sitio web",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Recorrido por el Cementerio Parroquial de Malloco, . Invitan @cementerioschilenosypatrimonio y ",
           "location": "@muerte.cultura",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00",
           "date": "",
           "description": "Visita @artequin",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–17:00",
           "date": "",
           "description": "en Plaza Santa Teresa (Metro Santa Ana)",
           "location": "@mercado.tesoro",
-          "extra": "Invita @mutua.productora."
+          "extra": "Invita @mutua.productora.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–17:00",
           "date": "",
           "description": "Visita y sus exposiciones",
           "location": "@museociudadano",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–20:00",
           "date": "",
           "description": "exposiciones, presentaciones artísticas, feria de artesanía y oficios. Invitan @muni_macul y @cultura.macul",
           "location": "Macul habrán recorridos guiados",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🎨",
+              "Artesanía/Diseño"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–20:00",
           "date": "",
           "description": "en Plazoleta a un costado del Cerro Santa Lucía",
           "location": "@mercado__santiago",
-          "extra": "Invita @feriakorova."
+          "extra": "Invita @feriakorova.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00–18:00",
           "date": "",
           "description": "habrán feria de artes y oficios, rutas guiadas, presentaciones musicales, talleres, entre otras actividades",
           "location": "@barrioconchaytoro_oficial",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ],
+            [
+              "🎨",
+              "Artesanía/Diseño"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "Feria @somospublica ",
           "location": "@veta.ec",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:30",
           "date": "",
           "description": "21° @feria_kontrabando",
           "location": "Liceo de Aplicación",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "habrán circo, intervención musical, intercambio de semillas, entre otras actividades",
           "location": "@aldeaencuentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Patrimonio Vivo, habrán rutas patrimoniales, misa a lo poeta, shows artísticos, ferias, y más. I",
           "location": "Pirque",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🏛️",
+              "Patrimonio"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DYQ_LyJFoSC/",
@@ -829,133 +1967,293 @@
           "date": "Viernes 8",
           "description": "En Sala Isidora Aguirre de , . Invitan @fundacionsantiagooff y @lafulanateatro",
           "location": "@estacionmapocho",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-08T00:00:00",
+          "date_end": "2026-07-08T00:00:00"
         },
         {
           "time": "12:00–23:00",
           "date": "",
           "description": "Celebración ",
           "location": "@gran_circo_teatro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "@elvientodesabrina por @camila.cereda",
           "location": "Teatro Municipal de La Serena",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–13:00",
           "date": "",
           "description": "Visionado del documental “Au soleil même la nuit”, , ",
           "location": "@aldeaencuentro",
-          "extra": "previa inscripción; Invita @dojodepracticateatral."
+          "extra": "previa inscripción; Invita @dojodepracticateatral.",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Cierre del Festival de teatro III Fiesta de Juglares ",
           "location": "@ccesantiago",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "y 18",
           "description": "00 En el marco del 9° Festival Internacional 2026",
           "location": "@teatropuerto.cl",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-18T00:00:00",
+          "date_end": "2026-07-18T00:00:00"
         },
         {
           "time": "18:00",
           "date": "",
           "description": "Función gratuita de “Crónicas de Reporteros” , ",
           "location": "@teatrocamilohenriquez",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:30",
           "date": "",
           "description": ", con el Colectivo Teatral @inocentesculpables",
           "location": "@ccserhumano",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:30",
           "date": "",
           "description": ", con la obra “Las moscas sobre el río”, ",
           "location": "@teatrosanjavier",
-          "extra": "previa descarga de entradas"
+          "extra": "previa descarga de entradas",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:30",
           "date": "",
           "description": "Obra \"Caballo\", de @teatroictus, , previa descarta de entradas",
           "location": "@teatrosidarte",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "20:00",
           "date": "",
           "description": "Función de “La niña y el toro”",
           "location": "Teatro Municipal de Iquique",
-          "extra": "Invita @sidartetarapaca.cl"
+          "extra": "Invita @sidartetarapaca.cl",
+          "categories": [
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "20:00",
           "date": "",
           "description": "Función de \"Una tierra partida\", de @laboratoriodeexploracion",
           "location": "",
-          "extra": "Invita @sidartenuble."
+          "extra": "Invita @sidartenuble.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Lunes 11 al Miércoles 13",
           "description": "celebra el Día Nacional del Teatro con una serie de actividades",
           "location": "@lafamiliateatro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-11T00:00:00",
+          "date_end": "2026-07-11T00:00:00"
         },
         {
           "time": "",
           "date": "Martes 12 al Sábado 16",
           "description": "Semana del Teatro Invitan @teatropompeya, @bibliopaulharris y @ccgabrielamistral",
           "location": "Villa Alemana",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-12T00:00:00",
+          "date_end": "2026-07-12T00:00:00"
         },
         {
           "time": "19:00",
           "date": "Martes 12",
           "description": "presenta \"Serena\", audioteatro de @malamadre_compania",
           "location": "@teatronacionalchileno",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-12T00:00:00",
+          "date_end": "2026-07-12T00:00:00"
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Celebración día del teatro ",
           "location": "@teatroaleph",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "20:00",
           "date": "",
           "description": "Ensayo abierto de \"Veredicto\" , con @realpablocerda y @barbararuiztagle, entre otros actores",
           "location": "@chimkowecentro",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:00",
           "date": "Sábado 16",
           "description": "Extracto de La Pérgola de las Flores de la @ciaentreayeryhoy, .fe",
           "location": "@cds.santa",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-16T00:00:00",
+          "date_end": "2026-07-16T00:00:00"
         },
         {
           "time": "19:00",
           "date": "Miércoles 20",
           "description": "Obra \"Liceo\" de @escuelateatrorecoleta .\"",
           "location": "@culturarecoleta",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": "2026-07-20T00:00:00",
+          "date_end": "2026-07-20T00:00:00"
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DYBivC8FnT_/",
@@ -969,133 +2267,301 @@
           "date": "Sábado 2 al Domingo 10",
           "description": "Celebración en grande en el ",
           "location": "@mallbarrioindepen",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-08-02T00:00:00",
+          "date_end": "2026-08-02T00:00:00"
         },
         {
           "time": "10:00–18:00",
           "date": "Lunes 4 al Viernes 8",
           "description": "Especial Día de la Madre, en Paseo 21 de Mayo con @colectivolasloicas",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "",
           "date": "Lunes 4 al Domingo 10",
           "description": "Especial Día de la Madre con Feria Trama de @mercadojardinchile Oriente",
           "location": "@parquearauco",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🌿",
+              "Naturaleza"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "Feria Artesanal por el día de las madres ",
           "location": "@plazaaurorafeminista",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🎨",
+              "Artesanía/Diseño"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "MATRIZ, muestra y venta de joyería autoral contemporánea . Invitan @galerianac.extension y @joyaenlaboratorio",
           "location": "@galerianac",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎨",
+              "Artesanía/Diseño"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Viernes 8 al Domingo 10",
           "description": "Feria de la Mujer Emprendedora ",
           "location": "@barrioplazanunoa",
-          "extra": "Invita @camaranunoa."
+          "extra": "Invita @camaranunoa.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-08T00:00:00",
+          "date_end": "2026-07-08T00:00:00"
         },
         {
           "time": "11:00",
           "date": "",
           "description": "Masterclass gratuita con @cristianpreece : transforma tu espacio, ",
           "location": "@lascondesdesign",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🗣️",
+              "Charla/Seminario"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Sábado en tu Plaza en el Día de la Madre: Una flor para la mamá, ",
           "location": "@lomattacultural",
-          "extra": "Invita @vitacuracultura."
+          "extra": "Invita @vitacuracultura.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "15:00",
           "date": "",
           "description": "Celebra el Día de la Madre en Parque Nuestra Señora de Gabriela",
           "location": "",
-          "extra": "Invita @mpuentealto."
+          "extra": "Invita @mpuentealto.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00–21:00",
           "date": "",
           "description": "Expo Bazar Día de la Madre Invitan @fomentolaflorida y @culturalaflorida",
           "location": "Estadio Bicentenario La Florida",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:00",
           "date": "",
           "description": "“La Nueva Rola, el musical de la Nueva Ola”, ",
           "location": "@muni_independencia",
-          "extra": "previa inscripción; Invita @culturaindepe."
+          "extra": "previa inscripción; Invita @culturaindepe.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–19:00",
           "date": "",
           "description": "Mercado de otoño: Oda al zapallo ",
           "location": "@mut.cl",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Mamá Fest",
           "location": "Plaza Brasil",
-          "extra": "Invita @comunidad_brasil_alameda."
+          "extra": "Invita @comunidad_brasil_alameda.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–19:00",
           "date": "",
           "description": "Feria Medieval del Día de las Madres . Invitan @odrerir.mead y @productora_marques_de_carabas",
           "location": "@casadelosdiez",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "@mercadoparislondres ",
           "location": "@espacio_londres",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–19:00",
           "date": "",
           "description": "Gran Feria @sakurataiken",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "15:00",
           "date": "",
           "description": "Día de la Mamá en el @persavictormanuel, con tributos a Marco Antonio Solís y @carloscarotributoazaloreyes",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:00",
           "date": "",
           "description": "Todo por Mamá con Los Hermanos Zabaleta",
           "location": "Casona Santa Rosa de Apoquindo",
-          "extra": "Invita @munilascondes."
+          "extra": "Invita @munilascondes.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Película de Clausura en la @ci",
           "location": "@femcine",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DX--KZFDkmL/",
@@ -1109,119 +2575,287 @@
           "date": "Viernes 1, Sábado 2 y Domingo 3",
           "description": "Jazz, Vino y Música ",
           "location": "@persavictormanuel",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🍷",
+              "Gastronomía"
+            ]
+          ],
+          "date_start": "2026-08-01T00:00:00",
+          "date_end": "2026-08-01T00:00:00"
         },
         {
           "time": "16:00–19:00",
           "date": "",
           "description": "Festival multidisciplinario \"Universo Mon\" , celebrando el cumpleaños de @monlaferte. Invitan @tribulaferte y @camiankcantante",
           "location": "@culturalagranja",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00–20:00",
           "date": "",
           "description": "Primer Kilombazo a la calle, entre Erasmo Escala y la Alameda. Invitan @kilombo_restobar y @cuecas_losfalsosprofetas",
           "location": "José Toribio Medina",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "💃",
+              "Danza"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Concierto Los Aires del Destino de @orquesta.uniacc ",
           "location": "@templosanignacio",
-          "extra": "Invita @eufonia.cl"
+          "extra": "Invita @eufonia.cl",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "17:00",
           "date": "Domingo 3",
           "description": "Cruz de Mayo ",
           "location": "@templovotivosantuarionacional",
-          "extra": "Invita @casa_del_folklore_araucaria."
+          "extra": "Invita @casa_del_folklore_araucaria.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-08-03T00:00:00",
+          "date_end": "2026-08-03T00:00:00"
         },
         {
           "time": "12:00",
           "date": "",
           "description": "Recital poético \"El sur canta la poesía: recitales interculturales desde las islas\", ",
           "location": "",
-          "extra": "previa inscripción en la web de @ccplm"
+          "extra": "previa inscripción en la web de @ccplm",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "18:00",
           "date": "",
           "description": "Reapertura del Teatro Huemul con un concierto del pianista Roberto Bravo, ",
           "location": "@extensionubo",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Estreno del videoclip “Nadie dijo nada” del @grupocantaro ",
           "location": "@institutodemusicauah",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Martes 5 al Domingo 10",
           "description": "@femcine. Gratis , @cine_uc y @culturanunoa",
           "location": "@cinetecanacionalcl",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": "2026-07-05T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         },
         {
           "time": "19:30",
           "date": "",
           "description": "Concierto “Tributo a Mecano”, con @arbolcuatroproducciones, ",
           "location": "@centro_cultural_scuola",
-          "extra": "previa reserva"
+          "extra": "previa reserva",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:30",
           "date": "",
           "description": "Inauguración de la exposición “Descubriendo a los Fueguinos a través de Martin Gusinde”, ",
           "location": "@culturaunab",
-          "extra": "previa inscripción en la web de; Invita @fundaciongusinde."
+          "extra": "previa inscripción en la web de; Invita @fundaciongusinde.",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Viernes 8",
           "description": "@revivalvintage_market de @centrogam",
           "location": "@citylabglobal",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-08T00:00:00",
+          "date_end": "2026-07-08T00:00:00"
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "La primera gran feria de",
           "location": "@casaportugal_",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Inauguración de la exposición “El espejo roto: la pintura como negativo de la realidad”, de @il_saamurai ",
           "location": "@espaciolacochera",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00–22:30",
           "date": "",
           "description": "Sonido Bestial, encuentro de salsa y vinilos ",
           "location": "@ccesantiago",
-          "extra": "Invita @pregonando_cl."
+          "extra": "Invita @pregonando_cl.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00",
           "date": "Sábado 16",
           "description": "Quinto Ital Carnaval",
           "location": "",
-          "extra": "Invita @batuitalbatu."
+          "extra": "Invita @batuitalbatu.",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-16T00:00:00",
+          "date_end": "2026-07-16T00:00:00"
         },
         {
           "time": "12:00–19:00",
           "date": "Sábado 23 y Domingo 24",
           "description": "Feria Tim Burton ",
           "location": "@casadelosdiez",
-          "extra": "Invita @maniageek.c"
+          "extra": "Invita @maniageek.c",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-23T00:00:00",
+          "date_end": "2026-07-23T00:00:00"
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DXk3Z_gDEd7/",
@@ -1235,133 +2869,329 @@
           "date": "Sábado 4 al Viernes 10",
           "description": "@fil.y.art Macul 2026. Invitan @muni_macul y ",
           "location": "@cultura.macul",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-07-04T00:00:00",
+          "date_end": "2026-07-04T00:00:00"
         },
         {
           "time": "",
           "date": "Martes 7 y Miércoles 8",
           "description": "IV Feria del Libro @udp_cl en Hall central de ",
           "location": "@bibliotecanparra_udp",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-07T00:00:00",
+          "date_end": "2026-07-07T00:00:00"
         },
         {
           "time": "11:00–19:00",
           "date": "Jueves 9 al Sábado 11",
           "description": "3° Feria del Libro ”Ilumina el Pensamiento” USS",
           "location": "Campus Los Leones USS",
-          "extra": "Invita @ceuss_uss."
+          "extra": "Invita @ceuss_uss.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-09T00:00:00",
+          "date_end": "2026-07-09T00:00:00"
         },
         {
           "time": "10:00–19:00",
           "date": "Jueves 9 al Domingo 12",
           "description": "XI edición de la Feria del Libro de Vitacura, ",
           "location": "@lomattacultural",
-          "extra": "Invita @vitacuracultura."
+          "extra": "Invita @vitacuracultura.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-09T00:00:00",
+          "date_end": "2026-07-09T00:00:00"
         },
         {
           "time": "11:00–18:00",
           "date": "",
           "description": "Fiesta del Libro y la Lectura ",
           "location": "@bibliotecamunicipal_concepcion",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–20:00",
           "date": "",
           "description": "Quinta Feria Independiente del Libro de Puente Alto @filpacordillera",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00–18:00",
           "date": "",
           "description": "Carnaval del Cómic ",
           "location": "Centro Cultural El Tranque",
-          "extra": "previa descarga de entrada en la web de @corporacionculturallb"
+          "extra": "previa descarga de entrada en la web de @corporacionculturallb",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:30–20:00",
           "date": "",
           "description": "Cuarta versión de la @feria_encanto_literario ",
           "location": "@casaodelastarria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Quinta Feria del libro",
           "location": "resistencia",
-          "extra": "Invita sovsantiago."
+          "extra": "Invita sovsantiago.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Sábado 18, Domingo 19, Sábado 25 y Domingo 26",
           "description": "Feria de libro ",
           "location": "@factoria_franklin",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-18T00:00:00",
+          "date_end": "2026-07-18T00:00:00"
         },
         {
           "time": "10:00–20:00",
           "date": "Jueves 23",
           "description": "Maratón de cuentacuentos en Centro Lector de la ",
           "location": "@corporacionculturallb",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-23T00:00:00",
+          "date_end": "2026-07-23T00:00:00"
         },
         {
           "time": "",
           "date": "Viernes 24 al Domingo 26",
           "description": "V Festival de Libros Penguin Providencia. Invitan @penguinlibroscl y ",
           "location": "@culturaprovidencia",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-24T00:00:00",
+          "date_end": "2026-07-24T00:00:00"
         },
         {
           "time": "11:00–17:00",
           "date": "",
           "description": "Novena Feria del Libro Quintero 2026. Invita ",
           "location": "@quinteromascultura",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00–18:00",
           "date": "",
           "description": "@bookishfest",
           "location": "Café Literario Parque Balmaceda",
-          "extra": "Invita @bibliotecasprovi."
+          "extra": "Invita @bibliotecasprovi.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00–19:00",
           "date": "",
           "description": "Fiesta de la Lectura en el @ccplm",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "11:00–19:00",
           "date": "",
           "description": "Fiesta del Libro , ",
           "location": "@culturallascondes",
-          "extra": "previa inscripción en su sitio web a partir del viernes 17"
+          "extra": "previa inscripción en su sitio web a partir del viernes 17",
+          "categories": [
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Segunda edición Book Santiago 2026. Invita ",
           "location": "@culturastgo",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "10:00–19:30",
           "date": "Martes 28 y Miércoles 29",
           "description": "Segunda edición del Festival del Libro ",
           "location": "@duocucvillarrica",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "📚",
+              "Literatura"
+            ]
+          ],
+          "date_start": "2026-07-28T00:00:00",
+          "date_end": "2026-07-28T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "TODO EL MES: Ciclo de cine \"Adaptaciones literarias\" en la .\"",
           "location": "@cinetecanacionalcl",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DWnYwTWDOP9/",
@@ -1375,133 +3205,321 @@
           "date": "Miércoles 1",
           "description": "Paiste Drumming Chile en La Cava de @corposanmiguel, ",
           "location": "",
-          "extra": "previa inscripción en la web de @importmusicchile"
+          "extra": "previa inscripción en la web de @importmusicchile",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": "2026-08-01T00:00:00",
+          "date_end": "2026-08-01T00:00:00"
         },
         {
           "time": "16:00",
           "date": "",
           "description": "@musica_y_comunidad",
           "location": "Barrio Matta Sur",
-          "extra": "Invita @ofventuralavalle y @rustiklabmusichouse."
+          "extra": "Invita @ofventuralavalle y @rustiklabmusichouse.",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:30",
           "date": "",
           "description": "Cuecazo colectivo",
           "location": "Plaza de San Bernardo",
-          "extra": "Invita @la.ley.de.los.cuequeros."
+          "extra": "Invita @la.ley.de.los.cuequeros.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ],
+            [
+              "💃",
+              "Danza"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "Domingo 5",
           "description": "Conciertos de la Fraternidad Masónica: Ensemble Pentafonía, ",
           "location": "@granlogiadechile",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": "2026-07-05T00:00:00",
+          "date_end": "2026-07-05T00:00:00"
         },
         {
           "time": "18:00",
           "date": "Martes 7",
           "description": "Concierto Oda a Gabriela Mistral",
           "location": "Iglesia de San Francisco",
-          "extra": "Invita @museosanfranciscochile."
+          "extra": "Invita @museosanfranciscochile.",
+          "categories": [
+            [
+              "🎵",
+              "Música"
+            ]
+          ],
+          "date_start": "2026-07-07T00:00:00",
+          "date_end": "2026-07-07T00:00:00"
         },
         {
           "time": "19:30",
           "date": "Jueves 9",
           "description": "Inauguración de la exposición \"Collage\", ",
           "location": "@factoria_franklin",
-          "extra": "previa inscripción"
+          "extra": "previa inscripción",
+          "categories": [
+            [
+              "🖼️",
+              "Exposición"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-09T00:00:00",
+          "date_end": "2026-07-09T00:00:00"
         },
         {
           "time": "20:00",
           "date": "",
           "description": "Jueves 9 al Sábado 18 (jueves a sábado): Obra “La gaviota (Melodrama del fracaso)” ",
           "location": "@depteatrouchile",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎭",
+              "Teatro"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "",
           "description": "Viernes 10 al Domingo 12 (Santiago) y Viernes 24 y Sábado 25 (Valparaíso): Versión 30 del Festival de Cine Social y Antisocial FECISO. Invita ",
           "location": "@escuelapopulardecinechile",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎬",
+              "Cine"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–19:00",
           "date": "",
           "description": "en La Cava de @corposanmiguel",
           "location": "@feriavegourmet",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "📌",
+              "General"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00",
           "date": "",
           "description": "12ava versión del Carnavalzinho",
           "location": "Puente Alto",
-          "extra": "Invita @klanzinho."
+          "extra": "Invita @klanzinho.",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "19:00",
           "date": "",
           "description": "Festival Internacional de Arpas al Fin del Mundo ",
           "location": "@colinacultura",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "",
           "date": "Viernes 17 al Domingo 19",
           "description": "@expo.gres ",
           "location": "@culturallascondes",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": "2026-07-17T00:00:00",
+          "date_end": "2026-07-17T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "16° Aniversario @elclubmatadero",
           "location": "",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00",
           "date": "",
           "description": "Carnaval Dignidad sin Fronteras",
           "location": "",
-          "extra": "Invita @colectivosinfronteras."
+          "extra": "Invita @colectivosinfronteras.",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "9:00–18:00",
           "date": "Sábado 18 y Domingo 19",
           "description": "Carnaval Mayor Invitan @vacacionesterceraedad y @sernaturchile",
           "location": "Parque Estadio Nacional",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "👶",
+              "Infantil/Familiar"
+            ]
+          ],
+          "date_start": "2026-07-18T00:00:00",
+          "date_end": "2026-07-18T00:00:00"
         },
         {
           "time": "",
           "date": "",
           "description": "Viernes 24 al Domingo 26 @festivaldelalana ",
           "location": "@cmontecarmelo",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00",
           "date": "",
           "description": "18° del Festival Mujeres y Disidencias @femfest en el ",
           "location": "@museodelamemoria",
-          "extra": ""
+          "extra": "",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ],
+            [
+              "🏳️‍🌈",
+              "Diversidad"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "12:00–21:00",
           "date": "",
           "description": "@mercadocoloresdeyungay III ",
           "location": "@barrioyungai",
-          "extra": "Invita @distritoyungay."
+          "extra": "Invita @distritoyungay.",
+          "categories": [
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         },
         {
           "time": "16:00",
           "date": "",
           "description": "Celebración Día de la Danza . \"",
           "location": "@patio_la_rosa_penalolen",
-          "extra": "Invita @salademovimiento."
+          "extra": "Invita @salademovimiento.",
+          "categories": [
+            [
+              "💃",
+              "Danza"
+            ],
+            [
+              "🎪",
+              "Festival/Feria"
+            ]
+          ],
+          "date_start": null,
+          "date_end": null
         }
       ],
       "url": "https://www.instagram.com/panoramasgratis/p/DWfXf_gjCNb/",

@@ -108,6 +108,17 @@
             <p class="section-subtitle">Eventos gratuitos en Santiago — desde <a href="https://www.instagram.com/panoramasgratis/" target="_blank" style="color:var(--accent);">@panoramasgratis</a></p>
             <div id="pg-status" class="loading">Cargando panoramas...</div>
             <div id="pg-content" style="display:none;">
+                <!-- Filtros -->
+                <div id="pg-filters" class="pg-filters" style="display:none;">
+                    <div id="pg-cat-filters" class="pg-cat-filters"></div>
+                    <div class="pg-sort-row">
+                        <span class="pg-sort-label">Ordenar:</span>
+                        <button class="pg-sort active" data-sort="default">🔥 Relevancia</button>
+                        <button class="pg-sort" data-sort="soonest">📅 Próximos</button>
+                        <button class="pg-sort" data-sort="ending">⏳ Últimos días</button>
+                        <span id="pg-count" class="pg-count"></span>
+                    </div>
+                </div>
                 <div id="pg-list"></div>
                 <p class="agenda-updated">Actualizado: <span id="pg-date"></span></p>
             </div>
