@@ -62,7 +62,8 @@ async function loadAgenda() {
                         + '🎯 <a href="' + escapeHTML(ev.link || '#') + '" target="_blank" rel="noopener" class="expo-link">' + escapeHTML(ev.nombre) + '</a>'
                         + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
                         + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
-                        + (ev.precio ? '<div class="expo-meta">🎫 ' + escapeHTML(ev.precio) + '</div>' : '')
+                        + (ev.precio ? '<div class="expo-meta">💰 ' + escapeHTML(ev.precio) + '</div>' : '')
+                        + (ev.ticket_link ? '<div class="expo-meta"><a href="' + escapeHTML(ev.ticket_link) + '" target="_blank" class="ticket-link">🎫 Comprar entradas →</a></div>' : '')
                         + (ev.categoria ? '<div class="expo-meta">🏷️ ' + escapeHTML(ev.categoria) + '</div>' : '')
                         + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
                         + '</div>';
