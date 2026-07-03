@@ -53,22 +53,48 @@ async function loadAgenda() {
 
         // ── Eventos Directos (structured data from venue scrapers) ──
         if (data.eventos_directos && data.eventos_directos.length > 0) {
+            window.allDirectEvents = data.eventos_directos;
+            window.currentDirectFilter = 'todas';
+            window.currentDirectSort = 'default';
+
+            // Build filter bar
             const directBlock = document.getElementById('agenda-directos');
-            const directList = document.getElementById('agenda-directos-list');
-            if (directBlock && directList) {
-                directBlock.style.display = 'block';
-                directList.innerHTML = data.eventos_directos.map(ev => {
-                    return '<div class="expo-card evento-directo">'
-                        + '🎯 <a href="' + escapeHTML(ev.link || '#') + '" target="_blank" rel="noopener" class="expo-link">' + escapeHTML(ev.nombre) + '</a>'
-                        + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
-                        + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
-                        + (ev.precio ? '<div class="expo-meta">💰 ' + escapeHTML(ev.precio) + '</div>' : '')
-                        + (ev.ticket_link ? '<div class="expo-meta"><a href="' + escapeHTML(ev.ticket_link) + '" target="_blank" class="ticket-link">🎫 Comprar entradas →</a></div>' : '')
-                        + (ev.categoria ? '<div class="expo-meta">🏷️ ' + escapeHTML(ev.categoria) + '</div>' : '')
-                        + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
-                        + '</div>';
-                }).join('');
+            const filterBar = document.getElementById('agenda-directos-filters');
+            const catContainer = document.getElementById('agenda-directos-cats');
+            directBlock.style.display = 'block';
+
+            // Normalize categories
+            const catMap = {
+                'Teatro': ['teatro', 'artes escénicas', 'escenicas', 'ballet', 'danza', 'ópera', 'opera',
+                           'conciertos', 'recitales', 'grandes estrellas', 'música', 'musica', 'murga'],
+                'Museos': ['museo', 'exposición / museos', 'exposicion / museos', 'patrimonio'],
+                'Cultura': ['cultura', 'visitas guiadas', 'centro cultural'],
+                'Exposición': ['exposición', 'exposicion', 'galería', 'galeria', 'muestra'],
+            };
+
+            function normCat(catStr) {
+                const lower = (catStr || '').toLowerCase();
+                for (const [broad, keywords] of Object.entries(catMap)) {
+                    if (keywords.some(kw => lower.includes(kw))) return broad;
+                }
+                return 'General';
             }
+
+            // Collect categories
+            const allCats = new Set();
+            window.allDirectEvents.forEach(ev => {
+                allCats.add(normCat(ev.categoria || ''));
+                ev._normCat = normCat(ev.categoria || '');
+            });
+            const catList = ['todas', ...Array.from(allCats).filter(c => c !== 'General').sort(), 'General'];
+
+            filterBar.style.display = 'block';
+            catContainer.innerHTML = catList.map(cat =>
+                '<button class="pg-cat-filter' + (cat === 'todas' ? ' active' : '') + '" data-cat="' + escapeHTML(cat) + '">' +
+                (cat === 'todas' ? 'Todas' : escapeHTML(cat)) + '</button>'
+            ).join('');
+
+            renderDirectEvents();
         }
 
         // ── Categorías ──
@@ -109,6 +135,57 @@ async function loadAgenda() {
         `;
     }
 }
+
+
+function renderDirectEvents() {
+    const listEl = document.getElementById('agenda-directos-list');
+    let events = [...(window.allDirectEvents || [])];
+
+    // Filter
+    if (window.currentDirectFilter !== 'todas') {
+        events = events.filter(ev => ev._normCat === window.currentDirectFilter);
+    }
+
+    // Sort
+    if (window.currentDirectSort === 'soonest') {
+        events.sort((a, b) => {
+            const da = a.date_start ? new Date(a.date_start) : null;
+            const db = b.date_start ? new Date(b.date_start) : null;
+            if (da && db) return da - db;
+            if (da) return -1; if (db) return 1; return 0;
+        });
+    } else if (window.currentDirectSort === 'ending') {
+        events.sort((a, b) => {
+            const da = a.date_end ? new Date(a.date_end) : null;
+            const db = b.date_end ? new Date(b.date_end) : null;
+            if (da && db) return da - db;
+            if (da) return -1; if (db) return 1; return 0;
+        });
+    }
+
+    // Count
+    const countEl = document.getElementById('ad-count');
+    if (countEl) countEl.textContent = events.length + ' de ' + (window.allDirectEvents || []).length + ' eventos';
+
+    if (events.length === 0) {
+        listEl.innerHTML = '<p class="agenda-empty-msg">Sin eventos para esta categoría.</p>';
+        return;
+    }
+
+    listEl.innerHTML = events.map(ev => {
+        const link = ev.link || '#';
+        return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
+            + '<div class="expo-card evento-directo">'
+            + '🎯 <span class="expo-link">' + escapeHTML(ev.nombre) + '</span>'
+            + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+            + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+            + (ev.precio ? '<div class="expo-meta">💰 ' + escapeHTML(ev.precio) + '</div>' : '')
+            + (ev._normCat ? '<div class="expo-meta">🏷️ ' + escapeHTML(ev._normCat) + '</div>' : '')
+            + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+            + '</div></a>';
+    }).join('');
+}
+
 
 /* ══════════════════════════════════════════════
    OPORTUNIDADES (oportunidades.json)
@@ -202,17 +279,35 @@ function setupFilters() {
         }
         // Panorama category filters
         if (e.target.classList.contains('pg-cat-filter')) {
-            document.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
-            currentPgFilter = e.target.dataset.cat;
-            renderPanoramas();
+            const parent = e.target.closest('#agenda-directos-filters');
+            if (parent) {
+                // It's a direct-event filter
+                parent.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                window.currentDirectFilter = e.target.dataset.cat;
+                if (typeof renderDirectEvents === 'function') renderDirectEvents();
+            } else {
+                // Panorama filter
+                document.querySelectorAll('#pg-cat-filters .pg-cat-filter').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentPgFilter = e.target.dataset.cat;
+                renderPanoramas();
+            }
         }
         // Panorama sort buttons
         if (e.target.classList.contains('pg-sort')) {
-            document.querySelectorAll('.pg-sort').forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
-            currentPgSort = e.target.dataset.sort;
-            renderPanoramas();
+            const parent = e.target.closest('#agenda-directos-filters');
+            if (parent) {
+                parent.querySelectorAll('.pg-sort').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                window.currentDirectSort = e.target.dataset.sort;
+                if (typeof renderDirectEvents === 'function') renderDirectEvents();
+            } else {
+                document.querySelectorAll('#pg-filters .pg-sort').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentPgSort = e.target.dataset.sort;
+                renderPanoramas();
+            }
         }
     });
 }

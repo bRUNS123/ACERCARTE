@@ -76,6 +76,16 @@
                 <!-- Eventos Directos (scraping de venues) -->
                 <div id="agenda-directos" class="agenda-block" style="display:none;">
                     <h3>🎯 Eventos en Santiago — Datos Directos</h3>
+                    <div id="agenda-directos-filters" class="pg-filters" style="display:none;">
+                        <div id="agenda-directos-cats" class="pg-cat-filters"></div>
+                        <div class="pg-sort-row">
+                            <span class="pg-sort-label">Ordenar:</span>
+                            <button class="pg-sort active" data-sort="default">🔥 Relevancia</button>
+                            <button class="pg-sort" data-sort="soonest">📅 Próximos</button>
+                            <button class="pg-sort" data-sort="ending">⏳ Últimos días</button>
+                            <span id="ad-count" class="pg-count"></span>
+                        </div>
+                    </div>
                     <div id="agenda-directos-list" class="expo-list"></div>
                 </div>
                 <!-- Categorías -->
