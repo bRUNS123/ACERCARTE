@@ -215,24 +215,73 @@ async function loadPanoramas() {
             return;
         }
 
-        listEl.innerHTML = data.posts.map((post, i) => {
-            // Split caption into header (first line) and body
-            const lines = post.caption.split('\\n').filter(l => l.trim());
-            const header = lines[0] || 'Sin título';
-            const body = lines.slice(1, 8).join(' | '); // first 7 lines as preview
+        // Check if data is structured (has events) or raw (has caption)
+        const isStructured = data.posts[0] && data.posts[0].events !== undefined;
 
-            // Extract a short preview
-            const preview = body.substring(0, 250) + (body.length > 250 ? '...' : '');
+        if (isStructured) {
+            // ── Structured render: each post = header + event cards ──
+            listEl.innerHTML = data.posts.map(post => {
+                let html = '<div class="pg-post">';
+                // Header
+                if (post.header) {
+                    html += '<h3 class="pg-post-header">' + escapeHTML(post.header) + '</h3>';
+                }
+                // Instagram link
+                html += '<div class="pg-header">'
+                    + '<span class="pg-date">📅 ' + escapeHTML(post.date || '') + '</span>'
+                    + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver post original →</a>'
+                    + '</div>';
 
-            return '<div class="pg-card">'
-                + '<div class="pg-header">'
-                + '<span class="pg-date">' + escapeHTML(post.date || '') + '</span>'
-                + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver en Instagram →</a>'
-                + '</div>'
-                + '<h3 class="pg-title">' + escapeHTML(header) + '</h3>'
-                + '<p class="pg-preview">' + escapeHTML(preview) + '</p>'
-                + '</div>';
-        }).join('');
+                // Events
+                if (post.events && post.events.length > 0) {
+                    html += '<div class="pg-events">';
+                    post.events.forEach(ev => {
+                        html += '<div class="pg-event-card">';
+                        // Time + Date on same line
+                        if (ev.time || ev.date) {
+                            html += '<div class="pg-event-when">';
+                            if (ev.time) html += '<span class="pg-ev-time">🕐 ' + escapeHTML(ev.time) + '</span>';
+                            if (ev.date) html += '<span class="pg-ev-date">📆 ' + escapeHTML(ev.date) + '</span>';
+                            html += '</div>';
+                        }
+                        // Description
+                        if (ev.description) {
+                            html += '<p class="pg-ev-desc">' + escapeHTML(ev.description) + '</p>';
+                        }
+                        // Location + Extra
+                        if (ev.location || ev.extra) {
+                            html += '<div class="pg-ev-meta">';
+                            if (ev.location) html += '<span class="pg-ev-loc">📍 ' + escapeHTML(ev.location) + '</span>';
+                            if (ev.extra) html += '<span class="pg-ev-extra">ℹ️ ' + escapeHTML(ev.extra) + '</span>';
+                            html += '</div>';
+                        }
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                }
+
+                html += '</div>';
+                return html;
+            }).join('');
+
+        } else {
+            // ── Fallback: raw caption render ──
+            listEl.innerHTML = data.posts.map((post) => {
+                const lines = post.caption.split('\\n').filter(l => l.trim());
+                const header = lines[0] || 'Sin título';
+                const body = lines.slice(1, 8).join(' | ');
+                const preview = body.substring(0, 250) + (body.length > 250 ? '...' : '');
+
+                return '<div class="pg-card">'
+                    + '<div class="pg-header">'
+                    + '<span class="pg-date">' + escapeHTML(post.date || '') + '</span>'
+                    + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver en Instagram →</a>'
+                    + '</div>'
+                    + '<h3 class="pg-title">' + escapeHTML(header) + '</h3>'
+                    + '<p class="pg-preview">' + escapeHTML(preview) + '</p>'
+                    + '</div>';
+            }).join('');
+        }
 
     } catch (err) {
         console.warn('Panoramas Gratis no disponible:', err.message);

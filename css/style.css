@@ -663,17 +663,81 @@ blockquote cite {
 }
 
 /* ─── Panoramas Gratis ─── */
-.pg-card {
-    background: var(--bg-alt);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    margin-bottom: 1.2rem;
-    transition: border-color 0.3s;
+.pg-post {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
 }
-
-.pg-card:hover {
+.pg-post:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.pg-post-header {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--accent);
+    letter-spacing: 2px;
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+}
+.pg-events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+.pg-event-card {
+    background: rgba(212, 165, 116, 0.06);
+    border: 1px solid rgba(212, 165, 116, 0.15);
+    border-radius: var(--radius);
+    padding: 1rem 1.3rem;
+    transition: border-color 0.3s, background 0.3s;
+}
+.pg-event-card:hover {
     border-color: var(--accent-dim);
+    background: rgba(212, 165, 116, 0.1);
+}
+.pg-event-when {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+.pg-ev-time {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    color: var(--white);
+    background: rgba(212, 165, 116, 0.15);
+    padding: 0.15rem 0.6rem;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+.pg-ev-date {
+    font-size: 0.82rem;
+    color: var(--accent-dim);
+    font-style: italic;
+    align-self: center;
+}
+.pg-ev-desc {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+.pg-ev-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+}
+.pg-ev-loc {
+    color: var(--accent-dim);
+}
+.pg-ev-extra {
+    color: var(--text-muted);
+    font-style: italic;
 }
 
 .pg-header {
@@ -699,22 +763,6 @@ blockquote cite {
 
 .pg-link:hover {
     color: var(--accent);
-}
-
-.pg-title {
-    font-family: var(--font-display);
-    font-size: 1.05rem;
-    color: var(--white);
-    font-weight: 400;
-    margin-bottom: 0.4rem;
-}
-
-.pg-preview {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    line-height: 1.5;
-    max-height: 80px;
-    overflow: hidden;
 }
 
 /* ─── Animaciones ─── */
