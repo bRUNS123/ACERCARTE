@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-07-03T14:03:53.042287",
+  "actualizado": "2026-07-03T14:37:42.790014",
   "fecha": "03/07/2026",
-  "total_items": 77,
-  "total_eventos_directos": 48,
+  "total_items": 76,
+  "total_eventos_directos": 54,
   "mnba": [
     {
       "nombre": "145 años: Historias de una Colección",
@@ -128,40 +128,40 @@
       "icono": "museos",
       "items": [
         {
-          "title": "MAC Parque Forestal comienza el 2026 junto a ocho nuevas exhibiciones - Facultad de Artes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONlpHb0gtdmY0VEszdzktYUY4WjFiLTYxYUtfRlBNakNPVWxEeUV0WklCZm94MFJPdkc0cWJjS1dseHhSWGpNam14VExrNENfbnVhXzltSllHY0J3NUEwNnd2alhsaEpiYXJuQXRsTGVOOVF0TTF3SlFoRGZzSkctam1TZUdjY0Y5Qzd5MzROTkIwWExiWXdLekI5SVhNRGtNWmVDQ0J6REFiYXc?oc=5",
-          "source": "Facultad de Artes - Universidad de Chile",
-          "pubdate": "Sat, 21 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Conoce las nuevas exposiciones temporales del Museo de la Memoria - Museo de la Memoria y los Derechos Humanos",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYS12QlVXREpjcFp0d3VmQ1FZM3V6eVJEeW9qM0JJWG1jbV9rSWY1a2xFNVhTaFNoSDM0RlZseklJVW54Yi1TbGdwd2k4Nm5jRHJFQTNhMk9HT3prV3dvV3dxRkx1amNTN1ZmRC1UdVdpeVE4Q1BGRTJndi1VN0lCcF94Q0tuOG9pYklsX0FITFpINExZUGhoMGhRcEgxYTNRWGJ4UTg4R240YW9tbFlDZk1R?oc=5",
-          "source": "Museo de la Memoria y los Derechos Humanos",
-          "pubdate": "Wed, 04 Mar 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Qué hacer en Santiago: panoramas para este 16 y 17 de mayo en la capital - La Nación",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnA3OTlmUTR5NEt3eHU4dXh0SGsxdDBnM2NNcW1uMmF6WnNWTzROek1fUHFab0NKcU9aQjB6SUt4R0dqamNibXVaa1hDU1dXQUdkZDJXSnBnb2RZblZKSmZFRndpWTY0Mk55dkxweXdNQnJvYm9OQWVtZkhDa0tiTWoyU1Rrc3ZXWVF2VjNHaEJLVnJXb3pxVC1SeHk?oc=5",
-          "source": "La Nación",
-          "pubdate": "Fri, 15 May 2026 21:55:14 GMT"
-        },
-        {
-          "title": "Mes de la Mujer: exposiciones, rutas patrimoniales y conciertos para conmemorar marzo - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMEdPWTY5MnlpUEMyM2RnMGFwWTBzV2xuem5HTHBBazRVc29rZlpCRFBPcmt2Qll1RE5taXVjQzR5dVdXVWMzVFJIanpjRXN0cnhaelFua2NGbWlCSE5OY1F5aTU1UW10MWVXMFppUXJ2amREREFJcEZIb2xNaC13UWE3eE5aRVo2bHhBdlFRQkh4QXhuNW1jdmpEeXN4OE5SRUFTRVIxeUtnOW0zRmdwOEJQS0dZaGg4U3ZXYzdyeHVFalg4cTJZ?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Sat, 07 Mar 2026 08:00:00 GMT"
-        },
-        {
           "title": "Noche de Museos en el Bellas Artes - mnba.gob.cl",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VajNndThSeUd1dFlkV0QtdDdtaGR4U3FiQXZCbWhOOVcwM2VEZ0U5ak5kN3N3RGVic1ZrR3kzYV9DUVlPMmJDMDNpbmdjYV9XRFlKZU9KbVlBVkd3ZE5NQkVwejFHaEs0YnFtQndnMWM0SHRweGRNazhR?oc=5",
           "source": "mnba.gob.cl",
           "pubdate": "Fri, 24 Oct 2025 07:00:00 GMT"
         },
         {
+          "title": "MAC Parque Forestal comienza el 2026 junto a ocho nuevas exhibiciones - Facultad de Artes - Universidad de Chile",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONlpHb0gtdmY0VEszdzktYUY4WjFiLTYxYUtfRlBNakNPVWxEeUV0WklCZm94MFJPdkc0cWJjS1dseHhSWGpNam14VExrNENfbnVhXzltSllHY0J3NUEwNnd2alhsaEpiYXJuQXRsTGVOOVF0TTF3SlFoRGZzSkctam1TZUdjY0Y5Qzd5MzROTkIwWExiWXdLekI5SVhNRGtNWmVDQ0J6REFiYXc?oc=5",
+          "source": "Facultad de Artes - Universidad de Chile",
+          "pubdate": "Sat, 21 Mar 2026 07:00:00 GMT"
+        },
+        {
           "title": "Noche de Museos 2025 en Santiago: Los imperdibles de la jornada - Chile es TUYO",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHJPdENhLTdlVi1EeTB3T0FrdFVMTVhvOVlWUmNGdUlOTmYxdS1UTTFnN3ZwSUt3dmZWa1V6NV9GNGFkQXN0cEo3Zm9JeFliUElpeFJxdkN0U0FuNERZZlpzSi1sZV9TeEVJV0RCV1BueTFDTjdNMXpsaVd0ZktsNjlMXzB0MmtyTzlPOUNJRDVrOV83dGpubVg3YjU?oc=5",
           "source": "Chile es TUYO",
           "pubdate": "Wed, 22 Oct 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Qué hacer en Santiago: museos para visitar en la capital - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLWdPbGtqeUp3U3Jnb19RTnp6Y0l0cC1YMXZrdEYzR1dxRmUxMlZIYURaMWlQeHNmMTRDUTV1b3JYZEpldUtHbUp1V0t4UHFLX29FaU9yQXRRc0wwR19IRFppOGd1bHVSRmJxUFRGWnl2NElEckpLSTlGaHlPbmEyWDBkWmQ4Sjg?oc=5",
+          "source": "La Nación",
+          "pubdate": "Fri, 26 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
+          "source": "Chile Travel",
+          "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Conoce las nuevas exposiciones temporales del Museo de la Memoria - Museo de la Memoria y los Derechos Humanos",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYS12QlVXREpjcFp0d3VmQ1FZM3V6eVJEeW9qM0JJWG1jbV9rSWY1a2xFNVhTaFNoSDM0RlZseklJVW54Yi1TbGdwd2k4Nm5jRHJFQTNhMk9HT3prV3dvV3dxRkx1amNTN1ZmRC1UdVdpeVE4Q1BGRTJndi1VN0lCcF94Q0tuOG9pYklsX0FITFpINExZUGhoMGhRcEgxYTNRWGJ4UTg4R240YW9tbFlDZk1R?oc=5",
+          "source": "Museo de la Memoria y los Derechos Humanos",
+          "pubdate": "Wed, 04 Mar 2026 08:00:00 GMT"
         },
         {
           "title": "Con curatoría UdeC: Museo Nacional de Bellas Artes inaugura muestra por el Centenario de Julio Escámez - Universidad de Concepción",
@@ -266,22 +266,16 @@
           "pubdate": "Sun, 10 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
-          "source": "Infobae",
-          "pubdate": "Fri, 26 Jun 2026 03:39:10 GMT"
+          "title": "Ch.ACO-16 inaugura su edición más grande y marca un nuevo ciclo con su regreso a Vitacura - Culturizarte",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmRReEJ3eXFvMm5wZVpvZTF5R1FocUE1WmtpM3pGQlg5S21ISTN1RWctODEzRGZLOGV2cWh3cEstR0R1UEpaV2kyZERIRFBPYXZPSTZseWQ1MHc1cXV2dEpnbTl0OTVUM1F3eUlVd1AzRGJTVWVhcVZlYVdBZ29HRHhZVE42VHU1VHd4YWxHMl9ZVW9uSjhUYkVaWmVWS1FZRlNXT2FQN3NETnNfbS11Qk9NeXA?oc=5",
+          "source": "Culturizarte",
+          "pubdate": "Thu, 26 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "Ch.ACO, la semana de arte y creatividad en Chile está por llegar - Architectural Digest México y Latinoamérica",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXdmTzlRSGlFZTZrUWVEZ3FoYncxSHFuMzA2MTVpVEtNcFVCd1A2N09YUkI2S3hPWTNJNGlnM1NTbmVfLTRYOUVTWDhJTVZYZTFrMU5lTmJkLWJpai1aMG8zNXJwZ0RfTVZtMm95UklMeGhkcEh1YXdmb2lTOUltZUVKdlpHcjFGN1Mw?oc=5",
           "source": "Architectural Digest México y Latinoamérica",
           "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Ch.ACO-16 inaugura su edición más grande y marca un nuevo ciclo con su regreso a Vitacura - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmRReEJ3eXFvMm5wZVpvZTF5R1FocUE1WmtpM3pGQlg5S21ISTN1RWctODEzRGZLOGV2cWh3cEstR0R1UEpaV2kyZERIRFBPYXZPSTZseWQ1MHc1cXV2dEpnbTl0OTVUM1F3eUlVd1AzRGJTVWVhcVZlYVdBZ29HRHhZVE42VHU1VHd4YWxHMl9ZVW9uSjhUYkVaWmVWS1FZRlNXT2FQN3NETnNfbS11Qk9NeXA?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Thu, 26 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "Art Stgo 2025 - gam.cl",
@@ -398,16 +392,16 @@
           "pubdate": "Fri, 27 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
-          "source": "Infobae",
-          "pubdate": "Fri, 26 Jun 2026 03:39:10 GMT"
-        },
-        {
           "title": "Penumbra - gam.cl",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jZlRoVENJQk1KMTJXMlRvWTlSVVg5RnQtSTR3eXp4X1NiTmhINnQ2SEItSjVYSzNsdGFjUkdqcUdVMGxUeE5Cclk3THR4MEVpZkhhaW9zRWphMFltd3I0RUpvSjdpYUczaFZWeHJhQ2hBb3B6MXQtaVU3bw?oc=5",
           "source": "gam.cl",
           "pubdate": "Sun, 28 Dec 2025 04:25:04 GMT"
+        },
+        {
+          "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
+          "source": "Infobae",
+          "pubdate": "Fri, 26 Jun 2026 03:39:10 GMT"
         },
         {
           "title": "Feria Art MOVA: más de 100 artistas visuales se reúnen en una exposición colectiva - Radio Concierto Chile - Sólo grandes canciones",
@@ -452,10 +446,10 @@
           "pubdate": "Fri, 13 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Mercado Gourmet: la feria gastronómica en Santiago que podrás disfrutar todo el año - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWDgwVkU5NTc0SGY1U2Y5bGZyR2JhQkc5UkpmMHpxRWxkS18zLW9Sa1h4SldWVzZpYlVmeXo4YkVfNFBfWEhVN0Y2dHFTTVdKNUZ4TUJtNjc3UnBXdEFUYzdZZ2V0M1FWVk43ZkR6WmIzQWVNazlNckVxMGJNOHpDbEtjZGhZbUQzMEFpbXh4SS00WGh4QmJjQjI0ZmQxREdGVkhreHBaaDlOUVpiZERXZmlDaHY3ZFRHT3VyUjdGcmlSa3Z6LTVLY2RyNWVsNmN3NTZCMWoyYjBoUW52bE9BRnJn?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Thu, 16 Apr 2026 07:00:00 GMT"
+          "title": "Qué hacer en Santiago: panoramas para mayo con cultura, música y entretención - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTnQwcVk5cTM0ZFRmc2VTN014aHFLNFNrcHVSN3Q4LTZyNE1DSHpKTV9OZmh3c3AtbjIyMG5tQlgxNUZMc2ZhTWtPZXpzMkxGak5zc01Ra0l5cWhtbnJDaS0xbUpGdkV3c2lCY01zOF95OGZkZExUa2QyamhTOHYxR0JYcHVaMUhXQkU4QjRrNlJTRFYtQll3b0l1M3Bnd3lTeWc?oc=5",
+          "source": "La Nación",
+          "pubdate": "Thu, 07 May 2026 07:00:00 GMT"
         },
         {
           "title": "Guía familiar: todos los panoramas gratuitos para disfrutar en las vacaciones de invierno 2026 - Canal 13",
@@ -840,6 +834,66 @@
       "descripcion": "",
       "categoria": "Exposición / Museos",
       "fuente": "MAC"
+    },
+    {
+      "nombre": "Exposición «Punto de Quiebre» en MAVI UC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XZmVFTEVQelMwVkFLYlN4R3Q1ZUxVUmxycTA5QjBhZngwYUNZNHpmSGVSQ0pDZ1pCRC1nMk5GSng1ejdwWFBDOVJrSmRqY3dXS2FiME9MWG04RU5QMU1TRXlZZzdvT3Z0YXhzUk01MmZDbDhURmtabzBNWFpSQQ?oc=5",
+      "fecha": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
+    },
+    {
+      "nombre": "Exposición «El Camino Amarillo» en MAVI UC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd1lWQTY4TmNFd2Z3NF9sWlFHdUlvMUVJMk9JUE5BRkYyTHc3NTFkVWI1RU8xLUhxc2o0LXJnb0tsSm9YMkUwM3dDUk5oQWVZNkwtZGhvOWR2THZ3VGEyckVfVUVJcVJDZnpNTTFTakpxTWlJdzN0QUdCelBXaEdyVA?oc=5",
+      "fecha": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
+    },
+    {
+      "nombre": "MAVI UC conmemora su 25° aniversario con gran exposición de su Colección",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZG5YYlhEdE9wRkd6V1dJbHc0bnA4WHVfWkk1aXg2M2dSb0JOeHhjdVJsMHR0bkhWeEplcE9WYXgtMnhfNm9lelV0M2oybTctbTVNLWFFNFJPOHQ2b05DMkN6Sm9Vc005NWxLcXFkcFM0bjNyLTJDUjh5UHhub3d4Y0ZqVExCZ0tMU00tMXZCWEpuRzdnS0JBSE1EZXh0M2tXMk1VemZUT2VOUQ?oc=5",
+      "fecha": "Fri, 10 Apr 2026 20:16:50 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
+    },
+    {
+      "nombre": "Exposición Colectiva del XVIII Premio MAVI UC LarrainVial Arte Joven",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTJfX3FIRmRscTA0TmsyQ1g3am5oMmxoZTc3R1BBOGtWaEpUTE1RLU5OQ2ZVaG55T0tJTDkxZ0tueF94ZngwRkppNUNCSmF5aUdaYml0cnFoVEVRcGlCS0tuNm1lcXh3QnJqRjctUFJnem0xc21PT2VabkRHVEVJanlFT2JnNmEtbGF1T0VhSjUwb1VCbWVnLTVRekhVM3VUeUtRWURDUQ?oc=5",
+      "fecha": "Wed, 25 Jun 2025 01:00:06 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
+    },
+    {
+      "nombre": "30 Años de Gracias Barrios en MAVI UC",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaVBTc01ZMEUtUUJKXzNoOGxPUW9TaV9KQW4xeUVwZGpMWjd5ZjZXQWVpS3VDcTF0RDU1Ri1udEdFajlpU3pGeXV3R0Y3Y185VFVBOTg2X2RTbzlfMUI4WVpmWmtoMVVMN19NNVUtZ0hiUzQ4WEN6RGtMTkFZTzR2Y1lDQVNRMzhoNVc0MUpfMXo2c3ZZanU4MFJvRQ?oc=5",
+      "fecha": "Wed, 25 Mar 2026 10:53:10 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
+    },
+    {
+      "nombre": "Exposición \"Códigos Populares\" en MAVI UC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xcnRiWVE0bENiRGJoNkZUUUZNa2hkcFBnV3hGQUpOVHZBVzk1VW9vVXJRcVdtR3k0VElYMUtxcFBpbWh0SXVnQnpFWlNpYkJjd3daQWN5cVRVMTZVdTJtS3V5QmdFeU9GWjE2QTQwdzF2NXQtUy1iS2c1dTFUVms?oc=5",
+      "fecha": "Wed, 09 Apr 2025 07:00:00 GMT",
+      "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
+      "precio": "Gratuito (domingo) / General $1.000",
+      "descripcion": "",
+      "categoria": "Exposición / Museos",
+      "fuente": "MAVI UC (vía Google News — sitio caído)"
     },
     {
       "nombre": "No todo viajero recorre caminos — De la humanidad como práctica",
