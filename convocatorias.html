@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACERCARTE — Convocatorias y Oportunidades</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">ACERCARTE</a>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="museos.html">Museos</a>
+            <a href="teatro.html">Teatro</a>
+            <a href="panoramas.html">Panoramas</a>
+            <a href="convocatorias.html" class="active">Convocatorias</a>
+        </div>
+    </nav>
+
+    <section class="section page-hero">
+        <div class="container">
+            <h2>💰 Convocatorias y Oportunidades</h2>
+            <p class="section-subtitle">Fondos concursables, residencias, becas, premios — actualizado lun–vie</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div id="conv-status" class="loading">Cargando oportunidades...</div>
+            <div id="conv-content" style="display:none;">
+                <div id="conv-filters" class="conv-filters" style="display:none;">
+                    <button class="conv-filter active" data-filter="todas">Todas</button>
+                    <button class="conv-filter" data-filter="fondos">💰 Fondos</button>
+                    <button class="conv-filter" data-filter="residencia">🏠 Residencias</button>
+                    <button class="conv-filter" data-filter="beca">🎓 Becas</button>
+                    <button class="conv-filter" data-filter="concurso">🏆 Concursos</button>
+                    <button class="conv-filter" data-filter="convocatoria">📋 Convocatorias</button>
+                </div>
+                <div id="conv-list" class="participaciones-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="conv-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script>
+    let todasOportunidades = [];
+
+    function escapeHTML(s) {
+        if (!s) return '';
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    async function init() {
+        try {
+            const resp = await fetch('datos/oportunidades.json');
+            const data = await resp.json();
+
+            document.getElementById('conv-status').style.display = 'none';
+            document.getElementById('conv-content').style.display = 'block';
+            document.getElementById('conv-date').textContent = data.fecha;
+
+            todasOportunidades = data.oportunidades || [];
+
+            if (todasOportunidades.length === 0) {
+                document.getElementById('conv-list').innerHTML = '<p class="agenda-empty-msg">No hay oportunidades nuevas hoy.</p>';
+                return;
+            }
+
+            const categorias = new Set(todasOportunidades.map(o => o.categoria));
+            if (categorias.size > 1) {
+                document.getElementById('conv-filters').style.display = 'flex';
+            }
+
+            renderOportunidades('todas');
+        } catch(e) {
+            document.getElementById('conv-status').innerHTML = '<div class="empty-state"><p>📡 Cargando...</p></div>';
+        }
+    }
+
+    function renderOportunidades(filtro) {
+        const list = document.getElementById('conv-list');
+        let items = todasOportunidades;
+        if (filtro !== 'todas') items = todasOportunidades.filter(o => o.categoria === filtro);
+
+        if (items.length === 0) {
+            list.innerHTML = '<p class="agenda-empty-msg">Sin resultados para este filtro.</p>';
+            return;
+        }
+
+        const catLabels = {
+            fondos: '💰 Fondos', residencia: '🏠 Residencia', beca: '🎓 Beca',
+            concurso: '🏆 Concurso', feria: '🎪 Feria', premio: '🥇 Premio',
+            convocatoria: '📋 Convocatoria'
+        };
+
+        list.innerHTML = items.map(op => '<div class="participacion-item">'
+            + '<div class="participacion-header">'
+            + '<span class="participacion-fecha">' + escapeHTML(op.deadline || 'Consultar') + '</span>'
+            + '<span class="participacion-estado estado-postulado">' + (catLabels[op.categoria] || op.categoria) + '</span>'
+            + '</div>'
+            + '<h3>' + escapeHTML(op.titulo) + '</h3>'
+            + '<p>' + escapeHTML(op.descripcion || '') + '</p>'
+            + '<p class="participacion-meta">'
+            + (op.fuente ? escapeHTML(op.fuente) + ' · ' : '')
+            + (op.link ? '<a href="' + escapeHTML(op.link) + '" target="_blank" rel="noopener">Ver más →</a>' : '')
+            + (op.monto ? ' · Monto: ' + escapeHTML(op.monto) : '')
+            + '</p></div>'
+        ).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('conv-filter')) {
+            document.querySelectorAll('.conv-filter').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            renderOportunidades(e.target.dataset.filter);
+        }
+    });
+    </script>
+</body>
+</html>

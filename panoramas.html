@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACERCARTE — Panoramas Gratis</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">ACERCARTE</a>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="museos.html">Museos</a>
+            <a href="teatro.html">Teatro</a>
+            <a href="panoramas.html" class="active">Panoramas</a>
+            <a href="convocatorias.html">Convocatorias</a>
+        </div>
+    </nav>
+
+    <section class="section page-hero">
+        <div class="container">
+            <h2>📸 Panoramas Gratis</h2>
+            <p class="section-subtitle">Eventos gratuitos en Santiago — desde <a href="https://www.instagram.com/panoramasgratis/" target="_blank" style="color:var(--accent);">@panoramasgratis</a></p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div id="pg-status" class="loading">Cargando panoramas...</div>
+            <div id="pg-content" style="display:none;">
+                <div id="pg-filters" class="pg-filters" style="display:none;">
+                    <div id="pg-cat-filters" class="pg-cat-filters"></div>
+                    <div class="pg-sort-row">
+                        <span class="pg-sort-label">Ordenar:</span>
+                        <button class="pg-sort active" data-sort="default">🔥 Relevancia</button>
+                        <button class="pg-sort" data-sort="soonest">📅 Próximos</button>
+                        <button class="pg-sort" data-sort="ending">⏳ Últimos días</button>
+                        <span id="pg-count" class="pg-count"></span>
+                    </div>
+                </div>
+                <div id="pg-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="pg-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script>
+    let allPanoramaEvents = [];
+    let currentPgFilter = 'todas';
+    let currentPgSort = 'default';
+
+    function escapeHTML(s) {
+        if (!s) return '';
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    async function init() {
+        try {
+            const resp = await fetch('datos/panoramas-gratis.json');
+            const data = await resp.json();
+
+            document.getElementById('pg-status').style.display = 'none';
+            document.getElementById('pg-content').style.display = 'block';
+            document.getElementById('pg-date').textContent = data.fecha;
+
+            allPanoramaEvents = [];
+            data.posts.forEach(post => {
+                (post.events || []).forEach(ev => {
+                    allPanoramaEvents.push({...ev, postHeader: post.header, postUrl: post.url, postDate: post.date});
+                });
+            });
+
+            if (allPanoramaEvents.length === 0) {
+                document.getElementById('pg-list').innerHTML = '<p class="agenda-empty-msg">No hay panoramas nuevos.</p>';
+                return;
+            }
+
+            const catAvail = data.categorias_disponibles || [];
+            if (catAvail.length > 1) {
+                document.getElementById('pg-filters').style.display = 'block';
+                document.getElementById('pg-cat-filters').innerHTML =
+                    '<button class="pg-cat-filter active" data-cat="todas">Todas</button>' +
+                    catAvail.map(cat => '<button class="pg-cat-filter" data-cat="' + escapeHTML(cat) + '">' + escapeHTML(cat) + '</button>').join('');
+            }
+
+            render();
+        } catch(e) {
+            document.getElementById('pg-status').innerHTML = '<div class="empty-state"><p>📡 Cargando...</p></div>';
+        }
+    }
+
+    function render() {
+        const list = document.getElementById('pg-list');
+        let events = [...allPanoramaEvents];
+
+        if (currentPgFilter !== 'todas')
+            events = events.filter(ev => (ev.categories || []).some(c => c[1] === currentPgFilter));
+
+        if (currentPgSort === 'soonest') {
+            events.sort((a, b) => {
+                const da = a.date_start ? new Date(a.date_start) : null;
+                const db = b.date_start ? new Date(b.date_start) : null;
+                if (da && db) return da - db;
+                if (da) return -1; if (db) return 1; return 0;
+            });
+        } else if (currentPgSort === 'ending') {
+            events.sort((a, b) => {
+                const da = a.date_end ? new Date(a.date_end) : null;
+                const db = b.date_end ? new Date(b.date_end) : null;
+                if (da && db) return da - db;
+                if (da) return -1; if (db) return 1; return 0;
+            });
+        }
+
+        document.getElementById('pg-count').textContent = events.length + ' de ' + allPanoramaEvents.length + ' eventos';
+
+        const grouped = {};
+        events.forEach(ev => {
+            const key = ev.postHeader || 'Sin categoría';
+            if (!grouped[key]) grouped[key] = {header: key, url: ev.postUrl, date: ev.postDate, events: []};
+            grouped[key].events.push(ev);
+        });
+
+        list.innerHTML = Object.values(grouped).map(post => {
+            let html = '<div class="pg-post">';
+            if (post.header) html += '<h3 class="pg-post-header">' + escapeHTML(post.header) + '</h3>';
+            html += '<div class="pg-header"><span class="pg-date">📅 ' + escapeHTML(post.date || '') + '</span>'
+                + '<a href="' + escapeHTML(post.url) + '" target="_blank" class="pg-link">Ver en Instagram →</a></div>'
+                + '<div class="pg-events">';
+            post.events.forEach(ev => {
+                html += '<div class="pg-event-card">';
+                if (ev.categories && ev.categories.length > 0) {
+                    html += '<div class="pg-ev-tags">';
+                    ev.categories.forEach(c => {
+                        html += '<span class="pg-ev-tag">' + c[0] + ' ' + escapeHTML(c[1]) + '</span>';
+                    });
+                    html += '</div>';
+                }
+                if (ev.time || ev.date) {
+                    html += '<div class="pg-event-when">';
+                    if (ev.time) html += '<span class="pg-ev-time">🕐 ' + escapeHTML(ev.time) + '</span>';
+                    if (ev.date) html += '<span class="pg-ev-date">📆 ' + escapeHTML(ev.date) + '</span>';
+                    html += '</div>';
+                }
+                if (ev.description) html += '<p class="pg-ev-desc">' + escapeHTML(ev.description) + '</p>';
+                if (ev.location || ev.extra) {
+                    html += '<div class="pg-ev-meta">';
+                    if (ev.location) html += '<span class="pg-ev-loc">📍 ' + escapeHTML(ev.location) + '</span>';
+                    if (ev.extra) html += '<span class="pg-ev-extra">ℹ️ ' + escapeHTML(ev.extra) + '</span>';
+                    html += '</div>';
+                }
+                html += '</div>';
+            });
+            html += '</div></div>';
+            return html;
+        }).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('pg-cat-filter')) {
+            document.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentPgFilter = e.target.dataset.cat;
+            render();
+        }
+        if (e.target.classList.contains('pg-sort')) {
+            document.querySelectorAll('.pg-sort').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentPgSort = e.target.dataset.sort;
+            render();
+        }
+    });
+    </script>
+</body>
+</html>

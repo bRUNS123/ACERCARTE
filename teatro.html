@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACERCARTE — Teatro y Artes Escénicas</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">ACERCARTE</a>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="museos.html">Museos</a>
+            <a href="teatro.html" class="active">Teatro</a>
+            <a href="panoramas.html">Panoramas</a>
+            <a href="convocatorias.html">Convocatorias</a>
+        </div>
+    </nav>
+
+    <section class="section page-hero">
+        <div class="container">
+            <h2>🎭 Teatro y Artes Escénicas</h2>
+            <p class="section-subtitle">Teatro Municipal, Centro GAM, Matucana 100 — cartelera actualizada</p>
+            <div id="filters" class="pg-filters" style="display:none;">
+                <div id="cat-filters" class="pg-cat-filters"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div id="status" class="loading">Cargando cartelera...</div>
+            <div id="content" style="display:none;">
+                <div id="teatro-list" class="expo-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script>
+    const TEATRO_KW = ['Teatro Municipal', 'GAM', 'Matucana', 'teatro', 'danza', 'ballet',
+                        'ópera', 'opera', 'escénica', 'escenica', 'concierto', 'recital',
+                        'murga', 'musical'];
+    let allEvents = [];
+    let currentFilter = 'todas';
+
+    function escapeHTML(s) {
+        if (!s) return '';
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    async function init() {
+        try {
+            const resp = await fetch('datos/agenda.json');
+            const data = await resp.json();
+            document.getElementById('date').textContent = data.fecha;
+
+            allEvents = [];
+            for (const ev of data.eventos_directos || []) {
+                const cat = ((ev.categoria || '') + ' ' + (ev.fuente || '')).toLowerCase();
+                if (TEATRO_KW.some(k => cat.includes(k.toLowerCase()))) {
+                    allEvents.push({...ev, _normCat: normCat(ev.categoria || '', ev.fuente || '')});
+                }
+            }
+
+            document.getElementById('status').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+
+            if (allEvents.length === 0) {
+                document.getElementById('teatro-list').innerHTML =
+                    '<p class="agenda-empty-msg">No hay funciones en este momento.</p>';
+                return;
+            }
+
+            const cats = new Set(allEvents.map(e => e._normCat));
+            const catList = ['todas', ...Array.from(cats).sort()];
+            document.getElementById('filters').style.display = 'block';
+            document.getElementById('cat-filters').innerHTML = catList.map(c =>
+                '<button class="pg-cat-filter' + (c === 'todas' ? ' active' : '') +
+                '" data-cat="' + c + '">' + (c === 'todas' ? 'Todas' : c) + '</button>'
+            ).join('');
+
+            render();
+        } catch(e) {
+            document.getElementById('status').innerHTML = '<div class="empty-state"><p>📡 Cargando...</p></div>';
+        }
+    }
+
+    function normCat(cat, fuente) {
+        const lower = (cat + ' ' + fuente).toLowerCase();
+        if (lower.includes('ballet') || lower.includes('danza')) return 'Ballet/Danza';
+        if (lower.includes('ópera') || lower.includes('opera')) return 'Ópera';
+        if (lower.includes('concierto') || lower.includes('recital') || lower.includes('música') || lower.includes('musica')) return 'Música';
+        if (lower.includes('teatro') || lower.includes('murga') || lower.includes('escénica') || lower.includes('escenica')) return 'Teatro';
+        if (lower.includes('visita')) return 'Visitas Guiadas';
+        return 'General';
+    }
+
+    function render() {
+        const list = document.getElementById('teatro-list');
+        let events = [...allEvents];
+        if (currentFilter !== 'todas') events = events.filter(e => e._normCat === currentFilter);
+
+        list.innerHTML = events.map(ev => {
+            const link = ev.link || '#';
+            return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
+                + '<div class="expo-card evento-directo">'
+                + '🎭 <span class="expo-link">' + escapeHTML(ev.nombre || '') + '</span>'
+                + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+                + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+                + (ev.precio ? '<div class="expo-meta">💰 ' + escapeHTML(ev.precio) + '</div>' : '')
+                + (ev.ticket_link ? '<div class="expo-meta"><a href="' + escapeHTML(ev.ticket_link) + '" target="_blank" class="ticket-link">🎫 Comprar entradas →</a></div>' : '')
+                + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+                + '</div></a>';
+        }).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('pg-cat-filter')) {
+            document.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.cat;
+            render();
+        }
+    });
+    </script>
+</body>
+</html>

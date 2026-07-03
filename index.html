@@ -4,226 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ACERCARTE — Espacio colectivo de arte y dirección. Exhibimos, difundimos y conectamos arte emergente.">
-    <title>ACERCARTE — Espacio Colectivo de Arte</title>
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <title>ACERCARTE — Inicio</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
-    <!-- ACERCARTE v2 — Julio 2026 -->
-    <!-- Hero -->
-    <header class="hero">
-        <nav class="nav">
-            <a href="#" class="logo">ACERCARTE</a>
-            <div class="nav-links">
-                <a href="#panoramas">Panoramas</a>
-                <a href="#agenda">Agenda</a>
-                <a href="#convocatorias">Convocatorias</a>
-                <a href="#exposiciones">Exposiciones</a>
-                <a href="#artistas">Artistas</a>
-                <a href="#colectivo">Colectivo</a>
-                <a href="#contacto">Contacto</a>
-            </div>
-        </nav>
+    <nav class="nav">
+        <a href="index.html" class="logo">ACERCARTE</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="museos.html">Museos</a>
+            <a href="teatro.html">Teatro</a>
+            <a href="panoramas.html">Panoramas</a>
+            <a href="convocatorias.html">Convocatorias</a>
+        </div>
+    </nav>
+
+    <header class="hero-mini">
         <div class="hero-content">
             <h1 class="hero-title">ACERCARTE</h1>
             <p class="hero-subtitle">Espacio colectivo de arte y dirección</p>
-            <p class="hero-text">Una plataforma para mostrar, difundir y exhibir arte.<br>El arte te encuentra.</p>
-            <a href="#agenda" class="btn">Explorar</a>
         </div>
-        <div class="scroll-indicator">↓</div>
     </header>
 
-    <!-- Manifiesto -->
-    <section class="section manifesto" id="manifiesto">
+    <!-- 🔥 Destacados -->
+    <section class="section" id="destacados">
         <div class="container">
-            <h2>Manifiesto</h2>
-            <div class="manifesto-grid">
-                <div class="manifesto-card">
-                    <span class="icon">🖼️</span>
-                    <h3>Exhibir</h3>
-                    <p>Galería virtual con exposiciones curadas que trascienden el espacio físico.</p>
-                </div>
-                <div class="manifesto-card">
-                    <span class="icon">📡</span>
-                    <h3>Difundir</h3>
-                    <p>Plataforma de difusión que amplifica la voz de artistas emergentes.</p>
-                </div>
-                <div class="manifesto-card">
-                    <span class="icon">🤝</span>
-                    <h3>Conectar</h3>
-                    <p>Puente entre creadores, curadores y público. El arte es encuentro.</p>
-                </div>
-                <div class="manifesto-card">
-                    <span class="icon">🌱</span>
-                    <h3>Colectivo</h3>
-                    <p>Construido y nutrido por la comunidad. Crecemos juntos.</p>
-                </div>
+            <h2>🔥 Destacados</h2>
+            <p class="section-subtitle">Los eventos más relevantes esta semana</p>
+            <div id="destacados-status" class="loading">Cargando...</div>
+            <div id="destacados-content" style="display:none;">
+                <div id="destacados-list" class="expo-list"></div>
             </div>
         </div>
     </section>
 
-    <!-- 🆕 Agenda Cultural (dinámica: datos/agenda.json) -->
-    <section class="section agenda" id="agenda">
+    <!-- 🎯 Resumen por sección -->
+    <section class="section section-alt">
         <div class="container">
-            <h2>Agenda Cultural</h2>
-            <p class="section-subtitle">Teatro, museos, galerías, diseño — actualizado automáticamente</p>
-            <div id="agenda-status" class="loading">Cargando agenda...</div>
-            <div id="agenda-content" style="display:none;">
-                <!-- MNBA -->
-                <div id="agenda-mnba" class="agenda-block" style="display:none;">
-                    <h3>🏛️ MNBA — Exposiciones Actuales</h3>
-                    <div id="agenda-mnba-list" class="expo-list"></div>
-                </div>
-                <!-- Eventos Directos (scraping de venues) -->
-                <div id="agenda-directos" class="agenda-block" style="display:none;">
-                    <h3>🎯 Eventos en Santiago — Datos Directos</h3>
-                    <div id="agenda-directos-filters" class="pg-filters" style="display:none;">
-                        <div id="agenda-directos-cats" class="pg-cat-filters"></div>
-                        <div class="pg-sort-row">
-                            <span class="pg-sort-label">Ordenar:</span>
-                            <button class="pg-sort active" data-sort="default">🔥 Relevancia</button>
-                            <button class="pg-sort" data-sort="soonest">📅 Próximos</button>
-                            <button class="pg-sort" data-sort="ending">⏳ Últimos días</button>
-                            <span id="ad-count" class="pg-count"></span>
-                        </div>
-                    </div>
-                    <div id="agenda-directos-list" class="expo-list"></div>
-                </div>
-                <!-- Categorías -->
-                <div id="agenda-categories"></div>
-                <p class="agenda-updated">Actualizado: <span id="agenda-date"></span></p>
+            <h2>Explorá por categoría</h2>
+            <div class="category-grid">
+                <a href="museos.html" class="category-card">
+                    <span class="cat-emoji">🏛️</span>
+                    <h3>Museos y Exposiciones</h3>
+                    <p>MAC, MNBA, MAVI, Museo de la Memoria, CCLM</p>
+                    <span class="cat-count" id="count-museos">—</span>
+                </a>
+                <a href="teatro.html" class="category-card">
+                    <span class="cat-emoji">🎭</span>
+                    <h3>Teatro y Artes Escénicas</h3>
+                    <p>Teatro Municipal, GAM, Matucana 100</p>
+                    <span class="cat-count" id="count-teatro">—</span>
+                </a>
+                <a href="panoramas.html" class="category-card">
+                    <span class="cat-emoji">📸</span>
+                    <h3>Panoramas Gratis</h3>
+                    <p>Eventos gratuitos desde @panoramasgratis</p>
+                    <span class="cat-count" id="count-panoramas">—</span>
+                </a>
+                <a href="convocatorias.html" class="category-card">
+                    <span class="cat-emoji">💰</span>
+                    <h3>Convocatorias</h3>
+                    <p>Fondos, becas, residencias, concursos</p>
+                    <span class="cat-count" id="count-convocatorias">—</span>
+                </a>
             </div>
-        </div>
-    </section>
-
-    <!-- 🆕 Convocatorias / Oportunidades (dinámica: datos/oportunidades.json) -->
-    <section class="section convocatorias" id="convocatorias">
-        <div class="container">
-            <h2>Convocatorias y Oportunidades</h2>
-            <p class="section-subtitle">Fondos concursables, residencias, becas — actualizado lun–vie</p>
-            <div id="conv-status" class="loading">Cargando oportunidades...</div>
-            <div id="conv-content" style="display:none;">
-                <div id="conv-filters" class="conv-filters" style="display:none;">
-                    <button class="conv-filter active" data-filter="todas">Todas</button>
-                    <button class="conv-filter" data-filter="fondos">💰 Fondos</button>
-                    <button class="conv-filter" data-filter="residencia">🏠 Residencias</button>
-                    <button class="conv-filter" data-filter="beca">🎓 Becas</button>
-                    <button class="conv-filter" data-filter="concurso">🏆 Concursos</button>
-                    <button class="conv-filter" data-filter="convocatoria">📋 Convocatorias</button>
-                </div>
-                <div id="conv-list" class="participaciones-list"></div>
-                <p class="agenda-updated">Actualizado: <span id="conv-date"></span></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 🆕 Panoramas Gratis (dinámica: datos/panoramas-gratis.json) -->
-    <section class="section panoramas" id="panoramas">
-        <div class="container">
-            <h2>📸 Panoramas Gratis</h2>
-            <p class="section-subtitle">Eventos gratuitos en Santiago — desde <a href="https://www.instagram.com/panoramasgratis/" target="_blank" style="color:var(--accent);">@panoramasgratis</a></p>
-            <div id="pg-status" class="loading">Cargando panoramas...</div>
-            <div id="pg-content" style="display:none;">
-                <!-- Filtros -->
-                <div id="pg-filters" class="pg-filters" style="display:none;">
-                    <div id="pg-cat-filters" class="pg-cat-filters"></div>
-                    <div class="pg-sort-row">
-                        <span class="pg-sort-label">Ordenar:</span>
-                        <button class="pg-sort active" data-sort="default">🔥 Relevancia</button>
-                        <button class="pg-sort" data-sort="soonest">📅 Próximos</button>
-                        <button class="pg-sort" data-sort="ending">⏳ Últimos días</button>
-                        <span id="pg-count" class="pg-count"></span>
-                    </div>
-                </div>
-                <div id="pg-list"></div>
-                <p class="agenda-updated">Actualizado: <span id="pg-date"></span></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Exposiciones -->
-    <section class="section exposiciones" id="exposiciones">
-        <div class="container">
-            <h2>Exposiciones</h2>
-            <p class="section-subtitle">Próximamente — Espacio curatorial en construcción</p>
-            <div class="gallery-grid">
-                <div class="gallery-item placeholder">
-                    <div class="gallery-placeholder">
-                        <span>+</span>
-                        <p>Tu obra aquí</p>
-                    </div>
-                </div>
-                <div class="gallery-item placeholder">
-                    <div class="gallery-placeholder">
-                        <span>+</span>
-                        <p>Tu obra aquí</p>
-                    </div>
-                </div>
-                <div class="gallery-item placeholder">
-                    <div class="gallery-placeholder">
-                        <span>+</span>
-                        <p>Tu obra aquí</p>
-                    </div>
-                </div>
-                <div class="gallery-item placeholder">
-                    <div class="gallery-placeholder">
-                        <span>+</span>
-                        <p>Tu obra aquí</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Artistas -->
-    <section class="section artistas" id="artistas">
-        <div class="container">
-            <h2>Artistas</h2>
-            <p class="section-subtitle">Convocatoria abierta — Sumate al colectivo</p>
-            <div class="artist-call">
-                <p>¿Sos artista visual, digital, escultor, fotógrafo o creador?<br>ACERCARTE es tu espacio.</p>
-                <a href="#contacto" class="btn btn-outline">Quiero participar</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Colectivo -->
-    <section class="section colectivo" id="colectivo">
-        <div class="container">
-            <h2>El Colectivo</h2>
-            <div class="colectivo-content">
-                <p>ACERCARTE no es solo una página web — es un <strong>espacio vivo</strong> que crece con cada artista que se suma, cada obra que se exhibe y cada persona que se acerca.</p>
-                <p>Creemos en el arte como <strong>experiencia compartida</strong>, no como objeto de consumo. Creemos en les artistas, en su visión y en su capacidad de transformar el mundo.</p>
-                <blockquote>"El arte no reproduce lo visible. Lo hace visible." <cite>— Paul Klee</cite></blockquote>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contacto -->
-    <section class="section contacto" id="contacto">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p class="section-subtitle">Escribinos para exponer, colaborar o sumarte al colectivo</p>
-            <form class="contact-form" action="#" method="POST">
-                <div class="form-group">
-                    <input type="text" name="nombre" placeholder="Nombre" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                    <select name="motivo">
-                        <option value="">¿Qué te acerca?</option>
-                        <option value="exponer">Quiero exponer mi obra</option>
-                        <option value="colaborar">Quiero colaborar</option>
-                        <option value="colectivo">Quiero sumarme al colectivo</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-                </div>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
         </div>
     </section>
 
@@ -237,5 +81,102 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+    // Load highlights and counts for index page
+    document.addEventListener('DOMContentLoaded', () => {
+        loadDestacados();
+        loadCounts();
+    });
+
+    async function loadDestacados() {
+        try {
+            const [agenda, panoramas] = await Promise.all([
+                fetch('datos/agenda.json').then(r => r.json()),
+                fetch('datos/panoramas-gratis.json').then(r => r.json())
+            ]);
+
+            const status = document.getElementById('destacados-status');
+            const content = document.getElementById('destacados-content');
+            const list = document.getElementById('destacados-list');
+
+            status.style.display = 'none';
+            content.style.display = 'block';
+
+            // Pick highlights: first 2 from direct events, 1 MNBA, 2 panoramas
+            const highlights = [];
+            if (agenda.eventos_directos) {
+                // Pick one from each top venue
+                const seen = new Set();
+                for (const ev of agenda.eventos_directos) {
+                    const fte = ev.fuente || '';
+                    if (!seen.has(fte) && highlights.length < 5) {
+                        seen.add(fte);
+                        highlights.push({...ev, _type: 'evento'});
+                    }
+                }
+            }
+            if (agenda.mnba && agenda.mnba.length > 0) {
+                highlights.push({...agenda.mnba[0], _type: 'mnba', link: agenda.mnba[0].link});
+            }
+            if (panoramas.posts) {
+                for (const post of panoramas.posts.slice(0, 2)) {
+                    if (post.events && post.events.length > 0) {
+                        const ev = post.events[0];
+                        highlights.push({
+                            nombre: ev.description || ev.date || 'Panorama',
+                            link: post.url,
+                            lugar: ev.location || 'Santiago',
+                            fecha: ev.date || '',
+                            fuente: 'Panoramas Gratis',
+                            _type: 'panorama'
+                        });
+                    }
+                }
+            }
+
+            list.innerHTML = highlights.slice(0, 8).map(ev => {
+                const link = ev.link || '#';
+                const tipo = ev._type === 'mnba' ? '🖼️' : ev._type === 'panorama' ? '📸' : '🎯';
+                return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
+                    + '<div class="expo-card highlight-card">'
+                    + tipo + ' <span class="expo-link">' + escapeHTML(ev.nombre || '') + '</span>'
+                    + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+                    + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+                    + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+                    + '</div></a>';
+            }).join('');
+
+        } catch(e) {
+            console.warn('Error loading highlights:', e);
+        }
+    }
+
+    async function loadCounts() {
+        try {
+            const [agenda, panoramas, conv] = await Promise.all([
+                fetch('datos/agenda.json').then(r => r.json()),
+                fetch('datos/panoramas-gratis.json').then(r => r.json()),
+                fetch('datos/oportunidades.json').then(r => r.json()).catch(() => ({oportunidades:[]}))
+            ]);
+
+            // Count museums vs theater
+            const museosKw = ['MAC', 'MAVI', 'MNBA', 'Memoria', 'CCLM', 'museo', 'exposición'];
+            const teatroKw = ['Teatro', 'GAM', 'Matucana', 'Danza', 'Escénicas'];
+
+            let museos = 0, teatro = 0;
+            for (const ev of agenda.eventos_directos || []) {
+                const cat = (ev.categoria || '') + (ev.fuente || '');
+                if (museosKw.some(k => cat.includes(k))) museos++;
+                if (teatroKw.some(k => cat.includes(k))) teatro++;
+            }
+            museos += (agenda.mnba || []).length;
+
+            document.getElementById('count-museos').textContent = museos + ' eventos';
+            document.getElementById('count-teatro').textContent = teatro + ' eventos';
+            document.getElementById('count-panoramas').textContent = (panoramas.total_eventos || 0) + ' eventos';
+            document.getElementById('count-convocatorias').textContent = (conv.oportunidades || []).length + ' oportunidades';
+        } catch(e) {}
+    }
+    </script>
 </body>
 </html>

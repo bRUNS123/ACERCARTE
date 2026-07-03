@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACERCARTE — Museos y Exposiciones</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">ACERCARTE</a>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="museos.html" class="active">Museos</a>
+            <a href="teatro.html">Teatro</a>
+            <a href="panoramas.html">Panoramas</a>
+            <a href="convocatorias.html">Convocatorias</a>
+        </div>
+    </nav>
+
+    <section class="section page-hero">
+        <div class="container">
+            <h2>🏛️ Museos y Exposiciones</h2>
+            <p class="section-subtitle">MAC, MNBA, MAVI, Museo de la Memoria, CCLM — exposiciones y actividades vigentes</p>
+            <div id="filters" class="pg-filters" style="display:none;">
+                <div id="cat-filters" class="pg-cat-filters"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div id="status" class="loading">Cargando museos...</div>
+            <div id="content" style="display:none;">
+                <div id="museos-list" class="expo-list"></div>
+                <p class="agenda-updated">Actualizado: <span id="date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">ACERCARTE</p>
+            <p class="footer-tagline">Espacio colectivo de arte y dirección</p>
+            <p class="footer-copy">&copy; 2026 ACERCARTE. El arte te encuentra.</p>
+        </div>
+    </footer>
+
+    <script>
+    const MUSEOS_KW = ['MAC', 'MAVI', 'MNBA', 'Memoria', 'CCLM', 'museo', 'exposición', 'exposicion',
+                        'patrimonio', 'galería', 'galeria', 'muestra'];
+    let allEvents = [];
+    let currentFilter = 'todas';
+
+    function escapeHTML(s) {
+        if (!s) return '';
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    async function init() {
+        try {
+            const resp = await fetch('datos/agenda.json');
+            const data = await resp.json();
+
+            document.getElementById('date').textContent = data.fecha;
+
+            // Filter: museums + exhibitions
+            allEvents = [];
+            for (const ev of data.eventos_directos || []) {
+                const cat = ((ev.categoria || '') + ' ' + (ev.fuente || '') + ' ' + (ev.lugar || '')).toLowerCase();
+                if (MUSEOS_KW.some(k => cat.includes(k.toLowerCase()))) {
+                    allEvents.push({...ev, _normCat: normCat(ev.categoria || '')});
+                }
+            }
+            // Add MNBA
+            for (const ex of data.mnba || []) {
+                allEvents.push({
+                    nombre: ex.nombre, link: ex.link, fecha: ex.horario || '',
+                    lugar: ex.lugar || '', precio: ex.entrada || '',
+                    fuente: 'MNBA', _normCat: 'MNBA'
+                });
+            }
+
+            document.getElementById('status').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+
+            if (allEvents.length === 0) {
+                document.getElementById('museos-list').innerHTML =
+                    '<p class="agenda-empty-msg">No hay exposiciones en este momento.</p>';
+                return;
+            }
+
+            // Build filters
+            const cats = new Set(allEvents.map(e => e._normCat));
+            const catList = ['todas', ...Array.from(cats).sort()];
+            const filtersEl = document.getElementById('filters');
+            const catEl = document.getElementById('cat-filters');
+            filtersEl.style.display = 'block';
+            catEl.innerHTML = catList.map(c =>
+                '<button class="pg-cat-filter' + (c === 'todas' ? ' active' : '') +
+                '" data-cat="' + c + '">' + (c === 'todas' ? 'Todas' : c) + '</button>'
+            ).join('');
+
+            render();
+        } catch(e) {
+            document.getElementById('status').innerHTML = '<div class="empty-state"><p>📡 Cargando datos...</p></div>';
+        }
+    }
+
+    function normCat(cat) {
+        const lower = (cat || '').toLowerCase();
+        if (lower.includes('museo')) return 'Museos';
+        if (lower.includes('exposición') || lower.includes('exposicion') || lower.includes('muestra')) return 'Exposiciones';
+        if (lower.includes('cultura') || lower.includes('centro cultural')) return 'Cultura';
+        if (lower.includes('patrimonio')) return 'Patrimonio';
+        if (lower.includes('galería') || lower.includes('galeria')) return 'Galerías';
+        return 'General';
+    }
+
+    function render() {
+        const list = document.getElementById('museos-list');
+        let events = [...allEvents];
+        if (currentFilter !== 'todas') {
+            events = events.filter(e => e._normCat === currentFilter);
+        }
+
+        list.innerHTML = events.map(ev => {
+            const link = ev.link || '#';
+            return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
+                + '<div class="expo-card evento-directo">'
+                + '🖼️ <span class="expo-link">' + escapeHTML(ev.nombre || '') + '</span>'
+                + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+                + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+                + (ev.precio ? '<div class="expo-meta">💰 ' + escapeHTML(ev.precio) + '</div>' : '')
+                + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+                + '</div></a>';
+        }).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('pg-cat-filter')) {
+            document.querySelectorAll('.pg-cat-filter').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.cat;
+            render();
+        }
+    });
+    </script>
+</body>
+</html>
