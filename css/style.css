@@ -544,6 +544,25 @@ blockquote cite {
     font-size: 0.95rem;
 }
 
+.expo-link {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.25s;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.expo-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.expo-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+}
+
 .agenda-cat {
     margin-bottom: 2.5rem;
 }

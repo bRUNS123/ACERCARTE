@@ -35,7 +35,19 @@ async function loadAgenda() {
             const mnbaList = document.getElementById('agenda-mnba-list');
             mnbaBlock.style.display = 'block';
             mnbaList.innerHTML = data.mnba
-                .map(ex => `<div class="expo-card">🖼️ ${escapeHTML(ex.nombre)}</div>`)
+                .map(ex => {
+                    const nombre = ex.nombre || ex;
+                    const link = ex.link || '#';
+                    const lugar = ex.lugar || '';
+                    const horario = ex.horario || '';
+                    const entrada = ex.entrada || '';
+                    return '<div class="expo-card">'
+                        + '🖼️ <a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-link">' + escapeHTML(nombre) + '</a>'
+                        + (lugar ? '<div class="expo-meta">📍 ' + escapeHTML(lugar) + '</div>' : '')
+                        + (horario ? '<div class="expo-meta">🕐 ' + escapeHTML(horario) + '</div>' : '')
+                        + (entrada ? '<div class="expo-meta">🎫 ' + escapeHTML(entrada) + '</div>' : '')
+                        + '</div>';
+                })
                 .join('');
         }
 
