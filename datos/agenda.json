@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-07-03T13:50:30.821253",
+  "actualizado": "2026-07-03T13:52:17.686822",
   "fecha": "03/07/2026",
   "total_items": 77,
-  "total_eventos_directos": 16,
+  "total_eventos_directos": 25,
   "mnba": [
     {
       "nombre": "145 años: Historias de una Colección",
@@ -610,6 +610,96 @@
       "descripcion": "",
       "categoria": "Exposición / Museos",
       "fuente": "MAC"
+    },
+    {
+      "nombre": "No todo viajero recorre caminos — De la humanidad como práctica",
+      "link": "https://www.cclm.cl/exposicion/no-todo-viajero-recorre-caminos-de-la-humanidad-como-practica/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "La ronda del Sol y la Luna",
+      "link": "https://www.cclm.cl/exposicion/la-ronda-del-sol-y-la-luna/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "VIVIR EL ARCHIVO",
+      "link": "https://www.cclm.cl/exposicion/vivir-el-archivo/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Campos alterados",
+      "link": "https://www.cclm.cl/exposicion/campos-alterados/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Alquimias del habitar",
+      "link": "https://www.cclm.cl/exposicion/alquimias-del-habitar/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Artistas Yungay en vivo",
+      "link": "https://www.cclm.cl/actividades/artistas-yungay-en-vivo-2026/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Feria Malqueridas",
+      "link": "https://www.cclm.cl/actividades/feria-malqueridas-3/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Chi-kung",
+      "link": "https://www.cclm.cl/actividades/chi-kung/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
+      "nombre": "Taichí",
+      "link": "https://www.cclm.cl/actividades/taichi-2/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
     },
     {
       "nombre": "Macbeth Alamala",
