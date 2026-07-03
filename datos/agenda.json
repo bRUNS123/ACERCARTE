@@ -1,16 +1,49 @@
 {
-  "actualizado": "2026-07-03T11:55:05.170785",
+  "actualizado": "2026-07-03T13:00:03.115934",
   "fecha": "03/07/2026",
-  "total_items": 112,
+  "total_items": 104,
   "mnba": [
     {
-      "nombre": "145 años: Historias de una Colección"
+      "nombre": "Qué necesitas",
+      "link": "https://www.mnba.gob.cl/servicios",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
     },
     {
-      "nombre": "Roberto Matta. Abrir la mirada"
+      "nombre": "Cartelera",
+      "link": "https://www.mnba.gob.cl/cartelera",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
     },
     {
-      "nombre": "Una colección en expansión (1900-1980). Nuevas adquisiciones"
+      "nombre": "Colección MNBA",
+      "link": "https://www.mnba.gob.cl/antecedentes-de-las-colecciones-del-mnba-0",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
+    },
+    {
+      "nombre": "Quinsac",
+      "link": "https://www.mnba.gob.cl/base-de-datos-quinsac",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
+    },
+    {
+      "nombre": "Multimedia",
+      "link": "https://www.mnba.gob.cl/multimedia",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
+    },
+    {
+      "nombre": "Noticias",
+      "link": "https://www.mnba.gob.cl/noticias",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
     }
   ],
   "categorias": [
@@ -25,16 +58,16 @@
           "pubdate": "Thu, 18 Dec 2025 02:34:29 GMT"
         },
         {
-          "title": "Con entradas a $2.000 y una amplia cartelera: Santiago celebra este lunes el Día Nacional del Teatro - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUnVvZm9qeUpDaEZ3eDk0WTA4bmpsX0xoS3JmUzRwMTd0SGNaNnkzRnlocGZ5WVJGMDRZUVh3X0dXWXUwWnNJenpfQ3lReGtDTHdWSkxhUmoyS3VmR0lLUTF6M3dWVVpuU0t6UFV1ckpJYTdJLXFvdGFCNDNCOEFzSkVwN2gycXM3cXZ4YzZDRm5pVXR6eXVBaXlpcEpELXYwX1ZHbWx6Z0t6YXdsakZXQjdRbnMwa0s2RUdsMHZEZkxFOXg3S253ajFPeUZTc3hud3MxWWpUWWttbVR0QUVmSmMwNjdrY0dZemhueWw4V2gwdEx4aFRMYjc4ODI0YWdS?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Mon, 11 May 2026 07:00:00 GMT"
-        },
-        {
           "title": "Entrada en mano: Los conciertos que se vienen - Rockaxis",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQnhMYkVmWW1fVjV5aXZqR005NFB6SXNoSDhYTEF5MGpYRlBXTDlGRTFRZmFoS2p3dnAzSWc1UmlUaHZfdmczckJDVnVpOEluSDJkMFBtQklmVHJNUTVOYjdpbUozTTBDTGZUVF9LY0I4T3FnYmlhWXVJUTh0bkFJMzBjUlJrd1lrRXN6eFBfZGthQVc3REFGU3hQZw?oc=5",
           "source": "Rockaxis",
           "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Con entradas a $2.000 y una amplia cartelera: Santiago celebra este lunes el Día Nacional del Teatro - BioBioChile",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUnVvZm9qeUpDaEZ3eDk0WTA4bmpsX0xoS3JmUzRwMTd0SGNaNnkzRnlocGZ5WVJGMDRZUVh3X0dXWXUwWnNJenpfQ3lReGtDTHdWSkxhUmoyS3VmR0lLUTF6M3dWVVpuU0t6UFV1ckpJYTdJLXFvdGFCNDNCOEFzSkVwN2gycXM3cXZ4YzZDRm5pVXR6eXVBaXlpcEpELXYwX1ZHbWx6Z0t6YXdsakZXQjdRbnMwa0s2RUdsMHZEZkxFOXg3S253ajFPeUZTc3hud3MxWWpUWWttbVR0QUVmSmMwNjdrY0dZemhueWw4V2gwdEx4aFRMYjc4ODI0YWdS?oc=5",
+          "source": "BioBioChile",
+          "pubdate": "Mon, 11 May 2026 07:00:00 GMT"
         },
         {
           "title": "Siete obras para vivir Teatro a Mil 2026 en Santiago - Chile es TUYO",
@@ -49,70 +82,16 @@
           "pubdate": "Mon, 11 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Santiago: 12 obras encienden la cartelera de abril del Teatro Mori - elciudadano.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2VzZWgxOXkteHVqVEgtSGRBSWdqWWxrd0ptUldvRW9aMGhMUGViTHJuM084TVp5bU1tTEhvZnhwX0dtZFI5ZWhuZjFzVTFDMzRGLWQ1UkdNaHJ2NUtjYmRmZ2NVQ0VNcGxyeld5UTlycXg5RVhwN0dZVTJzdk1BM3Y3STJMWjJkTUQzXzRBR2dqamRIdzFycHFvTVBjUWJ6ZFJEbVBRRFc0NmhOd2w4TVZRWQ?oc=5",
-          "source": "elciudadano.com",
-          "pubdate": "Tue, 17 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Reinterpretando clásicos: 10 obras imperdibles del Festival Teatro a Mil - La Tercera",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW1TNWNzX1dPVnhRRjA4bEk2cGlLeWM4LXVVWDdxc0JfT3FvLVM1dmVLaFE5OGxNSFJWV0pjbTAtU1IwREl2MkY4WFN1dkRMWTNqYXNWdmFoWTYyRXZFM0RyTHc3MzFjV09IMHl6a3czM1RlUXlxd19vTXBHSFZlTmhmRWJMUEhnNmJfYTNNVk1xMGJ4Qm5iaWVIcE91QkVJNGNKVWpMdWpIQ3htVENGdmJR0gHTAUFVX3lxTE9VWENBTjhBVVhkY3VUM092TTNYLXhYRjdCWW1JeGktbzZjUlJkSXp2OU9WVTItcFdwaUE4YjFXcThndnl6VEU3T1BybmZCSHdzREtBalM5RWprc1M5b21lMkpQNUdRWm1DNHZVVm10UDJfa1hIbXQtb0ZRZHBaQnBuc0VoNjlrdURxUnFkQlBqYlZsWVk1bllic0RZd1ctSnZON1BFX3kxdUZDWGxCQ0FJMzZjYncwT3JqNllyTzhEUVM4Tk42WHFybFlrUTJqVDd6aWc?oc=5",
-          "source": "La Tercera",
-          "pubdate": "Wed, 07 Jan 2026 08:00:00 GMT"
-        },
-        {
           "title": "Teatro a Mil 2026: Programación de obras gratuitas - Televisión Nacional de Chile | TVN",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWRDQ3NHSVYzYnNSTER6TUotYi1lMGxVZnU1QnFXU19ZWGNFYzI2TjlweGxVSmUwYl9fQWR0QXBnTHhSbU9oYkZmckVLVmhqU3dpdDhkbkNYWlZXVDlta0pHZ3p4WW1mU2t6ZUJLRXJwUUJMLXdZQWJTekZydVlseTlhbXBvMGwySGtpVFJPZ0FHcnJEU05WS25lWUJubkl4TExV0gGoAUFVX3lxTE9XdUhNcVdMRmpBbHBWVWxPVVMxcUFFOEdmUkJ0b0FtdzFlTG1mQS02MjVQcF9CU2RNZWJBRjluRmRYS3l6Y1dsQXFxaVFDYV9TYTJ5NVdkaGx5aE1OSHNWd1ZWeUh1TEVFdVdwM05uamtRVG13VFc3M1E5RFZKUWtncU0tVUdYeVVHN2FxampPRGROTTZVUzJCYW5VSTFGeklxRndPZC1LNQ?oc=5",
           "source": "Televisión Nacional de Chile | TVN",
           "pubdate": "Wed, 24 Dec 2025 08:00:00 GMT"
         },
         {
-          "title": "JUNIO LLEGÓ AL TEATRO MUNICIPAL DE VIÑA DEL MAR CON UNA CARTELERA PARA DISFRUTAR LA MÚSICA, LA DANZA Y LAS ARTES ESCÉNICAS - UCV radio",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZUxrNzZfZFpYZ29ueUwxUHk4UmRqMG9DV1J4dzdaSGwta2hPdjQybGlCWGx3M0t2ek1IWjE2Mi1sWTZ0dl8wS0pRSVdlcHYwbGVYMkgtcThwbllJM2JMQjdFaTVBNHBXRGx6VFBJLUt2ZE5xeXdEWnRrMmlqUVRtbk4wVW5lU0F6WHB4Q1Y1UHBCcVJpYnhyb0dLZWQ2Ri1qWWpYdUtWNWdGN19OVHpQZDJFbEJUcTA2UFRwMkdJXzBhUWFpRFN6SGsxckVpWGtQWVpIaFdsN1Z4RmVIcnBkdQ?oc=5",
-          "source": "UCV radio",
-          "pubdate": "Thu, 04 Jun 2026 12:07:04 GMT"
-        },
-        {
-          "title": "Temporada Relámpago abre convocatoria 2026 para artes escénicas del centro y sur de Chile - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeTIzUGJYUDlWc0J3cGd0azNRbnF0V0Z4YzQtT1lvYlg5QjY2d01uRThPcmVBblZXaXp0M2tPbjJRRkw5bE1JMFdQUHdRYU0ySklqUWtiY3ljazB2UlYteUxtMlZqS2dLUV9CQm1lWkh1Z2l5RW0yZGVvamZUaXJlenJoelZ0SXkyQzVmLTF0WnBrZUV2OFlUTUU1VUptSDlEYnVwMll2cUhvZ2lkUXAxT281TWg?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Mon, 23 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Festival Internacional Teatro a Mil 2026 - gam.cl",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRnBCZFd1OWVQWEJ0RzNyeWc0VlU1UzE2d3dndFFOajVrTVhqUzBUWFRhLWhYdFI4aXp1NTByVWwwVmdlWjh5UzNFcmpaUGtBZU1JazJRSVNHQ1g3cmNmUHQ4X0V3MlA1RnZ3Q2duRzFZQzNxTkNVdDJ1RkdzbVhUREREOWtZN2U5Z1d4dnFQRWt3dHBubUlrQS04TVloZ1I3bXk4WGY5bldOQQ?oc=5",
-          "source": "gam.cl",
-          "pubdate": "Tue, 23 Dec 2025 20:20:23 GMT"
-        },
-        {
-          "title": "Cartelera Mes del Libro: Abril se escribe con historias en Puente Alto - Corporación Cultural de Puente Alto",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObVhxbjUtUVkzTU5jN3hySTZiUHlZMWVhSVlraGtnYS10TXNKZzBGTEtJSTh6TDd2aC1DUEE4VWlQLUQwSkxKMXh6RHFQY1ZIMDBvRlg5UmxyXzhXUG5pMVhVeHdIYkFHYmRrYkkxeEFBOUFpVFNlRWdKUXByMVZlM0xmWVR0QWNyeWcyNk5MQjFxZlFlcEpNTEIxOHlyV1dSVlNEQUtZQ1FpUndC?oc=5",
-          "source": "Corporación Cultural de Puente Alto",
-          "pubdate": "Wed, 01 Apr 2026 20:11:18 GMT"
-        },
-        {
-          "title": "Con Jaime Vadell y otras figuras: La Florida tendrá nueva edición del Festival de Teatro con entradas GRATIS - ADN Radio",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQU2NEb0pUaVA1eTU1X19rc2RSTURLdWp5N3ozRm94eTJ6dWI2emM3MTRKRkVKZEtSSHNxZm92RlNQT05Jak1uWTF1dXVvY2hBc2VWMmtTOVZrTENoS1dHeTNWU3lhek0xUHhuRDVjMFBKVWcyM1FfUnlaRk40MFZKel9YUmVoNktIbmdITWc0T05Pc2IydERURlVDRFJDWHJlZ2NMbkpEZE8ycXUyWWZzMTZRV3k4X0dOcnZib09VVGhZTlZYRHlEa0pWYk1aZDU2VFlnajN1YWYxbUXSAe8BQVVfeXFMTnluTUZRWm1EaUZZLWRublNqN3VMQU9Gd2dxYXdJeTd5SUcxa2NaTU4xYVhrOExZZFZhNXo1ZV85ZG5KcEZnU1ZvZHc4S3RWUHRFSWg5YlI0bDBvcC1iMnVLYVdrdF9KS2xRSnFLZ3FRR1lFZExaWlU4U1M3c0lFekNMUk9oSDRuaEhWeV9IZC13SnBKVHdaRWV0Ry1kQi03M3JOX0tnYnZrS3pwSzAzaDVZbzFNT2Y1Nm9hbk1ma1IzZ2Vvb2o3aWtvSnRiVHlENnZuMmh4UF93LWFRX1k5RExzVjAxeXFfN0tWR1QtZm8?oc=5",
-          "source": "ADN Radio",
-          "pubdate": "Fri, 16 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "La Florida invita a su Festival de Teatro encabezado por Jaime Vadell: Las entradas son gratuitas - Teletrece",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWElRNC1CenFkaXl2cnI2R2ZGTXRnUk1xTmFkQnZUeE5DVmE1c3ZreDVBWTZJOEwwWXRDNzlsaUZtUVloS25hcjZkOVZCZTBiQ0F2bVkyOGhCTTZyZ0J5d2Nvc0VOaktZamhibHAyR1ZvbUxhcWdlVVNGdVBMU01SWFNZZ09wV3hIRU45QzNLSmlPZ01aSU12Q2Y0aHQ2bUFzdXQtd1ZmY2RTdjFkOFRKbGo1Z29BbnA3YjNKcWtYQkY?oc=5",
-          "source": "Teletrece",
-          "pubdate": "Fri, 16 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Quilicura se toma el verano: festival de teatro gratuito más largo de Chile vuelve a los barrios - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQ25BaUItZ2Z1X0YtVVQ2dnBqcHhFZnoxcHFjTE90aEllcDROa3J5RFNGa0lFQTA4elNuRFpNNWNkTlBvNEdCUXhtY0NtbXFhWGpGTlBHaXg1cm9Wa1pRckEtRVRMbzdZSkdDcGhoenZmM0M5VXFiaU44cXlBWmlsOV9vUUhUYkh4UndBSVlVWTBacVpGRnZRcVJtOFN1aUZLaE5HUFBqR1UtSnNTV0lzam1Mak1yUERaclpseXFDS2R3dXRkazB2VldtZ1RIakxNanVpd2lBYl9Mc1JVT2RjUkVLT1R2QQ?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Fri, 02 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Qué hacer en Santiago: visita espacios culturales dentro de edificios históricos - La Nación",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVjJYVXBuUGpiLVlKTVZ1Tk9BcHBZVTRNV2N5dWk1cDh2SXhyazdMekJSWnRKQUw3QkFDV2xZMjVYMG1IRFhEZFp5Z1VKaFNXWEZzTDd6c041dmE2NUQtN1QzYzVOb2s1TzY0UXdGMUJUR1dnd3huY0w2RE8zYjNmYkZpZUd4ZWFCV1pqai1WNmpUbklIVHEtVVZrY2JMTC1IYW5qM09nQQ?oc=5",
-          "source": "La Nación",
-          "pubdate": "Thu, 22 Jan 2026 08:00:00 GMT"
+          "title": "Cartelera de conciertos 2026 en Chile - Cooperativa",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONWk4SUgzLVFEMGxLaU1ZOC1YQzdoQXNienUwTHdvdG1IR3g2M0dEZ0J4ZEpoUU9hZGRJSW9sMGFNQjhiaGRlWXlleXFUODJyOTd6ZkV1X0Z2REY3bWs3MXpRcEhNTlJ1bUVhaFJTWlh6WUZTRGk5c1UxeFBvVW5TdjhNUm02RzFodWFNYklxdDRjaFpQMjJPZEUycGJPSEREWmNSRVozR3EyeTM1c3BycW1PeVZHdUVWZWZVMjR6dDdCdVlR?oc=5",
+          "source": "Cooperativa",
+          "pubdate": "Mon, 01 Dec 2025 08:00:00 GMT"
         },
         {
           "title": "Estreno de \"La casa de Bernarda Alba\" dará inicio a la temporada 2026 del Teatro Nacional Chileno - Universidad de Chile",
@@ -121,10 +100,16 @@
           "pubdate": "Mon, 16 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Qué hacer en Santiago: descubre los panoramas para celebrar el Día del Teatro - La Nación",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEViaTNjckUzem9NX1dxWlY4N2dHcmk3dEtDNVgxV1Z0Q0t3SGt6SUFtOEYzNjA2NDZ6UFJDZ3dsVFhiZWtram5rOXFIc05oeUJwMmlfWE1mVDBqMVItcnpvVWM2NzRkUnhFN3lTWnc3dmh2cllsVGl5N3NrcGE1aEk3QjY1QmNqa1ZnbV9iSVVVc2NJaXBhYmpQaHROaC1FRzgw?oc=5",
-          "source": "La Nación",
-          "pubdate": "Fri, 08 May 2026 07:00:00 GMT"
+          "title": "Tras agotar entradas, Teatro Municipal de Santiago abre dos nuevas funciones para su éxito familiar “La danza del oso” - Santiago Cultura",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLUIzUU5lY1FTdkJWQ1pOaFM3SF8xejFDUWRuMm01X2xsdDZKaXBFaTl1LXlUQlNHVXUyODZPMURINjBvSGZDcmo4Mzd3VnhVcFo4RVNyWF9NSFVJdU56UjVsN0g0OE1rTGZUVXpmSFVLLTlncUZRVWtpLVJlSzU4dk5WTDFsd3hxcFF4c0NTbGVqd0p6ZXdJeU1TRjRiWTdPY3hWMkx1UUs0eFRFZGVjSm5wclEwXzAzRGdmMy10QXcyZkhGbG11NC1hcS1XZ2YzNW9TclRhZ2Z5Tlh4c1ZhN19DZGJZSWF1TGc?oc=5",
+          "source": "Santiago Cultura",
+          "pubdate": "Thu, 23 Apr 2026 06:01:05 GMT"
+        },
+        {
+          "title": "Vacaciones de invierno en Chile: panoramas gratis y con entrada para toda la familia - Televisión Nacional de Chile | TVN",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1dqNHZ2YjZ0a3ZrUWtiY1hNa3Z4V203X1JiaW5PWTN3QXdFbC1LOHI0N0pEb0EyZDVyOEhRZEMyczktbmdOZnJvckJ0MDh6S280VmZlRUF0RTVJZktkYlp3dkVlbm5mQWF0N1ppemExQkY5RVA0U1pwSkRkbm9OQnRCUzJ3cmdNc0I3Sm52Y0F2QnlQS2ZlWFpIcjJwTms1YTJBNS1NYw?oc=5",
+          "source": "Televisión Nacional de Chile | TVN",
+          "pubdate": "Mon, 22 Jun 2026 15:38:00 GMT"
         },
         {
           "title": "Agotó entradas antes de su estreno: Municipal de Santiago suma nuevas funciones a \"La danza del oso\" - BioBioChile",
@@ -133,34 +118,64 @@
           "pubdate": "Mon, 20 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Mes de la Ópera: Municipal de Santiago estrena “Ensayo de ópera” de Rodrigo Navarrete, obra teatral en clave de comedia dramática que retrata el fascinante tras bambalinas del género lírico - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQM2Q0NlhSbFpDZHlDZFExZzd4cGxvOUd4b3JYdXQwSVBTbktabng0VWV5Q1d1QklBMlhSS2RIQ0xzOG9nZnZLLUpWajRscEhiUnY0dXFFZC11VjQ3ZzZJUDBOczVrd1M5VmFubHhHbjZYOGY5UWtFREthbzNDWGxHTUtnQ3FFYTZLQXc0NFd5cmdfZ2FGYjBsUnRVYVlfa3BjSEVwYm4wMDYyeXJ0TTBGQmFSX3VhSWR3Y2pOMFlRcnp1Y0M5THBFQ1UzNGwycXh3N3pqMUZ0LXhKMGlPcjhGLVJ5SEpRS3VoVHFkaFN6Y3c1Rzl6amZLZTY4Nms3aDJHcWEzaFRHWFdNMnFkNmxCbHNKWF9LZXF0Z0xFWjNNdmFOeTlDLUN4UTBOQWNwZw?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Thu, 23 Oct 2025 07:00:00 GMT"
+          "title": "TEATRO MUNICIPAL DE VIÑA DEL MAR INICIA EL 2026 CON ESPECTACULARES CONCIERTOS, TEATRO, DANZA Y HUMOR - munivina.cl",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM0JqRUZvSlU2emxlTjdDV2h5X2w0MEZJYTNlSEktdnFmaGlNYlVhZFNXRFNFdlVwY2d5aXJVU25JaWNWU0dSSlhvZ05fcWtoZWR6VmVmMDdNODlRYm02NzFXZFJsbUY2a3c1V2xzQ1VfRTZaMTQzTEJHTVBUVjU3YWVzcm0xQ01UeUF1VkdfbEttZDFXc2poblJKV2tRVVp0REViZmtzZU1PeEhOM2VnVVhGM3V6UFFvWkJmODBRMk9zQzVvbjZSWEZLdUE?oc=5",
+          "source": "munivina.cl",
+          "pubdate": "Fri, 09 Jan 2026 14:32:33 GMT"
         },
         {
-          "title": "Teatro, disidencias y memoria: Santiago estrena el Festival de Teatro de la Diversidad LGBTIQ+ - Radio Concierto Chile - Sólo grandes canciones",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUpMQXdRZUdMT3pMbG1SWS1EX1NZc3I2dmJTdUNtMzlLbEV2aUFWMzlVLWxmVHdJcDBIQzVBb2VuX2xsVXNXbFRRZThHbXQ1Ym5lZzJxOTEzY3ZTLUVkTmQ0YmpRYkdkelhQUTQ5ODFxQ09QdHJydjFDMFdmUDdxVkZJdE9GdFA3RXc1SEhfY0RRV0dlbTdXejRVQk0tQkx3R0JySFhYWEYyaTl2OVh2ZmI4OFRHS1JSSzBvVHBOTkZySVHSAcgBQVVfeXFMUHVFOXN2Q21WQ0dzZnM0ZDA2VmtXM2V3YWJRTldIeFhyVTNQTm02YnExMERMQzhKOXlObE5XVmhUeUZMSk5HZkZldHhJdGQzOHFuYW9xTmo2elZOdTdidG5XVGRBZDQzRVhOcTZ2WjRDcGx2RFZOa3BqVU5na3N5NDlMTVUtNWdZbFlsWVFiTGt3NkFsc2l0bjFSMGIyTk1YLTFSWFZjRDFzdEtJVkRpbW9seWlpc1RBYTlKZXRBNXVUUlgxVGU3SGE?oc=5",
-          "source": "Radio Concierto Chile - Sólo grandes canciones",
-          "pubdate": "Fri, 02 Jan 2026 08:00:00 GMT"
+          "title": "Qué hacer en Santiago: descubre los panoramas para celebrar el Día del Teatro - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEViaTNjckUzem9NX1dxWlY4N2dHcmk3dEtDNVgxV1Z0Q0t3SGt6SUFtOEYzNjA2NDZ6UFJDZ3dsVFhiZWtram5rOXFIc05oeUJwMmlfWE1mVDBqMVItcnpvVWM2NzRkUnhFN3lTWnc3dmh2cllsVGl5N3NrcGE1aEk3QjY1QmNqa1ZnbV9iSVVVc2NJaXBhYmpQaHROaC1FRzgw?oc=5",
+          "source": "La Nación",
+          "pubdate": "Fri, 08 May 2026 07:00:00 GMT"
         },
         {
-          "title": "“Cadáveres”: La obra que convierte el Metro de Santiago en refugio humano tras un colapso climático - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNFJNaDE5V3lYV3h3Q0IzRlR6dGRqd2ktOXFUYzBRSE9udHVRcTdLaEo3WlVMSmd2RDdrejJERUJLYThpZXk5bGs1RGc4akVfUXBNblQ4V1M3WS1Oc01MVURnRmUzZnFma193UW1Lb0VDTDhMcFVLdlk0SU1tVXZHemMycHpaSHN0R1BUZDZJRmlhLUNRT0J4ampGdzhkTFpncVRCcmFVZ0c3SmhUbDJwdTZVN0c1NDh5anRjUUh4UWNpY2RRckpwRTBLMXk2d2YxLXoxMVozdGRVTHM?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Tue, 20 Jan 2026 08:00:00 GMT"
+          "title": "GAM: Fin de semana de danza, teatro y música en Santiago - Portal Metropolitano",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0p5VG1KTzRVUDdxNWY1U2ZqV25VUUE4MExUZEpEN3JwdkpwLU5wX1NBMHA4SGdWQzZkZHBmLVVIYTROdVBqemtJNXJ3MERORVNKRUowMlJvcERFQzlwSURCdXJ4akN0dUtvZDBFSnhJWlF5UXNmcGpuV0k4T0E1VnJSbHExYWdydXg2VmFMYw?oc=5",
+          "source": "Portal Metropolitano",
+          "pubdate": "Sat, 23 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Anuncian obra de teatro en Santiago basada en La Sociedad de los Poetas Muertos y así puedes comprar entradas - rockandpop.cl",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVl90SjZMUTVldVQ5dWd4amFaNm9YWGN3WXdYajhEdVNHanRJbkZRd0dtUlhYeHdSYy1JSTczNjFOcmJvTWVlNWo1aTZDS2ducmtvcEpjejVwZzVxdXlWRGN6RElLVnRFb1dRd05NZktvaUtGb1pYeDYybWJXQVdlN19NMUVlRFdSNEJOVmlRQU5RZk1uOEs5SW0wMENDR3B4NS1Jdkp0VGQtV2JlSnhhX2R1Y1cwWFhQdTl2Qm40UUFybUhTOVlTM2R0NU1pY053T19GSnNRaG1SVUM00gHiAUFVX3lxTFAzWUlJbGkxN3BMTi1uX3dDTU9uOTA3VjJLdUdmMmFqcXhkMTlLTVgyTEZWdEdncnJpekllRVdNZUdKemFHSGhhOU0wUnVZSTlSVE9Ea1d2Rjl0V1NmNWxWSlBOeHB1YjJmbE40MVNtcU1XUXk0aUtRc1JGYkxCRlJsMTNlTUh5cmsxQmF3clJXN3JzeFlaWE44RXBoaDcySmFzZWp2cFVLWlVnb0tEQUk3NUFnbG01MWQzNWVMM2Q4SWhRNUFwTXJHWVM2ZWdTUmxLLVZaQWJaTXZJZllCVDVuNHc?oc=5",
+          "title": "Con la participación de Jaime Vadell y otras reconocidas figuras nacionales: así será La Florida es Teatro 2026 - La Tercera",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2c0alVsNnFtZ1FpcFhZNXo2MFRBNUFCWDkxSDFPOWZIeTRIUmxZSHcyR0Zoa1owdHRjSFdXUFNoUl9ZaHVOV1NSZEhwdVpGRFV1eFBFQ2VNbGw2QmttVzFaOER2R0c3X0hNLU5yWTZpYWRpMXlWQ0djeFJFWjhvbVN4WkV4cGdjaVpEcm1OSVMyZktMZXdZaHBEZmNVRVhOMFpyS2d0b0hEM01YNWdhOVJGQ2NWZFZZRnEzZjVpcDl0OWdOa2x6ZFQ1cFF5eGk0a2RYekVWR2VWVXFTcmJ3UHRHUmNxd9IBhwJBVV95cUxNMXZiOUo5bXBxSGJjRmdEUUEzSWNmSXp6Vm5aNVpqY0RWbDk3QTYzOENoVmdRdkdTTmU2aUk1UTNzWF92M0tIU3BKWWZEZ2RCaUtjbGxBSTRSR2N3VFZNaTNsbFFsN0pWVjhOcDBrd1E2M1c5WWVMbjFybDFYdlZIeXZpVHBmcWV2SmQ0ejh6b29vUGdNdDVDaGN1NXVYNWp0c2tBemdYcF9FMExHNHhad2NrMHFkVU5ZNERFOUh4a3BmdTJBaGIyVDFydDFYWDl5b3BrXzFOdzZLZkRqci1yTjN2cDFFZVo5WjhYMnU0VEhTNnJ4aTZjNXBUZ1RLc3RlT2RCNUVVYw?oc=5",
+          "source": "La Tercera",
+          "pubdate": "Mon, 19 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Panorama gratis imperdible en Vacaciones de Invierno en múltiples comunas: Festival itinerante con música, teatro y más - rockandpop.cl",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOUJBMUtsZE5DVklCT3ZOSXVVcEVHVklTdHZ5aEt2WTV5R1pEbzNPaGdrNjJ3Wjh3R0JBaDYwTTZ0ZXhWOXFOdm1LV3NNOWxmRTVROVZGbEoyRl9mdzltUGZYaWRDNkU3WkVYR0N3enJxcnlsUmhSVTRhdEwwRzE3aTgyY2FURmxoRWhNTlNmOVNUczQ5V1FES0lFWXlnY0tTVjVkdXBhT0NnQzltcVltcTNqeVV0WkZsR2tPYW5ub19WWTNGcjYxejZwOERuUUhqMktzMVUtZzVtYncxUExoOFpRcTJVZGvSAewBQVVfeXFMTktSLWNxRUtPSGVSS004NkR0a1lxbDkxZUNqeERBdGF5RlQyenJEcXlCY2dSOU5jUzFzeENhWmJuV1FQQjh2SmtKa3E3enVadUNEclBlSlZWLVJLSGxkamt1R20zMHJIMERUTWNTOEpHbGJDWFVUdVZ0U2ZmVDJtWXMwSENYS1lkUlNTZUVlSU5rU3lpN1BpaC16cTJFV1VPOWh2MW1oWm9FZVBBUUlyVUxIRXkxb0M0dGs2RmYtUmtsUEFMUlRmRVJzNGFHX3poYWhZWVB6MjZ2Q0hnb0t1M24wVnlrYmoxOElnRHI?oc=5",
           "source": "rockandpop.cl",
-          "pubdate": "Thu, 25 Sep 2025 07:00:00 GMT"
+          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "«Caballo»: Teatro ICTUS estrena nueva producción en Festival Internacional Santiago a Mil - elciudadano.com",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckVaNnhiTjBHSEQtZlA2VDE2ZzhCSVpIQ0FtWjVTWXdtWkw3VTI4YW8yVFVZMEdxeFFEY3I4SF9JTTNtV1h3WXJpWjRfcjNJTXFTTXV1ejExdkl1aEp0LUhlWGcxaWtIOXltS3BmdDR5N0NBYVF4clRPTE40M0Z6WE12ZXh1RVhseWdrNnc0Wm1DRVJZTm9tdlBQRU5jS2dMQWJ2U3B3MGhMZUx1eENtU0NmYldRRml5bXlyRjRjTG9WZENwcmt6SDNVRHNYRkU?oc=5",
-          "source": "elciudadano.com",
-          "pubdate": "Tue, 30 Dec 2025 08:00:00 GMT"
+          "title": "Festival CUIR CUIR llega gratis a Santiago con teatro, talleres, juegos y baile para niñeces diversas - El Desconcierto",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNakg0YmxCZ183ZC1MS2x1OWpCRC0wVzJleWF2d2JnZHJwc0tPZEZGZlk3UURnb0tYOW5EdlRleUpNLWVwZ2IxandhQXk3QWtlVDZvMEk2NVhzXzlaM0haczNRM0ZTdEN3YS1pcXNrNU9KM181Q29jMkNLQmxKRngtU2NEWWd4NlhKYUhTT0tCNVBERWJBUW1xUTJNUURfSjJLc3Ztdk5xY3lJSDVTcXg1R2lyREk2Zm1udXpDQmtrMmc1cWFXVEstWmNFcW94WUU?oc=5",
+          "source": "El Desconcierto",
+          "pubdate": "Tue, 23 Jun 2026 23:30:00 GMT"
+        },
+        {
+          "title": "Panoramas para vacaciones de invierno 2026: Carnaval de Marionetas Gigantes en Santiago, Planetario USACH y teatro familiar en Concepción - CNN Chile",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQ0N4OXhvYWVjV25MWXpHSXB6TTU3NDlMbzluc0ZBWVVjYmt2cXZoSk1RMEVPUlJxd0FmYS1KT0lPVFdFNFJFeG4telAtQmFldEFBWk1Najd6Q29ZTGNTenBxZWhxb01EUHZFWVR5RlZsYzdScDdkM2ppUS1xV0lSOEJjaUNqazBUa2hjaUJ4a1dmSVNFS0tqTGMzTndvVGZqWnBRMjhsWW1Xel9EMk5ILXd1V1pRMFdHeVdSNzRQSnNqN3ptRHJQLXhyRXFIOUZoX0xUdXlVR01CY3dUSUJQbjRicnNoazFnX1dxdkw4MGc1TGJZVVlhRy1ISmd1QQ?oc=5",
+          "source": "CNN Chile",
+          "pubdate": "Wed, 10 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Cartelera en Santiago: Los panoramas imperdibles para el fin de semana del 28, 29 y 30 de noviembre - Canal 13",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjd5N1FOdzRCbjZQVTd0ZnFzN3pmZmxMS2hvQkV3U0ozYUdUZGVubHNYV3FiejBvQUtyUHRqZkhpc29HUEtQWFRpcmFPd1RlUzNjR3JaYXBGUG1rUlhuU1FZNHZWVFhYSXQxOXhhZmxmUjRiZDhhNU45RExkYXJ1WFFmQ3RxcWRzeVVFRTQ2VURBOEZIM3RhVEZjR0hrcjZ3XzJLZWcyc1BwWVgta05USlBtdUVNbUE?oc=5",
+          "source": "Canal 13",
+          "pubdate": "Thu, 27 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Fin de semana en Colina: estas son las actividades que podrás disfrutar - Chicureo Hoy",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUW1feHVSQWMxeWMyUlQxeFlzM1dfWlkxQXc3UU82WDBOUE1ZYmxMa0Nubmh2N21oeGhQMHB6REpmaHBzWHlrYXNUSUxNVnhjUm1nUkd3a0JyLW9mNXhIcGdXYjBNd0QtMjFPbmJWb2ZQWEd4NDhubWV5Q1Jzb1JLWXBDRFhwY09GZE5MV0lzVy1QWjZNb2ptdHA4WGZtZGVhX2hwTUgxWUk4QzFS?oc=5",
+          "source": "Chicureo Hoy",
+          "pubdate": "Fri, 15 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Qué hacer en Santiago: conoce las exposiciones y obras que llegarán al GAM - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFRZZkVpS01YQmV3NHI3SGhqbjkteTU3SG9YZjB2VUd4bUNWQjA4YXdJNy1YZWs0OGdHNHdQSDNRVVl6TDQtUzdfMlNINUpCbUdZdmdLaWJ5YWFFVXVBd2xfaHhhc3pmYmdkRTEzejBhNlZaV21OQkx3RGIwVlJXN1ZOQU9pOUIyWTRfQ2hPcVpBVFZKQUdEWk00OW5EQms?oc=5",
+          "source": "La Nación",
+          "pubdate": "Fri, 19 Jun 2026 22:06:09 GMT"
         }
       ]
     },
@@ -175,10 +190,28 @@
           "pubdate": "Sat, 21 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Conoce las nuevas exposiciones temporales del Museo de la Memoria - Museo de la Memoria y los Derechos Humanos",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYS12QlVXREpjcFp0d3VmQ1FZM3V6eVJEeW9qM0JJWG1jbV9rSWY1a2xFNVhTaFNoSDM0RlZseklJVW54Yi1TbGdwd2k4Nm5jRHJFQTNhMk9HT3prV3dvV3dxRkx1amNTN1ZmRC1UdVdpeVE4Q1BGRTJndi1VN0lCcF94Q0tuOG9pYklsX0FITFpINExZUGhoMGhRcEgxYTNRWGJ4UTg4R240YW9tbFlDZk1R?oc=5",
-          "source": "Museo de la Memoria y los Derechos Humanos",
-          "pubdate": "Wed, 04 Mar 2026 08:00:00 GMT"
+          "title": "Vacaciones de invierno 2026: agenda de panoramas con museos y espacios culturales - La Tercera",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcTZuRjVWQVpSaC1xTVBTeGh6dy1zZElPNGpCME44cGMwUGlWWVg2SmlPYUw1dGNhS2UtVjljOVp6MzM3SDBJMm9OOWxrS3c4QXdnYzlZU2J4bUN4T0dQanQtVW4xclBBQWFyVlpGenloTldRTnRFMEVjZXNwaDEwaEFjQU5QdzY1UTI0dnkyLUt1c1JVWEgwMWZpaFJYREZRUW5Uc1JfMFN3bGxsN0Z1WHJ6LTRwUks4RlFjQnB30gHfAUFVX3lxTFBrWGE2SGhlMGRMU3haUk5aTTBxN0gwdXlQRzZOcWJYM2RLMzdSNjQzcVowQXhyVkpnVmYyb0paWjJfd3pKY1EwLVZYYlBYNmtQX3Z4WWM3ZmNMN1FNSEpoMm9GX0F0YkhRV05IS3pBLWkwWFREaTVRV3QxVjQ3MEhDVTFSbnRna3Z2QXZ3aFAtdUM1bzVRZVpua3p4SG12WlNQS0MyNlZ4WktkRVdpOXI0YUZHWkFvQkptSm9qamNKS1g1ajhqRGtOZU9wZmFuaGNtNkdZeG5DcENMNlpESDA?oc=5",
+          "source": "La Tercera",
+          "pubdate": "Wed, 24 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Fungi Cosmology: Exposición sobre el mundo de los hongos llega al MAC Parque Forestal y a Suizspacio - Ladera Sur",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUlRWQ25sNFVGWnZoUGtfX3JvZVhfNGltbXIxWU5sMG9kWjU4QWlXdXJBSWhHdDY0VzRJQjRtU2p0SnFsY0J3UVFuaHE0anQ0S05haEtXVkR3Z1FpbW9Udld6VkdkTG9XMThrTE5TRS1EQ1gxSFNyQ0hvb2FhRGRlc2QxcVVVcTRUSjVZZ3N5WVBfT1gydk90QlVkUHdMazV2NnJPekRNaVlwLUw2Y2c2am5R?oc=5",
+          "source": "Ladera Sur",
+          "pubdate": "Sun, 14 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Nos sumamos al Día de los Patrimonios con entrada gratuita y programación especial - MIM - Museo interactivo mirador",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkJrcXJEQ1pTTkZ3VUdjc29BR3V6VHRnNnc1eHlibjI0QlVaTVlxNTJHbjlEYlB6NUtHandTVHZtSGpUX0FDS3F5YUViamZrcVVQRmYwVjN0aHlpamxlSm5oZndFbVI4XzFWa1lDRlhtRV8tNWNiZ1hoMkFKYzhrNjlvRFFibUJyWjd2Ym5oR2daWlI1NWRzYXF0aGpmdFV5MjZ6QVB3MGpfSmRO?oc=5",
+          "source": "MIM - Museo interactivo mirador",
+          "pubdate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Exposición «Punto de Quiebre» en MAVI UC - Pontificia Universidad Católica de Chile",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XZmVFTEVQelMwVkFLYlN4R3Q1ZUxVUmxycTA5QjBhZngwYUNZNHpmSGVSQ0pDZ1pCRC1nMk5GSng1ejdwWFBDOVJrSmRqY3dXS2FiME9MWG04RU5QMU1TRXlZZzdvT3Z0YXhzUk01MmZDbDhURmtabzBNWFpSQQ?oc=5",
+          "source": "Pontificia Universidad Católica de Chile",
+          "pubdate": "Wed, 07 Jan 2026 08:00:00 GMT"
         },
         {
           "title": "Qué hacer en Santiago: panoramas para este 16 y 17 de mayo en la capital - La Nación",
@@ -187,52 +220,16 @@
           "pubdate": "Fri, 15 May 2026 21:55:14 GMT"
         },
         {
-          "title": "Mes de la Mujer: exposiciones, rutas patrimoniales y conciertos para conmemorar marzo - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMEdPWTY5MnlpUEMyM2RnMGFwWTBzV2xuem5HTHBBazRVc29rZlpCRFBPcmt2Qll1RE5taXVjQzR5dVdXVWMzVFJIanpjRXN0cnhaelFua2NGbWlCSE5OY1F5aTU1UW10MWVXMFppUXJ2amREREFJcEZIb2xNaC13UWE3eE5aRVo2bHhBdlFRQkh4QXhuNW1jdmpEeXN4OE5SRUFTRVIxeUtnOW0zRmdwOEJQS0dZaGg4U3ZXYzdyeHVFalg4cTJZ?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Sat, 07 Mar 2026 08:00:00 GMT"
+          "title": "Metro de Santiago y Universidad de Chile firman acuerdo para instalar nueva sala del Museo de Arte Contemporáneo en estación Bellas Artes - The Clinic",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdG9XX0kyRUxvbU0xWVY4SjZPSTFXMk5lVTlJN1RDMDJRcGV1VkZxTGdpVzB0U2xiTE9Fa3hzNm8yS09ZeDJHZHdPMUk1ZldfdnpMTnNERGhENVZlRkJGN09aNFNUaVB5TWl0Mmt2S3VSckE0UFJIZXZkeEYwaWR6dXBlcXQ0WkptWXAtYnVrQVVkUHdhOU9lYk5ObFFXV0ZtODVMVE9JUFFGZnJkQTNKMDRNOUNTa2ptR0NrRXBwU2Nvb2hNYmh1dW1SWW9uYWhxRXRxeWMtYWZHSmNTTkpJd2l2a1lLdFRoNzNrWU1wN0l2dFVhVmtzaDU2VUhoMTJuT2VyNdIBigJBVV95cUxPWi1sOFpuTk82eEZrZlNxNU0xRTNlU1pkTGpubWZ2T01qZ1ZYREdWejRmWnNzSjRTaHRWTjB2VkNfOWRXby1vc3JQcGlpV2xld2FMdHNyU2tpdXFFa2lBNnBwSmdEU1FpX2xoNnJ1bHQ4VVhNVUN3bGlYUUh1YkxHeDNHWEFhNC1NVTlYQ0p4ak1nOHJxRmtJN25sWTQ5S0xaMnhjMXlFMVdDeF9BZlJHOTFlcEhFUzJVbDdYcWRnVXo0N3pzWFRiTXN1ZE8zQk9xaTVPRXZNUVdwRk05dUF3My1TMTR6QXZjYU1GTlpkQXRtUWM4TVBPZzZxMU1lQW1nNDhsOUp1eDJPdw?oc=5",
+          "source": "The Clinic",
+          "pubdate": "Thu, 16 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Noche de Museos en el Bellas Artes - mnba.gob.cl",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VajNndThSeUd1dFlkV0QtdDdtaGR4U3FiQXZCbWhOOVcwM2VEZ0U5ak5kN3N3RGVic1ZrR3kzYV9DUVlPMmJDMDNpbmdjYV9XRFlKZU9KbVlBVkd3ZE5NQkVwejFHaEs0YnFtQndnMWM0SHRweGRNazhR?oc=5",
-          "source": "mnba.gob.cl",
-          "pubdate": "Fri, 24 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Noche de Museos 2025 en Santiago: Los imperdibles de la jornada - Chile es TUYO",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHJPdENhLTdlVi1EeTB3T0FrdFVMTVhvOVlWUmNGdUlOTmYxdS1UTTFnN3ZwSUt3dmZWa1V6NV9GNGFkQXN0cEo3Zm9JeFliUElpeFJxdkN0U0FuNERZZlpzSi1sZV9TeEVJV0RCV1BueTFDTjdNMXpsaVd0ZktsNjlMXzB0MmtyTzlPOUNJRDVrOV83dGpubVg3YjU?oc=5",
-          "source": "Chile es TUYO",
-          "pubdate": "Wed, 22 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
-          "source": "Chile Travel",
-          "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "LAS EXPOSICIONES MÁS DESTACADAS DE SANTIAGO EN 2024 - ARTISHOCK REVISTA",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1htQ1lXV2NYZldZcFpTZHJUS0RWZnpPYjRNM3dJTXRIYzhMY0tNYXdiYTBmMGZmQjllNzI4eThLS1hKSXlMMndueGxBU0lmaFMxdDVKMkRVZ0dXOWJ4RllhSnYwOTdkcFlXTEcwS0lNempOdXR0OEJ5QUxmRlBZTDFWblpSanQtWXd5aXo4NV9RQmdsRTZZ?oc=5",
-          "source": "ARTISHOCK REVISTA",
-          "pubdate": "Mon, 23 Dec 2024 08:00:00 GMT"
-        },
-        {
-          "title": "Museo Nacional de Bellas Artes inaugura dos exposiciones de su colección en la Universidad de Concepción Campus Chillán - mnba.gob.cl",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWU2NjBEV1FJdkFtaW85REh4MGdYdXJHQWgtNk1xaXZNZUZZeHZERGRDaE9SOXdPQUR1NmtvMF9TaG00YmE2WE9Rb2owZFh6b1BtRWw3Q0QwSGtBZkNuNXUtWU1kRVhYYnRvN3FnTVRmWnhMbXhGU3Q0SHdoMU1BZ19KWVhTT0RYVzFKUW5QVVk2QjdfendCSkVpSUxKMlBGWGxLQWU2MnlONFpjQU5LZjh4UFNNS3hCZEM3RDFfMkE?oc=5",
-          "source": "mnba.gob.cl",
-          "pubdate": "Mon, 27 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "El Museo de Huesca recorre la evolución del arte y la cultura a finales del siglo XX con obras de la Colección Escolano Olivares - Cadena SER",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeEYxYWJ2NDFNOTRha3p4REE3N3VTcEthVFU5QlVOczdialN0YUhuWG9kUlNSdVFiekRSN2pZQ3g1Rmp3S0k4Zks2X0dhNjdYc0xRLXhWWFNRT21aUExxckI2SFU3eDQwYzk0bEJiWUxaVjdTR2dhVFQ4QkxOVWhNQW5NUVcxd1l5b1E1TGJHTlFRRmdweWRZZ0pWR05QNmlkZGhkYVdCb0xVV0hHdW5qQWd6YTNDM0hOTmlPSnRtd2NrRTlBSnVUSjBfWUJtS003elVWU2prZUdZTFU2RDZyc3ViVHNUakh5QjFWbGFDVzBkLWY5ZzEySTF4UE1ZR2FtRVBHNUQ0dlE2SUVkckhz0gGjAkFVX3lxTE5IdWczUEJLMmRKeUs0ZmJMaDQ1UFJTOEZwWGV2eEdQYmdMVWxVdGRMZ2E0YlNCLWtGY0xPX1ltbVRBanNsb0ZGSTRhSHVnSWF3c1Nsd2hqNXBqV24zZFd1ZWNBYjJ1WmZUdms0ZDN2LVZoOVNQVGJXZE1DY1ZOS1ZEUnkzQUZnQWZZUHFJOHFBS2pxUTlERkxyZjlhbHl3VFd5cFF0bWRMTTE1ZTVKbS00aHhVRDZSLWd5TFkyM2FXeERLUFdUdVRlYVBIYjVEX0hlYzJEd09Qci1ob2JlN0t1aDZ0NGtudnRtaDJnTUJwd2Q2T2wtVVlrSW1rYUJWREFwZVZHWVpiOGczdmd3NVBuNUE5aXpMVGtsMTV3UnBGN29ocw?oc=5",
-          "source": "Cadena SER",
-          "pubdate": "Fri, 03 Jul 2026 11:24:27 GMT"
-        },
-        {
-          "title": "Museo de Arte Popular Americano inaugura “La veta”, exposición que reinterpreta la cerámica desde el cuerpo y el territorio - El Periodista",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYmZRdVlocUh0RXh0eTNkR00zVHM3emJfbGJFUHpaUEFSYkJfR0ltNVZqdHUwNE1tMk9xeWU5c0YwNndLcDV2R1lEZkE4N2U0Yko5b2Z1SWc2dnI2a1lGNnk4UHFUOWtRV2lCRU9QQS1LODV2aWx1YXgyVE9meWdESHB6TlhSUkdnbkNoZko3cUZZLWJOckY4cXdaX2d6d2VlRHU1R0dnSm9rcVd0eWdlS3NUMnhFdnlvUm1KMUZJQVF4cHdQRXBaYWxKOEtoZ3NNSFV4a3hiYUV5Zmota0tTRkZ3RGdQRm01QWxyMzRR?oc=5",
-          "source": "El Periodista",
-          "pubdate": "Tue, 23 Jun 2026 17:28:27 GMT"
+          "title": "Día de los Patrimonios 2026: estos son los panoramas imperdibles para hacer este sábado 30 y domingo 31 de mayo en Chile - ADN Radio",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOd0FWVHZBYWdNV3o1SFZTa2RkM19CRmFOT3RSdWlfZTJGdzZjOVhac3dadjBJUGxQWWtxczJyYi1IUU5SLWtzc3pWT2U0ZkxFMlRQdFpWcUE3MFpVUG52MVFwa3luRElCR0g4VW9nYjVRQmIwWGpTTzhYQkhtU3FpeExVRWY4YTVkNFQ5aFdXYzRxM3dzOTRGN2g1OXBrX2lJNnRxVFF5UG80WWp4ZGF6SFFqRWpzM0pjbUM3ZWM2UVlKaGZiQmNhMWdScmVhQnNDTlBjbHpmWGhCRmNpR05jTEF6OXlpdElnOHRZ0gH_AUFVX3lxTFBfcGN2MjV4dTRWR2syLXRKMThWLVBYaHZKZTJZZ1pnMmlkTGRwMTE5a0tzU2JvSDNOalU1Z1c2VnJ3MDJhU0JacTM0ZmRMMWk2Uk5WS0tlT0tiN2VJV3FjWlhEbkVGRWFTcXhzT05YRWxrSnBWbGtzbUFmU2xLa0RLbmJyejlNSHhYYzFWMzBIRXZTWl9pdmlLSzdUci1HVmdRVXhlWmFHN0tvX3hvWnp5b3JpYUNPM2QzOXlobzZpR1FxSHNnRUhOV0RmLWV6LXNIWXZnVHpISDh4SUZkb1ZPNjZrdEthSXdaY1plcFRlLVhLNWRPQlNnenZpdF8wNA?oc=5",
+          "source": "ADN Radio",
+          "pubdate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
           "title": "Con curatoría UdeC: Museo Nacional de Bellas Artes inaugura muestra por el Centenario de Julio Escámez - Universidad de Concepción",
@@ -241,58 +238,94 @@
           "pubdate": "Thu, 16 Oct 2025 07:00:00 GMT"
         },
         {
-          "title": "Inauguración de la muestra \"Metales vigentes\" arte en chatarra de Pablo González en el Museo Mulazzi - Vía País",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdFlRMlNrMDdDWWZrX3FKUE1pVVdvRnU4WjB3aE5TakdWYnFaZmtoSVgxaEg1dXhqZF9GQm80SVVwM3pQTWhmeXBOTnZoZm9OUXlvOHBzVVdfT2RCN0tPWFlJeDJXMU52Q2FQTkpaV1ZZcVozRGJFckJ0dUZxeWZwN2xWejBOSTZBc3hXSlBiQmVWRzNKcGxBeERtNjI2VXVQdGJZUDM3cUdkSERZYXRXbTQ1ajBrUmpFU1RMVmdwNERwV3hvS0x3SUk0clVHbk0?oc=5",
-          "source": "Vía País",
-          "pubdate": "Thu, 02 Jul 2026 14:14:25 GMT"
+          "title": "Vínculo, arte y memoria: UOH inaugura muestra textil inspirada en obras del reconocido muralista Mono González - ultimahora.cl",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWmV6VUdoY3FQTFFDc0VFREJnT0E5M2RQQ1kyVjhjdkpSYU9PMWthdDNsX2R2eUlaZi1EcGZxTGdJZXhSY3MxZXlVTU1KM1djQUZYVmhIaHlGQnVXelIwXzM1RVZkVkpHc2lya1dEZmIxUThSdzRHQzZES0ROUGs5OXc3dmM0OEZiUm1PU010eXRhUk1fWUt6U2o3SXV2RVY2T1hzUlFRcUQ5WHhXeHVMVW10X2NUemdONkM3alQxa1R6U0xzTkNaSEhnWXVmMnZH?oc=5",
+          "source": "ultimahora.cl",
+          "pubdate": "Mon, 22 Jun 2026 01:38:50 GMT"
         },
         {
-          "title": "El Museo Nacional de Arte Romano inaugura la exposición ‘Mvsica et choreae’ - Canal Extremadura",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3hIaW13cmxxNmRHRVBFQVUwTTVlNUFmc1Z2eEhBd3BlNVAyX1E4ZDdoalRyeWVKZXhZLV80VFhZTi1BZ0FwdE40MmthLW1tZTlXWHVGaGdxbDNZMmc1aWM2eVpRT3dTNXBQTXpGZldBMVc1UFROUmVOTW42eEpnb0ZtdFZjMlRqSjJVR2VsRFByYU5BaFBUdndVRWJlYnBqWHlfRUhfNGpVZG1RTG4tb2FiSVN3VjZEN0FuaFB3?oc=5",
-          "source": "Canal Extremadura",
-          "pubdate": "Thu, 02 Jul 2026 09:41:59 GMT"
+          "title": "Inauguración de la muestra artística “Los misterios de la vida de Cristo” - Iglesia.cl - Conferencia Episcopal de Chile",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOFFIeEVoT2NJZFJIcFRrNmhURUpxODJzUm5TU295MXpRdzlPamdJQ2NpUS1TTDdiVkRSNDNLWjFKeGwxUGFqYUdZdTg4Q1BYNm5HZXI0ZmJmRmpXbGJzWHpPMm9raEk3YnZYY21CbGVpYzItaVVDOW5UcDYxV1FwWFNjcHFRbnRISnJKVXU3OUhoRXU0eVg2RXh6YTFWcmhwbGJv?oc=5",
+          "source": "Iglesia.cl - Conferencia Episcopal de Chile",
+          "pubdate": "Fri, 16 Jan 2026 07:36:57 GMT"
         },
         {
-          "title": "Inauguración muestra “Desbocadas. Yeguas del Apocalipsis” en el Museo de Bellas Artes - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM1NuTm03b2FKbEpNcktrR3FoaG41VmFwdHRZbjJ6dkNwU1RGVTNBQjBscDZRdmxHWEtmUFhLcmNoa3ZOQWdReXBvYlNGbnNjVUNXYjJ4YWZkeVM4ZDl5d3ZLbGp2T0hCc1JWaGtoZGc4SmlyVTBMbVV4UDZUenBKNU5Kbjh2X2RWQVdhcDdIMWwxOGlETGhLU1pQSUxxeElTendiaDIxWkZaUFBJRTZFcWVkc0NNT1VzUGdKRWowVDdxb3BrN3puYQ?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Sun, 18 Jan 2026 08:00:00 GMT"
+          "title": "La Muestra Internacional de Artesanía UC llega por primera vez a Campus Oriente - Pontificia Universidad Católica de Chile",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaFVSekQzMmJZMEQwaTBnR0pqSlRNeGhTYTNBdXFOVWUyOG9iTHlCY3daV0RZa3lvNm1DZlVGTnVYNWhiNjdhQUZNQVJWeUtyaGRIaGRETkdnc0VHUHVFN3A4X3d2cnc5N1AzeXhoRVd1VGQ1bnExUkFmMHVJcjAzS28xaW5TeE1RMGFtRHR5UmVVYVpMeUxobGVOYl9ja09wdVcxRWh0eFRPa3c?oc=5",
+          "source": "Pontificia Universidad Católica de Chile",
+          "pubdate": "Tue, 16 Dec 2025 08:00:00 GMT"
         },
         {
-          "title": "El Museo de Arte Sacro de Teruel inaugura este jueves la exposición \"Esencia. La mística de lo contemporáneo\" en colaboración con el MACVAC - Iglesia en Aragon",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNa09TNlJFVTI1Sm5NNlBma3IwV3ZESEd2WElua1dLUWhiTEo5QTk2S0phTEhrZ1VVOVhXVXBzZmJMTVlxUl8zZmZpRHFsMkljQm5kYk9oLWdhcXVlYWh5b0tIX3pMdTBhZzRuQXJ4UTBNRXppRFJ6RzVlejBQTGZLNUdWUDJlcVdCVkZxOS1PSGFob3piYWNpbWhIdXlCSzJ0ZHlIRy1va3VnWGZ1WFItMGd5WFgwb2xfLWVkd1JXTGRkdGdtc1FyM3JIQURsNHhGZVoxV2xrUDhXTjNORndSXzAyUzhUQXNJQ3l0aw?oc=5",
-          "source": "Iglesia en Aragon",
-          "pubdate": "Tue, 16 Jun 2026 07:00:00 GMT"
+          "title": "Rectora Devés visita Banco Central antes de apertura de muestra pictórica restaurada por equipo U. de Chile - Universidad de Chile",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOem9iQjlpNjE3NFg0cWR1YXJXcmRBdXNvazBpZUFERmxUbTcwYnR0T3dEWEY3a3IxckxSYlg2S1ZLeEdDTE1fSUE1SnNZeUw1ZWNQN2dBelVsNm04aDhZd1Exa1B3eFkyOFR0Q3NQbEFCa2VGTlhTTnc4Zm45dUJadm55LXlFWnl1YlhNRTA1Um53ejFXNFRoM01qc1E3UHFkbWNOeTJHcw?oc=5",
+          "source": "Universidad de Chile",
+          "pubdate": "Mon, 04 Aug 2025 07:00:00 GMT"
         },
         {
-          "title": "MAC Parque Forestal realizó su última inauguración del 2025 con invitados internacionales - Facultad de Artes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHpsZlZLb0FNTHROS0NwZENpTlh0TngtUGhsTDhwejJSUkktTjFZYnF5X1pLU0NJOTJnMmJlT1JXNWxZUXd1dUE4WnpldjcyYWlEZGZnT0F0dmx0WFBiMXI1aVNCMWx3Y0F2NFhaVEZJSG01U0l6UlQ1WV9RYllXR2hROUx3MEd5ZU1rb0FJalZYWm01clZDZHhwbw?oc=5",
-          "source": "Facultad de Artes - Universidad de Chile",
-          "pubdate": "Mon, 10 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Francis Alÿs llega por primera vez a Chile con su exposición “Juegos de niñxs 1999-2022” al Centro Nacional de Arte Contemporáneo - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdm5QUzRQc25sdE5ERlV1Um9ZeGxmRFlYRWRhbjZUcVA2WlJna0VNY19CRGhET3NneFozRTBqZjktV3Nrd3dTLWc2OWRLWl9MNDBXUk9JZVNJeWE2NGJ2U2NQZUtlN1lEUGJzZVZyd1diLXp0NUtYdExPMFJqNEZiYWxqV09XOXF2VWhtX3FsMnpjVTdyS3hKcjNMODdVS3p2LWhrTVp3LTNJbVk2YkpBME5iaHlHTHAyTk1jTTJBMXByd1pfdzdlUTU0VTFLYVlEUzJpQ1NyZzN2cjdITFNDN2ZtTEYxUEU?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Wed, 01 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Arte en Valparaíso: muestra “Refractario” explora identidad y reflejo en BAJ - elmartutino.cl",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ3VqZ3VkN0tINTlLNDhUSDBscmd2WHl3NVpFcXMwWlQwekRhcXpqYkFQZVg4QkFVZDVTdHU0UFI2YkRGNmRJREk0eE5KVlVDX016WTJtY3E0b0JQRTdYeXBqRU1SNnZQNW5JYjdWVEotbzZDR29CaWJmZmdwWmhQZ1dZb1JTbGljOTd1b2RuSk1MRlgxZjFadzdvMzVDVlNrNEZpWjJzRlBkLXQ1VHVQX2Z3TE1pUkk?oc=5",
-          "source": "elmartutino.cl",
-          "pubdate": "Thu, 19 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Muestra \"Materia sensible\" en el Museo de Arte Contemporáneo - Facultad de Artes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXlLakNPdHdyLS1jblRzdjJ2Zkcyay1OSWlkaDlXdzhzemxaNGNlbkJ2ZEJUNTU0WE43bnYxTlhyd1BxSnpldTVkcjJLOGN6UVhsLWpkWk1JR3hQSjN1d0t4ZGFHNFNjclRGaE8tQW9Hbi1MSkpQVlN6QUY5bkV5VWJRMGRseFpLVkZmYmpNcmoxVW1laWRUdkRkUUw?oc=5",
-          "source": "Facultad de Artes - Universidad de Chile",
-          "pubdate": "Sat, 25 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Muestra itinerante de la 34ª Bienal de São Paulo llega al Centro Nacional de Arte Contemporáneo - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNLVpXaGNUc2NFZU9qbHdLcXlTeWY0R3NkaUJxcVBhb3V5Y0Z0X3NfWDVDRjI5SDJ0Zm9uNGZlZ2YyZzhaZjdWWFp1QVgxcmNVYm1VZXQwTjk0Q0RaNlRBYlEwOVdnalJCaVh0ZzV0eFk1UExVelZFOG1wQzVWNjd5dWpsclozc0VkMlN3RXRGTUVzcTZXSEtYZmg2Z2pzQ3o5MFd3LVlDbzFHR0tXdXVTdllxY0o0V1pUZWtCOXhibGczSFZBM2t2UkpMYWdzNGRGUDcyVw?oc=5",
+          "title": "Ministra de las Culturas asiste a la inauguración de la exposición de Roberto Matta en el Museo Nacional de Bellas Artes - Ministerio de las Culturas",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeGRuQWYxZEFzaUc1OVhNVUJIYmlEdDkwbXRYYWlySzZydVphS1hfUllpcW1ZTFJ2Y0VnTjQ5U2hmVTA2ZWpBdE5LaUZrQV9EdjFCMllqOHBIZWNlRFBzR2puMGMwbkc5bGlveU1EemcyTHpQNnNKQjR1NHkwM3M5ZzREb19uNnFPN2FLaWxsMkxTQW9uTHdqTWdlU1E5T2dXWEY4VTJIbkl4c3VIN3gxNmYzRVB1U0p2MV82SWZTWF9tVmk2UEQxRTJBQXhER3J0bjNmbktEdUJtMDJuNVlZMFVUNEg5WWh4eFpOUTJQRlJoUzFfeEE?oc=5",
           "source": "Ministerio de las Culturas",
-          "pubdate": "Tue, 13 Sep 2022 07:00:00 GMT"
+          "pubdate": "Fri, 11 Jul 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Más de 200 joyas del British Museum llegan al Gaiás con ‘Voces del Pacífico’ - El Correo Gallego",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVFsZWRLaE1qOEx4c0taVDlSMTJoRDZVZnh1TEV5aUptMEozU2hjUGtjbGgwYXFxU19mN0R4LTRzUi1LT1ZtRlNjSC1CTDRQcnBRVGVxcFA4VkhpODBndkFlVkJmX1IzaHlOeXFDckVvckM5QkNwVWJUNHFUWmM5R0xyYm10Z2dDajlVWEx5MXk5bVJGVFFxbVBpcGdtd9IBowFBVV95cUxONDdQUjdqeXZ4b1drV0xxSkNsSDBzM2hkb2hqQVRCd0tQczJXWU1UbXo2b0xmTjV2SlRuSHVBdHFfYXNmV0xJdXZjTGNRdWE0Nk5uSU91SFlMSThjM21Va1kxNFU5U2NZQmFXdkY1Wm5ET1lTT3FpeVc2U1B2aXlkTWRpVWpkaW5ycTk0eVBoaFdQbFlzajVXRUp0cmpaMC1wWnYw?oc=5",
+          "source": "El Correo Gallego",
+          "pubdate": "Fri, 05 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Janet Toro. Intimidad radical. Desbordamientos y gestos - mnba.gob.cl",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ2I4WlotTE9lZ01uZ0d6SzFBZFhxSjZHUzdsMmlvc0ptUmduWm41YThub1hqWGs0cE5lcWJ5MXY4TnRtRGl4LXFNRFAyUkU2LWI3M2VxaDhIWmsydHRpaFExOWI2QndIZU5YM3lkcHZ1cnpyRERrclVnSG5xVW9UT1NtWUVFTnl3TVB2U1ZKMA?oc=5",
+          "source": "mnba.gob.cl",
+          "pubdate": "Thu, 08 May 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Conoce las nuevas exposiciones temporales del Museo de la Memoria - Museo de la Memoria y los Derechos Humanos",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYS12QlVXREpjcFp0d3VmQ1FZM3V6eVJEeW9qM0JJWG1jbV9rSWY1a2xFNVhTaFNoSDM0RlZseklJVW54Yi1TbGdwd2k4Nm5jRHJFQTNhMk9HT3prV3dvV3dxRkx1amNTN1ZmRC1UdVdpeVE4Q1BGRTJndi1VN0lCcF94Q0tuOG9pYklsX0FITFpINExZUGhoMGhRcEgxYTNRWGJ4UTg4R240YW9tbFlDZk1R?oc=5",
+          "source": "Museo de la Memoria y los Derechos Humanos",
+          "pubdate": "Wed, 04 Mar 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Museo de Bellas Artes de Valparaíso presenta su cartelera de exposiciones temporales 2026 - Museo Baburizza",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTl9aZUswZV96S29oWmJybjN1TXJQWC1LbVdOQVZrWVBZeV94MUFKTDdBYlVFN1l3NlNUU0R4QmFXSUZnb3NWb0ZRcThnN3NmM3FBdEM2S19SZzhzWm1iVDVrQk4td1lsb2xhNTdQaHh6NVBOV2JFSmZZRXZUMG9xSGt6aHkzbGpDbGE3MEp0OHU4SEgzS2NseE5Tb2RaTXgxZ1lkSGwwX0JoTUVUWVctdFNrdTE0QkhWUjJOVA?oc=5",
+          "source": "Museo Baburizza",
+          "pubdate": "Mon, 30 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "[FINALIZADA] Memorias de una obra en recuperación. Centenario Julio Escámez - mnba.gob.cl",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTFMydGQyMEl4enk5QnhQSV9kWW1nQ2dkbUVYNDFvcDFKYU9LeEk2NlF6Qy1mWUljTzNnNEFjdFZFZE92YkNab3lyUzBZN01BNmdVZDg1d3NHcmhRNGZHY2NnUmJCLVlGNEdLdGF1UlIwdWNQUWU4eDVSNjBHV1ZRaDlWZEViLVhSRzExdXdzY3M0ZXpyNEJrZkJnbDl3WGl5aktrMWlCSlg3TWpocHFoZEw3blNQSkFLZWUxMQ?oc=5",
+          "source": "mnba.gob.cl",
+          "pubdate": "Wed, 18 Feb 2026 19:45:27 GMT"
+        },
+        {
+          "title": "Cambio de Dirección del Museo Marítimo Nacional - armada.cl",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vR01XLXNfX1hsLUZ6Z09VTm9Ea21LbFZMdllQMVRTbVZweTFSTUN1WXRNLTdGVU5wMkFYbzVHSHQ0a01MSTRSV1h6ZFhWcDBmeVdsTm12ZlV1SjFLMW1lNE1sQUpNZW1KVE1sYTJ2NldMdDZaMFlERQ?oc=5",
+          "source": "armada.cl",
+          "pubdate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "El MUVHN y el Museo Nacional de Historia Natural de Chile refuerzan su colaboración en conservación, investigación y divulgación del patrimonio natural - uv.es",
+          "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNa1RaaGM0VF9WdGpwY0dKbmJqYW9CRGJkbXR2dWVESU1veGZpa0xpWVFmQ19BZDVjOXZzcndRek15ZllXcENUY0ZVZ0hGTWh3TzZGUVlXZWg1eGdHb1JKUm1UMFpZRTVsUXYwdERKWnVEckpDeU5KN2xfNU9XMFJTaHF6bXNJSXpIRDYwNUh6bkVqT3h6NWVEQ1NLTXN0Rk9rUV9nSVRBODQxSmhueHktOWV1MjdNTmtrSTB4a2kzd0FWOUx1U0EwbFNMQkZRdzdWNUlYM2E3b2xERUh5em5OMno1ZTFsOE14VTVyNWp6RGxCc2RhTTdpUDR5ZU5FZ3NhdzU0Yk5VX2ladlJsWU1FTGE0WUFPU25tUElBNWtlazJUTHEtZG5JOXpuRGxyQi0tUXJsMlBLVnFBa04wT2ZaenBHcXgtQ1BHVm1xRFJvcVpiUQ?oc=5",
+          "source": "uv.es",
+          "pubdate": "Tue, 09 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Museo Marítimo Nacional premia a ganadores del concurso de fotografía “Chile Marítimo en imágenes” - armada.cl",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhBbmNRU085VzdGNnN6OTRSSTc1Q0I2ZzNIVldfMkNvOG1GMXVWZjVCRUlZa2pZdTBXdnltTzVkRTcydUs5NmFkSEtBdEFYZFFEYTUzNW9RcmlEMjlEVEYzdTZEQ0EwMmZaSGV1UkFseUxKT2JHVm5YbHNtUUhQcGpTNS10TzRuZlRUQmNSLUNvWkhrMFE?oc=5",
+          "source": "armada.cl",
+          "pubdate": "Fri, 30 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
+          "source": "Chile Travel",
+          "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Museo de Arte Contemporáneo de la Universidad de Chile abrió su convocatoria para proyectos - El Nacional - El diario de los lectores influyentes",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaWVaM3RPajhPb1BLX1gtbzdqSE1jTW1teUNXbWpBTVQzRExCYU9Bd0lCQ2lndlhuaGVkdFFyVXJ6Z2NNTDl5UEYteDhHdEptZTFYclNUU0lVdUNIbUN0a2Vtbl8yNE1icEd5eXFQWTVTUHNuUS0xYlZTLXpIWU1fZE16ZDJ5Z2xrenRpbGwtWk82QW5zZ3pHOEJ6dkJ5dUxINkgwMVR1VnV1MWhPcklINWRzWXdXQ3UxTFRTT3FDMlDSAcYBQVVfeXFMT0xTWTBic2VaUWV2NG5OUzJZTEZ1cy1uTHdhVEVuV1haRzI5bExKUW4xVFVTQUdyQlBOTU9xd25yQ0dsOFRhZXkxVGJnTEdWLWRMWXZVTEVOV1Y1QzhaMlN2WjBuSlJJZGM0eGVacVBFTTZUbDlnUG1wTHRfd3ZaMGdHWXlWaGVVVl9TS09zaE1ZcDlieVpubjhCdkM3cjJOSk5XeU81YW9fV0M5OTk1SXNXM2ZXejViTHM5SkpOc0w0RlBkSXNR?oc=5",
+          "source": "El Nacional - El diario de los lectores influyentes",
+          "pubdate": "Wed, 21 Jan 2026 08:00:00 GMT"
         }
       ]
     },
@@ -355,16 +388,10 @@
           "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Así será la edición más grande de Ch.ACO (y cómo alista su llegada a Valparaíso) - La Tercera",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3JGcEVZTjdNMjhFdlJpcFNnSjFDSlZ6S0hiVldZUUU2eElQVGJDWXVDMHFhTkJWUVhFVVAydWxjMDZQa0JkY0NQSDJXMkRNQWtOaTRNcG9ON25udHo0clBkSVdRblkwYThjaHZEWGZPb0hmTWt3VnlnWU1LMFFjS1dmVVBXR3ViOW9ZSTBZeFdOVjU4TGVfbVRMSEM2SnlBVVhDRDd4VTFxSFpXdjJkcDRSb1FfbnlaUVHSAdsBQVVfeXFMTTBpRHhleTAwaVpIcHVwYU9HS0Z2aFliMG9RX2lkQ01ELWdjMGRpNUhVWkoxQmFmeFJoclR1THE2bzhqRjB3OVVIaTRCUzhSWHBqUTlURm8tTG9RWWZmcXFEMVVoMjBvUTVuV0x3cUtoamlEWEViUEMxemRLSmdTLXBvcXE2eF9Eb3J5eFFvbjZWVUplZUtIeXR4SE1Hdk9ZcV9iSHJva2pMOHpqMDNrU2h0eDA3b19xRW5hUnNIU0tIa3dOalBvWmtodndxTk9fRjBoblAtbUhNa2R3?oc=5",
-          "source": "La Tercera",
-          "pubdate": "Tue, 24 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Feria Ch.ACO-16: se aproxima el evento más importante del arte en Chile - Marca Chile",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYk1TcFZwWWYwX3J5djdJMG1mRUNDQnZ4Z1gxai1USEQ1cHM0VTF3TVFZTEloLWlWSjFIeElzclhVZERfamoyWHNSLWNfVldPeGd3RVBwLXdjVF9xQjJtYTR0X09BOFNLVVY3TGtkZUtfajRwd3g4WXRNdldseXBIRnB2cVdkdl9GaG1FRER6enlXMnBrOEdKNEFNNHlRV1lPRnlXRC1hMXFOWEdncElFWEduclZ6dw?oc=5",
-          "source": "Marca Chile",
-          "pubdate": "Thu, 12 Mar 2026 19:02:23 GMT"
+          "title": "Art Stgo 2025 - gam.cl",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM05QWi1IUkNHN2paeFFUOXlNalpuSWlxMm5IV3MxUC1Celk0b2VxS0pNOFR6WFNyaTg4bE1rR2ktaHlNemhaQTBIME8wcWV6aGR1Y01LcHBIMk5WcnpNdlMxZWtrdjhPeFQ0NERR?oc=5",
+          "source": "gam.cl",
+          "pubdate": "Sat, 27 Dec 2025 18:58:37 GMT"
         },
         {
           "title": "Feria Ch.ACO celebra 16 años con un homenaje a la “Loca Geografía” de Chile y más de 250 artistas - El Mostrador",
@@ -373,34 +400,46 @@
           "pubdate": "Tue, 24 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Ch.ACO-16: cuándo y dónde comprar entradas para el encuentro más importante de arte en Chile - La Cuarta",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWVFjdENMR2h6d2ZGcUlQYXcyc0hUdnliazQ4MnJsVEIyTXdhZG82TzlpWlhIc09hMXFqQlZWTDhwd1h1dHpwRl91anVEbGo1aWh6TGVKdEZiYnhqV0poR2tOWUJ0MGRQMlR4LXVKTUtTUDFzUTVoUGRmVTA3WGowYzh4SlVuWVdyUDREbXNXR0pSaDItdkNIR202MTFsaUdBZkVPeEk4N0k2ZzVJVktYR1ZfRE9SSmVjMDZNbFh2UGpIdWY4MmtEVUpzWW9ac1XSAfABQVVfeXFMTk1zR1pGWlRCYlpQNmM2ekktQ1RKMUlBZWpvdEc1WHpTSXdOSjk4SVJINlBpbEtJeGNjRzBhT1ptbjlNTTVzNkhmcUtKSjQ2TU1EeHRDcjdRMzEtZE9YQmE4Q2ZreGdGc0RhSmtIQWdHY0ROODgtdC1rUmxGX25ZMkY2eDNWblFtcE1zNmJrYTRBR1FnQzE2Zm1Pd1R6YnJjZkNJQlZPNTRHdXp6R0gxSUxhWVl6Y1k4dTR0VFdKbzNBWTM5MUctd3QxWXN1eGpEZzdJT196Y0pXOTNSRnlTWlBoX3Zld1pQX2FaaDZ0U0Yw?oc=5",
-          "source": "La Cuarta",
-          "pubdate": "Fri, 13 Mar 2026 07:00:00 GMT"
+          "title": "Ch.ACO-16: cómo será la décimo sexta versión de la feria de arte más importante de Santiago - 24horas",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNUoxZ0t0Vk5JUHkyaUxXRjlwTnpJQ05vR1FnZEhzZ2FmbDJoSHY3UGJ0WDh4RG1tUjhUU05HYTk2eVhPX1hiY0NVTnhxRFdwemF5NnZkc2FpMWpiamJpb3ZBeEh5UVpwTVhyNE9PWUR1MnVySk5QOXJtVHdUc2RKV3Z1dkhZWmllVU44cVgtRDQ2R1BtMkZnQ1EzTzlGOUszZnc4V2t30gGrAUFVX3lxTE1RdTdhQVhuTkdBM09RaF9ILTlwOUxOZ3pzU2thZXRoak1jQXMwS1hfazBCdlpqdjlmT2lvQWRTd3FhcGd6ZDZVX2lYTjBwVWRxUkxWSENLanI5bEJvSXdWaVpNcElBb0hBc2c3SllXelcySVFnMzJQcXpTUzlxVmxhWEFGZ0QwSTQxMVNBYlhjaW1qNC12dm1wNnc0Z2h4NlNVNFoxTk50LVhkMA?oc=5",
+          "source": "24horas",
+          "pubdate": "Mon, 23 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Comienza la itinerancia de exposición audiovisual de la Colección MNBA - mnba.gob.cl",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObllPVExlbHotQ1c5UkJyMUNkOHZoNkFvUnpVNFZIUVZJa0J1VW5aQm1pTUs0MkxycU84RlFheTdyeHJIMGlhMHpHVm15U3licklnMThpNUlOSmV4WlRmQ2x2MlNDc0NVa002T3NwZFc0Q2sybmgwZkk4dnNJdjl5ZEVTeEFwQlFmdUZ6ZlF2STJrck5GbnRfNEE2VmdfMmFKM3h4c2R3?oc=5",
-          "source": "mnba.gob.cl",
-          "pubdate": "Thu, 27 Nov 2025 08:00:00 GMT"
+          "title": "Ch.ACO 2026 comienza con homenaje a escultor Federico Assler y presencia del ministro Francisco Undurraga - La Tercera",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT3kwclJ4VlFuQlA2OHVxbUM0eFI1Z0t6Z0VJRWxUWjR1NklRcGhwTVBqTWNaWFh4NGxZMFNnWjJIVlhOb2RuZXNndTRuUEpuM2s2azJQR0luYzdXV2NWTnpmQXJ5UG9DUW9NM2FzNVAyTzZEcUd6MmhFa0hmelFGQ3p6RlNMb3NLMkFKWk5oWlJoakxFVGdweGl0c3g4Z2U5dGMwYnJQTF9uaDRQMF9uOTkzblVKb3ZhMF94SDA1bV9lejJ2Z3oxQkduZ0Y2ZG9Bb0lvOU9SRkN3TWdZTHfSAf8BQVVfeXFMUHNQOGJFdzU5RGhBSjFzOE1sWkx0SXg5RUJLZW1nSGQ3U00xeXBQZWMwU3JycnBzeUdKTFctWG5oYm5MTzc3OGpaWGhBZlNkMS1Ha25oNmUybHlOaXlPVWRfNFFJc25QNE1uY1h6OGZZU3ZUZTctblNDM0NwakotVHhZRVFUbGZYZHJpYzMyYXBTSC1jeVMzVlpudDRteFpOZVNyZDNnUGVwakxOUmN6bGJQVUxGYjFCWnREMF83UUNzN3JPMHFwQ1B2dlZOenBNcmg3SnRQQUVlak92bnIwNjhTTWJTMUV0bnBCbGF4VWxuMlduck9iT1VCbEZHRjJ3?oc=5",
+          "source": "La Tercera",
+          "pubdate": "Thu, 26 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Facultad de Medicina abre galería de arte que cruza salud, historia y arquitectura - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMl9XU180dEQzdmthR2FydFNXc19RSEtLWHNUMHVFUlhHOW84Rl91cGV3R19RZWpaRmZYUUlQQWM2ZnhJU1ZENnhYbjJqenBGZG1yRDRTTy1YSmd1UmhXM05wZEptOUwxdlBIdWFtcFNyakxrWGxPcDVlTXYwS3lZU3lVWTVNZ1A4TEs2VW80TQ?oc=5",
-          "source": "Universidad de Chile",
-          "pubdate": "Wed, 17 Dec 2025 08:00:00 GMT"
+          "title": "Ch.ACO-16 regresa a Vitacura con su edición más ambiciosa y consolida a Chile como epicentro del arte contemporáneo - Portal Metropolitano",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNXdjRkEtd3MxS25udjg1bUxHelZHbzFQSkZleVNaWEN4MVJrS01HbnZpUHllTlBnR05GOU9taU1JNjZCOXhQTF93SDVsVWEwOTNiUks5X0ZLLVNrZENSUTQ0UnBHMUJCd1Fza3JpNG9idkE1enZtVG40X0kyRmhUVW9ETTV6Uk5zYWtnZTZuODlTUExuRWtyc0wxMXlaNFFNVHJKSVhOX21XLXV0a0pKTWpGeHF5R2pGMlNpQmZaSno2dmtGYVdLVGF5dER2MS1XRy1QNi12MEJsLUlFelRZNQ?oc=5",
+          "source": "Portal Metropolitano",
+          "pubdate": "Thu, 19 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "APERTURA EXPOSICIÓN BIG BANG – TOMBO de Pedro Lomboy en Galería CIMA - WalkingStgo",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdSNVdWcC1ROW1vR3hCUFdsc3J4TnZsc1pLWW1xcUwyc1FtTzZzdGR0SGhRbEhSMEdJLWxYaFk5V2dDeWxzSWtIMmVPamVseDloVXJfSC1fU0E1OS1tRVJmSmFuSHNXdVJqM1JQbDdKVXl0RmIzaDhmbFF0NThNS3E5djVGX1NnemlfQlozUU9PQ1Zp?oc=5",
-          "source": "WalkingStgo",
-          "pubdate": "Fri, 19 Jun 2026 03:12:59 GMT"
+          "title": "Arte joven en Santiago: galerías, talleres y nombres que hay que mirar - ed.cl",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVgyRDVfX3paZTMxQU05WWtYSldwM3FWMFp6LW1fSVRfVmliSi1rN0xjUENmR1JGakQ3S2YwUUxxTnRBM0FNdE9nS0hyYWFuTWNhX3N4X3JWWUdjZVVwM2JXUEJuZE80ckd3ZlM0eUZyNm15UkJqWngzcnBYN01XOEVyVmlWem43dlRXS0dxcnVldUVnZnBMbmJicVVaUjlvQU5TTVFfUUhnRkRpZnc?oc=5",
+          "source": "ed.cl",
+          "pubdate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Expositores piloto pardo y barco galería en Feria Ch.ACO - El Mostrador",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNFhPZ1V6cTRxNkRYNDdjS3g3OGZUNmZKYUgzYWF0WUl2NFhpUTVLeDFkcmJtV25UNk5yQU1LVTlmR2I2Nl9hVlI4S0FhZkdiNUhVb3RiXzZwME1MandyTDExOUo2Y3lZVWtKRWNwVjFtSEp1TVFwMXgyYnlXSkVOakxxR09ySE5EdXI5Ny1QYl82Q2dEWUFVbjNSTzc4V2tsclhzSnBTQ0x5NUJNUFNz?oc=5",
-          "source": "El Mostrador",
-          "pubdate": "Wed, 25 Mar 2026 07:00:00 GMT"
+          "title": "Recorre galerías de arte con acceso liberado: qué hacer en Santiago - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONDZocDRCOU9SY1VfX2dYei13NmdRQ2NwSnllc01EM2NjYWdSVnJNMm5uM2E2QWNCem9tald6X3duUnhOeS1UU2lXaXoxUkpySkRoOF9BdDViMXo1Vm9lZXFLRGh0cUVMZWU4eUNoNEdFMzlHNFdEY3VTb3laaTVwSmtYaFZ3S3ZjX3BJZkVzRWtMSV9XUFE?oc=5",
+          "source": "La Nación",
+          "pubdate": "Fri, 16 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "PUCV presenta nueva exposición de grabados en la Sala Gasco de Santiago - Pontificia Universidad Católica de Valparaíso",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYWhSX1BYdHZTdWpZMTlBMmxEcVk2OVM4TGdfWjJOYU9pNFJkMUg5VmZsMW56Q3dyR3d1ODk3bjN1MVhmTXljX3RGWWNkVnJZejktbVVxV0JQYjUxeTE1Y2l0OHplX182RUhjZkRuY2gtczVjLVo1TlkzenpkTy1UUzZsYU9IdXVRUFhHT3hkdWsxUTdJRXRqRUJqZk1oWV9MOXVhU0dGTmlMOXZmZUR0SDI1MTREVzlCRUw3MQ?oc=5",
+          "source": "Pontificia Universidad Católica de Valparaíso",
+          "pubdate": "Wed, 03 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Panta rei, Exposición, Pintura, sep 2025 - ArteInformado",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QV01qM1BDdFhPbEVnbUp6TWtZd1h0ZTl0TDJ3bGctTG85anFlYTR1LXZZbW5CbTZMc0s4X0M1UmM2bUExbmRRRThJY1N2TWxGMk9rdER4QU03aXpxUnp5aW5tZEo3UQ?oc=5",
+          "source": "ArteInformado",
+          "pubdate": "Thu, 11 Sep 2025 15:35:17 GMT"
         },
         {
           "title": "Inédita exposición de Pipilotti Rist en Chile trae lanzamiento de Bienal de Artes Mediales de Santiago - BioBioChile",
@@ -409,22 +448,22 @@
           "pubdate": "Wed, 13 Aug 2025 07:00:00 GMT"
         },
         {
-          "title": "Facultad de Medicina inaugura nueva galería de arte - Facultad de Medicina - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUk0zY093MEJRZkhhcGRjNW5uODR3NldFSnljSkJXSE9VbE9iSFZCZnRTdGNwaEQtSmRwZ0JXZ0F4bHV3b0l0akpUX2pfcVVzVE1pVEFiTG1lN0JPU1BZWTRtV05STjh0clYtam4wOUd0S0Nqd3gwejYzQWJ0ZWFDTG5RYTMyMm0zR2FzUmlaNGFzM1ZVWk5sNlF3?oc=5",
-          "source": "Facultad de Medicina - Universidad de Chile",
-          "pubdate": "Thu, 11 Dec 2025 08:00:00 GMT"
+          "title": "La exposición reúne las obras de artistas surcanas que buscan sensibilizar sobre la vital importancia de los árboles como fuentes de vida y equilibrio natural. El ingreso es libre - Municipalidad de Santiago de Surco",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3JqOUZfWm1Ca2VHWFBGTDk1Z1BoNjZvSkkzZG9TenRCWjR5M3BFU0kxeV9lOHJqVGxpUXpMa3pWajhWUzJEQ3dnanA4M3VjV2NyRzl1Z1dPME5lS3ZVR3ZuUktpeFZnSFduU0ljV3I5LTdPMUt6UkJIbEFpbWFRTnhKX2tFV3dteGw2UHZQNWVobXdjZ19oRTNiOUZ3TVpoeXFONw?oc=5",
+          "source": "Municipalidad de Santiago de Surco",
+          "pubdate": "Fri, 30 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "22 GALERÍAS, 77 ARTISTAS, EN LA 3° EDICIÓN DE GALERÍA WEEKEND SANTIAGO - ARTISHOCK REVISTA",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XZTZoT2RDM2pPQl95QndxT2ZNWkhxYlh4TVFPSklxRl9MZjh2eFhOdmpkWjk5SlBYMzJDNGdTTzdSNE9TRnVWaEVVN2RpNHBTTzR1N01XQ093UTg0OWxsX1pGQ0RvUFZISmJTanBIcHlhdHhFQnNtZVZn?oc=5",
+          "title": "Santiago Leal expone 'Pequeña explicación del mundo' en Espacio Alterno de Uniandinos - CAMBIO Colombia",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDhaTi1WYThibUR1RG4wMHhVck9BZU9NRG9hWFRHREZKWUpvaUYzVm9kYmFOczBRTHIyODFNcklRMzA1WGlpM3hYUHVqQmpyXzBtQ1ZZZU5Cakw0WTRub2FLVzRCOUk0aEx2eS1IUFBmcnZIUWZaXy1URXpBeWNpUDhtYndubVlXMTRIZXpKM2xLWlkyQ09BWG9CR2xmalN4cEJvQjNDQXpJZkRxR3ZqbGtLa3NieE03NEFPYQ?oc=5",
+          "source": "CAMBIO Colombia",
+          "pubdate": "Sat, 09 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "LAS EXPOSICIONES MÁS DESTACADAS DE SANTIAGO EN 2024 - ARTISHOCK REVISTA",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1htQ1lXV2NYZldZcFpTZHJUS0RWZnpPYjRNM3dJTXRIYzhMY0tNYXdiYTBmMGZmQjllNzI4eThLS1hKSXlMMndueGxBU0lmaFMxdDVKMkRVZ0dXOWJ4RllhSnYwOTdkcFlXTEcwS0lNempOdXR0OEJ5QUxmRlBZTDFWblpSanQtWXd5aXo4NV9RQmdsRTZZ?oc=5",
           "source": "ARTISHOCK REVISTA",
-          "pubdate": "Tue, 08 Oct 2019 07:00:00 GMT"
-        },
-        {
-          "title": "El centenario de Chillida llega a Chile desde la UC - Pontificia Universidad Católica de Chile",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORTRNYjI4UWNBTVNUSnRNcm9qN1pYUmZXYWdCYlRMbmxvVXFxbVVWVGM0R3VFU2RTdjhWQlVsMVRQTE9fSFpoUDNJUDZXdkpDa2xnRXQ1YkVnZDZqb2hjczdIVlVwZG5XZkNZbV9MRm9fX3FOcktRUS1oemNrMVY1Y3hiVFZJUQ?oc=5",
-          "source": "Pontificia Universidad Católica de Chile",
-          "pubdate": "Thu, 21 Mar 2024 07:00:00 GMT"
+          "pubdate": "Mon, 23 Dec 2024 08:00:00 GMT"
         }
       ]
     },
@@ -433,16 +472,22 @@
       "icono": "diseno",
       "items": [
         {
-          "title": "Todo listo para el Expo Patagonia Teje - Tiempo Sur",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa1VURHRKMWlVeGJYLXZFRWtwdlRSa2dPOHdaLXdnUlE0OEhGanhuSmRkcWdYYUdmWEJtNTRLRV9ZZG5SNXpLczU4Z2JYdlhNXzdqY25qeEU5SWtEX3V1V2xwd1JYUW82Q0dmb250SVdnbWl4c2JMREluaXRUN1ZUa2UyM1Q0RXPSAYwBQVVfeXFMUFEtWDh6VWk4eGo5R2tIY3Z5QnA1MmtGeWZUNERmZTdhOENGY0VRc3VMZThCdGFyLXJFMURRN2JSMVEtME9xZU01cUNZUUNqV1Y1MzdlSnBkN1l3YTZZS2RsNUM4dHhtZkNNd0x4eS1QSy1MamJNNWV5RnhYZ3k3d3hCLXVGa1BRWTJpLTA?oc=5",
-          "source": "Tiempo Sur",
-          "pubdate": "Thu, 02 Jul 2026 14:35:00 GMT"
+          "title": "Exposición “Brasil Moderno”: el diseño de Sergio Rodrigues llega a Santiago - Infogate.cl",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYjJCREUyYVowYlpoLTBWZURqNjFmS0hvblAyRElrcnpIcG1hVnNSTDI5X1ZXcnM4NF9naVVSZ1dFTWpkS1B4OF9oOXA4YWdFRFZJWl9zTjBCMmtuc2lmaTJXeDJ6UlJ5Y3BhUmU0WFppM0k2WXlYV3R4djJvMnljRzcxNUtlellGT2ZDbkJDdkdIa1BtNE1aU3JUY3ZvVnJYaWh1ZFE2ZjY?oc=5",
+          "source": "Infogate.cl",
+          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Cartelera de panoramas para Santiago: Globos gigantes, Feria del Sánguche y más para este 21, 22 y 23 de noviembre - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHhwM3ZDMTNaYXNkcDNnbTdXNzNQdk1Pai1vX29YTE04SFFoMDlEOEFTWFU2aEFJbUlUWGZSYm5ERy0zV1ZkdVN2TjZBTU5mVE1uek9NamdnS195a3hmV3k2VVVnd3JuX3V2NkZua1N4aUJVNDRVcGZyZUhWc0s0MmJHRllYamtONVBzaGZ0QmhRZ2JPY200WlNvaUtfUzZvWkVtY1BUZzVzbGt1QTVOeWdva1h4ek0?oc=5",
+          "title": "Sin costo: la cartelera de panoramas GRATIS en Santiago para el fin de semana del 28, 29 y 30 de noviembre - Canal 13",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMjR1RDFjTVdDM3pCb0lMX1E2cENsRlU5QzZMVXIxU2Jwd09fa1BzdFJIOURpYkZDU3gzelhWTUstYms0UlZrVEUtNlZUcGI5djZER3pSOVB2T01lR1N3M0RHM3JyMmpJOGFnVHhVeG9qUU9ibTYtTkdVbkl3OFVRUXpiOWN3OGtYMWI0aVI1SnQ3WmJBVVpFV3dmWThhOWxLakprb2pRamYtNTVoUWZ6WUxhZ2I2RXc?oc=5",
           "source": "Canal 13",
-          "pubdate": "Thu, 20 Nov 2025 08:00:00 GMT"
+          "pubdate": "Thu, 27 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Revisa las actividades gratuitas de Festival Santiago Off: artes escénicas, talleres y exposiciones - BioBioChile",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWmdzQzhRdTc1X01PZzVtb3lsTGY2ZFJaT3kxUFRROGJjd2N4YW9ramwyQTRXQzFEZ3BzeXNyZC03UWh6UlBNdnRDYWxZalVZRTdpb0RHVTFVZGg2eWhIM2Q1QTBta0w3V2xTR0VsYkxjLXBCR21nRzhQcGlNZEpSdy1lejcxQ3ZPbm1yZHRRLWZ0OGxMSzBRZ2o2T0Mwd3JIdE5NcmN6b3ZXV1RpWXAtTU9xbUdXTlZXaHlXdHNHSW1KR1l5NXdmVEFLcnBvSkpaZlRhRDRIMS1kS3lvMXg2aGRXS09IeWt4b2FXemljTGZFZU9QTGZqU0NwVlY5amQySTZCbi1FZGVqZXBnYmNwM0FlWlo?oc=5",
+          "source": "BioBioChile",
+          "pubdate": "Tue, 06 Jan 2026 08:00:00 GMT"
         },
         {
           "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
@@ -451,28 +496,10 @@
           "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "Anuncian 5to encuentro inmobiliario ’Smart’ en MUT con exposiciones de Evelyn Matthei y Mario Marcel - Canal 9 Bío Bío Televisión",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOG1BQ3lnYnFoOUkxUDZxZVppX0hMVEdkMjFid19QUzZZc0ZWUThJVDJ2QU1wRExXQkl4MWxkdTZ3T1hGbVMzck53S3NwWFdtMWJoTXJTYVlxR2g1ODNSNzlBVTEzTW5pWFBQMmQ5VWlBNmNKY1VETk1FMnpCOGQtbmNLMGY2YmFNb1pDM2lnUldnQlQ1ek1jUzB3NXVRZlo5bTZRV2VzYkx2N2g4dEU4VUgwQS1qZXo3aDJuX3U4amY0UlFpbXBTQml3aXNOTy1DM0RFZXR3N28?oc=5",
-          "source": "Canal 9 Bío Bío Televisión",
-          "pubdate": "Wed, 22 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Centro Cultural La Moneda cumple 20 años: Exposiciones, talleres y cine gratuito con foco en patrimonio y memoria - El Desconcierto",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWVZxc25FZTEwQmNCdk85VlNpaFVyYzhDTV9sYkVkdkJVQ3JRU05BeWd0Z1d2UnZaeW04NUw5dHpxTEJaUko0TWt2QUVjbnBETE5HZGVEMXI5bXBCZF9HQk1HVnl4QlB5YlNKM3AxbXpwMVNuNzIwYi1NNF9idVRuS05lVk5LWldxdW00UGZGazRqMGpYSFVzeUg1OGZnWUNLNjNRb09JSXJrbUlXUzVVUWxwVkJZVXpHQTNJS0JjNHhnQlp2dTZyczNMRU9qbGIxUWRoUzJGM1B6M1FKU2ZuVFZB0gHnAUFVX3lxTE5tY1JXMGxZdEZBaThUeEJBeDE3RHE1Sl9YcktELXEwbHoxZUM5SnBvY0RpMWtXMFhjTDVqWjZDTmhrMGlreG9Za2JodHNTWDNEY09BQS1hYXUtSVhmN1FOTTFqc3d2NXZIVmgtenpkUkg5X0p5cmhKT1E1YVc4Wmt1NWtCZUFvX016Z0EzaHZPY0UyQThxaUJ3LTEtNFExUG51c2tVOURaaWF5WUpfa1YyNWlacEZNUm5RM1lkY2ExeG5FUUxnMkNIRDZLeVpvbTRnSnZHUjlQTktVdFlJMFhyY1JrU3FtUQ?oc=5",
-          "source": "El Desconcierto",
-          "pubdate": "Mon, 26 Jan 2026 08:00:00 GMT"
-        },
-        {
           "title": "Guía del ocio: panoramas escogidos para el fin de semana del 7 y 8 de marzo - La Tercera",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUXFNTmR4bVg3WDAxejRKZGJFWHhBNE5NVXhZTGl5dnhrZEtLOGlNTTJCQ1YwSmV2eExkWXBMVkYzekdiX0lfMm9MM0V6S1RDVlV0a05CVTd0UXdkWl9hN1Jic0xBdG1hdjc0UkJDSGRoRU1lQ0Y1RUJFNzYxckQzZ0kwNWtuaU1NVENZb1lUYUNJQ0NyU21BYVBKRTFrb2pWQjRrZW82My1FWnZhaWJhUzdVZEFkUdIB1wFBVV95cUxPREIyRUh5UFVZcGppNkVhTUlCZXNNNHJ4MlVPSmxUYTlJck1UYVhfaElFcTR4dGZUYXJxX0NJVFBOLVlEOXJpVDMyVXJHdFpqcnEyZ2luUjhKZWZYOTU5YUxCLUZ3dkJPMTU3dHM3QWpHLXpkb3dkeUdna2Vad25lYm9mRjNJV0otQ1pvZnNzQ2p3eGpGbHpERTdmd29pY3Qtd2Y5eS1NaFhFaXhzc2xSREtJek1fbElqcElma3FqXzNodmllSkRXRkNURkxvb25zSUQwOWF4OA?oc=5",
           "source": "La Tercera",
           "pubdate": "Fri, 06 Mar 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Conoce las variadas actividades que desplegará Sercotec para celebrar a las pymes de todo el país - Sercotec",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFRPZUk3cHdZaXkyVkRma0dRLWpxcE1wLTJibFh2YWk5ZklRQXVGMG9wNkVSY0tLc1JiQkZSNnlwZkRvLUZKLUtHMGJ5RXRUdVR0QS13M0xLdHU2UVpXZXdfenROeVo3d09BeHc5R01fMzhsV082SEgzWWJYMU1SVkg0cXFxRHFaNUVaeldNd1AxMjNyR2lpSjdQUzRMVGtFUFhGZU1UaHVCTm1XSHdHanlHTFlVNWx3SVV1UF9fSQ?oc=5",
-          "source": "Sercotec",
-          "pubdate": "Mon, 20 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "Qué hacer en Santiago de Chile: guía mes a mes con panoramas, eventos, horarios y escapadas - La Nación",
@@ -481,100 +508,58 @@
           "pubdate": "Fri, 14 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "U. de Chile abre convocatoria de Punta Medial, programa de residencia artística para creadores emergentes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUxPcFVLWWZ2UUdjM3p3WERzdzhidzRDZmZocjFKT3dBbGNSLUFrOU1pdzByYlRvRHR0UExWRnpvcVhVU05ITWxPVlF3VWMyR21qUDBJaEtTVjluTGt5azY1ZWo3WDJ2U0ptZ2xma0ZxVzlzbDhfWWZuUTAyekIwcTBpRkNZX3JDdzdoRWZIU1c1ZFpMVHEyTzdXekI2QkRhUG5SZF9XUQ?oc=5",
-          "source": "Universidad de Chile",
-          "pubdate": "Mon, 08 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "UdeC Campus Chillán anuncia ganadores de inédita convocatoria nacional de Artes Visuales 2026-2027 - Universidad de Concepción",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY1BjNTkxUlRfQmt0LVdKMVdtRGNUdWFLUy0wZWxDbEVNLWVqVUdoTHd1UjBNeV9JSkZVWnY0Q1Zicjd4UjVSalgwaDlIT2lUaHpqREFfVXBBTS15cHNTbzVtQklFUHNhM3doaS1hTEUyeGR5cmtvY0VGSjhzcDF3NmY3bTdCUUk4M2NDdHpZNl9tYmdtUmpsQnVXRmx6STh2eDhWdG5UTXlfazhmLUY5X2NMRFg5akdCUUw3UlBlS3Fmdw?oc=5",
-          "source": "Universidad de Concepción",
-          "pubdate": "Fri, 10 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Valparaíso busca 100 obras para su Bienal Internacional de Artes 2026: cómo postular y quiénes pueden participar - elmartutino.cl",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ2xPOWJyMUpwbTJlbjhRSVZja0o0bzJScERjNTRVZXh4TmdyQTlRNVA4UmhvUVh6WEpmc3YwWVZicERNRWRSdm1pTld3UUU3Y0tSdWhvQ21wQUpSWWd3bHVXVjB2dGY4eTlOa0N2MnBObTNuZEwyNE9xOVVJdmNLYVZyZ1I0WjhVX0xPS0ttUHNDQVhMTFRsRkc2NWZDWDZpcURYZ05OR2FqWDk2R1JxMEJzdFFIbnR2QmZLOG9XbzBMc3FOUkE?oc=5",
-          "source": "elmartutino.cl",
-          "pubdate": "Tue, 16 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Programa Estudios Libres abre convocatoria para su edición 2026 - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMl9uWHk5ZjZsZ3htUmFtMmt6eDJqcm9ibTFUSlU5ZkFDR1RiVU5oVzk3dWRvcHJCV09wcUVBUllwZEl2M2dLbndNNjc3RU5RdWFCMmJ6OW02MWh1bXVIXy1LYm1CWklTdnlOMkczdi1mNk1ZLUItaUlJMjJ3dEVYcTR1Q3h1NHFkNFd3YlpKblB1VExIdHZWb0JyNTFrdw?oc=5",
-          "source": "Universidad de Chile",
-          "pubdate": "Tue, 02 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Norte Magnético 2: una formación inédita en arte contemporáneo que abre nueva convocatoria - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTm03NFlfZDlMeTF1TjZ0SzBHazVuQy1OUFlVNHJhMGN2NVJPSjFON3N6SUV4YzVUUjVsYlQtdU9xLWYtVWZGNDFULUtOamc0emVTVDFLWUlxQ1l2cmsyQnNjeUhSTGZPcV9UQ21hQkQyVzk0R1FVNS12aHpWWUJlN3JDMjhQVGhYaWJPZUktVGk4dl9KVWZROHp5UThkc3JIYzE2N01fS1NSc3RQU2pBd1VVT0g?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Tue, 10 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "\"Cines en el Borde\": Abren convocatoria nacional para programa formativo de proyectos audiovisuales en etapas de producción temprana - elciudadano.com",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWk1sM0RiSS1oTTR5NS1ITDBaXzM2Z19QSmZScmEtUGV0UDV2bVRodkFtR1kwR3ZWTVJpeVRNbzdyM2h2NlQ0RkNRZGRCZmt2Z081Nk96VzBvLTZtaUlESGdOd2Ytc3VxZld4dkRwTTRaMzRTNFRfc19PTU15WTZqOU5OaG9WTWhXRVhUZW5Gb1Zmbm5xR0ZKZlBrejQxcmwyd3RFbjk5Q0x5dnF6WHlGMFRYa0N6aWFaNW5KaDdfVWR1Qm92WXpuM25zX2RhZUQtZmtGU0U5WXY0RG5vOVVpbTRjQmNJOHk3c0lOTUNkVzNENnhPVllxRi1hM2plcFE?oc=5",
-          "source": "elciudadano.com",
-          "pubdate": "Fri, 08 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "XIX Premio MAVI UC LarrainVial Arte Joven - Facultad de Artes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlhhY3FzdWdNLUVUWS1fam1DUXAwNTRzQVByLU9WVzJJMFFaMk5zZ08xcS1lV1N2MFNSck94aldKNHM4VUVpUDlnUzZUOHVQNklLYWtBZmZyNktFc3RlWi1GalRyOFctWjFpZzlYMzREczdheXRhNHNPa3RyZ0ZyTk1UR1Frc0dZTGpWek5YYw?oc=5",
-          "source": "Facultad de Artes - Universidad de Chile",
-          "pubdate": "Tue, 07 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Museo de Arte Contemporáneo de la Universidad de Chile abrió su convocatoria para proyectos - El Nacional - El diario de los lectores influyentes",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaWVaM3RPajhPb1BLX1gtbzdqSE1jTW1teUNXbWpBTVQzRExCYU9Bd0lCQ2lndlhuaGVkdFFyVXJ6Z2NNTDl5UEYteDhHdEptZTFYclNUU0lVdUNIbUN0a2Vtbl8yNE1icEd5eXFQWTVTUHNuUS0xYlZTLXpIWU1fZE16ZDJ5Z2xrenRpbGwtWk82QW5zZ3pHOEJ6dkJ5dUxINkgwMVR1VnV1MWhPcklINWRzWXdXQ3UxTFRTT3FDMlDSAcYBQVVfeXFMT0xTWTBic2VaUWV2NG5OUzJZTEZ1cy1uTHdhVEVuV1haRzI5bExKUW4xVFVTQUdyQlBOTU9xd25yQ0dsOFRhZXkxVGJnTEdWLWRMWXZVTEVOV1Y1QzhaMlN2WjBuSlJJZGM0eGVacVBFTTZUbDlnUG1wTHRfd3ZaMGdHWXlWaGVVVl9TS09zaE1ZcDlieVpubjhCdkM3cjJOSk5XeU81YW9fV0M5OTk1SXNXM2ZXejViTHM5SkpOc0w0RlBkSXNR?oc=5",
-          "source": "El Nacional - El diario de los lectores influyentes",
-          "pubdate": "Wed, 21 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Ch.ACO, la semana de arte y creatividad en Chile está por llegar - Architectural Digest México y Latinoamérica",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXdmTzlRSGlFZTZrUWVEZ3FoYncxSHFuMzA2MTVpVEtNcFVCd1A2N09YUkI2S3hPWTNJNGlnM1NTbmVfLTRYOUVTWDhJTVZYZTFrMU5lTmJkLWJpai1aMG8zNXJwZ0RfTVZtMm95UklMeGhkcEh1YXdmb2lTOUltZUVKdlpHcjFGN1Mw?oc=5",
-          "source": "Architectural Digest México y Latinoamérica",
-          "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Moda, arte y diseño convergen en “Venta de Colecciones OI26” - L'Officiel Chile",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDlHNWw4RFJDM1ZtbWhsc0RXOGFrMWl2aTdWOTV4WDlWQ0tmWkMxZGZwQzk4RW9lSW81VDJVMXp4b2t5azdnbW5QSkZPc0xBMXlfMWNNdHUySjg1ZXphbHIzZ1dHN2Rza1ctRzVHTjhpLW4tU3JqUVRpVUlTcGExS1dRMzZ2YzdieWJtb2JtckdFRm1YWjRGWkxxZEU?oc=5",
-          "source": "L'Officiel Chile",
-          "pubdate": "Thu, 04 Jun 2026 19:33:41 GMT"
-        },
-        {
-          "title": "Así será la edición más grande de Ch.ACO (y cómo alista su llegada a Valparaíso) - La Tercera",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3JGcEVZTjdNMjhFdlJpcFNnSjFDSlZ6S0hiVldZUUU2eElQVGJDWXVDMHFhTkJWUVhFVVAydWxjMDZQa0JkY0NQSDJXMkRNQWtOaTRNcG9ON25udHo0clBkSVdRblkwYThjaHZEWGZPb0hmTWt3VnlnWU1LMFFjS1dmVVBXR3ViOW9ZSTBZeFdOVjU4TGVfbVRMSEM2SnlBVVhDRDd4VTFxSFpXdjJkcDRSb1FfbnlaUVHSAdsBQVVfeXFMTTBpRHhleTAwaVpIcHVwYU9HS0Z2aFliMG9RX2lkQ01ELWdjMGRpNUhVWkoxQmFmeFJoclR1THE2bzhqRjB3OVVIaTRCUzhSWHBqUTlURm8tTG9RWWZmcXFEMVVoMjBvUTVuV0x3cUtoamlEWEViUEMxemRLSmdTLXBvcXE2eF9Eb3J5eFFvbjZWVUplZUtIeXR4SE1Hdk9ZcV9iSHJva2pMOHpqMDNrU2h0eDA3b19xRW5hUnNIU0tIa3dOalBvWmtodndxTk9fRjBoblAtbUhNa2R3?oc=5",
-          "source": "La Tercera",
-          "pubdate": "Tue, 24 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "City Tour en Ch.ACO: Federico Sánchez y Marcelo Comparini recorren la feria de arte contemporáneo chileno - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd2twMlEtV0x4N3pBOUx2QmtlOFdGcEVHeGlOenNhN2xQNHVkeU03Tm54Z1VId2pQY3FsemhkY3dTVlhEamhkT2Vnc1N5dWRRdmo5SlI1TVBtTExiTnRseEVKT3FYdEJOYVE0THljcGRFa0RtM3hPb3B3UmZaTmNib1g3TUVsbXBDSWpFRlAtZUQ4NXBRYkUyQ0s2OW53U3JrQUlhVlZxTFVycXZrWWRTWXZrZjdqNGI3?oc=5",
+          "title": "Cartelera de panoramas para Santiago: Globos gigantes, Feria del Sánguche y más para este 21, 22 y 23 de noviembre - Canal 13",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHhwM3ZDMTNaYXNkcDNnbTdXNzNQdk1Pai1vX29YTE04SFFoMDlEOEFTWFU2aEFJbUlUWGZSYm5ERy0zV1ZkdVN2TjZBTU5mVE1uek9NamdnS195a3hmV3k2VVVnd3JuX3V2NkZua1N4aUJVNDRVcGZyZUhWc0s0MmJHRllYamtONVBzaGZ0QmhRZ2JPY200WlNvaUtfUzZvWkVtY1BUZzVzbGt1QTVOeWdva1h4ek0?oc=5",
           "source": "Canal 13",
-          "pubdate": "Mon, 06 Apr 2026 07:00:00 GMT"
+          "pubdate": "Thu, 20 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "Ch.ACO: PRESENCIAL - gam.cl",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kWUNQZm9QQVpsUEhndW8yY1o5Xzk4SmxobkhGWklBdW5hVVFuQXVDOFExUDIxR29yRFhXY2FIdG9aUS00a3N5dHV3ZzMxLTZkeVByU095R0N5TnExX0FOSmZJdUZkUQ?oc=5",
+          "title": "Nos preparamos para Smart City Santiago 2024 - Corporación Regional de Desarrollo",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yRHQwdXFQS0E1Q1BhN0d0YWFMTG5HMkg2NjE1cnlLSXBYSjJfc0ZoRVZlWFJFWjd5SkFIRU5BcVBpenhqYzlaV2k4dUdNVWc5Q0dpbUxzZjJUYmV3WkZxWGlxQUtYQllrUVJaU0s4SzUtZV9TQXpDRDR3?oc=5",
+          "source": "Corporación Regional de Desarrollo",
+          "pubdate": "Thu, 04 Apr 2024 07:00:00 GMT"
+        },
+        {
+          "title": "Art Stgo 2025 - gam.cl",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM05QWi1IUkNHN2paeFFUOXlNalpuSWlxMm5IV3MxUC1Celk0b2VxS0pNOFR6WFNyaTg4bE1rR2ktaHlNemhaQTBIME8wcWV6aGR1Y01LcHBIMk5WcnpNdlMxZWtrdjhPeFQ0NERR?oc=5",
           "source": "gam.cl",
-          "pubdate": "Thu, 25 Dec 2025 09:03:08 GMT"
+          "pubdate": "Sat, 27 Dec 2025 18:58:37 GMT"
         },
         {
-          "title": "Funcionarios de la embajada asisten al Festival de Diseño 2025 - Holder - Chile en el Exterior",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2JBZ09ud19LYWRjcFlEM3locmhaUGdRWnI2OFlnUEFfSDlVNThsVXZpTmU5Wk40R3BIX1UzbVhKOHQ1dU1aVFN6c3RvTG5zTGVOUm5HTXd3QmFaRXlJM2ZpeTVXbGo4YktZWWdoUldSQ1FRX0lpUnJNM0JoTkVIMmFpVTdYdG05MlNlN09mMm9URzFuVlN2RFpBbDZGbUVxSjhIc2lIaXp5bENBd0tPWUF3?oc=5",
-          "source": "Chile en el Exterior",
-          "pubdate": "Wed, 08 Oct 2025 15:46:43 GMT"
+          "title": "Se puede visitar la muestra Dimensión-es de Santiago Iriel en el MAC - Universidad Nacional del Litoral",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXg2akhWTUJvVTNKYnpnZmR0aTBKVTJoS0duNVU1Z2VuQThoX2RiUFVfUkg4bUNIVFpYOENBRHBGdHo5YTdkXzNUeG1qajh2c05UUjdRNTRiUnlpenJGLUNGMkJtMF84cVp5YURiUW93N1JTdW1hUEdxZjBQN0JDNUFmUUJHNTFlRVhqb2FOaGcyelR5Nmg2YmdzWW52TUF6ak40N0FLOWgxN1ctTFR0bURKS1YyVHc?oc=5",
+          "source": "Universidad Nacional del Litoral",
+          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Vuelve exposición de arquitectura y paisajismo Casa FOA: muestra tendencias del diseño contemporáneo - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTDJyWkRvTGttUFBEWmt0eXdWWm9ScTFKUHVoSkZCX05tNHE2cEZfMmVKOS00ZlpmcDhPb2VLbURPOGlFMUtvakRTMkFBX1VnVmsyR2kyRGhVQU03VVFxcVlsX0d2SW5GZnBqMGhWV3h4VGVXdlFUNUlXQUVjR0xNLWdmNVRiWWtZeHNaQnFDamhyb050NWVUWjlIb0FaRmtHRnhPNTFRdURDVFBvT0tUYlFmZDJnbkFXRzlWM1FBZ19BM0ZqUzRqSlpSX2tzQmNoT2JVckhyVkJrT0RIczNnbHNvWWMwcmE3RUhOYkxTbm93NkN0UGI0eUV0THNNTjNldlhsRldoUzNOQjhyYzc4UFFXTnhnczjSAZwCQVVfeXFMTmxDYU9DMkQxT0JESk1vdTFkNHpGU1BjNmdKSzlPdjJaTkhOZ0daN0FEUTVXX3pwS3FQZndnVXp5VlVneUFoNEJPc0ZLdUFkR3dmN3NWdXdQcmZqc05fc0hJb3FPc3lCN0RpQmFPQjA2bEFxcWhma0NUX3NCbjJqQ1l0NDVSbGNYT2tXUkprRHdhZ1dlZGJnNVFzX3ZZSlJ2c0ctUmJxZ2NTYms2X2hJWTdNWmd1bEo0NFhiNm9pbkZVRU1MTTc1eThjZmtGTWtlSzJMand2RTZaRUcyMG4xNDBYb0I0RXhlZ3pZLUNWaVhqdUFTbktTcUxpZWo4b2pCbzBLa1JYcFkwN0thei1fNVhZNUZaR2ZYSkNmSjA?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Wed, 26 Nov 2025 08:00:00 GMT"
+          "title": "Por primera vez Palestina estará presente en Feria Ch.ACO - elciudadano.com",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVlItdjZ2WUNibUVGMWJ1bkZMeHZtRnhLR3RJZjVsWG9DbDBFcXRTaEZPeWRtQWpoZEJnNFdOOFExSzlqcnFON3k3OEVfOW1iYVdlRXFOYkpST25wMzRpdUZJRUNTMTEtOFQ2WGhGdTNkSHNvRzJqaFdJelU5ckZZdFp2NGc0Z0R0S1dNRHFKZEhzWHNfMlk4aDZaeXlBRldNbEdRX1pCZW8?oc=5",
+          "source": "elciudadano.com",
+          "pubdate": "Fri, 27 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Expo Teje 2026: El evento de tejido más grande de Latinoamérica llega a Chile - Radio Pauta 100.5",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOS0xNHAxckNzRXdGQzE5MlQzams2cHdfNk5BSUtKc0ljV0hpUXhfSkZ3Z2tfSWUyV3YxZlBja1NLMURkdGsxQjh0T2RQR2hPN3BzeUFRTTFjU1NvQUVySWtCamFoU1JQNTdSNW1oajk4VnBJc2cyUDZVemVZdy11aUV5bk42Z2RvMW5PTVZOdHdrdUttV0d4SVExTGduY1pFZ0ZlZUdsdks5VjhfVl84VHh4MzExM0xIX0d6bWhLb1Rhek4zMUJYM3RDX2NOcFFaWmx4UEtmWlVWY2Fl?oc=5",
-          "source": "Radio Pauta 100.5",
-          "pubdate": "Mon, 20 Apr 2026 07:00:00 GMT"
+          "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
+          "source": "Infobae",
+          "pubdate": "Fri, 26 Jun 2026 03:39:10 GMT"
+        },
+        {
+          "title": "Penumbra - gam.cl",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jZlRoVENJQk1KMTJXMlRvWTlSVVg5RnQtSTR3eXp4X1NiTmhINnQ2SEItSjVYSzNsdGFjUkdqcUdVMGxUeE5Cclk3THR4MEVpZkhhaW9zRWphMFltd3I0RUpvSjdpYUczaFZWeHJhQ2hBb3B6MXQtaVU3bw?oc=5",
+          "source": "gam.cl",
+          "pubdate": "Sun, 28 Dec 2025 04:25:04 GMT"
+        },
+        {
+          "title": "Art Stgo anuncia su versión 2025: la feria de artes visuales más importante de Chile regresa con un renovado espacio expositivo - Radio Concierto Chile - Sólo grandes canciones",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQ0dVRWFfRllvUkhoYXhpNjgzUnpmSXNqR0NFTDBHR1pDMGVvWmQ3NXN5SWZXanZwTjJMb01TbnA2VGJFbWRLcUowelhwekhLOTlSb0lra29LWlRVMFVSbThOUVBpMEN1VnhfanVfV0lXSEVidXJzVVpRLUJlaDRiZENTeE5BRDJ0UnZZNXJUakFHLU1HTHNCNDl1bFFpb01rb2V1WS1sTDFTRFBwUHBQUnNDdFg2WEM4emZ0TGJyRFd3ZkFFQzVQOGZsaGVsQVBXOUhJMTgwM3Q1UjFYOUdRZWFUUGplWWhRQ09BNldnZXVqd9IB9wFBVV95cUxOM1h0WDdHd0l4WHBzUm4xTW53WFhBWUMtX2VlUFNTTWFlYVE5NFE0QW1xN1lfU0RUMkdRUjNtbkRKQ2RIa0oxUXd1VEgyVTB4M3RJUmZCNHZsN09uQlRlQTB5ZkppcGw5bm5PTmZNQkp5enVyRmZMWnpqSEJvaVAtTmRGdnZ1d3V6SlZzYk5fUEdGc2NBbTZyaExjNTF4eXB3b3lzSExmeGpKeHVtU1RwRkRkY1F5UmNfeU9Ec1A2ZVh2Wmd0dWloc2Rfb1puV2toLVNhZ0hBdWdQM1ZBV3d2WjV1QUZDZDROWHQwWllDUWFyMVdBTnJV?oc=5",
+          "source": "Radio Concierto Chile - Sólo grandes canciones",
+          "pubdate": "Thu, 15 May 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Llega a Santiago la 4° edición de la “Muestra la Mostra Visual 2026” - terraviva.com.ar",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVVBjVEZrMmVSaGpkTnpYWEVxbENLZmoyOFhZVlBTZGFxanZ1R1lxZWd3NGpnWk56SENZZDAzUXdXZEZZUVIyV1hJZ2hLRnhnWlgxM2t5T0VTOEhrNlk4aVE0TGJiQlR2MTdWV19MMGhQTmJReVBpMmpmcTN4Vlh5MWYxbFFGRmdwdWlFZG8xcTVFdjNSc1pRX3hROVMzZ2NOaVRR?oc=5",
+          "source": "terraviva.com.ar",
+          "pubdate": "Sat, 30 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -583,46 +568,28 @@
       "icono": "arte",
       "items": [
         {
-          "title": "¿Qué hacer en Santiago este sábado 13 y domingo 14 de junio? Guía de panoramas en la Región Metropolitana - ADN Radio",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNUloUGxoODE4VlJYeTdIS3pod2ZNUkx2a1ZVMmo2cHF4ZXRPOEtjak50b05ISFE3S1F0MmIyYnk4d2g1SzVub2EwclNudllUdXpmcEFfY1pzSTVYYzIyUGRmYmdVc2t4SlY2d09SeGNPX0g1M2RuRm5pMm9KZ0JpVFN4c1NFRGh5WTd4TXpqWEt3ZjE0cFpfa2paVm1yaFEtRlV2ZVJVaDBpQlpMUjVld09DWmpRczRBek8wY0JCZkRUbHdqT3dQTUJRV0JWMGRDbjZZQ0130gHqAUFVX3lxTE9HczhiYi1ad19vQ1FlaVJKUzZKa1ZEaGc3NVVGTlRpQ2dOcUJNSHRXeGNZbElFM2h1c3YxYVI2Q3JscWNiLW9hZS1uTW1HTXZ0d1pRZ3FXSXd2aVZMbk50blcxanFFbWR2NVppRVQ3V3pmcWo1OVNBQzBmOFFaZmwxWVo4c0tLSGR0d2pCQkZnOEd0VHp0YTM0WXFmbmNBQ2FpdWo4bVJCT0diVWtERTNmZlZCbi1ucmVGb1l0YVpkeHRYc29BaXZNaXB4ZGhodlplbkNEMnp6Y2RCdkJkTy1KWVBvN01KMExndw?oc=5",
-          "source": "ADN Radio",
-          "pubdate": "Fri, 12 Jun 2026 07:00:00 GMT"
+          "title": "Gobierno de Santiago lanza catálogo digital con 31 panoramas para disfrutar las Vacaciones de Invierno 2026 en la capital - gobiernosantiago.cl",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQUJodUFwUWdqRlBTY3ZDTVZTNnczSEgwaXl1a1pDZVBnMmhiQWl5VG5jRTcxMUdrcmlGcmxUT0ItZXVPVHZ2WFNuZzRlZUhZd28ydTNNWTFKT0FmLW8wdUVyMDZxTnJYTUtyOFYwLWNhd2hpX29uc3p0MVQwS0h4X25HdzNGMVpFNVhpWDc2MWh0T2FyS1VlN1JIRWdOdnBLMGFRZm4tSnlTSWEyenB1OHNjVmJfTWk0QnBRbzJULWswWmE1bmlITm5hSXVxS2dpRDBnSGozd244ZllvcmxEd2xsVk1aa25HZWRadlBmX2o5NzRZdENZQQ?oc=5",
+          "source": "gobiernosantiago.cl",
+          "pubdate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Qué hacer en Santiago: descubre los panoramas por el mes de los Pueblos Originarios - La Nación",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQXVvNVI2M1E3VXNFUmN2WURYWVFZaWNNdGFma2x3eXBaTlViSXJzY0piOXV6YTdQenBudVdQcnJ2U3A3em1qR2xjU3VEVXRmMGNvWXdJeVphMlR4VFdCbFhEX0dMRC0tOFBnRW1ORTgwRHY0NXJIRUs0MWRNMG5kWTd6Nzc0ZFVPLU9mZUtBdG5nM1ZrNVFjdk1ZNTlESDZCVXJBWUlheE54Snc?oc=5",
-          "source": "La Nación",
-          "pubdate": "Thu, 11 Jun 2026 07:00:00 GMT"
+          "title": "Vacaciones de invierno 2026 en Chile: guía de panoramas gratis para niños en Santiago y regiones - EL PAÍS",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEpBZTF5TUo2dU56VU1JTk1OdkJjSTdMYnQtTmdNd09aN0s1OW5QOWhrclhId0N6bEU0a1lQbUdfQ3REbTZxZmVjclJfSEhkZGxYYm01OHNTWmpQVThpdTVrRklZaGM3VXVPbjlqSVhwVU9UVFhUSmV6X3pGcXItNFc2UHJzMEFzcEpwWndCbzk5VVR5azRjdEpqekZKbWhGUzZsYUtwNzdmMHd2ZHNNcktNUUMwUFo5SHUzaU1yZG1ZR3NhSU01SmdLc21YXzlGZ1HSAeYBQVVfeXFMTU9WVDRiQThqY3VWRUNTMW1QdzZTTS05TlRRN3NGb1ZrNHJ0WmR1UFZqNW95RktoSWxuQ3hsbGNrVDYwSTJscTdFNTJNX2c5Mmg1XzE5eTZzTlRkWmZmOU9RUWE2cUV4dV9MRHllSHgydlVHb3dvNHpSNUg1a21HaFVKSlNlZVFRd3dHNXRvY0tDUVU4VzBZNVJzLUZGWS1qWlVyOFNWYVY0TUhybGQwcndjMmxHNDg1dUpYamRSZjZ0YlplMWc2bUhzanNVcktFVDhLWWwwYTJhWHdRRlRoU21nQlhGMXc?oc=5",
+          "source": "EL PAÍS",
+          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Ruta del Día del Patrimonio: los panoramas imperdibles de la principal fiesta cultural - La Tercera",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTVhwbklLTU9GbDFxaEp6cEJPbEtON1NlVnFYclpDMmpHdDlDOUtlQTJqVnhGS0FNaGVmdGFUaHlzbWFMa0JlN2xLQW9SNFNzbFJ1bExDZUtueUlicG5xTUFnT3ZKd3dJZll4ckNteTItdDZMWGlwc0loUXZNQm9vZGxGTmFPMlIzai1HZHhlY25yZjA4UlFnSFpUZjZzcnY2Y1pzV0JoQjVzZUZkN3RudXIxWGRqSkllNG9tUWFFb0Jva3Jl0gHmAUFVX3lxTE15WVlWMmhoOExzN2J3V05mSk9iQ08tNGJ2dGxDa3poVEd5NjM2b1psS1BRWWUyNmg4WjJuRFZVbWFWNE1ELXRsRDhRSXBjQlUtS0dIc1R1V0JmeHpET0hObEYwdHp6NDNQUjU3SWdfWTlSVmZPNmlZamlyU0xMUHkxRnBmMXVYUjB2RThJbzIzWHJ0WWVRbFQ2clpXUkgydU82TTdiUmZxQ2xxQi1KY21uZ0hUZGllYzBGNUxpWVBvRGY3dXAwSjFKWE9mcnBxdnFSVVRuVzNKTFU3OXVRZGEyU2U1anNB?oc=5",
-          "source": "La Tercera",
-          "pubdate": "Wed, 27 May 2026 07:00:00 GMT"
+          "title": "Panoramas de junio invierno 2026: qué hacer en Santiago durante las próximas semanas - Ex-Ante",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVkpsdUZNbWJaNHdKcXkweVdlM2NFM2ZoeFJLQ016NXFvdWNtZzVSTWxjVjUyR0cydFRfYzRJMUhfM3NwUzFVRnRGSlAtNFNkSzgxeXJuUGxvdXRXNzk2UFNHSWhwXzBuVHFjR2Q5MWU0OUFSUzdMZzd0NzNNY09PNlRTdWRjVlFYRXVlYjN5dVBZY05mb2d3amliLTdOVENrNEh2YlNoWXRPSUE?oc=5",
+          "source": "Ex-Ante",
+          "pubdate": "Fri, 05 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Revisa todos los panoramas para hacer en el Día del Patrimonio 2026 - Teletrece",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1Rsejg1b0dsUnYxelhPVzNNVkQtSmthei1fdW15dHBKalEycXF5WGhxOFY5MHJmRWtPak1ST2tTMTJLOUFpRjlLUHpvOEN3dXlTa2RHVjlpeWk3T0poQTVVcFpGWlJMNEZTaklTOFlqYkVKX2Q5bjV5U2U1Qm90b2VCdy0tQ1AxczdLQXBUdjRXTHFudVlnSmZCRlFNTy0wdjg5WGVfeTIzUTg?oc=5",
-          "source": "Teletrece",
-          "pubdate": "Wed, 27 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Papás entran gratis a Van Gogh en Vivo este Día del Padre en Santiago - El diario de la Araucanía",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONHJ6cW9pWlVNTzFweVpzd2x1a3JvMXRwLU5MLVpIbWV4Y1BScFc4a1FUcUpjMjB0TlFXdDlNdjVNeVpTT1JaM2l3eTVrck50bm5odjNWeHZBM2VsNXdNRGZLTkVzVXRWa0R3eGsySnR0OVMyVVZyX0pPcXBLQlI2dm9uU1lhdlg0ZGZfQWZmcnV5YnRobTVF0gGcAUFVX3lxTE5yN2I2eGlDRHdpN2FoVjhUU1V3bkxMbk9tUzFYcGVkM29UbXFMekNiYk1fZUxLeWJydjE5ZExEeXNndktMM3VqRXZRNWtkTHFBWk5ibE85cVdkMXNRSHVETVFwSGtfUlRuLW1fZ2ctTE5TZVhhUERZREF5dzV0akZLb1pLZVkxYzhJSDVCU0RLRDF5UjlwYjJDdTF5Sg?oc=5",
-          "source": "El diario de la Araucanía",
-          "pubdate": "Tue, 16 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Panorama cultural ideal para el Día de la Madre: Mercado París Londres anuncia sus artistas para su nueva edición - rockandpop.cl",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaDVhN01MeWN6WjVEdHJwLWVDNm9PWjY5bHpLbUdBZk5FeDVxVndKWW1hbGtYNUlxajVxaE5IeGJfcGM0QTJUTDRMcDVIWE5EMXpOeTBJdHVwb0hOcy1UTXV3dS02azktcDRKRkpCa01PSzRMYXN1Y1BoUlBNWG5SVVRELU1qV0ItU29LWEpDU3RVU2NFSERERE1HdElqbXAwUWY1Sl9RZHZsUFVheWl0Si1rSHcwbzhhQTBhQmtEekl6bHZ5Vmo2Vk9zTG8tbHl6b3gxTHVYeEdJNlZOcEdmNdIB5gFBVV95cUxOby1WRmprZldYMXNoWVNQTkgzRWlQMGh0cWE5RGFXMXB6LTVBcTBvX1BWRVJzWldfeUV4eHI3dGV2Rm44RS1KSmJpZ2M2dGIyZVpyQlVlM2VObXZUaEpwTmotM0NWMktoMTZCd2JKR0FSbHNEUXlzbktlZTVScnNBTk1NXzNPY19VRDJ3ZlQ2ZzVQS2x5YlpiS296bjl0WlhZMHdmSDZobU1GN0ExR0hvaUQ3QWhabFRnTTdpRG1qNjF2U0xqT3ZaVmFBWG1FR2hKRlljVzJsd1puOUZRWW1uWlg1ZUxnQQ?oc=5",
-          "source": "rockandpop.cl",
-          "pubdate": "Sat, 09 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Desde palacios históricos hasta arte precolombino: los panoramas imperdibles del Día del Patrimonio 2026 - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWEtGOTkzSGp1QVJKSU9haUotUmdDV1dEUWswUEZDQ3h2QzdyR243UGhXVG94TUt3SzJDMTVCTVZXLWlDZmhLRkJUQUlvMVRtRndrUWx2cUVhc2ZIWWhPTGZxdjhWM1R1Y3I2N3Z1aExlbmpqS3BMdF9vSWxOMjd0ZW9MUDY3OWRzZ2pPbmFLUzJCZFBsTjNFSUw3TkU5NHdvcnRqRTZTdW9BN0lyZHpJR1RKNEpnQnZ4?oc=5",
-          "source": "Canal 13",
-          "pubdate": "Tue, 26 May 2026 07:00:00 GMT"
+          "title": "Vacaciones de invierno 2026: Panoramas gratuitos para niños en Quilicura, Renca y Santiago - CNN Chile",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNEhkNkxGU0VyN1lEWlpCMWlvdWhpQ3V4ZnBrWW1ZdG05Yl93MGpPQ2dSYVJsX2hPVlc3UXhPN0R3Vk5FS1FmeGtBeUlNMG5nYVB4R3dLR1FrdDRBc29TWkdQaHliVUNWcjN1SlozYnFab1YwQzlsZVlzd3hKT3k3bnNJc2ZYREhNT1FHVU9od29aaGhlLTM1MlJISXNtbmhhX0pQY1JPU19fLWRXMGE0YjFLUWk1Z0VYdlJ6NHh5aw?oc=5",
+          "source": "CNN Chile",
+          "pubdate": "Sat, 13 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Qué hacer en Santiago: panoramas para este 16 y 17 de mayo en la capital - La Nación",
@@ -631,88 +598,106 @@
           "pubdate": "Fri, 15 May 2026 21:55:14 GMT"
         },
         {
-          "title": "Goethe-Institut abre convocatoria para su Fondo Internacional de Coproducción - Economías Creativas",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa0Z4OVdVSFp5d1UzQmVNOHlHOHA0WjRkTkF1TDhDbnlJOWp0OWM4TnpQVUtjd0J2YkViUW9NYzdGSlY2SGdvUnlHVGpRcXNYS2xpaHpaZnhCbG9pVjFweXBfMGg0cVNDQXdsbVlfQkF0amJsUWwtc3k2TGMwemRaZm9kNTdfY01VUnRDNC16dFJBa3JVWkNiTEZsREdyUVM5aV9qb21nZw?oc=5",
-          "source": "Economías Creativas",
-          "pubdate": "Tue, 03 Mar 2026 18:22:59 GMT"
+          "title": "Revisa todos los panoramas para hacer en el Día del Patrimonio 2026 - Teletrece",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1Rsejg1b0dsUnYxelhPVzNNVkQtSmthei1fdW15dHBKalEycXF5WGhxOFY5MHJmRWtPak1ST2tTMTJLOUFpRjlLUHpvOEN3dXlTa2RHVjlpeWk3T0poQTVVcFpGWlJMNEZTaklTOFlqYkVKX2Q5bjV5U2U1Qm90b2VCdy0tQ1AxczdLQXBUdjRXTHFudVlnSmZCRlFNTy0wdjg5WGVfeTIzUTg?oc=5",
+          "source": "Teletrece",
+          "pubdate": "Wed, 27 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Fondos Cultura 2026 financian 132 proyectos en Los Lagos - Diario Puerto Varas",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFTFZPTnRxZGdEZUc5NU51Q0V0UVg4a2c2cm1XS3BNbDh4SHJ3VEZiLWwxcTl6bGc4cVQ2Q3g3QXdqWFhlNzhjMms1TlBZelpTODlaVUdpR0FueVF2QkRaelMzaldrZ0tfazVnTG1lQWpnV2RORlVpc2hzTDhhQQ?oc=5",
-          "source": "Diario Puerto Varas",
-          "pubdate": "Wed, 11 Mar 2026 07:00:00 GMT"
+          "title": "Día del Patrimonio 2026: Estas son las actividades gratuitas para este fin de semana - Chilevisión",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRzI0WV92cXZzT0pXS0JkeHBOSVBXVkYtOWVsQ3JNLTUtcWhsVWQ4M0xTbzY3dmZkQUpSX1JEaW1mNVVMUGk0Y2s4VDZnaHd6dWpqcV8tZlREUjlKY01Wak9zOUFMaTZSb0VUS2NsUDBVWV90ZzBKbklGRGpycVI0b0otUERmbDJYWkwzYUJXZENUbHJPdTdFbWlITVZkaFp4QW9BYmNxdS1CaEd5eEZvdXBoR1hmLTVwbGJsbDVaVndEV1JYbnIyRg?oc=5",
+          "source": "Chilevisión",
+          "pubdate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Ministerio de las Culturas abre segunda convocatoria del Fondo de Fomento al Arte en la Educación 2026 - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbzh6WkdtSDBqb1RnZ0c3bE16aE1pUkJnaV8wLWZ1bEgwRFNYMHZ3N0ZjSmNiTktGSzZYV2lSN19ESE9LeVpPaVJBNmI2YnVrc3JqQ004ZEhLZGVBbkRsSnZFeWh2LXZLZFRIaVZVTDhuV21BNDBHbnE5WnNVTC05WWZfaU9sblRuWmtqYkxVNk9VcWpNOThCb1RJSHYxM3VFY2ZjMDlfakVmTUVnTFBWOVJrSFZGTkJUTXN5UFBjdy0wWlZRbVNCdWxSdDNTVjJSbUpTQ0NtRVYzNHM3?oc=5",
-          "source": "Ministerio de las Culturas",
-          "pubdate": "Mon, 29 Sep 2025 07:00:00 GMT"
+          "title": "¿Qué hacer en Santiago este sábado 21 y domingo 22 de febrero? Revisa los mejores panoramas para el fin de semana - ADN Radio",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM19vRGRTenMtVDY1N2hDa0l6OWFINzVNUkRVOXBUR1hzWm1PbklXNFBuSk1way1zYUo1QlVoQXdsUWFyQVVmX0FtT0hHSEk2TUcxMXljZVZEWlJHX1hmNi16WlpTUlB4eUhXRmpuMzBNa1lIbDVwVFhXa2l0X1p5YnAxX2VEWjM5cFpkaENESlRRZ0VtcnBodHpLNS1wc2lWTHRxSi1rUW9YQmh1VEtYSDN5WTF4Mk1KeDhzV3NrWktMSW0wVnBDMVQ3RGRYWHJNWWVLLWl4VmdmTHl4Ml9ub9IB9AFBVV95cUxPLVpZWVNXQ1dEVncxaUlyaUc3ZTJMeW1mZjNSemNNZ0pfWFlPRHZHQWtZT2JkdFotOFZJNVFuVmxLckQ2Mkh1UjhnZWVMNHBSdlA5QU5JaVkxMFVVOFJNeExnalBwVlNtUTg2TU4xaVBjS0tYZHFSc09lcnYxbnRoRXd4S2xmSkpnTGlzZThjYmtfWHFVcl9LbDFFVTdHU0NVaGVydGkwVURWRnEwOGFOTWlxVnJsVFhBT2VNTHl2U2pIUGhZdFZWa213VWRJM2Joa09qU2g5SnREVG9lTEFZbGxtNVh1MS1pWFgwM2szZjlfVW5U?oc=5",
+          "source": "ADN Radio",
+          "pubdate": "Fri, 20 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Ministerio de las Culturas anuncia convocatoria de los Fondos Cultura 2021 - Servicio Nacional del Patrimonio Cultural",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmVtdlVFOEFBYXdNV2s0OEk5VWNqQThZQ2JtXzM2U25zYmVUV3cxbW52RkgwUUFZR0FUdDdvWUd1djRPNVZodkRhWEttdWtZRjVRLVdYNktmRjZuLW5ydFM1N1RYYU4yQXd2V1ExbWFrM0xUaE80TXFtTTU0d0N0R2swYUFFTm1aU01XYTF2eHhiRFBWcS1qbDdkNGVpQUdvVThaUE5BTXFyNExmemJ5OHRsSUtMNHktcFpDY0VB?oc=5",
-          "source": "Servicio Nacional del Patrimonio Cultural",
-          "pubdate": "Mon, 31 Aug 2020 07:00:00 GMT"
+          "title": "Guía familiar: todos los panoramas gratuitos para disfrutar en las vacaciones de invierno 2026 - Canal 13",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU21GNnFGTC1aYWp2UUlvUmNTUUdGUlFDejRXVDEwQjhfVXBkWlBaVXBDcjVlY3lmbjc5ZENZM0RVd3dGa1BiSVNaV1lDcVp3Umt4dHF6dmktR2hjMHVjV0V5enlPRDdfa29yWGRRbGx1cFB6R2c0RmF2U0xmWWpNZzNrOHpCMWpRckhUalFMck5BVjVtX3ZCTVctZTZTMlFocUZCMlZvWEN6QUk?oc=5",
+          "source": "Canal 13",
+          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Ministerio de las Culturas abrirá convocatoria de Fondos Cultura 2026 desde la segunda quincena de junio - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOekxzVDNLMU1mRXJ3UlZlZWl3QUVCb2Q3dHBZZHVDb0ZFRVRvcUNKbFMxTWlfdk1FOXVnTk5zX2NCdFQyYnhNN1FzTmZzczJLTHdQYzc1dmZHUlVnNDl0blU5U3ZYeDRCVmdfUFJJcXppdmJNSEszUk16dHg1ZTM5RWtQM1l0b0Z6N2pZWUlTaWVQOS15ZTB3WUlGczBtbUxZZlBtUHFJNTVjTWhpZjE1RDBWUklEc0FEUk4tX3NIV0tZb0dOWWE0Zm94enlPQjN1ZzhDYmd2R1d5Um8?oc=5",
-          "source": "Ministerio de las Culturas",
-          "pubdate": "Mon, 26 May 2025 07:00:00 GMT"
+          "title": "Panoramas gratis en Santiago: 5 imperdibles del verano sin salir de la ciudad - Chile es TUYO",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc04zaWFzRGxySllzU0hBQnozcktzdk1lcnNIVDlfMG4yaFlXNDVIc2NDanY1Sl83NFVkSmRQbTNEbnhMV3I5eGhjNXRiNXlfNEdjcjNYdThBLTlYVkNrSk4zXzB0aEF0M0diS0tZVGR4MjhXZERrbnR4UW9PZmd6elFxbHR0ZHJjenNRdmNSVzdjVDRuSEV0MmtTSTJkTllSamc?oc=5",
+          "source": "Chile es TUYO",
+          "pubdate": "Tue, 13 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Programa de Residencias Internacionales en Artes Escénicas anuncia resultados de la convocatoria 2025 - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMDVSSVNkY2FBb3MyZUVpblQ0ckd6WGt2bzFxd0U2TEpBS0FTbHhjbzF3eHpzU3Bka181Q1hseDM0MUMxMDVxOGhFdmlkZVRBZjl0aVFPMEpsbmdGZjJSMGRjWk9Lb1o2bEdQQm5kYkpzNzV1TlFPdFBvV3ZWS3g5bGJLUldna3VwTlJtTGV4OVR5OElkOWpuUHVRU25pbU9MV3FpcWdlTU5ZSTBfTnIySjRhY0ZIbXpCbWJtYVI1WXJqVjl6WEdJYnRwZGJURi1hWU9nZ2RxSQ?oc=5",
-          "source": "Ministerio de las Culturas",
-          "pubdate": "Thu, 11 Dec 2025 08:00:00 GMT"
+          "title": "¿Qué hacer en Santiago este sábado 14 y domingo 15 de marzo? Estos son los mejores panoramas sin salir de la Región Metropolitana - ADN Radio",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYjVXYlVWRjBlejd0VmpDVG8zNHdmdFZYM0gyOGpEdkhxSUh6NnNlSXdzMVVJaUpHWEtCUzdiRWhDbEM5TTdDZXJza0VHN0lQWnJ1UjZ1dzhUYnRDNWZNODJ1N0ZnOW9XbTNQS0ViLXkyOEFMampRRUZkZVppbjUyS1dxRS1MX2lscHIxcVlkMXVueWdPVkdyYXhKOHdJZXY1am80Q3lidE9iWldOdkRFWHdFUi02TTVsU0xxWkJQOXJXSHVKSFBWSEZGRVFsM09La2FMRVpGVDN3Q3dXQ2tqOGF1akV0TDRqNnY5Qzhsdl9zQXphUGfSAYoCQVVfeXFMT0JQQWdDc2ZxbGtIMl9PMnZibk1ZRjB2S2JrUmh6X05QMi1ZQkVsZ04tVV9IeVFIQjR1dTAzTkxFNmtiem9Wci15NlFTY2tPUDdKV2N0TFRYNDBhUE9xaEs2VGNEM1ZvOFV5V0F1WmhNeHhZWlFVT1RQU1JCSmphamRERkg3Z012UktEMFUwYmtoWEdTVVV2ZjFxaVZRdTY3dVlxUk1mOU5ncDh1eHhzYTd1aVJwM0REMjlFSnlpTl9LVFBPS2xQVzBxY0I1LTZxZF80SERLbWtjVXQtOFVnTmN4OXZ2Wko1WmVHU2lTQS1lSHJJc01JNGx5eUJpTWo2d3phUXI1Rktrc2c?oc=5",
+          "source": "ADN Radio",
+          "pubdate": "Fri, 13 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Ministerio de las Culturas inicia convocatoria de Fondos Cultura 2026 con el Fondo de la Música - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQmVrak5JVW5fQ3RLLWZTZXZJeVc4RFkzOVJ4MDR3d1ZOWVQyNjY3SC1fZ1ZZYzR5S3JJZ3E2a3AzSlc3UnkxTXpqd1lJWFA3aXphMjFaWWlCU3c1NEdYbUtnSzRSZ25TUDVWOUp2akZxZFF1TVZ2VWdOUTZUUnhPeEtpR0tWNktKeFJxbFA1dzJ1N1J4SFpPZ1VxdnEwRHNxclE1S0F4WU9UOG5zS3Eyd18zVk9uNXF0dEFmd2RJX21wYU9CWDUzWXJQZjlQUnZnNlQ0?oc=5",
-          "source": "Ministerio de las Culturas",
-          "pubdate": "Mon, 23 Jun 2025 07:00:00 GMT"
+          "title": "Revisa las actividades gratuitas de Festival Santiago Off: artes escénicas, talleres y exposiciones - BioBioChile",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWmdzQzhRdTc1X01PZzVtb3lsTGY2ZFJaT3kxUFRROGJjd2N4YW9ramwyQTRXQzFEZ3BzeXNyZC03UWh6UlBNdnRDYWxZalVZRTdpb0RHVTFVZGg2eWhIM2Q1QTBta0w3V2xTR0VsYkxjLXBCR21nRzhQcGlNZEpSdy1lejcxQ3ZPbm1yZHRRLWZ0OGxMSzBRZ2o2T0Mwd3JIdE5NcmN6b3ZXV1RpWXAtTU9xbUdXTlZXaHlXdHNHSW1KR1l5NXdmVEFLcnBvSkpaZlRhRDRIMS1kS3lvMXg2aGRXS09IeWt4b2FXemljTGZFZU9QTGZqU0NwVlY5amQySTZCbi1FZGVqZXBnYmNwM0FlWlo?oc=5",
+          "source": "BioBioChile",
+          "pubdate": "Tue, 06 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "La XIII Bienal Internacional de Artes de Valparaíso abre convocatoria nacional y reunirá hasta 100 obras de todo Chile - Radio Festival",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdHdVSTAxcmhXb1l0NGxJUkJlUGpWbkJoSDEtQWxGanRIZlBrR2Q5bXRiVkU3Q3FtWFdlbUIxQWtMQjJOM1ZRVkYxamVJQWtfMzhxanpKR1BqMXd5OERDbWx4RjhpdURmMy1ZMm9FNFA3b2o0cHJWY0steFM5T1c4SUxOd3o4emNnNGlzQmhaRmtHSjZKeXdpRGNzcU4wNmZmUkdjR28zTmoxb2g1Tm9IV2pQODZFRlZrSzdTM0pSNGFvUUFIMEFnMFFOYkhzQTUtWV9RY1lsZkhKaFVKZl9NRU9R?oc=5",
-          "source": "Radio Festival",
-          "pubdate": "Mon, 15 Jun 2026 07:00:00 GMT"
+          "title": "Panoramas gratis este 21 y 22 de marzo: Actividades en el MUT, Ñuñoa y Santiago para recibir el otoño - CNN Chile",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQUtRZ0I2SkRqZ2ZqTVdQdDVOV01SRzBBUkY1UHZLR1B1N3EtMWVJTHRocGVmdEhqUGk4QVpvdHJRQ0MtaHlhYTlyOFFkR25qZmEtTk5pVHo1NHhwZEZmTUQ0Skx1SzlZUU1qTDJoSUxNSXUwTGZXbHhkV1A5TzQyU2RYdGRMaXRXR1Zld1R5WHBfU2FGR0NIdC1VakR6ZU5wdWUwUXBvRS1VSXA5SEE0ekU2V3pFU29KS1NVaVB5RlhoQUtJdWNPMmR0SDlWZw?oc=5",
+          "source": "CNN Chile",
+          "pubdate": "Tue, 17 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "17 Bienal de Artes Mediales de Santiago - gam.cl",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DLUlfOG1pYUx0UmRtS1NVVnc1d3AxbXlYR3EtUkdOcGxtZ213WmdveF81OUpFaW0yTXdHaGcyRU1wUWROYXBvMDVfVVV5a0dSZ2Z5VUFqTS1xaGxxVHpOai1sWk41TGMxR1E?oc=5",
-          "source": "gam.cl",
-          "pubdate": "Sun, 14 Dec 2025 01:55:53 GMT"
+          "title": "Festivales, música, cine y bierfest: la lista de panoramas gratuitos en Santiago para disfrutar el verano - El Desconcierto",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWV9fSVN4R1NKa05pTmdUTjB5VUJIdUZORzVkVlExa3VNdDF6dnhnWmtRb09GRGtPOUhTdkxPakJGRmR6MTNFTDZ2aHk1eUdRWlVqTXZONWtLVkxCcDA0VzlMZ1o5b3ExbnpDeUVxNEdabGl4MmlXQVNoemllcUI1MzRRZHExVllSTDdPTDAtU2liWHV3cGd0aUY5OXlmSDlKcmhmOFR5TFFNYU1weC1nOU9VaGxpazNwcmhrMFVUYWZObEpCTGV5OEVPSXZjWE5ZdDVtYkRB0gHbAUFVX3lxTFBDbUZKOWpMYWNvVVU3aGMwYmJPOEc5RFZnVmJsUjVIZkVicy15dmhPUHd4eTZ6OHh3N0R3WDF2SUVoVGsxRG1kM3hkbHg4TG9lQ3JENGRPOW50TUktU25xYWh3TUxnbmRUUUJ4TF9jZXVXUG5JT1lLTUxvRUNJemplVUxmenJCSkZpaGpXSW8ySFpDWkpjOUNMNUFwYS1mZU5RankwckhCaUcwT1RKNmN2SWVPbTFMNmdYWEc2SnRmb056ZHVkanBhVVFjVjRrRy1PSVNLMzVRS3FEYw?oc=5",
+          "source": "El Desconcierto",
+          "pubdate": "Fri, 09 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Entre aplausos, Chile inaugura Pabellón “Inter-Reality” en la 61° Bienal de Venecia - Marca Chile",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnF3Z1VMZWRlV2JEVkV4ZkhhdmVQWFBSazRSXzNkSmFxQzhiMWFyT3lHSTMwaVJkeUJiY012eVpYLTVTTHlfRmNiMEVuLVRWbmd3amNJRU9fVE9fUFhJbzQ5VkFYYXFyOVh6bTN3SUFlVEdreXI0cWFWN3FWbC04SURiSndjT09OVWpnQmZJS1Q1MkgyWE5YbjZBWGJKXzNXQ0VvYkR2dGxuZw?oc=5",
-          "source": "Marca Chile",
-          "pubdate": "Thu, 14 May 2026 07:00:00 GMT"
+          "title": "Festival Santiago Off 2026: las actividades gratuitas que se realizarán en las regiones Metropolitana y de Valparaíso - La Tercera",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQckFjc0t2dWFxNG8yNEFGTi1hVUV1cHZyREJiNlRkb1hRWVpzN0t1M2R2ZVRWekRENXBfZ0sxQ0k3bC1zVWxva1BqS0pMVUc5aVltaThBZmVTMFFSdzR2NHZIbkktZDN4NUw4Rjh6OHoyaWxMLUtMS3RpNUdHZUFLSGx3Q0JiU3U0c1RYYlpFSnJhclUteVd2dmNabVd5alMtNWJUczQ5aEFCLVdONFZZVlBRWURFaGZjbHNGdXhBTUxnMkZXdnMtLXJScXY3X0FxRzhVZTlqak4tdVdTUEFpWG9rN1V2SjdEWk54aDln0gGPAkFVX3lxTE02SjNrenNrcjY1Qm43RWxhbkZwWmNTR3FMaE9idXFpYlZ1STRTNDdVSlhHZWk5TXdlNGNZNDNoNGNPbDZ2ZHdURGEzX1dqbjBVSWZ6ZHpuZnd2VHNkMzBYcFA3WnBZMlRYSFNPdnhJNTVONUNEbzZNWGdlOTg1Tmp6LWxoOEVDNHVGR1dOTTZuWmF6NzZKUlZ0UFJqc2FUWEp6NHBvSGZPazNiRXBtcnRTZjRncDNFaW5weWU0QW1oVGp1NmNUMk9PV09ndUFESlM5d3FxZXFNT2JMNWg2UmdsQlBBSllHMVdKZWVvbVVzRzU4QkZGM3FFVTh0T3pvR3o2Wm5VNHZic05uQVkxYVU?oc=5",
+          "source": "La Tercera",
+          "pubdate": "Thu, 15 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Museo de Bellas Artes de Valparaíso presenta su cartelera de exposiciones temporales 2026 - Museo Baburizza",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTl9aZUswZV96S29oWmJybjN1TXJQWC1LbVdOQVZrWVBZeV94MUFKTDdBYlVFN1l3NlNUU0R4QmFXSUZnb3NWb0ZRcThnN3NmM3FBdEM2S19SZzhzWm1iVDVrQk4td1lsb2xhNTdQaHh6NVBOV2JFSmZZRXZUMG9xSGt6aHkzbGpDbGE3MEp0OHU4SEgzS2NseE5Tb2RaTXgxZ1lkSGwwX0JoTUVUWVctdFNrdTE0QkhWUjJOVA?oc=5",
-          "source": "Museo Baburizza",
-          "pubdate": "Mon, 30 Mar 2026 07:00:00 GMT"
+          "title": "¿Qué hacer en Santiago este sábado 27 y domingo 28 de junio? Guía de panoramas en la Región Metropolitana - ADN Radio",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1Q0djJkRVNFWVd0Vy1pOFFKckN2Ui12TVdkQ3JlMTJEZm5CMW5EUG9wbUYzUFpYRjdQc0QzRmsyZWdGSmFCT0MyT3ktVV8wXzlJWTBwdG5ubmtZMWJHT2gwbDM2d014TE5Eeko0bm9xaE1qLThqdURLeWk3bE1feldCczR2VWV5V2xRV0MwNXZIYUV6NXdLUGs3TUQ2a1dkeWJzVno5eXF4dzF0R3MzRzJMcXdIOThYRHhLOFJwUVFUdUt2YXRKbUdZQzltaW5hVWtmR2J30gHqAUFVX3lxTE00by1Vd185QkdIanFUQVNhNEVKc1JqQkgza1paQUJGTXZaTUptZTB6NnZBLXBvc3lJLTNtSWJXZG9TU0d3dTVuTHNDMVI5Sm01WHY5aXBxRVAwNzVGNU5xSHVLOVJFdmtuS2ZZdElfQ3VPcGc4d24yY2pheHRyR2ozMGdqalVqdnhfUlpsYXZwSmo5cXkxZHNDS3RpT3RJQV92LWJacVdJTTVrSEZWNHVNcDdlRFFjZGVBb2o4SDE0bGJlRlV6NldCbmtlZjREMEJQeURwamllUTJnV3pJa29IUnJqekJvRlcxUQ?oc=5",
+          "source": "ADN Radio",
+          "pubdate": "Fri, 26 Jun 2026 18:25:21 GMT"
         },
         {
-          "title": "SACO presenta la bienal Ecosistemas oscuros: El evento de arte contemporáneo más visitado del norte de Chile - Ministerio de las Culturas",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMERmOHRSdGtoN2xveTYwZlJFOTEyeDUxejNoUFNSUHJwRlNHcV8xZFc1c2ZFZlpSNkRJR1lUWEIzMkwzUVJla2F0d3JUVi04d3FZMnBVNmFoOFZOcl9UWE9nNFZaTm9xQnotQ3dlT3QxbHZ2X2RfWEpGRE1DRXBBb1ZhOXFyelhNZ1FRcXRRN3VPV0xhRkRia3I5RlZEYlpZZkFiTVBmdHJHVzN6Q0JLV2RlemxTOU1qWmh2aGtUaFRlNlY4d1hiWGZZc3hjVlYxLXhBSFFYQzFBT0h2SHFiYWV2VDk?oc=5",
-          "source": "Ministerio de las Culturas",
-          "pubdate": "Fri, 23 May 2025 07:00:00 GMT"
+          "title": "Planificar recorridos y organizar tiempo: claves para disfrutar el Día del Patrimonio en Santiago - Municipalidad de Santiago",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNEFIOUZnVWJyYVN0R3VVc3hYTUVpU19KZEd3dnhxVVFKU1plbldEbFp5N19fNTRrbU1sWENwZVVWSmJNU1B1SFA2SWtKWHo1T3Q2VWYyd0M5b2VpUWp0Z29xNkZvb3JpVUxWRVBheE95VVh5bDN5eGlMejlLaTEyRndYenRlR3ZTQmN4eVR0TDFUbXJWWnU0TXVUVGdybm5ZaDhoM0ZmeUxEWTl4OFFEaFpQbm9aY1pWLUF1b3Zn?oc=5",
+          "source": "Municipalidad de Santiago",
+          "pubdate": "Mon, 01 Jun 2026 14:48:29 GMT"
         },
         {
-          "title": "Artistas de España, Chile y Argentina irán a Bienal Internacional de Escultura del Chaco - Infobae",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUUt4LUgwTkhhTDFuWHEzclJzSFdCTXJKazhrVFF4UHYzN0xVTmQ2ODVsQnlhQTd2aDRaZXY4TXNVU3E1OUJLUXA5OWw2emxwdktKU1kxVHptMDZ4RWFqY3U1MHBQVGhjUkR4UElDUnBjdWVYU1VFZG02c2FLZUpoNjhkVHJWNGtRbmNHNW9iMlY1a1JlalJYNFF0WV84Njc0R2F2NzJ3cHgzajVJSmc5RWlncnpaZTdQSldaNmVmTTZGcmFBeDlnaXYtNzBSdkhaVWt2dkJYa9IB8gFBVV95cUxQZXA0YkhaaUxxRlAxazhnMlktckY0ZkpYZUVjSU5SSEFybDF4THNNTExsMXdJSE8yRloya0pFdlhnWU4teVFjTElXdURZTGdKRlJNNkFDRS1ubktyQmJJYURoVzBwdE13ODI1NjZub0x2Z2xEMzloSWlOWG9tQmp6UDc5dDhabVF3bVU3OF9HM2M3czlVU3NKZFIwZjR2OUg4RW1ZYnFOSlZ0Qy01UDh3ZUNQMURvX3lzZGFremtvc2JXX3hsc0NFNGhuWFFIMGdWRGVJWU1LUGlaYnhpcGc5c0tjWGNfUjRBY2JHaEFpVjZYUQ?oc=5",
-          "source": "Infobae",
-          "pubdate": "Wed, 22 Apr 2026 07:00:00 GMT"
+          "title": "Qué hacer en Santiago este fin de semana: los mejores panoramas del 22 al 24 de mayo - Meteored Chile",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVBjTVNDMDJVYXc4SFhHWWZ2Z01QRGs3YjY3LXV6bF9zaFU2Tl9RZm1ZaHRRMmd2WlBPZlpLU0JKd2NYMlV6cXJXa21Pd2tJUktjbS1LZFJhQ1NvdUpoZ0pZVDlGdUl5WDhRcGV3VHF2UkRETXAtRnRlMzRXT3RtcUlKSXZrZXhYYVFad0VsSzBVcjNGUF9TSnhteU5YVmh0TXAxS3daeWhqODk3b3VjY3BIM19kMWN1UkJ0SGU0eFROM2Z6?oc=5",
+          "source": "Meteored Chile",
+          "pubdate": "Thu, 21 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Valparaíso revive su Bienal Internacional de Artes después de 30 años de silencio - Parque Cultural Valparaíso",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEZnRXhuVVZCM1B3Y1d1cUhfLWwwWFc4aXpIbEE5TmhlTlB5U2swX21SUWRDYXJTd1RvZ0pHRldLdWhPcFJKbWNIelI0eExFYmdTN241bHgxd3htQmYzNXAzVDBHaWZsblF3a1I0OEVuWDhMbXBzeXhhV0tBdVhfQ3JnbW9FTVdabzdZQVM0UzduNFdVRk9ieGJjNmp2SHB4U3BJZDJGbWhBcmlPSTdMZ3VZUmpnbGhDeXNj?oc=5",
-          "source": "Parque Cultural Valparaíso",
-          "pubdate": "Wed, 17 Apr 2024 07:00:00 GMT"
+          "title": "Qué hacer en Santiago: panoramas para este fin de semana largo - La Nación",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUG8xUkVYOUdzbFRuc2kxWUxDV3ZibE80RENaeDFSd0w1eDZaOG13VmVrN21xWE9QaEdnbjFQblRYQlJtYjJtbnlaYnF0ZWFoVzNsSjAtSHM0TEY2czVIQlNzOG5wVDhmSE1Bd1cwNV9PUUZIZmVkc3dVQzN5LW1KdlFOTFh2YldUM2E4SXRtTQ?oc=5",
+          "source": "La Nación",
+          "pubdate": "Thu, 30 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "¿Qué hacer este fin de Semana Santa?: 5 panoramas imperdibles en Santiago - pudahuel.cl",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcGU0VmtxeERRenpGUExWOGVsbV9wOHdfdzZsLVRkRVViODZ2bUc2UkR6S0Vhb3liUkJRb29weEQ3clNMQzBJNG5GRnVIYWRjVmpaR2NXVUkxSVpXT3M1S2RObUpNZ2RfQmswUjRaZEx2dlBydkRjUFM0YlBYVkxyWnJfeGtmT2FqdVg2d0hXZWFIM0Q2Q2h5Mzhzb2RnbndnTkhVclRRNS1KS1FwQ2YxMnFR0gG3AUFVX3lxTE13Zk8tRm5qYkpDU3g4ZTNqTmx6MWcxSlRzMWZKb0l2MXhLdG9CTzlMQUNxZW5lWTd6OXZ3c28zRTRsa2tRbEgwNG5kM0VMTEJTdGlSQnhTQ3RMaGQwSUZVME5WaXREdm1rZjFWdC1yVl9OZnZVbmdOV181cnJoeGFtSDliUE5ZV0JuOVlTYlVzdXdBcExNT3BxUl9CbTFnMHlIZEhiUW1RejlvXzVTV3RfVlg1ckF0dw?oc=5",
+          "source": "pudahuel.cl",
+          "pubdate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Gáldar presenta el programa de las 544ª Fiestas Mayores de Santiago que incluye cerca de 100 actos - Ayuntamiento de Gáldar",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSVJJT0l0QnkzOE1xcldIdGNvWjY5d2lvTmxvbVRzZUp1TFh5U2pWSG85Z3Z1eEVJREt3MDdfOUVpZHg0dHFCeVR1cy1QWU9janlqS2VZVWZabjFXWmZVeWhlQTJkWGFoTm8zSVAwN0o1RWtZMDVILVdkcTJVMjN3b3lvVEZKOEU4N2I5bjNNcllTclB4akFJNVd6bjIwaGVnMzVmUEIzbERWbVdfVlVuWDJiRUtHaHRlaXBGN0RR?oc=5",
+          "source": "Ayuntamiento de Gáldar",
+          "pubdate": "Wed, 24 Jun 2026 09:34:45 GMT"
+        },
+        {
+          "title": "¿Qué hacer en Santiago este sábado 25 y domingo 26 de abril? Guía de panoramas gratuitos en la RM - ADN Radio",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTl9xYV9iVHktRWtJZjVCN2Z4Snh4ekg4N0xzb2xpUWU0MUl1azU3ZzNjTDJidzNJR01oZVhob2hvRmdkWlUyX2JZWFE1dk9ITWJYQ0JoM1htbTVrSVJrWlMxaWNkMWdyNUNZTTJiUkQ2XzRWQnZHWVhiY3lyWUFOWnZPaXkxbFZyNWEyWkVCMnhJdmtVQzZhRnl0QnI0aDVxQWk3eGRlQUl2dkU1VXdSVjRuN0owUE4wMWxUZEx0aEJ3Z01sZGo3dmdZd9IB3wFBVV95cUxQXzdzeVU1R2ZfOFY2TDk4aEpkb2Y5bjBnbE1pOFhHcWlNd1ZQOU42Sk1yeWF6RkFpVVlFVkVDR29va2xmX205MGo3RWUycl9FM1Z5UW04UDZkR1N3Zm4yalRWRU5QRmhEWjBMZlhMYVdNV212RkNyaS1xOU1VaF9JQUNiLUpJVlFkTExEemxqelFJM3hscnhNOVhwdmh3ZjRrQUgxMGtocWwyc0dLQmUwbkdkY2gxeXZCNWttTmxMNnlERENuRWwxOVJTS2loazFNejlNalhXakNPNjB4M29j?oc=5",
+          "source": "ADN Radio",
+          "pubdate": "Fri, 24 Apr 2026 07:00:00 GMT"
         }
       ]
     }
