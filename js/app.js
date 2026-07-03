@@ -1,33 +1,9 @@
 /**
  * ACERCARTE — Shared UI shell
- * Mobile nav, back-to-top, search, scroll animations
+ * Back-to-top, search, scroll animations
  */
 (function() {
     'use strict';
-
-    // ── Mobile hamburger ──
-    const nav = document.querySelector('.nav');
-    if (nav && !document.querySelector('.nav-toggle')) {
-        const toggle = document.createElement('button');
-        toggle.className = 'nav-toggle';
-        toggle.innerHTML = '<span></span><span></span><span></span>';
-        toggle.setAttribute('aria-label', 'Menú');
-        nav.appendChild(toggle);
-
-        const links = nav.querySelector('.nav-links');
-        toggle.addEventListener('click', () => {
-            toggle.classList.toggle('open');
-            links.classList.toggle('open');
-        });
-
-        // Close on link click
-        links.querySelectorAll('a').forEach(a => {
-            a.addEventListener('click', () => {
-                toggle.classList.remove('open');
-                links.classList.remove('open');
-            });
-        });
-    }
 
     // ── Back to top ──
     if (!document.querySelector('.back-top')) {
