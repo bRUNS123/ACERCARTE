@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-07-03T14:37:42.790014",
+  "actualizado": "2026-07-03T15:26:08.404586",
   "fecha": "03/07/2026",
-  "total_items": 76,
-  "total_eventos_directos": 54,
+  "total_items": 88,
+  "total_eventos_directos": 60,
   "mnba": [
     {
       "nombre": "145 años: Historias de una Colección",
@@ -74,9 +74,9 @@
           "pubdate": "Thu, 23 Apr 2026 06:01:05 GMT"
         },
         {
-          "title": "Vacaciones de invierno en Chile: panoramas gratis y con entrada para toda la familia - Televisión Nacional de Chile | TVN",
+          "title": "Vacaciones de invierno en Chile: panoramas gratis y con entrada para toda la familia - TVN",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1dqNHZ2YjZ0a3ZrUWtiY1hNa3Z4V203X1JiaW5PWTN3QXdFbC1LOHI0N0pEb0EyZDVyOEhRZEMyczktbmdOZnJvckJ0MDh6S280VmZlRUF0RTVJZktkYlp3dkVlbm5mQWF0N1ppemExQkY5RVA0U1pwSkRkbm9OQnRCUzJ3cmdNc0I3Sm52Y0F2QnlQS2ZlWFpIcjJwTms1YTJBNS1NYw?oc=5",
-          "source": "Televisión Nacional de Chile | TVN",
+          "source": "TVN",
           "pubdate": "Mon, 22 Jun 2026 15:38:00 GMT"
         },
         {
@@ -326,10 +326,10 @@
           "pubdate": "Wed, 13 Aug 2025 07:00:00 GMT"
         },
         {
-          "title": "La exposición reúne las obras de artistas surcanas que buscan sensibilizar sobre la vital importancia de los árboles como fuentes de vida y equilibrio natural. El ingreso es libre - Municipalidad de Santiago de Surco",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3JqOUZfWm1Ca2VHWFBGTDk1Z1BoNjZvSkkzZG9TenRCWjR5M3BFU0kxeV9lOHJqVGxpUXpMa3pWajhWUzJEQ3dnanA4M3VjV2NyRzl1Z1dPME5lS3ZVR3ZuUktpeFZnSFduU0ljV3I5LTdPMUt6UkJIbEFpbWFRTnhKX2tFV3dteGw2UHZQNWVobXdjZ19oRTNiOUZ3TVpoeXFONw?oc=5",
-          "source": "Municipalidad de Santiago de Surco",
-          "pubdate": "Fri, 30 Jan 2026 08:00:00 GMT"
+          "title": "Santiago Leal expone 'Pequeña explicación del mundo' en Espacio Alterno de Uniandinos - CAMBIO Colombia",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDhaTi1WYThibUR1RG4wMHhVck9BZU9NRG9hWFRHREZKWUpvaUYzVm9kYmFOczBRTHIyODFNcklRMzA1WGlpM3hYUHVqQmpyXzBtQ1ZZZU5Cakw0WTRub2FLVzRCOUk0aEx2eS1IUFBmcnZIUWZaXy1URXpBeWNpUDhtYndubVlXMTRIZXpKM2xLWlkyQ09BWG9CR2xmalN4cEJvQjNDQXpJZkRxR3ZqbGtLa3NieE03NEFPYQ?oc=5",
+          "source": "CAMBIO Colombia",
+          "pubdate": "Sat, 09 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -512,78 +512,229 @@
           "pubdate": "Wed, 24 Jun 2026 09:34:45 GMT"
         }
       ]
+    },
+    {
+      "nombre": "Medios Culturales (RSS)",
+      "icono": "arte",
+      "items": [
+        {
+          "title": "Convocatorias abiertas al taller Fragmentos Secretos de una Voz",
+          "link": "https://www.santiagocultura.cl/fragmentos-secretos-de-una-voz/",
+          "source": "Santiago Cultura",
+          "pubdate": "Wed, 01 Jul 2026 17:39:21 +0000"
+        },
+        {
+          "title": "Concierto Espiritual reunirá a coro adulto e infantil en la Basílica Inmaculado Corazón de María",
+          "link": "https://www.santiagocultura.cl/concierto-espiritual-reunira-a-coro-adulto-e-infantil-en-la-basilica-inmaculado-corazon-de-maria/",
+          "source": "Santiago Cultura",
+          "pubdate": "Wed, 01 Jul 2026 15:25:32 +0000"
+        },
+        {
+          "title": "Municipalidad de Santiago anuncia ciclo gratuito de Conciertos de Invierno en emblemáticos recintos patrimoniales",
+          "link": "https://www.santiagocultura.cl/municipalidad-de-santiago-anuncia-ciclo-de-conciertos-de-invierno-gratuitos-en-emblematicos-recintos-patrimoniales/",
+          "source": "Santiago Cultura",
+          "pubdate": "Mon, 22 Jun 2026 01:57:09 +0000"
+        },
+        {
+          "title": "Biblioteca Municipal invita al taller “Manos a la huerta: preparemos la temporada otoño–invierno”",
+          "link": "https://www.santiagocultura.cl/biblioteca-municipal-invita-al-taller-manos-a-la-huerta-preparemos-la-temporada-otono-invierno/",
+          "source": "Santiago Cultura",
+          "pubdate": "Thu, 18 Jun 2026 15:19:29 +0000"
+        },
+        {
+          "title": "Recorrido patrimonial invita a descubrir el Santiago de la República y su arquitectura de inspiración europea",
+          "link": "https://www.santiagocultura.cl/recorrido-patrimonial-invita-a-descubrir-el-santiago-de-la-republica-y-su-arquitectura-de-inspiracion-europea/",
+          "source": "Santiago Cultura",
+          "pubdate": "Mon, 15 Jun 2026 14:01:45 +0000"
+        },
+        {
+          "title": "Arquitectos franceses y su legado en Santiago protagonizan nueva charla del ciclo “Santiago: arquitectura con historia”",
+          "link": "https://www.santiagocultura.cl/arquitectos-franceses-y-su-legado-en-santiago-protagonizan-nueva-charla-del-ciclo-santiago-arquitectura-con-historia/",
+          "source": "Santiago Cultura",
+          "pubdate": "Fri, 12 Jun 2026 15:23:38 +0000"
+        },
+        {
+          "title": "Lanzan postulación a los Premios Literarios de Santiago 2026",
+          "link": "https://www.santiagocultura.cl/lanzan-postulacion-a-los-premios-literarios-de-santiago-2026/",
+          "source": "Santiago Cultura",
+          "pubdate": "Wed, 03 Jun 2026 22:50:06 +0000"
+        },
+        {
+          "title": "Escuchemos la Radio",
+          "link": "https://www.santiagocultura.cl/escuchemos-la-radio/",
+          "source": "Santiago Cultura",
+          "pubdate": "Thu, 28 May 2026 20:01:47 +0000"
+        },
+        {
+          "title": "«Faunas Mentales» llega a la Biblioteca Nicomedes Guzmán",
+          "link": "https://www.santiagocultura.cl/faunas-mentales-llega-a-la-biblioteca-nicomedes-guzman/",
+          "source": "Santiago Cultura",
+          "pubdate": "Wed, 27 May 2026 14:02:27 +0000"
+        },
+        {
+          "title": "La Exposición “Santiago, corazón de ciudad, alma de mar” llega al Palacio Consistorial",
+          "link": "https://www.santiagocultura.cl/la-exposicion-santiago-corazon-de-ciudad-alma-de-mar-llega-al-palacio-consistorial/",
+          "source": "Santiago Cultura",
+          "pubdate": "Mon, 18 May 2026 23:40:41 +0000"
+        },
+        {
+          "title": "Palacio Cousiño inicia ciclo de conciertos “Conversaciones de Cámara / de Viena a Bohemia”",
+          "link": "https://www.santiagocultura.cl/palacio-cousino-inicia-ciclo-de-conciertos-conversaciones-de-camara-de-viena-a-bohemia/",
+          "source": "Santiago Cultura",
+          "pubdate": "Mon, 18 May 2026 23:39:31 +0000"
+        },
+        {
+          "title": "Sebastián Preece y María Elena Cárdenas inauguran exposiciones en la Posada del Corregidor.",
+          "link": "https://www.santiagocultura.cl/sebastian-preece-y-maria-elena-cardenas-inauguran-exposiciones-en-la-posada-del-corregidor/",
+          "source": "Santiago Cultura",
+          "pubdate": "Mon, 18 May 2026 19:49:33 +0000"
+        }
+      ]
     }
   ],
   "eventos_directos": [
     {
-      "nombre": "Andrea Chénier de Umberto Giordano | 2026",
-      "link": "https://www.municipal.cl/cartelera/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
-      "precio": "Consultar en boletería",
-      "descripcion": "",
-      "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "nombre": "Cascanueces y Clarita en el Reino de los Confites",
+      "link": "https://municipal.cl/espectaculos/cascanueces-y-clarita-en-el-reino-de-los-confites-2026/",
+      "fecha": "Consultar cartelera · 1 hora, sin intermedio",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
+      "precio": "Gold ",
+      "descripcion": "Ballet y danza",
+      "categoria": "Teatro / Música / Danza — Ballet y danza",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "jul 2026 navigate_before navigate_next Filtrar por filter_list Tipo de evento To",
-      "link": "https://www.municipal.cl/cartelera/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
-      "precio": "Consultar en boletería",
-      "descripcion": "",
-      "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "nombre": "Visita guiada nocturna: Historias y misterios",
+      "link": "https://municipal.cl/espectaculos/visita-guiada-nocturna-historias-y-misterios-2026/",
+      "fecha": "Consultar cartelera · 60 min aprox",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala La Capilla, Sala Principal)",
+      "precio": "Precio General $10.500",
+      "descripcion": "Visitas guiadas temáticas",
+      "categoria": "Teatro / Música / Danza — Visitas guiadas temáticas",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "Filtrar por filter_list Tipo de evento Todas las categorías Ballet y danza Carte",
-      "link": "https://www.municipal.cl/cartelera/",
+      "nombre": "Xabier Anduaga | 2026",
+      "link": "https://municipal.cl/espectaculos/xabier-anduaga-2026/",
       "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
-      "precio": "Consultar en boletería",
-      "descripcion": "",
-      "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
+      "precio": "Galería $8.000",
+      "descripcion": "Grandes estrellas",
+      "categoria": "Teatro / Música / Danza — Grandes estrellas",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "Tipo de evento Todas las categorías Ballet y danza Cartelera digital Conciertos ",
-      "link": "https://www.municipal.cl/cartelera/",
+      "nombre": "Venta de Vestuario 2026",
+      "link": "https://municipal.cl/espectaculos/venta-vestuario-2026/",
       "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala La Capilla)",
       "precio": "Consultar en boletería",
       "descripcion": "",
       "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "Rango de precios Todos los precios Desde $3.000 Desde $8.000 Desde $14.000 Entra",
-      "link": "https://www.municipal.cl/cartelera/",
+      "nombre": "«XCLNT» – Los Tres",
+      "link": "https://municipal.cl/espectaculos/xclnt-los-tres/",
       "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
       "precio": "Consultar en boletería",
-      "descripcion": "",
-      "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "descripcion": "Conciertos y recitales",
+      "categoria": "Teatro / Música / Danza — Conciertos y recitales",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "Lugar Todos los lugares Municipal Delivery Online Sala Arrau Sala La Capilla Sal",
-      "link": "https://www.municipal.cl/cartelera/",
+      "nombre": "Ballet de Santiago",
+      "link": "https://municipal.cl/espectaculos/la-cenicienta-2026/ballet-de-santiago/",
       "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
       "precio": "Consultar en boletería",
-      "descripcion": "",
-      "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "descripcion": "Ballet y danza",
+      "categoria": "Teatro / Música / Danza — Ballet y danza",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
-      "nombre": "Buscar",
-      "link": "https://www.municipal.cl/cartelera/",
+      "nombre": "Interpretación Audiovisual 2026",
+      "link": "https://municipal.cl/espectaculos/interpretacion-audiovisual-2026/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Arrau)",
+      "precio": "Consultar en boletería",
+      "descripcion": "",
+      "categoria": "Teatro / Música / Danza",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "Día del Patrimonio 2026",
+      "link": "https://municipal.cl/espectaculos/dia-del-patrimonio-2026/",
       "fecha": "Consultar cartelera",
       "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago",
       "precio": "Consultar en boletería",
       "descripcion": "",
       "categoria": "Teatro / Música / Danza",
-      "fuente": "Teatro Municipal"
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "Concierto: Sonidos del Silencio | Municipal Delivery 2026",
+      "link": "https://municipal.cl/espectaculos/concierto-sonidos-del-silencio-municipal-delivery-2026/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Municipal Delivery, Online)",
+      "precio": "Consultar en boletería",
+      "descripcion": "Cartelera digital, Conciertos y recitales",
+      "categoria": "Teatro / Música / Danza — Cartelera digital, Conciertos y recitales",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "Visita guiada «Día de la madre»",
+      "link": "https://municipal.cl/espectaculos/visita-guiada-dia-de-la-madre/",
+      "fecha": "Consultar cartelera · 90 min aprox",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala La Capilla, Sala Principal)",
+      "precio": "Precio General $13.500",
+      "descripcion": "",
+      "categoria": "Teatro / Música / Danza",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "José Alfredo Fuentes – 60 Gold",
+      "link": "https://municipal.cl/espectaculos/jose-alfredo-fuentes-60-gold/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
+      "precio": "Consultar en boletería",
+      "descripcion": "",
+      "categoria": "Teatro / Música / Danza",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "María Antonieta | Municipal Delivery 2026",
+      "link": "https://municipal.cl/espectaculos/maria-antonieta-municipal-delivery-2026/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Municipal Delivery, Online)",
+      "precio": "Consultar en boletería",
+      "descripcion": "Ballet y danza, Cartelera digital",
+      "categoria": "Teatro / Música / Danza — Ballet y danza, Cartelera digital",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
+      "nombre": "Taller Creativo: «La Fábrica de Espectáculos» | Abril",
+      "link": "https://municipal.cl/espectaculos/taller-creativo-la-fabrica-de-espectaculos-abril/",
+      "fecha": "Consultar cartelera · 90 min aprox",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala La Capilla, Sala Principal)",
+      "precio": "Consultar en boletería",
+      "descripcion": "Visitas guiadas temáticas",
+      "categoria": "Teatro / Música / Danza — Visitas guiadas temáticas",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
     },
     {
       "nombre": "Vacaciones de Invierno 2026 Junio a Agosto 2026",
