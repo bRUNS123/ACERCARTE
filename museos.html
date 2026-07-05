@@ -53,6 +53,14 @@
                         'patrimonio', 'galería', 'galeria', 'muestra'];
     let allEvents = [];
     let currentFilter = 'todas';
+    let currentSearch = '';
+
+    function matchesSearch(ev, q) {
+        if (!q) return true;
+        const haystack = [ev.nombre, ev.lugar, ev.fuente, ev.fecha, ev.categoria, ev.precio, ev._normCat]
+            .filter(Boolean).join(' ').toLowerCase();
+        return haystack.includes(q.toLowerCase());
+    }
 
     function escapeHTML(s) {
         if (!s) return '';
@@ -124,10 +132,17 @@
     function render() {
         const list = document.getElementById('museos-list');
         let events = [...allEvents];
+        if (currentSearch) {
+            events = events.filter(e => matchesSearch(e, currentSearch));
+        }
         if (currentFilter !== 'todas') {
             events = events.filter(e => e._normCat === currentFilter);
         }
 
+        if (events.length === 0) {
+            list.innerHTML = '<p class="agenda-empty-msg">Ningún resultado para "' + escapeHTML(currentSearch) + '".</p>';
+            return;
+        }
         list.innerHTML = events.map(ev => {
             const link = ev.link || '#';
             return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
@@ -140,6 +155,13 @@
                 + '</div></a>';
         }).join('');
     }
+
+    document.addEventListener('acercarte:search', e => {
+        currentSearch = e.detail || '';
+        currentFilter = 'todas';
+        document.querySelectorAll('.pg-cat-filter').forEach((b, i) => b.classList.toggle('active', i === 0));
+        render();
+    });
 
     document.addEventListener('DOMContentLoaded', init);
     document.addEventListener('click', e => {

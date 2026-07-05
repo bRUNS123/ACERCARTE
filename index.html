@@ -85,10 +85,87 @@
     <script src="js/main.js"></script>
     <script>
     // Load highlights and counts for index page
+    let allHighlights = [];
+    let allAgenda = null;
+    let allPanoramas = null;
+    let allConvocatorias = null;
+
     document.addEventListener('DOMContentLoaded', () => {
         loadDestacados();
         loadCounts();
     });
+
+    // ── Search across all data ──
+    function matchesSearch(item, q) {
+        if (!q) return true;
+        const haystack = [
+            item.nombre, item.lugar, item.fuente, item.fecha,
+            item.titulo, item.descripcion, item.categoria
+        ].filter(Boolean).join(' ').toLowerCase();
+        return haystack.includes(q.toLowerCase());
+    }
+
+    document.addEventListener('acercarte:search', e => {
+        const q = e.detail || '';
+        if (q === '') {
+            // Restore original highlights
+            renderDestacados(allHighlights);
+            return;
+        }
+        // First filter highlights
+        const filtered = allHighlights.filter(h => matchesSearch(h, q));
+
+        // Also search deep in all data
+        const extraResults = [];
+        if (allAgenda) {
+            for (const ev of allAgenda.eventos_directos || []) {
+                if (matchesSearch(ev, q)) extraResults.push({...ev, _type: 'evento'});
+            }
+            for (const ex of allAgenda.mnba || []) {
+                if (matchesSearch(ex, q)) extraResults.push({...ex, _type: 'mnba', link: ex.link, nombre: ex.nombre});
+            }
+        }
+        if (allPanoramas) {
+            for (const post of allPanoramas.posts || []) {
+                for (const ev of post.events || []) {
+                    if (matchesSearch(ev, q)) extraResults.push({
+                        nombre: ev.description || ev.date || 'Panorama',
+                        link: post.url, lugar: ev.location || 'Santiago',
+                        fecha: ev.date || '', fuente: 'Panoramas Gratis', _type: 'panorama'
+                    });
+                }
+            }
+        }
+
+        // Merge and deduplicate by nombre
+        const seen = new Set();
+        const results = [];
+        for (const r of [...filtered, ...extraResults]) {
+            const key = (r.nombre || r.titulo || '').trim();
+            if (!seen.has(key)) { seen.add(key); results.push(r); }
+        }
+
+        renderDestacados(results.slice(0, 12));
+    });
+
+    function renderDestacados(highlights) {
+        const list = document.getElementById('destacados-list');
+        if (highlights.length === 0) {
+            list.innerHTML = '<p class="agenda-empty-msg">Ningún resultado encontrado.</p>';
+            return;
+        }
+        list.innerHTML = highlights.map(ev => {
+            const link = ev.link || '#';
+            const tipo = ev._type === 'mnba' ? '🖼️' : ev._type === 'panorama' ? '📸' : '🎯';
+            return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
+                + '<div class="expo-card highlight-card">'
+                + tipo + ' <span class="expo-link">' + escapeHTML(ev.nombre || '') + '</span>'
+                + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
+                + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
+                + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
+                + '</div></a>';
+        }).join('');
+    }
 
     async function loadDestacados() {
         try {
@@ -97,9 +174,11 @@
                 fetch('datos/panoramas-gratis.json').then(r => r.json())
             ]);
 
+            allAgenda = agenda;
+            allPanoramas = panoramas;
+
             const status = document.getElementById('destacados-status');
             const content = document.getElementById('destacados-content');
-            const list = document.getElementById('destacados-list');
 
             status.style.display = 'none';
             content.style.display = 'block';
@@ -136,17 +215,8 @@
                 }
             }
 
-            list.innerHTML = highlights.slice(0, 8).map(ev => {
-                const link = ev.link || '#';
-                const tipo = ev._type === 'mnba' ? '🖼️' : ev._type === 'panorama' ? '📸' : '🎯';
-                return '<a href="' + escapeHTML(link) + '" target="_blank" rel="noopener" class="expo-card-link">'
-                    + '<div class="expo-card highlight-card">'
-                    + tipo + ' <span class="expo-link">' + escapeHTML(ev.nombre || '') + '</span>'
-                    + (ev.fecha ? '<div class="expo-meta">📆 ' + escapeHTML(ev.fecha) + '</div>' : '')
-                    + (ev.lugar ? '<div class="expo-meta">📍 ' + escapeHTML(ev.lugar) + '</div>' : '')
-                    + (ev.fuente ? '<div class="expo-meta fuente-tag">📌 ' + escapeHTML(ev.fuente) + '</div>' : '')
-                    + '</div></a>';
-            }).join('');
+            allHighlights = highlights;
+            renderDestacados(highlights);
 
         } catch(e) {
             console.warn('Error loading highlights:', e);

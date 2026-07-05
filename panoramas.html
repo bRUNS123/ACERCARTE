@@ -59,6 +59,15 @@
     let allPanoramaEvents = [];
     let currentPgFilter = 'todas';
     let currentPgSort = 'default';
+    let currentSearch = '';
+
+    function matchesSearch(ev, q) {
+        if (!q) return true;
+        const haystack = [ev.description, ev.location, ev.extra, ev.time, ev.date, ev.postHeader,
+            ...(ev.categories || []).map(c => c[1])]
+            .filter(Boolean).join(' ').toLowerCase();
+        return haystack.includes(q.toLowerCase());
+    }
 
     function escapeHTML(s) {
         if (!s) return '';
@@ -105,6 +114,10 @@
     function render() {
         const list = document.getElementById('pg-list');
         let events = [...allPanoramaEvents];
+
+        if (currentSearch) {
+            events = events.filter(ev => matchesSearch(ev, currentSearch));
+        }
 
         if (currentPgFilter !== 'todas')
             events = events.filter(ev => (ev.categories || []).some(c => c[1] === currentPgFilter));
@@ -168,6 +181,13 @@
             return html;
         }).join('');
     }
+
+    document.addEventListener('acercarte:search', e => {
+        currentSearch = e.detail || '';
+        currentPgFilter = 'todas';
+        document.querySelectorAll('.pg-cat-filter').forEach((b, i) => b.classList.toggle('active', i === 0));
+        render();
+    });
 
     document.addEventListener('DOMContentLoaded', init);
     document.addEventListener('click', e => {

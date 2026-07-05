@@ -22,6 +22,7 @@
         <div class="container">
             <h2>💰 Convocatorias y Oportunidades</h2>
             <p class="section-subtitle">Fondos concursables, residencias, becas, premios — actualizado lun–vie</p>
+            <div data-search-container></div>
         </div>
     </section>
 
@@ -54,6 +55,14 @@
     <script src="js/app.js"></script>
     <script>
     let todasOportunidades = [];
+    let currentSearch = '';
+
+    function matchesSearch(op, q) {
+        if (!q) return true;
+        const haystack = [op.titulo, op.descripcion, op.fuente, op.deadline, op.categoria, op.monto]
+            .filter(Boolean).join(' ').toLowerCase();
+        return haystack.includes(q.toLowerCase());
+    }
 
     function escapeHTML(s) {
         if (!s) return '';
@@ -92,7 +101,12 @@
     function renderOportunidades(filtro) {
         const list = document.getElementById('conv-list');
         let items = todasOportunidades;
-        if (filtro !== 'todas') items = todasOportunidades.filter(o => o.categoria === filtro);
+
+        if (currentSearch) {
+            items = items.filter(op => matchesSearch(op, currentSearch));
+        }
+
+        if (filtro !== 'todas') items = items.filter(o => o.categoria === filtro);
 
         if (items.length === 0) {
             list.innerHTML = '<p class="agenda-empty-msg">Sin resultados para este filtro.</p>';
@@ -119,6 +133,12 @@
             + '</p></div>'
         ).join('');
     }
+
+    document.addEventListener('acercarte:search', e => {
+        currentSearch = e.detail || '';
+        document.querySelectorAll('.conv-filter').forEach((b, i) => b.classList.toggle('active', i === 0));
+        renderOportunidades('todas');
+    });
 
     document.addEventListener('DOMContentLoaded', init);
     document.addEventListener('click', e => {
