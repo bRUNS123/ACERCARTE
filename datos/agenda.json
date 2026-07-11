@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-07-04T10:01:12.251297",
-  "fecha": "04/07/2026",
-  "total_items": 89,
-  "total_eventos_directos": 60,
+  "actualizado": "2026-07-11T10:01:34.081711",
+  "fecha": "11/07/2026",
+  "total_items": 93,
+  "total_eventos_directos": 59,
   "mnba": [
     {
       "nombre": "145 años: Historias de una Colección",
@@ -14,6 +14,13 @@
     {
       "nombre": "Roberto Matta. Abrir la mirada",
       "link": "https://www.mnba.gob.cl/exposiciones-temporales/roberto-matta-abrir-la-mirada",
+      "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
+      "horario": "Mar–Dom 10:00–18:30",
+      "entrada": "Gratuita"
+    },
+    {
+      "nombre": "Valentina Cruz. De amor, humor y muerte",
+      "link": "https://www.mnba.gob.cl/exposiciones-temporales/valentina-cruz-de-amor-humor-y-muerte",
       "lugar": "Museo Nacional de Bellas Artes, Parque Forestal, Santiago",
       "horario": "Mar–Dom 10:00–18:30",
       "entrada": "Gratuita"
@@ -50,12 +57,6 @@
           "pubdate": "Tue, 06 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Entrada en mano: Los conciertos que se vienen - Rockaxis",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQnhMYkVmWW1fVjV5aXZqR005NFB6SXNoSDhYTEF5MGpYRlBXTDlGRTFRZmFoS2p3dnAzSWc1UmlUaHZfdmczckJDVnVpOEluSDJkMFBtQklmVHJNUTVOYjdpbUozTTBDTGZUVF9LY0I4T3FnYmlhWXVJUTh0bkFJMzBjUlJrd1lrRXN6eFBfZGthQVc3REFGU3hQZw?oc=5",
-          "source": "Rockaxis",
-          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Chile celebra el Día Nacional del Teatro con homenajes a Andrés Pérez y una extensa cartelera cultural - Canal 13",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2tfbkNxbWNPZkZWUTJuajZscWdkaG81ZVAzZ19JMDJJSEJ5RkE5cUkwUTNHZlktWVZ5bUdWZ1Vkc2xCRzNzQlVhOGh3VVZGdkVtQ0lkczJqLVdMSzZySHBzWjBmQmNBSUJmeENCZ2dVVnh5NkJDSkRmRTVJUDN4UHY4dXhiY0tEbWhJLVFfQlZyQ0I0UXhpXzMzWm1OczhLOEdIRXgwYlJuR3FWcHNBZmdKR0tlN2Rp?oc=5",
           "source": "Canal 13",
@@ -68,6 +69,12 @@
           "pubdate": "Tue, 17 Mar 2026 07:00:00 GMT"
         },
         {
+          "title": "Teatro a Mil 2026: Programación de obras gratuitas - TVN",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWRDQ3NHSVYzYnNSTER6TUotYi1lMGxVZnU1QnFXU19ZWGNFYzI2TjlweGxVSmUwYl9fQWR0QXBnTHhSbU9oYkZmckVLVmhqU3dpdDhkbkNYWlZXVDlta0pHZ3p4WW1mU2t6ZUJLRXJwUUJMLXdZQWJTekZydVlseTlhbXBvMGwySGtpVFJPZ0FHcnJEU05WS25lWUJubkl4TExV0gGoAUFVX3lxTE9XdUhNcVdMRmpBbHBWVWxPVVMxcUFFOEdmUkJ0b0FtdzFlTG1mQS02MjVQcF9CU2RNZWJBRjluRmRYS3l6Y1dsQXFxaVFDYV9TYTJ5NVdkaGx5aE1OSHNWd1ZWeUh1TEVFdVdwM05uamtRVG13VFc3M1E5RFZKUWtncU0tVUdYeVVHN2FxampPRGROTTZVUzJCYW5VSTFGeklxRndPZC1LNQ?oc=5",
+          "source": "TVN",
+          "pubdate": "Wed, 24 Dec 2025 08:00:00 GMT"
+        },
+        {
           "title": "Tras agotar entradas, Teatro Municipal de Santiago abre dos nuevas funciones para su éxito familiar “La danza del oso” - Santiago Cultura",
           "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLUIzUU5lY1FTdkJWQ1pOaFM3SF8xejFDUWRuMm01X2xsdDZKaXBFaTl1LXlUQlNHVXUyODZPMURINjBvSGZDcmo4Mzd3VnhVcFo4RVNyWF9NSFVJdU56UjVsN0g0OE1rTGZUVXpmSFVLLTlncUZRVWtpLVJlSzU4dk5WTDFsd3hxcFF4c0NTbGVqd0p6ZXdJeU1TRjRiWTdPY3hWMkx1UUs0eFRFZGVjSm5wclEwXzAzRGdmMy10QXcyZkhGbG11NC1hcS1XZ2YzNW9TclRhZ2Z5Tlh4c1ZhN19DZGJZSWF1TGc?oc=5",
           "source": "Santiago Cultura",
@@ -77,7 +84,19 @@
           "title": "Vacaciones de invierno en Chile: panoramas gratis y con entrada para toda la familia - TVN",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1dqNHZ2YjZ0a3ZrUWtiY1hNa3Z4V203X1JiaW5PWTN3QXdFbC1LOHI0N0pEb0EyZDVyOEhRZEMyczktbmdOZnJvckJ0MDh6S280VmZlRUF0RTVJZktkYlp3dkVlbm5mQWF0N1ppemExQkY5RVA0U1pwSkRkbm9OQnRCUzJ3cmdNc0I3Sm52Y0F2QnlQS2ZlWFpIcjJwTms1YTJBNS1NYw?oc=5",
           "source": "TVN",
-          "pubdate": "Mon, 22 Jun 2026 15:38:00 GMT"
+          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "MUNICIPIO DE PUNTA ARENAS PRESENTA NUEVO TRIMESTRE DE LA CARTELERA CULTURAL 2026 - Radio Polar",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXFJOFpHbGlpUWVSSUs0YWg0X1NiV2NnRzNhRlBKaWR6eUV0RURPb1ZqZ1YzX1dVRDRZRmh1cVRoMEotRUM4SmRhLUlsXzFhVWtac2VLeG54WHoxWjZZRnhhSVJVeThxRUJWZWlYb3RrRXlfU3NPSDBoWk5oUWxFalRZMzRZTGQ2Ql9FS2pwcGNmV3EwcHp3?oc=5",
+          "source": "Radio Polar",
+          "pubdate": "Tue, 23 Jun 2026 09:01:07 GMT"
+        },
+        {
+          "title": "Orgullo y Prejuicio | 2026 - Teatro Municipal",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1henlDVi14ZGpFQmFtT2xzWlNYc3kzQjZxcTRnUHdhMnNnVWVJeXdxdzhzYWlNemZJSnRnOGJLcjZ4MHhlbGNjODdsODN1bl9LWVk0UG1UbFJ4SEM0NnV3dFBJS2RFd3BLZ2xr?oc=5",
+          "source": "Teatro Municipal",
+          "pubdate": "Wed, 03 Dec 2025 01:51:21 GMT"
         },
         {
           "title": "Agotó entradas antes de su estreno: Municipal de Santiago suma nuevas funciones a \"La danza del oso\" - BioBioChile",
@@ -92,6 +111,12 @@
           "pubdate": "Fri, 09 Jan 2026 14:32:33 GMT"
         },
         {
+          "title": "Festival CUIR CUIR llega gratis a Santiago con teatro, talleres, juegos y baile para niñeces diversas - El Desconcierto",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNakg0YmxCZ183ZC1MS2x1OWpCRC0wVzJleWF2d2JnZHJwc0tPZEZGZlk3UURnb0tYOW5EdlRleUpNLWVwZ2IxandhQXk3QWtlVDZvMEk2NVhzXzlaM0haczNRM0ZTdEN3YS1pcXNrNU9KM181Q29jMkNLQmxKRngtU2NEWWd4NlhKYUhTT0tCNVBERWJBUW1xUTJNUURfSjJLc3Ztdk5xY3lJSDVTcXg1R2lyREk2Zm1udXpDQmtrMmc1cWFXVEstWmNFcW94WUU?oc=5",
+          "source": "El Desconcierto",
+          "pubdate": "Tue, 23 Jun 2026 23:30:00 GMT"
+        },
+        {
           "title": "Qué hacer en Santiago: descubre los panoramas para celebrar el Día del Teatro - La Nación",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEViaTNjckUzem9NX1dxWlY4N2dHcmk3dEtDNVgxV1Z0Q0t3SGt6SUFtOEYzNjA2NDZ6UFJDZ3dsVFhiZWtram5rOXFIc05oeUJwMmlfWE1mVDBqMVItcnpvVWM2NzRkUnhFN3lTWnc3dmh2cllsVGl5N3NrcGE1aEk3QjY1QmNqa1ZnbV9iSVVVc2NJaXBhYmpQaHROaC1FRzgw?oc=5",
           "source": "La Nación",
@@ -104,16 +129,10 @@
           "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Festival CUIR CUIR llega gratis a Santiago con teatro, talleres, juegos y baile para niñeces diversas - El Desconcierto",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNakg0YmxCZ183ZC1MS2x1OWpCRC0wVzJleWF2d2JnZHJwc0tPZEZGZlk3UURnb0tYOW5EdlRleUpNLWVwZ2IxandhQXk3QWtlVDZvMEk2NVhzXzlaM0haczNRM0ZTdEN3YS1pcXNrNU9KM181Q29jMkNLQmxKRngtU2NEWWd4NlhKYUhTT0tCNVBERWJBUW1xUTJNUURfSjJLc3Ztdk5xY3lJSDVTcXg1R2lyREk2Zm1udXpDQmtrMmc1cWFXVEstWmNFcW94WUU?oc=5",
-          "source": "El Desconcierto",
-          "pubdate": "Tue, 23 Jun 2026 23:30:00 GMT"
-        },
-        {
-          "title": "Qué hacer en Santiago: conoce las exposiciones y obras que llegarán al GAM - La Nación",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFRZZkVpS01YQmV3NHI3SGhqbjkteTU3SG9YZjB2VUd4bUNWQjA4YXdJNy1YZWs0OGdHNHdQSDNRVVl6TDQtUzdfMlNINUpCbUdZdmdLaWJ5YWFFVXVBd2xfaHhhc3pmYmdkRTEzejBhNlZaV21OQkx3RGIwVlJXN1ZOQU9pOUIyWTRfQ2hPcVpBVFZKQUdEWk00OW5EQms?oc=5",
-          "source": "La Nación",
-          "pubdate": "Fri, 19 Jun 2026 22:06:09 GMT"
+          "title": "Vacaciones de invierno 2026: agenda de panoramas con museos y espacios culturales - La Tercera",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcTZuRjVWQVpSaC1xTVBTeGh6dy1zZElPNGpCME44cGMwUGlWWVg2SmlPYUw1dGNhS2UtVjljOVp6MzM3SDBJMm9OOWxrS3c4QXdnYzlZU2J4bUN4T0dQanQtVW4xclBBQWFyVlpGenloTldRTnRFMEVjZXNwaDEwaEFjQU5QdzY1UTI0dnkyLUt1c1JVWEgwMWZpaFJYREZRUW5Uc1JfMFN3bGxsN0Z1WHJ6LTRwUks4RlFjQnB30gHfAUFVX3lxTFBrWGE2SGhlMGRMU3haUk5aTTBxN0gwdXlQRzZOcWJYM2RLMzdSNjQzcVowQXhyVkpnVmYyb0paWjJfd3pKY1EwLVZYYlBYNmtQX3Z4WWM3ZmNMN1FNSEpoMm9GX0F0YkhRV05IS3pBLWkwWFREaTVRV3QxVjQ3MEhDVTFSbnRna3Z2QXZ3aFAtdUM1bzVRZVpua3p4SG12WlNQS0MyNlZ4WktkRVdpOXI0YUZHWkFvQkptSm9qamNKS1g1ajhqRGtOZU9wZmFuaGNtNkdZeG5DcENMNlpESDA?oc=5",
+          "source": "La Tercera",
+          "pubdate": "Wed, 24 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Guía familiar: todos los panoramas gratuitos para disfrutar en las vacaciones de invierno 2026 - Canal 13",
@@ -134,6 +153,12 @@
       "icono": "museos",
       "items": [
         {
+          "title": "Brasil se toma Santiago: dos exposiciones para descubrir el diseño y el arte contemporáneo - ed.cl",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTXdJVjh6NVQ5eURQeDdJek1uUUN1NUpxUUtzWmEwX05UUGdMcUlqbVg4UFNLbmRQQWtjNjNhWTdFWG5UU3pac0xxdkdlNGw4TzRNS2VjUnA2azMxYWYxVlRUZmIzZVZic291Ym4zT2p1TXQtQnlWS2ZwYmhZcnNOdnFHcnVNOGtQaW5yM2hYM2NoRzVkaUFxckZzdXE5T0Z2ejlzM2dRX01BajZzQ0lQbXpYNS04blNCTXJQTWRyMnROZU5rWnc?oc=5",
+          "source": "ed.cl",
+          "pubdate": "Wed, 08 Jul 2026 15:27:11 GMT"
+        },
+        {
           "title": "Noche de Museos en el Bellas Artes - mnba.gob.cl",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VajNndThSeUd1dFlkV0QtdDdtaGR4U3FiQXZCbWhOOVcwM2VEZ0U5ak5kN3N3RGVic1ZrR3kzYV9DUVlPMmJDMDNpbmdjYV9XRFlKZU9KbVlBVkd3ZE5NQkVwejFHaEs0YnFtQndnMWM0SHRweGRNazhR?oc=5",
           "source": "mnba.gob.cl",
@@ -146,16 +171,16 @@
           "pubdate": "Sat, 21 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Noche de Museos 2025 en Santiago: Los imperdibles de la jornada - Chile es TUYO",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHJPdENhLTdlVi1EeTB3T0FrdFVMTVhvOVlWUmNGdUlOTmYxdS1UTTFnN3ZwSUt3dmZWa1V6NV9GNGFkQXN0cEo3Zm9JeFliUElpeFJxdkN0U0FuNERZZlpzSi1sZV9TeEVJV0RCV1BueTFDTjdNMXpsaVd0ZktsNjlMXzB0MmtyTzlPOUNJRDVrOV83dGpubVg3YjU?oc=5",
-          "source": "Chile es TUYO",
-          "pubdate": "Wed, 22 Oct 2025 07:00:00 GMT"
-        },
-        {
           "title": "Qué hacer en Santiago: museos para visitar en la capital - La Nación",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLWdPbGtqeUp3U3Jnb19RTnp6Y0l0cC1YMXZrdEYzR1dxRmUxMlZIYURaMWlQeHNmMTRDUTV1b3JYZEpldUtHbUp1V0t4UHFLX29FaU9yQXRRc0wwR19IRFppOGd1bHVSRmJxUFRGWnl2NElEckpLSTlGaHlPbmEyWDBkWmQ4Sjg?oc=5",
           "source": "La Nación",
           "pubdate": "Fri, 26 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Noche de Museos 2025 en Santiago: Los imperdibles de la jornada - Chile es TUYO",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHJPdENhLTdlVi1EeTB3T0FrdFVMTVhvOVlWUmNGdUlOTmYxdS1UTTFnN3ZwSUt3dmZWa1V6NV9GNGFkQXN0cEo3Zm9JeFliUElpeFJxdkN0U0FuNERZZlpzSi1sZV9TeEVJV0RCV1BueTFDTjdNMXpsaVd0ZktsNjlMXzB0MmtyTzlPOUNJRDVrOV83dGpubVg3YjU?oc=5",
+          "source": "Chile es TUYO",
+          "pubdate": "Wed, 22 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "Conoce las nuevas exposiciones temporales del Museo de la Memoria - Museo de la Memoria y los Derechos Humanos",
@@ -164,16 +189,10 @@
           "pubdate": "Wed, 04 Mar 2026 08:00:00 GMT"
         },
         {
-          "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
-          "source": "Chile Travel",
-          "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "MAC Parque Forestal realizó su última inauguración del 2025 con invitados internacionales - Facultad de Artes - Universidad de Chile",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHpsZlZLb0FNTHROS0NwZENpTlh0TngtUGhsTDhwejJSUkktTjFZYnF5X1pLU0NJOTJnMmJlT1JXNWxZUXd1dUE4WnpldjcyYWlEZGZnT0F0dmx0WFBiMXI1aVNCMWx3Y0F2NFhaVEZJSG01U0l6UlQ1WV9RYllXR2hROUx3MEd5ZU1rb0FJalZYWm01clZDZHhwbw?oc=5",
+          "title": "MAC Parque Forestal realiza su última inauguración del 2025 con invitados internacionales - Facultad de Artes - Universidad de Chile",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzh1SkhQZWJqbWtMNUEzcWZkb1dIOU9GYzhvbktWMmNuSFBJTXNaR3BPd2d2R1ZTR0s2MDRtU1NMM3JXWm5CODFQaDdHajZoRWhxWXBmekFDRS0zVl9MZ0RWV012VEJFWWJpcmxOWld3WEtiZG9lcTh4LXBUdTlheW1MQTFKbFl3U2JrSWdWZ0VhUXRyY3NPVS1Gbl9PdVBM?oc=5",
           "source": "Facultad de Artes - Universidad de Chile",
-          "pubdate": "Mon, 10 Nov 2025 08:00:00 GMT"
+          "pubdate": "Fri, 07 Nov 2025 08:00:00 GMT"
         },
         {
           "title": "Con curatoría UdeC: Museo Nacional de Bellas Artes inaugura muestra por el Centenario de Julio Escámez - Noticias UdeC",
@@ -200,10 +219,10 @@
           "pubdate": "Fri, 16 Jan 2026 07:36:57 GMT"
         },
         {
-          "title": "Más de 200 joyas del British Museum llegan al Gaiás con ‘Voces del Pacífico’ - El Correo Gallego",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVFsZWRLaE1qOEx4c0taVDlSMTJoRDZVZnh1TEV5aUptMEozU2hjUGtjbGgwYXFxU19mN0R4LTRzUi1LT1ZtRlNjSC1CTDRQcnBRVGVxcFA4VkhpODBndkFlVkJmX1IzaHlOeXFDckVvckM5QkNwVWJUNHFUWmM5R0xyYm10Z2dDajlVWEx5MXk5bVJGVFFxbVBpcGdtd9IBowFBVV95cUxONDdQUjdqeXZ4b1drV0xxSkNsSDBzM2hkb2hqQVRCd0tQczJXWU1UbXo2b0xmTjV2SlRuSHVBdHFfYXNmV0xJdXZjTGNRdWE0Nk5uSU91SFlMSThjM21Va1kxNFU5U2NZQmFXdkY1Wm5ET1lTT3FpeVc2U1B2aXlkTWRpVWpkaW5ycTk0eVBoaFdQbFlzajVXRUp0cmpaMC1wWnYw?oc=5",
-          "source": "El Correo Gallego",
-          "pubdate": "Fri, 05 Jun 2026 07:00:00 GMT"
+          "title": "Especial: \"Hecho en China\", la exhibición chilena que invita a valorar y reflexionar sobre el arte popular chino - Xinhua Español",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHRsTFY2OG55Z0ZOS0x0Y29zLU9wMnc1LTdOOWY4cjZ4NzNyT1pvQ3lTYXpzUDVGRmZoMmxZaVVOVXBPWXdsTmhnS2lmQzhfOTJPdy1ncDlKcF8zOGh6Zk5tNnlObDRpWUhyTVVtcVNNcXVwR2pVRzJWeXV6MjUtNlhXYw?oc=5",
+          "source": "Xinhua Español",
+          "pubdate": "Sat, 04 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "Museo de Bellas Artes de Valparaíso presenta su cartelera de exposiciones temporales 2026 - Museo Baburizza",
@@ -218,16 +237,22 @@
           "pubdate": "Wed, 18 Feb 2026 19:45:27 GMT"
         },
         {
+          "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
+          "source": "Chile Travel",
+          "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
+        },
+        {
           "title": "Cambio de Dirección del Museo Marítimo Nacional - armada.cl",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vR01XLXNfX1hsLUZ6Z09VTm9Ea21LbFZMdllQMVRTbVZweTFSTUN1WXRNLTdGVU5wMkFYbzVHSHQ0a01MSTRSV1h6ZFhWcDBmeVdsTm12ZlV1SjFLMW1lNE1sQUpNZW1KVE1sYTJ2NldMdDZaMFlERQ?oc=5",
           "source": "armada.cl",
           "pubdate": "Thu, 02 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "El MUVHN y el Museo Nacional de Historia Natural de Chile refuerzan su colaboración en conservación, investigación y divulgación del patrimonio natural - uv.es",
-          "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNa1RaaGM0VF9WdGpwY0dKbmJqYW9CRGJkbXR2dWVESU1veGZpa0xpWVFmQ19BZDVjOXZzcndRek15ZllXcENUY0ZVZ0hGTWh3TzZGUVlXZWg1eGdHb1JKUm1UMFpZRTVsUXYwdERKWnVEckpDeU5KN2xfNU9XMFJTaHF6bXNJSXpIRDYwNUh6bkVqT3h6NWVEQ1NLTXN0Rk9rUV9nSVRBODQxSmhueHktOWV1MjdNTmtrSTB4a2kzd0FWOUx1U0EwbFNMQkZRdzdWNUlYM2E3b2xERUh5em5OMno1ZTFsOE14VTVyNWp6RGxCc2RhTTdpUDR5ZU5FZ3NhdzU0Yk5VX2ladlJsWU1FTGE0WUFPU25tUElBNWtlazJUTHEtZG5JOXpuRGxyQi0tUXJsMlBLVnFBa04wT2ZaenBHcXgtQ1BHVm1xRFJvcVpiUQ?oc=5",
-          "source": "uv.es",
-          "pubdate": "Tue, 09 Jun 2026 07:00:00 GMT"
+          "title": "El Día de los Patrimonios se vive en el Museo Baburizza - Museo Baburizza",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQenVtMEFCcmpqZmxIQ0ZmYVZCMGFoaFluRl9rSzFxcUoweWgtYU5GOWRmbW1CdFF4UWhVbk1BZ1A5a09oOEpqMHVOb0UzS2JZbWQ1ZFFubjh5QzRKTEd6T2QxcWgtT2tkZmYzazF6S0tPQ21IN1hrUWZPUjRFdmFoQzFPN3RHQi05c0E1MF9WQQ?oc=5",
+          "source": "Museo Baburizza",
+          "pubdate": "Mon, 25 May 2026 20:03:12 GMT"
         }
       ]
     },
@@ -248,16 +273,16 @@
           "pubdate": "Mon, 06 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Desde Viña del Mar a Barrio República:Patricio Caldera inaugura exposición este martes en Galería Yala - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa3NBYl85ODlVbVBTcEVSVFBMY2JpbXNkdDVCWGJmNUZDVTFBTFY0ZHYyV2VjWk1SQTlKX2FuSnNnR2I2RHl4WE5yWlNKNmlKUHVHT0pKaU41c0NYR2J5aE55eU8yUkhWQXlGclpCRWl5VWJRbTVraFk2RW1PaGNLY2NsNXVNVkFKUlgtdFV2UVotQWFiMEFXbWd6SnZOaE80NUJKeEFxY19zVmpPMXZndmFESTZESXo1WlRJTEpQZHROZy05Q1pKM2IxamJoSUp3X1NnVUtMVGZZXzNWWV9iQTBEeUtqLS1sSGc?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
-        },
-        {
           "title": "Ch.ACO-16 regresa a Vitacura con la versión más grande de su historia - El Desconcierto",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXBmMzNUVjFXZkp2S19Idmc0aFUtNmhZbFU1TkJ2ODJPZGJVZTF3V01Rc0NxaUItcmw4SGpwMU84NnZfQzBaSVJuQ3ZxcEVIc2Y5N3ZzbHJjR0tUdzMxLWxtOUlpYUM2LTdVS042djRpMHZmaDVJaGZXaFE3eTNpZW83bmdkZ2g0ZlMtdEg1RndlYmE3OUtwbEs3YzNPTW1peUlCd3lqbHPSAa4BQVVfeXFMTmpFamhtOWczS2ozal9Ra1gwZ0Nlck5zQXhYWHNBcDNVQ20wTDdUNFZMWTBSemVhcS1WWkRLMGpQY2xhdmZZOTdtUlFfTnN1OE1hQV80aEZTV01QQVFmay01VG9tVUJMN0tNcVBVaWdHRnpZLUFyMGhhV0hRUV84c2hYWnlXckF0eFRwZy14RWZDdGx6aWRjYldvTV9Oc1hma1BFOHdDb01UbEc2VmRB?oc=5",
           "source": "El Desconcierto",
           "pubdate": "Tue, 10 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Desde Viña del Mar a Barrio República:Patricio Caldera inaugura exposición este martes en Galería Yala - BioBioChile",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa3NBYl85ODlVbVBTcEVSVFBMY2JpbXNkdDVCWGJmNUZDVTFBTFY0ZHYyV2VjWk1SQTlKX2FuSnNnR2I2RHl4WE5yWlNKNmlKUHVHT0pKaU41c0NYR2J5aE55eU8yUkhWQXlGclpCRWl5VWJRbTVraFk2RW1PaGNLY2NsNXVNVkFKUlgtdFV2UVotQWFiMEFXbWd6SnZOaE80NUJKeEFxY19zVmpPMXZndmFESTZESXo1WlRJTEpQZHROZy05Q1pKM2IxamJoSUp3X1NnVUtMVGZZXzNWWV9iQTBEeUtqLS1sSGc?oc=5",
+          "source": "BioBioChile",
+          "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "A los 25 años, el artista Alonso Bello inaugura una galería inundada y gratuita en Barrio Italia donde el público entra con trajes de pescador para ver sus obras interactivas - The Clinic",
@@ -266,16 +291,22 @@
           "pubdate": "Sun, 10 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Ch.ACO-16 inaugura su edición más grande y marca un nuevo ciclo con su regreso a Vitacura - Culturizarte",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmRReEJ3eXFvMm5wZVpvZTF5R1FocUE1WmtpM3pGQlg5S21ISTN1RWctODEzRGZLOGV2cWh3cEstR0R1UEpaV2kyZERIRFBPYXZPSTZseWQ1MHc1cXV2dEpnbTl0OTVUM1F3eUlVd1AzRGJTVWVhcVZlYVdBZ29HRHhZVE42VHU1VHd4YWxHMl9ZVW9uSjhUYkVaWmVWS1FZRlNXT2FQN3NETnNfbS11Qk9NeXA?oc=5",
-          "source": "Culturizarte",
-          "pubdate": "Thu, 26 Mar 2026 07:00:00 GMT"
+          "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
+          "source": "Infobae",
+          "pubdate": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Ch.ACO, la semana de arte y creatividad en Chile está por llegar - Architectural Digest México y Latinoamérica",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXdmTzlRSGlFZTZrUWVEZ3FoYncxSHFuMzA2MTVpVEtNcFVCd1A2N09YUkI2S3hPWTNJNGlnM1NTbmVfLTRYOUVTWDhJTVZYZTFrMU5lTmJkLWJpai1aMG8zNXJwZ0RfTVZtMm95UklMeGhkcEh1YXdmb2lTOUltZUVKdlpHcjFGN1Mw?oc=5",
           "source": "Architectural Digest México y Latinoamérica",
           "pubdate": "Mon, 09 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Ch.ACO-16 inaugura su edición más grande y marca un nuevo ciclo con su regreso a Vitacura - Culturizarte",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmRReEJ3eXFvMm5wZVpvZTF5R1FocUE1WmtpM3pGQlg5S21ISTN1RWctODEzRGZLOGV2cWh3cEstR0R1UEpaV2kyZERIRFBPYXZPSTZseWQ1MHc1cXV2dEpnbTl0OTVUM1F3eUlVd1AzRGJTVWVhcVZlYVdBZ29HRHhZVE42VHU1VHd4YWxHMl9ZVW9uSjhUYkVaWmVWS1FZRlNXT2FQN3NETnNfbS11Qk9NeXA?oc=5",
+          "source": "Culturizarte",
+          "pubdate": "Thu, 26 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "Art Stgo 2025 - gam.cl",
@@ -308,28 +339,28 @@
           "pubdate": "Fri, 16 Jan 2026 08:00:00 GMT"
         },
         {
+          "title": "La exposición reúne las obras de artistas surcanas que buscan sensibilizar sobre la vital importancia de los árboles como fuentes de vida y equilibrio natural. El ingreso es libre - Municipalidad de Santiago de Surco",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3JqOUZfWm1Ca2VHWFBGTDk1Z1BoNjZvSkkzZG9TenRCWjR5M3BFU0kxeV9lOHJqVGxpUXpMa3pWajhWUzJEQ3dnanA4M3VjV2NyRzl1Z1dPME5lS3ZVR3ZuUktpeFZnSFduU0ljV3I5LTdPMUt6UkJIbEFpbWFRTnhKX2tFV3dteGw2UHZQNWVobXdjZ19oRTNiOUZ3TVpoeXFONw?oc=5",
+          "source": "Municipalidad de Santiago de Surco",
+          "pubdate": "Fri, 30 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "La Ribera estrena su primera galería de arte... con acento mexicano: \"Queremos que Ytak sea un espacio cultural lleno de proyectos - Murcia Plaza",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQekxSS25pb2ZzcG9kX09vblk4U0FBcVg2U0Rtay01UEpTeFN3Q2JEMkxzLVhWM25xeG9EY1RrQzVMcnVvVW9jaFBQSkdiSkdpWXFfT3Q5QTVnLS1KVjdLYjBCZGVhRkJqMFoyZFVzaE1iZFpFMExYY0dSSDNEYUFXTXl2aTRzMDZtN3NkMG4wNk1heFZpbjNIaXlyMmREOHRpXzhaUlRuVjRuNXU1VjQ2MkdRNGs5bm5uMEsyNUNsM0dIOG9BTy1mVmJDVmNYU0lXeDgtOS1NUy1hWlM2TWFTXzV6NlozWUZ0OWswWlBzMGpxdUdySEdlalF5cnNlMEx2V05HTTFJbnk?oc=5",
+          "source": "Murcia Plaza",
+          "pubdate": "Wed, 13 May 2026 07:00:00 GMT"
+        },
+        {
           "title": "PUCV presenta nueva exposición de grabados en la Sala Gasco de Santiago - Pontificia Universidad Católica de Valparaíso",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYWhSX1BYdHZTdWpZMTlBMmxEcVk2OVM4TGdfWjJOYU9pNFJkMUg5VmZsMW56Q3dyR3d1ODk3bjN1MVhmTXljX3RGWWNkVnJZejktbVVxV0JQYjUxeTE1Y2l0OHplX182RUhjZkRuY2gtczVjLVo1TlkzenpkTy1UUzZsYU9IdXVRUFhHT3hkdWsxUTdJRXRqRUJqZk1oWV9MOXVhU0dGTmlMOXZmZUR0SDI1MTREVzlCRUw3MQ?oc=5",
           "source": "Pontificia Universidad Católica de Valparaíso",
           "pubdate": "Wed, 03 Dec 2025 08:00:00 GMT"
         },
         {
-          "title": "Panta rei, Exposición, Pintura, sep 2025 - ArteInformado",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QV01qM1BDdFhPbEVnbUp6TWtZd1h0ZTl0TDJ3bGctTG85anFlYTR1LXZZbW5CbTZMc0s4X0M1UmM2bUExbmRRRThJY1N2TWxGMk9rdER4QU03aXpxUnp5aW5tZEo3UQ?oc=5",
-          "source": "ArteInformado",
-          "pubdate": "Thu, 11 Sep 2025 15:35:17 GMT"
-        },
-        {
-          "title": "Inédita exposición de Pipilotti Rist en Chile trae lanzamiento de Bienal de Artes Mediales de Santiago - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOSTkxbmhIbFZJb1FTWUZXQm5hci1aOEFCcXRNT0kzRkhkWFRWUUw2Sy1DMkFFMEJKcjd0QnFjclFhdzk1dXo0NnZoandjcWFFRXdDRnpXX09rNnV5dktOY1hSMWxKUi1JTnhaUE41RzJsbzljdkhDSVk1a3dTWjgyTlQySnlHMU45ZTJrZXNsa1U4ZlY5aUFtOUtDYy1DaXZ5X3R1Y1FSeHpWelFCemtCQnA3SnF4c1NtSXRUYXZZcGcwaUpYczgtUUJLWXRLTWRISF91RFo5Q21CQ0FjSURIR1ItQ2w5UDBNTURyXzJySWxXRnFacy1uTUZyU2xOMVdMVEdQU0c0WlZuRjhjRGFXb2dTeGxYN2czeE1B0gGgAkFVX3lxTE90RnVJcEx0b0NHRmhEOEJGSUZZRHNMVWFheFJUVWZTcGhjeTFLNGpRWFVhWVQ4MEFLR3J5bWdMcUQ4UkxINVZrRkxaRlVDdVZhLWJaSUR2V1VFTTlXaUM3U1RuNERvYkF1TUNMc1V2c19KcFNjS3JYTUJOWGtFN0VJRDg0V1dkMFRXNThieUM2cW1DWm9KNFFwc1BoTk1zc0dUeGhYc2hhOTlFQkh4WEcxMGNoQlBhN2JqazllSHRqOFpYOFpGdmpDRTZZZXNmVjdFU3pZUFEzbDByT0xoVm81QlhKenB1V1F2eWFfQmNucE9abHRrSTNQbC1YSG5lZEU4U29ma2RpTkd0NFp0YXU2c21xOWpJdDVJVlE1YzEwcw?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Wed, 13 Aug 2025 07:00:00 GMT"
-        },
-        {
-          "title": "La exposición reúne las obras de artistas surcanas que buscan sensibilizar sobre la vital importancia de los árboles como fuentes de vida y equilibrio natural. El ingreso es libre - Municipalidad de Santiago de Surco",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3JqOUZfWm1Ca2VHWFBGTDk1Z1BoNjZvSkkzZG9TenRCWjR5M3BFU0kxeV9lOHJqVGxpUXpMa3pWajhWUzJEQ3dnanA4M3VjV2NyRzl1Z1dPME5lS3ZVR3ZuUktpeFZnSFduU0ljV3I5LTdPMUt6UkJIbEFpbWFRTnhKX2tFV3dteGw2UHZQNWVobXdjZ19oRTNiOUZ3TVpoeXFONw?oc=5",
-          "source": "Municipalidad de Santiago de Surco",
-          "pubdate": "Fri, 30 Jan 2026 08:00:00 GMT"
+          "title": "LAS EXPOSICIONES MÁS DESTACADAS DE SANTIAGO EN 2024 - ARTISHOCK REVISTA",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1htQ1lXV2NYZldZcFpTZHJUS0RWZnpPYjRNM3dJTXRIYzhMY0tNYXdiYTBmMGZmQjllNzI4eThLS1hKSXlMMndueGxBU0lmaFMxdDVKMkRVZ0dXOWJ4RllhSnYwOTdkcFlXTEcwS0lNempOdXR0OEJ5QUxmRlBZTDFWblpSanQtWXd5aXo4NV9RQmdsRTZZ?oc=5",
+          "source": "ARTISHOCK REVISTA",
+          "pubdate": "Mon, 23 Dec 2024 08:00:00 GMT"
         }
       ]
     },
@@ -338,10 +369,10 @@
       "icono": "diseno",
       "items": [
         {
-          "title": "Exposición “Brasil Moderno”: el diseño de Sergio Rodrigues llega a Santiago - Infogate.cl",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYjJCREUyYVowYlpoLTBWZURqNjFmS0hvblAyRElrcnpIcG1hVnNSTDI5X1ZXcnM4NF9naVVSZ1dFTWpkS1B4OF9oOXA4YWdFRFZJWl9zTjBCMmtuc2lmaTJXeDJ6UlJ5Y3BhUmU0WFppM0k2WXlYV3R4djJvMnljRzcxNUtlellGT2ZDbkJDdkdIa1BtNE1aU3JUY3ZvVnJYaWh1ZFE2ZjY?oc=5",
-          "source": "Infogate.cl",
-          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
+          "title": "Brasil se toma Santiago: dos exposiciones para descubrir el diseño y el arte contemporáneo - ed.cl",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTXdJVjh6NVQ5eURQeDdJek1uUUN1NUpxUUtzWmEwX05UUGdMcUlqbVg4UFNLbmRQQWtjNjNhWTdFWG5UU3pac0xxdkdlNGw4TzRNS2VjUnA2azMxYWYxVlRUZmIzZVZic291Ym4zT2p1TXQtQnlWS2ZwYmhZcnNOdnFHcnVNOGtQaW5yM2hYM2NoRzVkaUFxckZzdXE5T0Z2ejlzM2dRX01BajZzQ0lQbXpYNS04blNCTXJQTWRyMnROZU5rWnc?oc=5",
+          "source": "ed.cl",
+          "pubdate": "Wed, 08 Jul 2026 15:27:11 GMT"
         },
         {
           "title": "Sin costo: la cartelera de panoramas GRATIS en Santiago para el fin de semana del 28, 29 y 30 de noviembre - Canal 13",
@@ -350,16 +381,16 @@
           "pubdate": "Thu, 27 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "Revisa las actividades gratuitas de Festival Santiago Off: artes escénicas, talleres y exposiciones - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWmdzQzhRdTc1X01PZzVtb3lsTGY2ZFJaT3kxUFRROGJjd2N4YW9ramwyQTRXQzFEZ3BzeXNyZC03UWh6UlBNdnRDYWxZalVZRTdpb0RHVTFVZGg2eWhIM2Q1QTBta0w3V2xTR0VsYkxjLXBCR21nRzhQcGlNZEpSdy1lejcxQ3ZPbm1yZHRRLWZ0OGxMSzBRZ2o2T0Mwd3JIdE5NcmN6b3ZXV1RpWXAtTU9xbUdXTlZXaHlXdHNHSW1KR1l5NXdmVEFLcnBvSkpaZlRhRDRIMS1kS3lvMXg2aGRXS09IeWt4b2FXemljTGZFZU9QTGZqU0NwVlY5amQySTZCbi1FZGVqZXBnYmNwM0FlWlo?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Tue, 06 Jan 2026 08:00:00 GMT"
-        },
-        {
           "title": "8 museos y centros culturales de Chile que debes conocer - Chile Travel",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlNaLUlzTkMxY1pzbnRKOXQxSnZGR3MzSURBaGRWRE5yMFVFcVhxUWYwOEE1eW9GZWZXNmtmWE1CUEt3Qnoyb0RFNV8ta24zLUpJTVBpdlBTZ1FqMjhSMmpuWVhsVU9Yai1qMGxOUnNmZjM4Sm1uRTRjZjQwQlVEUlNkR1RCeHFp?oc=5",
           "source": "Chile Travel",
           "pubdate": "Wed, 05 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Exposición “Brasil Moderno”: el diseño de Sergio Rodrigues llega a Santiago - Infogate.cl",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYjJCREUyYVowYlpoLTBWZURqNjFmS0hvblAyRElrcnpIcG1hVnNSTDI5X1ZXcnM4NF9naVVSZ1dFTWpkS1B4OF9oOXA4YWdFRFZJWl9zTjBCMmtuc2lmaTJXeDJ6UlJ5Y3BhUmU0WFppM0k2WXlYV3R4djJvMnljRzcxNUtlellGT2ZDbkJDdkdIa1BtNE1aU3JUY3ZvVnJYaWh1ZFE2ZjY?oc=5",
+          "source": "Infogate.cl",
+          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Guía del ocio: panoramas escogidos para el fin de semana del 7 y 8 de marzo - La Tercera",
@@ -401,13 +432,13 @@
           "title": "Guía de Arte y Cultura: semana del 26 de junio al 3 de julio de 2026 - Infobae",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzR2NzF1aFROaTBDN19TQTNHaWtJR1RVX19rWndLa0ZOcWtLbEZfSDdBc1VlWkVYQTd6VEJpYXVhN3BiTFVHNk1sRDhqMkgtR3lETmVhWGc1X2tPNUVqV3BpSmRhcWJOcDJUazNsNEtGYmUzalNRc09xUng3d3ZuNEJ1OHVpNExtbmp6eTJWVXJ6VnBvM3RNUEJ5a3VHUDBfTGdVZlc4TVl6LWJEWFlTUUxGX2JzbHdGb2RGb0NyUVlqWHNt0gHfAUFVX3lxTFAzTzVpdy1PRFNDdUlKSHlyc2IwYW5VQ1NhM1B3QW9EVWhRRGYtb3R3RElEWmkxald3TnhwWWNodU9VUnFSZThReHd0a3hPbDdjNGJVNkVlRncxQldrN2xtbWczdDJ1ZEpxcTFVS25kS1pMc3lydmU0SUtZRlJmdWhYTk5EOE9ndlYtM0lMVC02bmRIRF9mWW9FcmQtNmdGNEpfaHdsY3Y4RnJaYmpxSUZfWWlxQ19qUXRlMlBSOG41ZDRQZExvNEdpSXBrNzNFOENPSnFEYTMzM0ZLOFkxQlk?oc=5",
           "source": "Infobae",
-          "pubdate": "Fri, 26 Jun 2026 03:39:10 GMT"
+          "pubdate": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Llega la 4° edición de la “Muestra La Mostra Visual 2026” en Santiago del Estero - Nuevo Diario Web",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZHBLZ1pQdFRmNktORVIwWVZyZWNaOURhYk4tVHBvOGtzNFd2MmMzb0g0NG9ZSDZkYjJlY1VOY25tM1o3UUxyLUNpRTQ2UTdjRHhMZktiT2xhU0FLaE9kR1YxQ3V6cnJUdDJ5dnlhbFlzNnVhOV94MExaZGtmNTVMMUJ2MDltT2JEQVh5Vl9TamZ4RnM5UHdRQTR4bjFCbVVpZ2pkZFIyamxvYkU3NGZVb1JKdjc2NlVNbXR5ZkY3MXozc0F5cDg1SG10T1dWcWIyMmdaTE5QSng2WE1vdXc?oc=5",
-          "source": "Nuevo Diario Web",
-          "pubdate": "Fri, 29 May 2026 07:00:00 GMT"
+          "title": "Puertas Abiertas Artistas Yungay 2025: La fiesta que transformará el barrio en un gran escenario cultural - Diario Usach",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFdMSTNGZDBVcWhYdTR2LTdfQjB5Q2l0M3lHX3FHMUZxazMzRkVXcTdSaW5zOWlHUXU2WVN6X1hTTVNsbG9MWWFSb2wycDZzQ1lmbzRBNVl6TGotSzc0VjRYRGEyd21wRDBlNHNxZ3NseHhyLXdMNWNSZjQ0YS13bTFGNjFoYVFQYndwNkFwTzFzUDZ0S2l0NHZxTmF1QTF0RFdr?oc=5",
+          "source": "Diario Usach",
+          "pubdate": "Thu, 16 Oct 2025 07:00:00 GMT"
         }
       ]
     },
@@ -416,10 +447,22 @@
       "icono": "arte",
       "items": [
         {
+          "title": "Conciertos gratuitos en la Catedral de Santiago: Revisa fechas, horarios y programa - El Mostrador",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeGdKM3pOWnVub3lRb2dtNVFxTkZya1pqdFo4d0lzaHo1dlVBSi14YWpiQ2xRRlVkMUlreUVoRXo3aDdHX3JZMHA0aVlYM3lzMldFMERPX3RWV0pheTRydFRPakducWVHUVVJMnhPRmVvbU9LZ20yaVI3VHZvbDE0NTFSUVd4eXJEcXRYa05ZU1ZsTnZRN19oQzJjcllIcFdVeThnbDQwVXhQdXRzQ2VRV3hpcmNBd01fWVJfYVVKamt5TnFKRWNmMXdKWFlMTXM?oc=5",
+          "source": "El Mostrador",
+          "pubdate": "Thu, 09 Jul 2026 07:00:00 GMT"
+        },
+        {
           "title": "Qué hacer en Santiago: panoramas para este 16 y 17 de mayo en la capital - La Nación",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnA3OTlmUTR5NEt3eHU4dXh0SGsxdDBnM2NNcW1uMmF6WnNWTzROek1fUHFab0NKcU9aQjB6SUt4R0dqamNibXVaa1hDU1dXQUdkZDJXSnBnb2RZblZKSmZFRndpWTY0Mk55dkxweXdNQnJvYm9OQWVtZkhDa0tiTWoyU1Rrc3ZXWVF2VjNHaEJLVnJXb3pxVC1SeHk?oc=5",
           "source": "La Nación",
           "pubdate": "Fri, 15 May 2026 21:55:14 GMT"
+        },
+        {
+          "title": "Vacaciones de invierno 2026 en Chile: guía de panoramas gratis para niños en Santiago y regiones - EL PAÍS",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEpBZTF5TUo2dU56VU1JTk1OdkJjSTdMYnQtTmdNd09aN0s1OW5QOWhrclhId0N6bEU0a1lQbUdfQ3REbTZxZmVjclJfSEhkZGxYYm01OHNTWmpQVThpdTVrRklZaGM3VXVPbjlqSVhwVU9UVFhUSmV6X3pGcXItNFc2UHJzMEFzcEpwWndCbzk5VVR5azRjdEpqekZKbWhGUzZsYUtwNzdmMHd2ZHNNcktNUUMwUFo5SHUzaU1yZG1ZR3NhSU01SmdLc21YXzlGZ1HSAeYBQVVfeXFMTU9WVDRiQThqY3VWRUNTMW1QdzZTTS05TlRRN3NGb1ZrNHJ0WmR1UFZqNW95RktoSWxuQ3hsbGNrVDYwSTJscTdFNTJNX2c5Mmg1XzE5eTZzTlRkWmZmOU9RUWE2cUV4dV9MRHllSHgydlVHb3dvNHpSNUg1a21HaFVKSlNlZVFRd3dHNXRvY0tDUVU4VzBZNVJzLUZGWS1qWlVyOFNWYVY0TUhybGQwcndjMmxHNDg1dUpYamRSZjZ0YlplMWc2bUhzanNVcktFVDhLWWwwYTJhWHdRRlRoU21nQlhGMXc?oc=5",
+          "source": "EL PAÍS",
+          "pubdate": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Qué hacer en Santiago este fin de semana: los mejores panoramas del 22 al 24 de mayo - Meteored Chile",
@@ -440,28 +483,10 @@
           "pubdate": "Fri, 13 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Los panoramas en Santiago para este fin de semana del 5, 6 y 7 de diciembre: revisa la cartelera completa - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkNDMXdrSzNtUzJLWk9zVDREd0NXTDNVYjRNVlNIM0VhNkdQWmtOdndzd2x6b3pXdEJzTmR4VnFMakVGNHNsYUhOMmxkM0E2MmVBQmxHS0xqM2xOTkRSQllqNDRsbWVRdEZrU1JDN19FYW1DblJNTWZNd0tSeUpybDFreTNjTHIyLUE4NmJZczhoUktjYVl6a216aHFVR1pjNlhESEdPNllQeEFWdmxTZnZWOWpyUQ?oc=5",
-          "source": "Canal 13",
-          "pubdate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Día de la Madre 2026: Panoramas en Santiago para celebrar este fin de semana - CNN Chile",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREVNeFczWXhOT0l5VnBjcWp0eERDeXdyZmFSSWhmcDF1bjlwVGFqdXFQZDg1cHozbGk3ajVJUUJGdkk5RW1kV0ZMNzZ5ZExDQ0xlQ2VpM04xa2NrWnJ2eTAzZ0czeEhZVE1IUTRxSHJxTk1rcG51amJLVHBCYjJvNk02bTdpc09yWk9sNVRNOFpWVjdaVlFfbTJBcDRYSEJsYzhGUkZxZHdMMUR3RkE?oc=5",
-          "source": "CNN Chile",
-          "pubdate": "Thu, 07 May 2026 07:00:00 GMT"
-        },
-        {
           "title": "Qué hacer en Santiago: los mejores panoramas para disfrutar durante julio - La Nación",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTW5fbWQ1SDlRc0N2WktQb2N0bVUzSEZqZk1vV3lBYng0U0tVMHU5MEpQeS1aWWJJTmxqOW9pOTU4M2ZBTnFCLU1ZbjdCLUZTa1BCd3Fkb295aTFpLUpzbTVnUU9LOEUtbE9fRWZYT0h6WU9jTTdnQWZVRVc3ZUVQZ2FUc1Jzd2FXcjFrcGxITjNlYzUxaWJvNjYyd2RFZw?oc=5",
           "source": "La Nación",
           "pubdate": "Thu, 02 Jul 2026 21:39:14 GMT"
-        },
-        {
-          "title": "Guía familiar: todos los panoramas gratuitos para disfrutar en las vacaciones de invierno 2026 - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU21GNnFGTC1aYWp2UUlvUmNTUUdGUlFDejRXVDEwQjhfVXBkWlBaVXBDcjVlY3lmbjc5ZENZM0RVd3dGa1BiSVNaV1lDcVp3Umt4dHF6dmktR2hjMHVjV0V5enlPRDdfa29yWGRRbGx1cFB6R2c0RmF2U0xmWWpNZzNrOHpCMWpRckhUalFMck5BVjVtX3ZCTVctZTZTMlFocUZCMlZvWEN6QUk?oc=5",
-          "source": "Canal 13",
-          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Panoramas gratis en Santiago: 5 imperdibles del verano sin salir de la ciudad - Chile es TUYO",
@@ -470,16 +495,22 @@
           "pubdate": "Tue, 13 Jan 2026 08:00:00 GMT"
         },
         {
+          "title": "Guía familiar: todos los panoramas gratuitos para disfrutar en las vacaciones de invierno 2026 - Canal 13",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU21GNnFGTC1aYWp2UUlvUmNTUUdGUlFDejRXVDEwQjhfVXBkWlBaVXBDcjVlY3lmbjc5ZENZM0RVd3dGa1BiSVNaV1lDcVp3Umt4dHF6dmktR2hjMHVjV0V5enlPRDdfa29yWGRRbGx1cFB6R2c0RmF2U0xmWWpNZzNrOHpCMWpRckhUalFMck5BVjVtX3ZCTVctZTZTMlFocUZCMlZvWEN6QUk?oc=5",
+          "source": "Canal 13",
+          "pubdate": "Mon, 22 Jun 2026 07:00:00 GMT"
+        },
+        {
           "title": "¿Qué hacer en Santiago este sábado 14 y domingo 15 de marzo? Estos son los mejores panoramas sin salir de la Región Metropolitana - ADN Radio",
           "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYjVXYlVWRjBlejd0VmpDVG8zNHdmdFZYM0gyOGpEdkhxSUh6NnNlSXdzMVVJaUpHWEtCUzdiRWhDbEM5TTdDZXJza0VHN0lQWnJ1UjZ1dzhUYnRDNWZNODJ1N0ZnOW9XbTNQS0ViLXkyOEFMampRRUZkZVppbjUyS1dxRS1MX2lscHIxcVlkMXVueWdPVkdyYXhKOHdJZXY1am80Q3lidE9iWldOdkRFWHdFUi02TTVsU0xxWkJQOXJXSHVKSFBWSEZGRVFsM09La2FMRVpGVDN3Q3dXQ2tqOGF1akV0TDRqNnY5Qzhsdl9zQXphUGfSAYoCQVVfeXFMT0JQQWdDc2ZxbGtIMl9PMnZibk1ZRjB2S2JrUmh6X05QMi1ZQkVsZ04tVV9IeVFIQjR1dTAzTkxFNmtiem9Wci15NlFTY2tPUDdKV2N0TFRYNDBhUE9xaEs2VGNEM1ZvOFV5V0F1WmhNeHhZWlFVT1RQU1JCSmphamRERkg3Z012UktEMFUwYmtoWEdTVVV2ZjFxaVZRdTY3dVlxUk1mOU5ncDh1eHhzYTd1aVJwM0REMjlFSnlpTl9LVFBPS2xQVzBxY0I1LTZxZF80SERLbWtjVXQtOFVnTmN4OXZ2Wko1WmVHU2lTQS1lSHJJc01JNGx5eUJpTWo2d3phUXI1Rktrc2c?oc=5",
           "source": "ADN Radio",
           "pubdate": "Fri, 13 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Revisa las actividades gratuitas de Festival Santiago Off: artes escénicas, talleres y exposiciones - BioBioChile",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWmdzQzhRdTc1X01PZzVtb3lsTGY2ZFJaT3kxUFRROGJjd2N4YW9ramwyQTRXQzFEZ3BzeXNyZC03UWh6UlBNdnRDYWxZalVZRTdpb0RHVTFVZGg2eWhIM2Q1QTBta0w3V2xTR0VsYkxjLXBCR21nRzhQcGlNZEpSdy1lejcxQ3ZPbm1yZHRRLWZ0OGxMSzBRZ2o2T0Mwd3JIdE5NcmN6b3ZXV1RpWXAtTU9xbUdXTlZXaHlXdHNHSW1KR1l5NXdmVEFLcnBvSkpaZlRhRDRIMS1kS3lvMXg2aGRXS09IeWt4b2FXemljTGZFZU9QTGZqU0NwVlY5amQySTZCbi1FZGVqZXBnYmNwM0FlWlo?oc=5",
-          "source": "BioBioChile",
-          "pubdate": "Tue, 06 Jan 2026 08:00:00 GMT"
+          "title": "Panoramas gratis este 21 y 22 de marzo: Actividades en el MUT, Ñuñoa y Santiago para recibir el otoño - CNN Chile",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQUtRZ0I2SkRqZ2ZqTVdQdDVOV01SRzBBUkY1UHZLR1B1N3EtMWVJTHRocGVmdEhqUGk4QVpvdHJRQ0MtaHlhYTlyOFFkR25qZmEtTk5pVHo1NHhwZEZmTUQ0Skx1SzlZUU1qTDJoSUxNSXUwTGZXbHhkV1A5TzQyU2RYdGRMaXRXR1Zld1R5WHBfU2FGR0NIdC1VakR6ZU5wdWUwUXBvRS1VSXA5SEE0ekU2V3pFU29KS1NVaVB5RlhoQUtJdWNPMmR0SDlWZw?oc=5",
+          "source": "CNN Chile",
+          "pubdate": "Tue, 17 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "Festivales, música, cine y bierfest: la lista de panoramas gratuitos en Santiago para disfrutar el verano - El Desconcierto",
@@ -488,10 +519,22 @@
           "pubdate": "Fri, 09 Jan 2026 08:00:00 GMT"
         },
         {
+          "title": "Panoramas en Santiago: las mejores actividades gratis y familiares para este fin de semana - El Mostrador",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTEJRT0Jzb1NHeUMzYU1SdXAyRHRqTW8xUnZ4TDhLdGVLa2ZhcmkxMEFDVkhVRXJnb19sMFdxNFFQN0NSc09EaDRVZWVwQXNFMThWNThkMU1SeE5uZHBYTDlsOFA0UDJXQ1BlRjdtbjNmd2dyVkVKVVcwaUdRaUFrV2ZMTXk0ZUgtd2dxVmIxaFNkQ3A3Nk84dGRVdVZWZWR6d3I3R0JWV2EtVENrWWFETnBmaVNSNi03clpBYThrOFJNcHRoU3U5RkhQeXRKYmFnbHFGZGR0Ul8?oc=5",
+          "source": "El Mostrador",
+          "pubdate": "Fri, 10 Jul 2026 22:28:34 GMT"
+        },
+        {
+          "title": "¿Sin panorama? Santiago tendrá un fin de semana con actividades gratis para fanáticos de la cultura pop y la lectura - Radio Corazón — La Número Uno",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRHo1WGhaV1hJNllzRjE4OTlqY0FYaXJXbDFGNFg1eW5kQzYwNHBFYWMyUkwxcm5VRXFYVWJnQm5KcUxnRVRTb3ozN2VZb0lfdF91bjNlbTBCTzQtN010Tk03MmdwdU9LYkNNMWI1VzNNMGtqUzdtQVQ1U2E1blhJNDN1d1h0Nk9VQmMxOEI0Y1YyZ2J5czlmYXBVMUdZb21jdUJFNHBuTVNuNWx5MzFmaFZld2tEY3JhUDM5bkpnYWlkZlBwVTg5cU5oemUxTDJ1YWpjcUJyRG9PRVdWcnJZ0gHkAUFVX3lxTE1yNlRhVkVZNmlobXZEaHh3V0dTQUNGZXZmOHgwOXMwT0RPbmJMVU1Lcm9ta2hWQUYzQzU2UnpjNU5pc3RNUHhtUXhNeHRBb1UzMzNhUmRnSVRZNTFOSWxFbFhxdVA4SGtwZ3NoV3Q1dmZvam16ZjZlbGNpMjJPQ0wyWDl1S21zYWxPRVhYMEFBN20yZ0lMTkQ3ckNad0ZLWWRrOVRKS3VnVzVIRklHN0RNTlo4SXQ3VHVQaFNwSGk4Yzh0ei12VXg2MkU5cGk4cU04RmdwVnFQQnFNSFYwSk1xOUxjMw?oc=5",
+          "source": "Radio Corazón — La Número Uno",
+          "pubdate": "Thu, 09 Jul 2026 18:50:25 GMT"
+        },
+        {
           "title": "¿Qué hacer en Santiago este sábado 27 y domingo 28 de junio? Guía de panoramas en la Región Metropolitana - ADN Radio",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1Q0djJkRVNFWVd0Vy1pOFFKckN2Ui12TVdkQ3JlMTJEZm5CMW5EUG9wbUYzUFpYRjdQc0QzRmsyZWdGSmFCT0MyT3ktVV8wXzlJWTBwdG5ubmtZMWJHT2gwbDM2d014TE5Eeko0bm9xaE1qLThqdURLeWk3bE1feldCczR2VWV5V2xRV0MwNXZIYUV6NXdLUGs3TUQ2a1dkeWJzVno5eXF4dzF0R3MzRzJMcXdIOThYRHhLOFJwUVFUdUt2YXRKbUdZQzltaW5hVWtmR2J30gHqAUFVX3lxTE00by1Vd185QkdIanFUQVNhNEVKc1JqQkgza1paQUJGTXZaTUptZTB6NnZBLXBvc3lJLTNtSWJXZG9TU0d3dTVuTHNDMVI5Sm01WHY5aXBxRVAwNzVGNU5xSHVLOVJFdmtuS2ZZdElfQ3VPcGc4d24yY2pheHRyR2ozMGdqalVqdnhfUlpsYXZwSmo5cXkxZHNDS3RpT3RJQV92LWJacVdJTTVrSEZWNHVNcDdlRFFjZGVBb2o4SDE0bGJlRlV6NldCbmtlZjREMEJQeURwamllUTJnV3pJa29IUnJqekJvRlcxUQ?oc=5",
           "source": "ADN Radio",
-          "pubdate": "Fri, 26 Jun 2026 18:25:21 GMT"
+          "pubdate": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Planificar recorridos y organizar tiempo: claves para disfrutar el Día del Patrimonio en Santiago - Municipalidad de Santiago",
@@ -500,22 +543,10 @@
           "pubdate": "Mon, 01 Jun 2026 14:48:29 GMT"
         },
         {
-          "title": "Cartelera en Santiago: Los panoramas imperdibles para el fin de semana del 28, 29 y 30 de noviembre - Canal 13",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjd5N1FOdzRCbjZQVTd0ZnFzN3pmZmxMS2hvQkV3U0ozYUdUZGVubHNYV3FiejBvQUtyUHRqZkhpc29HUEtQWFRpcmFPd1RlUzNjR3JaYXBGUG1rUlhuU1FZNHZWVFhYSXQxOXhhZmxmUjRiZDhhNU45RExkYXJ1WFFmQ3RxcWRzeVVFRTQ2VURBOEZIM3RhVEZjR0hrcjZ3XzJLZWcyc1BwWVgta05USlBtdUVNbUE?oc=5",
-          "source": "Canal 13",
-          "pubdate": "Thu, 27 Nov 2025 08:00:00 GMT"
-        },
-        {
           "title": "Qué hacer en Santiago: panoramas para este fin de semana largo - La Nación",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUG8xUkVYOUdzbFRuc2kxWUxDV3ZibE80RENaeDFSd0w1eDZaOG13VmVrN21xWE9QaEdnbjFQblRYQlJtYjJtbnlaYnF0ZWFoVzNsSjAtSHM0TEY2czVIQlNzOG5wVDhmSE1Bd1cwNV9PUUZIZmVkc3dVQzN5LW1KdlFOTFh2YldUM2E4SXRtTQ?oc=5",
           "source": "La Nación",
           "pubdate": "Thu, 30 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "¿Qué hacer este fin de Semana Santa?: 5 panoramas imperdibles en Santiago - pudahuel.cl",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcGU0VmtxeERRenpGUExWOGVsbV9wOHdfdzZsLVRkRVViODZ2bUc2UkR6S0Vhb3liUkJRb29weEQ3clNMQzBJNG5GRnVIYWRjVmpaR2NXVUkxSVpXT3M1S2RObUpNZ2RfQmswUjRaZEx2dlBydkRjUFM0YlBYVkxyWnJfeGtmT2FqdVg2d0hXZWFIM0Q2Q2h5Mzhzb2RnbndnTkhVclRRNS1KS1FwQ2YxMnFR0gG3AUFVX3lxTE13Zk8tRm5qYkpDU3g4ZTNqTmx6MWcxSlRzMWZKb0l2MXhLdG9CTzlMQUNxZW5lWTd6OXZ3c28zRTRsa2tRbEgwNG5kM0VMTEJTdGlSQnhTQ3RMaGQwSUZVME5WaXREdm1rZjFWdC1yVl9OZnZVbmdOV181cnJoeGFtSDliUE5ZV0JuOVlTYlVzdXdBcExNT3BxUl9CbTFnMHlIZEhiUW1RejlvXzVTV3RfVlg1ckF0dw?oc=5",
-          "source": "pudahuel.cl",
-          "pubdate": "Thu, 02 Apr 2026 07:00:00 GMT"
         }
       ]
     },
@@ -600,6 +631,17 @@
   ],
   "eventos_directos": [
     {
+      "nombre": "Luz Casal – Tour «Me voy a permitir»",
+      "link": "https://municipal.cl/espectaculos/luz-casal-en-concierto-2026/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
+      "precio": "Consultar en boletería",
+      "descripcion": "Conciertos y recitales",
+      "categoria": "Teatro / Música / Danza — Conciertos y recitales",
+      "fuente": "Teatro Municipal",
+      "ticket_link": ""
+    },
+    {
       "nombre": "Cascanueces y Clarita en el Reino de los Confites",
       "link": "https://municipal.cl/espectaculos/cascanueces-y-clarita-en-el-reino-de-los-confites-2026/",
       "fecha": "Consultar cartelera · 1 hora, sin intermedio",
@@ -626,7 +668,7 @@
       "link": "https://municipal.cl/espectaculos/xabier-anduaga-2026/",
       "fecha": "Consultar cartelera",
       "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Sala Principal)",
-      "precio": "precios Gold, 1, 2 y 3 Desde el viernes 19 de junio VENTA GENERAL Desde el lunes 6 de julio",
+      "precio": "PRECIO Gold $107.000 Precio 1 $99.000 Precio 2 $90.500 Precio 3 $75.000 Precio 4 $42.000 Precio 5 $25.000 Precio 6 $21.000 Precio 7 $18.000 | Galería $8.000",
       "descripcion": "Grandes estrellas",
       "categoria": "Teatro / Música / Danza — Grandes estrellas",
       "fuente": "Teatro Municipal",
@@ -732,109 +774,18 @@
       "ticket_link": ""
     },
     {
-      "nombre": "María Antonieta | Municipal Delivery 2026",
-      "link": "https://municipal.cl/espectaculos/maria-antonieta-municipal-delivery-2026/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Teatro Municipal de Santiago, Agustinas 794, Santiago (Municipal Delivery, Online)",
-      "precio": "Precio Gratuito con donación voluntaria Fechas Disponible online hasta el 30 de abril de 2026.",
-      "descripcion": "Ballet y danza, Cartelera digital",
-      "categoria": "Teatro / Música / Danza — Ballet y danza, Cartelera digital",
-      "fuente": "Teatro Municipal",
-      "ticket_link": ""
-    },
-    {
-      "nombre": "Vacaciones de Invierno 2026 Junio a Agosto 2026",
-      "link": "https://www.gam.cl/calendario/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Actividades Lluvia de libros 2026 4 y 5 Jul 2026Sá y Do— 11 a 18 h",
-      "link": "https://gam.cl/es/que-hacer-en-gam/actividades/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Convocatoria Nacional Programación 2027—2028 26 Mayo al 5 Julio 2026",
-      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/convocatoria-nacional-programacion-2027-2028/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Familiar Teatro INFINITA, paisajes de Gabriela 20 Jun al 5 Jul 2026Sá— 16 y 18.3",
-      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Nueva Ópera Una vaca mirando el piano 3 al 4 Jul 2026Vi a Sá— 19.30 h",
-      "link": "https://gam.cl/es/que-hacer-en-gam/nueva-opera/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Stand Up Comedy Absurda x GAM: Voces de la comedia 24 Jun al 8 Jul y 24 Jul 2026",
-      "link": "https://gam.cl/es/que-hacer-en-gam/stand-up-comedy/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Teatro El Dylan 26 Jun al 5 Jul 2026Vi y Sá— 19 hDo— 17 h",
-      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Teatro Velocirraptors 26 Jun al 12 Jul 2026Vi y Sá— 20.30 hDo— 18.30 h",
-      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
-      "nombre": "Días Barrocos en GAM Arma tus \"Días barrocos\" y disfruta de un pack especial dis",
-      "link": "https://www.gam.cl/calendario/",
-      "fecha": "Consultar programación",
-      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
-      "precio": "Consultar en gam.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Centro GAM"
-    },
-    {
       "nombre": "Teatro La dimensión desconocida 10 al 26 Jul 2026Ju a Sá— 19.30 hDo— 18.30 h",
       "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Ideas y Pensamiento Ventanal Alameda: Las ventajas de ser una mujer artista 22 J",
+      "link": "https://gam.cl/es/que-hacer-en-gam/ideasypensamiento/",
       "fecha": "Consultar programación",
       "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
       "precio": "Consultar en gam.cl",
@@ -853,8 +804,88 @@
       "fuente": "Centro GAM"
     },
     {
+      "nombre": "Actividades Feria de bienestar: Recreo Los Héroes 11 Jul 2026Sá — 11 a 17 h.",
+      "link": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Familiar Teatro Reloj viejo de pared 24 Jul al 2 Ago 2026Vi— 19 hSá y Do— 17 h",
+      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Música clásica Orquesta Solístico en formato de bolsillo 17 Jul, 26 Ago y 10 Sep",
+      "link": "https://gam.cl/es/que-hacer-en-gam/musica-clasica/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Teatro Velocirraptors 26 Jun al 12 Jul 2026Vi y Sá— 20.30 hDo— 18.30 h",
+      "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Actividades BiblioGAM GAM y Periscopio presenta: Juegos de Mesa en BiblioGAM 11 ",
+      "link": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Danza Majamama 23 al 26 Jul 2026Ju a Sá — 20 hDo — 18 h",
+      "link": "https://www.gam.cl/calendario/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Actividades Danza Convocatoria de danza: Estados de deriva 30 Jun al 17 Jul 2026",
+      "link": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
       "nombre": "Teatro Residencia: Antes que las mujeres se inventaran 15 Jul 2026Mi — 11 h",
       "link": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "fecha": "Consultar programación",
+      "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
+      "precio": "Consultar en gam.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Centro GAM"
+    },
+    {
+      "nombre": "Actividades Cine El gran viaje (Dandelion’s Odyssey) 22 Jul 2026Mi — 19 h",
+      "link": "https://gam.cl/es/que-hacer-en-gam/actividades/",
       "fecha": "Consultar programación",
       "lugar": "Centro GAM, Av. Libertador Bernardo O'Higgins 227, Santiago",
       "precio": "Consultar en gam.cl",
@@ -873,7 +904,7 @@
       "fuente": "Museo de la Memoria"
     },
     {
-      "nombre": "Visita Testimonial - Día de la Visibilidad Lésbica",
+      "nombre": "Ciclo Formativo Ante la desinformación: Investigación | MMDH",
       "link": "https://museodelamemoria.cl/",
       "fecha": "Consultar web",
       "lugar": "Museo de la Memoria, Matucana 501, Santiago",
@@ -883,8 +914,8 @@
       "fuente": "Museo de la Memoria"
     },
     {
-      "nombre": "Encuentro de memorias disidentes",
-      "link": "https://museodelamemoria.cl/museo/gestion/memorias",
+      "nombre": "Conversatorio “Desinformación, Poder y Democracia”",
+      "link": "https://museodelamemoria.cl/",
       "fecha": "Consultar web",
       "lugar": "Museo de la Memoria, Matucana 501, Santiago",
       "precio": "Gratuito",
@@ -893,8 +924,8 @@
       "fuente": "Museo de la Memoria"
     },
     {
-      "nombre": "Olga Poblete, Educadora, Historiadora, Feminista, Militante de la Paz",
-      "link": "https://museodelamemoria.cl/museo/historia",
+      "nombre": "Visita Testimonial - Día de la Visibilidad Lésbica",
+      "link": "https://museodelamemoria.cl/",
       "fecha": "Consultar web",
       "lugar": "Museo de la Memoria, Matucana 501, Santiago",
       "precio": "Gratuito",
@@ -1003,9 +1034,9 @@
       "fuente": "MAVI UC (vía Google News — sitio caído)"
     },
     {
-      "nombre": "Exposición «Punto de Quiebre» en MAVI UC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XZmVFTEVQelMwVkFLYlN4R3Q1ZUxVUmxycTA5QjBhZngwYUNZNHpmSGVSQ0pDZ1pCRC1nMk5GSng1ejdwWFBDOVJrSmRqY3dXS2FiME9MWG04RU5QMU1TRXlZZzdvT3Z0YXhzUk01MmZDbDhURmtabzBNWFpSQQ?oc=5",
-      "fecha": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "nombre": "MAVI UC conmemora su 25° aniversario con gran exposición de su Colección",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZG5YYlhEdE9wRkd6V1dJbHc0bnA4WHVfWkk1aXg2M2dSb0JOeHhjdVJsMHR0bkhWeEplcE9WYXgtMnhfNm9lelV0M2oybTctbTVNLWFFNFJPOHQ2b05DMkN6Sm9Vc005NWxLcXFkcFM0bjNyLTJDUjh5UHhub3d4Y0ZqVExCZ0tMU00tMXZCWEpuRzdnS0JBSE1EZXh0M2tXMk1VemZUT2VOUQ?oc=5",
+      "fecha": "Fri, 10 Apr 2026 20:16:50 GMT",
       "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
       "precio": "Gratuito (domingo) / General $1.000",
       "descripcion": "",
@@ -1013,9 +1044,9 @@
       "fuente": "MAVI UC (vía Google News — sitio caído)"
     },
     {
-      "nombre": "MAVI UC conmemora su 25° aniversario con gran exposición de su Colección",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZG5YYlhEdE9wRkd6V1dJbHc0bnA4WHVfWkk1aXg2M2dSb0JOeHhjdVJsMHR0bkhWeEplcE9WYXgtMnhfNm9lelV0M2oybTctbTVNLWFFNFJPOHQ2b05DMkN6Sm9Vc005NWxLcXFkcFM0bjNyLTJDUjh5UHhub3d4Y0ZqVExCZ0tMU00tMXZCWEpuRzdnS0JBSE1EZXh0M2tXMk1VemZUT2VOUQ?oc=5",
-      "fecha": "Fri, 10 Apr 2026 20:16:50 GMT",
+      "nombre": "Exposición «Punto de Quiebre» en MAVI UC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XZmVFTEVQelMwVkFLYlN4R3Q1ZUxVUmxycTA5QjBhZngwYUNZNHpmSGVSQ0pDZ1pCRC1nMk5GSng1ejdwWFBDOVJrSmRqY3dXS2FiME9MWG04RU5QMU1TRXlZZzdvT3Z0YXhzUk01MmZDbDhURmtabzBNWFpSQQ?oc=5",
+      "fecha": "Wed, 07 Jan 2026 08:00:00 GMT",
       "lugar": "MAVI UC, José Victorino Lastarria 307, Santiago",
       "precio": "Gratuito (domingo) / General $1.000",
       "descripcion": "",
@@ -1123,6 +1154,16 @@
       "fuente": "CCLM"
     },
     {
+      "nombre": "Baile House",
+      "link": "https://www.cclm.cl/actividades/baile-house/",
+      "fecha": "Consultar web",
+      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
+      "precio": "Consultar en cclm.cl",
+      "descripcion": "",
+      "categoria": "Cultura / Exposición",
+      "fuente": "CCLM"
+    },
+    {
       "nombre": "Chi-kung",
       "link": "https://www.cclm.cl/actividades/chi-kung/",
       "fecha": "Consultar web",
@@ -1133,18 +1174,18 @@
       "fuente": "CCLM"
     },
     {
-      "nombre": "Taichí",
-      "link": "https://www.cclm.cl/actividades/taichi-2/",
-      "fecha": "Consultar web",
-      "lugar": "Centro Cultural La Moneda, Plaza de la Ciudadanía 26, Santiago",
-      "precio": "Consultar en cclm.cl",
+      "nombre": "Colicidio",
+      "link": "https://www.m100.cl/programacion/teatro/colicidio/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Matucana 100, Matucana 100, Santiago",
+      "precio": "Consultar en matucana100.cl",
       "descripcion": "",
-      "categoria": "Cultura / Exposición",
-      "fuente": "CCLM"
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Matucana 100"
     },
     {
-      "nombre": "Macbeth Alamala",
-      "link": "https://www.m100.cl/programacion/teatro/macbeth-alamala/",
+      "nombre": "Escuela de Payasos",
+      "link": "https://www.m100.cl/programacion/teatro/escuela-de-payasos/",
       "fecha": "Consultar cartelera",
       "lugar": "Matucana 100, Matucana 100, Santiago",
       "precio": "Consultar en matucana100.cl",
@@ -1163,6 +1204,16 @@
       "fuente": "Matucana 100"
     },
     {
+      "nombre": "Joyboy & Casata presentan: Fonosida + Paracaidistas + Frucola Frappé + Aquí Brillamos",
+      "link": "https://www.m100.cl/programacion/musica/joyboy-casata-presentan-fonosida-paracaidistas-frucola-frappe-aqui-brillamos/",
+      "fecha": "Consultar cartelera",
+      "lugar": "Matucana 100, Matucana 100, Santiago",
+      "precio": "Consultar en matucana100.cl",
+      "descripcion": "",
+      "categoria": "Teatro / Artes Escénicas",
+      "fuente": "Matucana 100"
+    },
+    {
       "nombre": "Lanzamiento del álbum “Eterno Retorno” de Diavol Strain",
       "link": "https://www.m100.cl/programacion/musica/lanzamiento-del-album-eterno-retorno-de-diavol-strain/",
       "fecha": "Consultar cartelera",
@@ -1173,38 +1224,8 @@
       "fuente": "Matucana 100"
     },
     {
-      "nombre": "Umbral",
-      "link": "https://www.m100.cl/programacion/artes-visuales/umbral/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Matucana 100, Matucana 100, Santiago",
-      "precio": "Consultar en matucana100.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Matucana 100"
-    },
-    {
-      "nombre": "Thita, Tiempo y Muerte",
-      "link": "https://www.m100.cl/programacion/danza-circo/thita-tiempo-y-muerte/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Matucana 100, Matucana 100, Santiago",
-      "precio": "Consultar en matucana100.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Matucana 100"
-    },
-    {
       "nombre": "Cualmarcelo: Lanzamiento de disco “Calendarios”",
       "link": "https://www.m100.cl/programacion/musica/cualmarcelo-lanzamiento-de-disco-calendarios/",
-      "fecha": "Consultar cartelera",
-      "lugar": "Matucana 100, Matucana 100, Santiago",
-      "precio": "Consultar en matucana100.cl",
-      "descripcion": "",
-      "categoria": "Teatro / Artes Escénicas",
-      "fuente": "Matucana 100"
-    },
-    {
-      "nombre": "Chini.png presenta Vía Lo Orozco",
-      "link": "https://www.m100.cl/programacion/musica/chini-png-presenta-via-lo-orozco/",
       "fecha": "Consultar cartelera",
       "lugar": "Matucana 100, Matucana 100, Santiago",
       "precio": "Consultar en matucana100.cl",
