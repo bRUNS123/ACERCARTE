@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-07-10T15:07:38.831425",
-  "fecha": "10/07/2026",
+  "actualizado": "2026-07-13T10:00:24.379472",
+  "fecha": "13/07/2026",
   "oportunidades": [
     {
       "titulo": "Ministerio de las Culturas abre postulaciones para integrar comité de evaluadores de Fondos de Cultura - Ministerio de las Culturas",
@@ -21,15 +21,6 @@
       "monto": ""
     },
     {
-      "titulo": "Fondo Cultura Puente Chacao 2026 - Diario Digital El Calbucano",
-      "categoria": "fondos",
-      "descripcion": "Fondo Cultura Puente Chacao 2026 - Diario Digital El Calbucano",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CWWxRM0NkT3MyVGNYVkZvaVN0N0VWTG1ma2hIOHNwN0hfdDJzM2RMNnRNOERJWUhSc0Y5MjJEbTlXdU1SRjZKZnRyUDNocjV1cHktZmh4N1Q1MklSQklDeDk1Z0dkMFRFZkp6emR2TVI0RzE5Rnpj?oc=5",
-      "deadline": "Consultar",
-      "fuente": "Diario Digital El Calbucano",
-      "monto": ""
-    },
-    {
       "titulo": "¡Atención ONG! Fondos Concursables Santander repartirán $250 millones - Banco Santander Chile",
       "categoria": "fondos",
       "descripcion": "¡Atención ONG! Fondos Concursables Santander repartirán $250 millones - Banco Santander Chile",
@@ -45,6 +36,15 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VWko5WU5oUkpCWkt1c0FySmJYUFAzalFiMmxnRVZSNkFUVXNyNmRfOGdldlBhckhrV0dwU3c3ZlBpSXozeHczb2N0cWVjTmJfUktkVHNhRE1xajNXakFwcG5aU1paRDhiZHN3WFU0X3U2NU9EUC1PUQ?oc=5",
       "deadline": "Consultar",
       "fuente": "lavozdelosquesobran.cl",
+      "monto": ""
+    },
+    {
+      "titulo": "Recortes y despidos en Ministerio de las Culturas alertan a trabajadores - El Mostrador",
+      "categoria": "convocatoria",
+      "descripcion": "Recortes y despidos en Ministerio de las Culturas alertan a trabajadores - El Mostrador",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYlpMSmE0VS1yVGFLelFyVG8xQXE4bHJTb3hsYkdvbkF4aDFCWl9lMUt3ZHVYZmgyYnpLVGhIVGJRQUZkUC1hR19odDdRaXBpNzlIb0NqOW5aN2NKZkVodWRHZXlPdTRTU01KajFIUi1NSm52UnNTTWxoSmpiVEVLaGFWbzZBZnVJeE5CMEFyU1UzUlpCWXFWdUVEYkhaQ3ltMnI5c0pjblNLRDZxVFI4WVZRM0tLR0lJRkNZ?oc=5",
+      "deadline": "Consultar",
+      "fuente": "El Mostrador",
       "monto": ""
     },
     {
@@ -72,15 +72,6 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3AzNVpQWGRLUGk0LVBWdUIzcVpuOTFUU3dld2pYNzFrNGJVcUhqVDczMmVSbFNUeG9VLU1UcnNnNS1VT0dmelZpU1FvZ09IYUdERmdwcmQtZFhzMkJ0cDFCMTBIZDVHS210eWYzRU9abVoyR29NMEpWZHI2TkY2WUxnTVVZMTFGX09fd0cyMFJaRG9KdkxraW5nMXJVZkxpYkZFVF80MnY1Zkg4SkZ0cGEybzZsMEZWUDE3Y0JJSQ?oc=5",
       "deadline": "Consultar",
       "fuente": "Arte por Excelencias",
-      "monto": ""
-    },
-    {
-      "titulo": "AECID convoca las Becas para la Real Academia de España en Roma 2024-2025 - MASDEARTE",
-      "categoria": "beca",
-      "descripcion": "AECID convoca las Becas para la Real Academia de España en Roma 2024-2025 - MASDEARTE",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVzJnLUd2a2hGUjVsbUlsRFNfMno1cXdiazk4SGVSZE4zdTNvNGRCLWdzZFNuZm5ndTVsOTZpdklLcEJhOUt1dWtEYVpPLUpPa2pCeGpSd1A2UHVmZHNZQ3dKSWx2ZDVrZ29mclVuNUc3RV84X3l1aWMtMV9ya0lTTlNheU9LOGNQc2ZGNm9zSldqUDNWZmZJ?oc=5",
-      "deadline": "Consultar",
-      "fuente": "MASDEARTE",
       "monto": ""
     },
     {
@@ -156,21 +147,12 @@
       "monto": ""
     },
     {
-      "titulo": "La Bienal de Arte Sacro celebra 40 años en el Museo de Arte Decorativo con obras de 10 países - Clarin.com",
+      "titulo": "Premio Desafío \"Hierros Líder\": Estudiantes paraguayos participarán en la Bienal del Chaco 2026 - El Nacional - El diario de los lectores influyentes",
       "categoria": "concurso",
-      "descripcion": "La Bienal de Arte Sacro celebra 40 años en el Museo de Arte Decorativo con obras de 10 países - Clarin.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenFHYWdPOC1vTXR0M1dObEZCcnVsVmM5MkpwZnZJTFBMaWtKNEpJVm54Si0zVnlTT1Z6djZndUdzbGtDVnBiOHpNOHhqY1RvRXFGd2dWSWU4NXFPVy04Wl9tcHh4b1RfeVhtNFR6aWs0c0U3RU9UWmFDVm5INXBMZFFkb0FEOEQxTHNBWDZON2dQODhQR3lSNlJ2b1kzVUlZNlZxQTlidTd0UVZyTElMeWQ1ZjZKekU5ZU92bw?oc=5",
+      "descripcion": "Premio Desafío \"Hierros Líder\": Estudiantes paraguayos participarán en la Bienal del Chaco 2026 - El Nacional - El diario de los lectores influyentes",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ3lFREQ3RTV5eU9KZkdTTThiYUdnTlpDU0J6Qk5ReWFsNmU5UVktTHZubUhpRmVYTEFNRGQ0MVZiSm1NS3FiZExDTGVLNllCMkJacHFHV0RoYzRqSy0xWTRoTmNseGphSHRvc0EybWxTLXc0c0xLWU5XWl9jUW9vMmxYNzk4ZWZJdWRST0dxa3NNYUtLMGEzYkw5R1M4WGJxSVJvWm42ZlRGUUJveDA3VWVkd1lCU05QNm1zZ3pQZXpXREd4WWdhOEVjY01VdUVRQ3fSAdIBQVVfeXFMUGd5RUREN0U1eXlPSmZHU004YmFHZ05aQ1NCekJOUXlhbDZlOVFZLUx2bm1IaUZlWExBTURkNDFWYkptTUtxYmRMQ0xlSzZZQjJCWnBxR1dEaGM0akstMVk0aE5jbHhqYUh0b3NBMm1sUy13NHNMS1lOV1pfY1FvbzJsWDc5OGVmSXVkUk9HcWtzTWFLSzBhM2JMOUdTOFhicUlSb1puNmZURlFCb3gwN1VlZHdZQlNOUDZtc2d6UGV6V0RHeFlnYThFY2NNVXVFUUN3?oc=5",
       "deadline": "Consultar",
-      "fuente": "Clarin.com",
-      "monto": ""
-    },
-    {
-      "titulo": "Bienal del Chaco 2026: Mauricio Guajardo, el escultor chileno que busca detener el tiempo en la piedra - Diario Primera Linea",
-      "categoria": "concurso",
-      "descripcion": "Bienal del Chaco 2026: Mauricio Guajardo, el escultor chileno que busca detener el tiempo en la piedra - Diario Primera Linea",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbDNCWXYxdWZ5Umgwb2FHZnh6XzJWUGRUUkVpV0g2SWNGMmxuMkdJLXlXc1c5OEEyNkdpMEUyeFp2Xzd4R0taWmc4R082RmNSQ2h0cW9fajRqYmVQNzVaLWdVc2U2cmc5TkREQjloSUdidWxqSGhNWG9jQnNxcEVNX3FMUGlJUzlpYUpkVlF6QWhkX1hvWUhFWDhxYW8tQmJSWGxWVENLYmY1QUFoTHFlalJEbFM0T2dObzFhdl9yZlJhb2tJQndEY19VbmNZZHVj?oc=5",
-      "deadline": "Consultar",
-      "fuente": "Diario Primera Linea",
+      "fuente": "El Nacional - El diario de los lectores influyentes",
       "monto": ""
     },
     {
@@ -180,6 +162,24 @@
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObFkwTXZYSzNxWExzUjY3MFUtZmJkV2JYT1NXUmxrd1JQY3duaEdYRXFJWVVmWDZMUFZnRFlRYVlvamk0aHRnaVdYMlh4VXlZN3paUTdOUzRHZ3hHaG5NUVYtT0o2N21RNEtMd2R2Z1plVVpJZUhzM0VXaWdzTkNnZGt5TS1WSEhMZDBidHJROGRMTUp6ZXNJdS1HSFBUX1dCS2s4SGFNSEd5dVFOVGJnMzFrLTlEMm1LV2RYWkhBVEw4djdSM0NFNWRsb1VhekRYdVR0NzhOOUNFS2VCeUFEN0dia29SSlk3ZlRfWE1nX0ozWXhJWHZ2M19KZmJuY3htbGtV?oc=5",
       "deadline": "Consultar",
       "fuente": "Ministerio de las Culturas",
+      "monto": ""
+    },
+    {
+      "titulo": "CONVOCATORIA FERIA ARTECERÁMICA 2026 - Corporación Cultural Las Condes",
+      "categoria": "feria",
+      "descripcion": "CONVOCATORIA FERIA ARTECERÁMICA 2026 - Corporación Cultural Las Condes",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckg1anNGNVBhRHY5ems0UDVFWjB3bUt3MzRLMUhYcWRERUVUUFFIVFNLWnNMWkg3TWZOVGRSNy12UW1GWnZkTXpCd2YwUDAxYnN5TG9SRGt3cHBnZ2l2TjQya3RQdXBDS0h0N3JiRy1WT1pPRTdzVUJhV0t0a1RHaHg3ZGdibzRY?oc=5",
+      "deadline": "Consultar",
+      "fuente": "Corporación Cultural Las Condes",
+      "monto": ""
+    },
+    {
+      "titulo": "Universidad de Chile celebró el día de las ciencias con masiva convocatoria en la Feria Descubriendo Conocimientos - Universidad de Chile",
+      "categoria": "feria",
+      "descripcion": "Universidad de Chile celebró el día de las ciencias con masiva convocatoria en la Feria Descubriendo Conocimientos - Universidad de Chile",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3RTa0lhT1FpcnJuUmJsdy1lYzU0RVNwTGRvWDRPSDJ4Q3ctbklIbDRXenkzaFJuUnpJYjZoSGhhRjIwaU1nVnlKeWtCQ1h6dksteDBsNnJkelBhQ3lnN3dCRVJWQk8walRiMHUtNkxkcG1KX3ZaZnBTY2tDV1ZJMEhQME5vb1NWSVdGUXBfWUs2bGdzSVNsV1B0Zw?oc=5",
+      "deadline": "Consultar",
+      "fuente": "Universidad de Chile",
       "monto": ""
     }
   ]
