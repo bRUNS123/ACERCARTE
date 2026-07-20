@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-07-17T10:00:39.163623",
-  "fecha": "17/07/2026",
+  "actualizado": "2026-07-20T10:00:10.110558",
+  "fecha": "20/07/2026",
   "oportunidades": [
     {
       "titulo": "Ministerio de las Culturas abre postulaciones para integrar comité de evaluadores de Fondos de Cultura - Ministerio de las Culturas",
@@ -21,15 +21,6 @@
       "monto": ""
     },
     {
-      "titulo": "Fondo Cultura Puente Chacao 2026 - Diario Digital El Calbucano",
-      "categoria": "fondos",
-      "descripcion": "Fondo Cultura Puente Chacao 2026 - Diario Digital El Calbucano",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CWWxRM0NkT3MyVGNYVkZvaVN0N0VWTG1ma2hIOHNwN0hfdDJzM2RMNnRNOERJWUhSc0Y5MjJEbTlXdU1SRjZKZnRyUDNocjV1cHktZmh4N1Q1MklSQklDeDk1Z0dkMFRFZkp6emR2TVI0RzE5Rnpj?oc=5",
-      "deadline": "Consultar",
-      "fuente": "Diario Digital El Calbucano",
-      "monto": ""
-    },
-    {
       "titulo": "¡Atención ONG! Fondos Concursables Santander repartirán $250 millones - Banco Santander Chile",
       "categoria": "fondos",
       "descripcion": "¡Atención ONG! Fondos Concursables Santander repartirán $250 millones - Banco Santander Chile",
@@ -45,6 +36,15 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VWko5WU5oUkpCWkt1c0FySmJYUFAzalFiMmxnRVZSNkFUVXNyNmRfOGdldlBhckhrV0dwU3c3ZlBpSXozeHczb2N0cWVjTmJfUktkVHNhRE1xajNXakFwcG5aU1paRDhiZHN3WFU0X3U2NU9EUC1PUQ?oc=5",
       "deadline": "Consultar",
       "fuente": "lavozdelosquesobran.cl",
+      "monto": ""
+    },
+    {
+      "titulo": "¡Ya está abierta la convocatoria de solicitudes de financiación para 2026 del Fondo Internacional para la Diversidad Cultural! - UNESCO",
+      "categoria": "fondos",
+      "descripcion": "¡Ya está abierta la convocatoria de solicitudes de financiación para 2026 del Fondo Internacional para la Diversidad Cultural! - UNESCO",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeWpUWnhhZGdYaTdIVU5SZVk4dExBd1JVdDFkX0tTM2hQYklFME9Eak4zUkk1eU5aSUJYcDIybVJjdHRnbm02YjRPMFRLNU5VRFBjWUNGQVRlRHhvMVVVRGJXYUZEWVhSWW9SSml4aVVwOVZjYjFmYkNxYjRhYjZMUGp4SFVQOV8xcDlFSkJ0VWhlcXZNQTk3ejV6eW8wbXpkWnZDT2FPSHJabHFUanozM3M5ZjFGbjlLV3JQTW5tTFFrbUVVNVlleHBMQVpUNGhoTXpvSzVwcUEzQQ?oc=5",
+      "deadline": "Consultar",
+      "fuente": "UNESCO",
       "monto": ""
     },
     {
@@ -75,6 +75,15 @@
       "monto": ""
     },
     {
+      "titulo": "Un llamado desde el desierto: postula a las residencias SACO 2026 - Arte por Excelencias",
+      "categoria": "residencia",
+      "descripcion": "Un llamado desde el desierto: postula a las residencias SACO 2026 - Arte por Excelencias",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3AzNVpQWGRLUGk0LVBWdUIzcVpuOTFUU3dld2pYNzFrNGJVcUhqVDczMmVSbFNUeG9VLU1UcnNnNS1VT0dmelZpU1FvZ09IYUdERmdwcmQtZFhzMkJ0cDFCMTBIZDVHS210eWYzRU9abVoyR29NMEpWZHI2TkY2WUxnTVVZMTFGX09fd0cyMFJaRG9KdkxraW5nMXJVZkxpYkZFVF80MnY1Zkg4SkZ0cGEybzZsMEZWUDE3Y0JJSQ?oc=5",
+      "deadline": "Consultar",
+      "fuente": "Arte por Excelencias",
+      "monto": ""
+    },
+    {
       "titulo": "AECID convoca las Becas para la Real Academia de España en Roma 2024-2025 - MASDEARTE",
       "categoria": "beca",
       "descripcion": "AECID convoca las Becas para la Real Academia de España en Roma 2024-2025 - MASDEARTE",
@@ -84,10 +93,10 @@
       "monto": ""
     },
     {
-      "titulo": "Ministerio de las Culturas abre segunda convocatoria del Fondo de Fomento al Arte en la Educación 2026 - Ministerio de las Culturas",
-      "categoria": "fondos",
-      "descripcion": "Ministerio de las Culturas abre segunda convocatoria del Fondo de Fomento al Arte en la Educación 2026 - Ministerio de las Culturas",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbzh6WkdtSDBqb1RnZ0c3bE16aE1pUkJnaV8wLWZ1bEgwRFNYMHZ3N0ZjSmNiTktGSzZYV2lSN19ESE9LeVpPaVJBNmI2YnVrc3JqQ004ZEhLZGVBbkRsSnZFeWh2LXZLZFRIaVZVTDhuV21BNDBHbnE5WnNVTC05WWZfaU9sblRuWmtqYkxVNk9VcWpNOThCb1RJSHYxM3VFY2ZjMDlfakVmTUVnTFBWOVJrSFZGTkJUTXN5UFBjdy0wWlZRbVNCdWxSdDNTVjJSbUpTQ0NtRVYzNHM3?oc=5",
+      "titulo": "Ministerio de las Culturas anuncia resultados de la Convocatoria de adquisición de obras de arte contemporáneo - Ministerio de las Culturas",
+      "categoria": "feria",
+      "descripcion": "Ministerio de las Culturas anuncia resultados de la Convocatoria de adquisición de obras de arte contemporáneo - Ministerio de las Culturas",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcHo5b1ZZeTc1UkdGYUVNZW55ZEZpdDBOTThucHdiMU9fSWtiYkxDSU9CVzVKR2FXT0xrX3NDZjdoeG92aGVqeXhJakYyMVk0RkJFWXhTZi1OUWg3aktST2RUS3pUTVZlRFF3ajBMbHgzQlBRU08xTnVhV3hLazNKcGoxT3ZtUlhpRC00djBQeWlhZjRZRXA3QjJDUDdOdUUwZWcteGVlZEFCQWlfTXJGeTR1LXFvRUJkcXViYUNMSmlTbldobEQzQ0xLOXJHWDk4cTVvWG85dHV5ZHo0dVBNRVZraw?oc=5",
       "deadline": "Consultar",
       "fuente": "Ministerio de las Culturas",
       "monto": ""
@@ -102,10 +111,10 @@
       "monto": ""
     },
     {
-      "titulo": "Ministerio de las Culturas anuncia resultados de la Convocatoria de adquisición de obras de arte contemporáneo - Ministerio de las Culturas",
-      "categoria": "feria",
-      "descripcion": "Ministerio de las Culturas anuncia resultados de la Convocatoria de adquisición de obras de arte contemporáneo - Ministerio de las Culturas",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcHo5b1ZZeTc1UkdGYUVNZW55ZEZpdDBOTThucHdiMU9fSWtiYkxDSU9CVzVKR2FXT0xrX3NDZjdoeG92aGVqeXhJakYyMVk0RkJFWXhTZi1OUWg3aktST2RUS3pUTVZlRFF3ajBMbHgzQlBRU08xTnVhV3hLazNKcGoxT3ZtUlhpRC00djBQeWlhZjRZRXA3QjJDUDdOdUUwZWcteGVlZEFCQWlfTXJGeTR1LXFvRUJkcXViYUNMSmlTbldobEQzQ0xLOXJHWDk4cTVvWG85dHV5ZHo0dVBNRVZraw?oc=5",
+      "titulo": "Ministerio de las Culturas abre segunda convocatoria del Fondo de Fomento al Arte en la Educación 2026 - Ministerio de las Culturas",
+      "categoria": "fondos",
+      "descripcion": "Ministerio de las Culturas abre segunda convocatoria del Fondo de Fomento al Arte en la Educación 2026 - Ministerio de las Culturas",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbzh6WkdtSDBqb1RnZ0c3bE16aE1pUkJnaV8wLWZ1bEgwRFNYMHZ3N0ZjSmNiTktGSzZYV2lSN19ESE9LeVpPaVJBNmI2YnVrc3JqQ004ZEhLZGVBbkRsSnZFeWh2LXZLZFRIaVZVTDhuV21BNDBHbnE5WnNVTC05WWZfaU9sblRuWmtqYkxVNk9VcWpNOThCb1RJSHYxM3VFY2ZjMDlfakVmTUVnTFBWOVJrSFZGTkJUTXN5UFBjdy0wWlZRbVNCdWxSdDNTVjJSbUpTQ0NtRVYzNHM3?oc=5",
       "deadline": "Consultar",
       "fuente": "Ministerio de las Culturas",
       "monto": ""
@@ -171,15 +180,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckg1anNGNVBhRHY5ems0UDVFWjB3bUt3MzRLMUhYcWRERUVUUFFIVFNLWnNMWkg3TWZOVGRSNy12UW1GWnZkTXpCd2YwUDAxYnN5TG9SRGt3cHBnZ2l2TjQya3RQdXBDS0h0N3JiRy1WT1pPRTdzVUJhV0t0a1RHaHg3ZGdibzRY?oc=5",
       "deadline": "Consultar",
       "fuente": "Corporación Cultural Las Condes",
-      "monto": ""
-    },
-    {
-      "titulo": "Universidad de Chile celebró el día de las ciencias con masiva convocatoria en la Feria Descubriendo Conocimientos - Universidad de Chile",
-      "categoria": "feria",
-      "descripcion": "Universidad de Chile celebró el día de las ciencias con masiva convocatoria en la Feria Descubriendo Conocimientos - Universidad de Chile",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3RTa0lhT1FpcnJuUmJsdy1lYzU0RVNwTGRvWDRPSDJ4Q3ctbklIbDRXenkzaFJuUnpJYjZoSGhhRjIwaU1nVnlKeWtCQ1h6dksteDBsNnJkelBhQ3lnN3dCRVJWQk8walRiMHUtNkxkcG1KX3ZaZnBTY2tDV1ZJMEhQME5vb1NWSVdGUXBfWUs2bGdzSVNsV1B0Zw?oc=5",
-      "deadline": "Consultar",
-      "fuente": "Universidad de Chile",
       "monto": ""
     }
   ]
